@@ -1,0 +1,41 @@
+title: Converting LaTeX Legacy R Journal Articles into R Markdown Articles using texor and rebib
+date: '2025-10-21'
+abstract: |
+  In 2021 the R Journal made a change of templates for article writing to R Markdown instead of LaTeX. The reasons were to encourage better reproducibility of articles using dynamic documents, enable interactivity in articles, and to make the articles more accessible for print-disabled readers. A resulting challenge was to explore whether legacy articles might be suitably converted into HTML output. This paper describes the process of converting an R Journal article from LaTeX to HTML format via R Markdown, and the two new R packages, texor and rebib, that can be used to achieve the conversion.
+draft: no
+author:
+- name: Abhishek Ulayil
+  affiliation: Institute of Actuaries of India (student)
+  address: Mumbai, India
+  orcid: 0009-0000-6935-8690
+  email: abhishek.ulayil.m@gmail.com
+- name: Dianne Cook
+  affiliation: Monash University
+  address: Melbourne, Australia
+  orcid: 0000-0002-3813-7155
+  email: dicook@monash.edu
+- name: Heather Turner
+  affiliation: University of Warwick
+  address: Coventry, United Kingdom
+  orcid: 0000-0002-1256-3375
+  email: ht@heatherturner.net
+- name: Mitchell O'Hara-Wild
+  affiliation: Monash University
+  address: Melbourne, Australia
+  orcid: 0000-0001-6729-7695
+  email: mail@mitchelloharawild.com
+- name: Christophe Dervieux
+  affiliation: Posit PBC
+  address: Paris, France
+  orcid: 0000-0003-4474-2498
+  email: christophe.dervieux@gmail.com
+type: package
+date_received: '2023-11-20'
+volume: 17
+issue: 3
+slug: RJ-2025-022
+doi: 10.32614/RJ-2025-022
+journal:
+  lastpage: 42
+  firstpage: 30
+

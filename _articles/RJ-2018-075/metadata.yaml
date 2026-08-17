@@ -1,0 +1,45 @@
+title: Measurement Errors in R
+abstract: This paper presents an R package to handle and represent measurements with errors in a very simple way. We briefly introduce the main concepts of metrology and propagation of uncertainty, and discuss related R packages. Building upon this, we introduce the *errors* package, which provides a class for associating uncertainty metadata, automated propagation and reporting. Working with *errors* enables transparent, lightweight, less error-prone handling and convenient representation of measurements with errors. Finally, we discuss the advantages, limitations and future work of computing with errors.
+author:
+- name: Iñaki Ucar
+  affiliation: UC3M-Santander Big Data Institute, Universidad Carlos III de Madrid
+  address: |
+    Calle Madrid 135. 28903 Getafe (Madrid), Spain
+- name: Edzer Pebesma
+  affiliation: Institute for Geoinformatics
+  address: |
+    Heisenbergstraße 2. 48149 Münster, Germany
+- name: Arturo Azcorra
+  affiliation: Universidad Carlos III de Madrid and IMDEA Networks Institute
+  address: |
+    Avda. de la Universidad, 30. 28911 Leganés (Madrid), Spain
+date: '2018-12-13'
+date_received: '2018-08-09'
+journal:
+  firstpage: '549'
+  lastpage: '557'
+volume: 10
+issue: 2
+slug: RJ-2018-075
+doi: 10.32614/RJ-2018-075
+packages:
+  cran:
+  - units
+  - errors
+  - car
+  - msm
+  - metRology
+  - propagate
+  - spup
+  - distr
+  - distrEllipse
+  - distrEx
+  - distrMod
+  - distrRmetrics
+  - distrSim
+  - distrTeach
+  - magrittr
+  - ggplot2
+  - tibble
+  bioc: []
+CTV:

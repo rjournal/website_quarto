@@ -1,0 +1,75 @@
+title: g2f as a Novel Tool to Find and Fill Gaps in Metabolic Networks
+abstract: During the building of a genome-scale metabolic model, there are several dead-end metabolites and substrates which cannot be imported, produced, nor used by any reaction incorporated in the network. The presence of these dead-end metabolites can block out the net flux of the objective function when it is evaluated through Flux Balance Analysis (FBA), and when it is not blocked, bias in the biological conclusions increase. In this aspect, the refinement to restore the connectivity of the network can be carried out manually or using computational algorithms. The *g2f* package was designed as a tool to find the gaps from dead-end metabolites and fill them from the stoichiometric reactions of a reference, filtering candidate reactions using a weighting function. Additionally, this algorithm allows downloading all the sets of gene-associated stoichiometric reactions for a specific organism from the KEGG database. Our package is compatible with both 4.0.0 and 3.6.0 R versions.
+author:
+- name: Daniel Osorio
+  affiliation: |-
+    Universidad Nacional de Colombia
+  orcid: |
+    0000-0003-4424-8422
+  address:
+  - .Grupo de Investigación en Bioinformática y Biología de Sistemas. Instituto de Genética
+  - Bogotá
+  - Colombia
+- name: Kelly Botero
+  affiliation: |-
+    Universidad Nacional de Colombia
+  address:
+  - Grupo de Investigación en Bioinformática y Biología de Sistemas. Instituto de Genética.
+  - Bogotá
+  - |
+    Colombia
+- name: Andrés Pinzón Velasco
+  affiliation: |-
+    Universidad Nacional de Colombia
+  address:
+  - Grupo de Investigación en Bioinformática y Biología de Sistemas. Instituto de Genética, .
+  - Bogotá
+  - |
+    Colombia
+- name: Nicolás Mendoza-Mejía
+  affiliation: |-
+    Pontificia Universidad Javeriana
+  address:
+  - Grupo de Investigación en Bioquímica Experimental y Computacional.
+  - Departamento de Nutrición y Bioquímica, Facultad de Ciencias,.
+  - Bogotá
+  - Colombia
+- name: Felipe Rojas-Rodriguez
+  affiliation: |-
+    Division of Molecular Pathology, The Netherlands Cancer Institute -
+    Antoni van Leeuwenhoek Hospital.
+  address:
+  - Amsterdam 1066 CX
+  - |
+    The Netherlands.
+- name: George E. Barreto
+  affiliation: Department of Biological Sciences, University of Limerick.
+  address:
+  - V94 T9PX Limerick
+  - |
+    Ireland
+- name: Janneth González
+  affiliation: |-
+    Pontificia Universidad Javeriana.
+  orcid: |
+    0000-0003-2009-3374
+  address:
+  - Grupo de Investigación en Bioquímica Experimental y Computacional.
+  - Departamento de Nutrición y Bioquímica, Facultad de Ciencias,
+  - Bogotá
+  - Colombia
+date: '2021-07-15'
+date_received: '2019-10-20'
+journal:
+  firstpage: '28'
+  lastpage: '37'
+volume: 13
+issue: 2
+slug: RJ-2021-064
+doi: 10.32614/RJ-2021-064
+packages:
+  cran:
+  - g2f
+  - sybil
+  bioc: []
+CTV:

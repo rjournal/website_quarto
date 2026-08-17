@@ -1,0 +1,31 @@
+title: 'glmperm: A Permutation of Regressor Residuals Test for Inference in Generalized Linear Models'
+abstract: We introduce a new R package called [*glmperm*](https://CRAN.R-project.org/package=glmperm) for inference in generalized linear models especially for small and moderate-sized data sets. The inference is based on the permutation of regressor residuals test introduced by @Potter05. The implementation of [*glmperm*](https://CRAN.R-project.org/package=glmperm) outperforms currently available permutation test software as [*glmperm*](https://CRAN.R-project.org/package=glmperm) can be applied in situations where more than one covariate is involved.
+author:
+- name: Wiebke Werft
+  affiliation: German Cancer Research Center
+  address:
+  - Im Neuenheimer Feld 280, 69120 Heidelberg
+  - |
+    Germany
+- name: Axel Benner
+  affiliation: German Cancer Research Center
+  address:
+  - Im Neuenheimer Feld 280, 69120 Heidelberg
+  - |
+    Germany
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 39
+  lastpage: 43
+volume: 2
+issue: 1
+slug: RJ-2010-007
+doi: 10.32614/RJ-2010-007
+packages:
+  cran:
+  - glmperm
+  - logregperm
+  - stats
+  bioc: []
+CTV:

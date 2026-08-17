@@ -1,0 +1,36 @@
+title: 'bshazard: A Flexible Tool for Nonparametric Smoothing of the Hazard Function'
+abstract: The hazard function is a key component in the inferential process in survival analysis and relevant for describing the pattern of failures. However, it is rarely shown in research papers due to the difficulties in nonparametric estimation. We developed the *bshazard* package to facilitate the computation of a nonparametric estimate of the hazard function, with data-driven smoothing. The method accounts for left truncation, right censoring and possible covariates. B-splines are used to estimate the shape of the hazard within the generalized linear mixed models framework. Smoothness is controlled by imposing an autoregressive structure on the baseline hazard coefficients. This perspective allows an 'automatic' smoothing by avoiding the need to choose the smoothing parameter, which is estimated from the data as a dispersion parameter. A simulation study demonstrates the capability of our software and an application to estimate the hazard of Non-Hodgkin's lymphoma in Swedish population data shows its potential.
+author:
+- name: Paola Rebora
+  affiliation: Department of Health Sciences, University of Milano-Bicocca
+  address: |
+    Via Cadore 48 20900 Monza, Italy
+- name: Agus Salim
+  affiliation: Department of Mathematics & Statistics, La Trobe University
+  address: |
+    Bundoora, Australia
+- name: Marie Reilly
+  affiliation: |-
+    Department of Medical Epidemiology and Biostatistics, Karolinska
+    Institutet
+  address: |
+    BOX 281, 171 77 Stockholm, Sweden
+date: '2015-01-09'
+date_received: '2014-05-25'
+journal:
+  firstpage: '114'
+  lastpage: '122'
+volume: 6
+issue: 2
+slug: RJ-2014-028
+doi: 10.32614/RJ-2014-028
+packages:
+  cran:
+  - muhaz
+  - flexsurv
+  - bshazard
+  - Epi
+  - survival
+  - splines
+  bioc: []
+CTV:

@@ -1,0 +1,13 @@
+makefile <- readLines("Makefile", warn = FALSE)
+text <- paste(makefile, collapse = "\n")
+
+stopifnot(any(grepl("^\\.DEFAULT_GOAL := help$", makefile)))
+stopifnot(any(grepl("^\\.PHONY: help clean render serve$", makefile)))
+stopifnot(any(grepl("^help:.*##", makefile)))
+stopifnot(grepl("\t@awk ", text, fixed = TRUE))
+stopifnot(any(grepl("^clean:.*##", makefile)))
+stopifnot(any(makefile == "\trm -rf docs/"))
+stopifnot(any(grepl("^render:.*##", makefile)))
+stopifnot(any(makefile == "\tquarto render"))
+stopifnot(any(grepl("^serve:.*##", makefile)))
+stopifnot(any(makefile == "\tcalepin serve docs/"))

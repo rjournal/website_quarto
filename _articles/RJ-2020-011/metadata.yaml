@@ -1,0 +1,37 @@
+title: Tools for Analyzing R Code the Tidy Way
+abstract: 'With the current emphasis on reproducibility and replicability, there is an increasing need to examine how data analyses are conducted. In order to analyze the between researcher variability in data analysis choices as well as the aspects within the data analysis pipeline that contribute to the variability in results, we have created two R packages: [*matahari*](https://CRAN.R-project.org/package=matahari) and [*tidycode*](https://CRAN.R-project.org/package=tidycode). These packages build on methods created for natural language processing; rather than allowing for the processing of natural language, we focus on R code as the substrate of interest. The [*matahari*](https://CRAN.R-project.org/package=matahari) package facilitates the logging of everything that is typed in the R console or in an R script in a tidy data frame. The [*tidycode*](https://CRAN.R-project.org/package=tidycode) package contains tools to allow for analyzing R calls in a tidy manner. We demonstrate the utility of these packages as well as walk through two examples.'
+author:
+- name: Lucy D'Agostino McGowan
+  affiliation: Wake Forest University
+  address: |
+    Winston-Salem, North Carolina, USA
+- name: Sean Kross
+  affiliation: UC San Diego
+  address: |
+    La Jolla, California, USA
+- name: Jeffrey Leek
+  affiliation: Johns Hopkins Bloomberg School of Public Health
+  address: |
+    Baltimore, Maryland, USA
+date: '2020-09-10'
+date_received: '2019-06-14'
+journal:
+  firstpage: '226'
+  lastpage: '242'
+volume: 12
+issue: 1
+slug: RJ-2020-011
+doi: 10.32614/RJ-2020-011
+packages:
+  cran:
+  - matahari
+  - tidycode
+  - tidyverse
+  - tidytext
+  - dplyr
+  - purrr
+  - wordcloud
+  - data.table
+  - gh
+  bioc: []
+CTV:

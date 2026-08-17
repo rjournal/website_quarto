@@ -1,0 +1,41 @@
+title: 'SurvBoost: An R Package for High-Dimensional Variable Selection in the Stratified Proportional Hazards Model via Gradient Boosting'
+abstract: High-dimensional variable selection in the proportional hazards (PH) model has many successful applications in different areas. In practice, data may involve confounding variables that do not satisfy the PH assumption, in which case the stratified proportional hazards (SPH) model can be adopted to control the confounding effects by stratification without directly modeling the confounding effects. However, there is a lack of computationally efficient statistical software for high-dimensional variable selection in the SPH model. In this work an R package, *SurvBoost*, is developed to implement the gradient boosting algorithm for fitting the SPH model with high-dimensional covariate variables. Simulation studies demonstrate that in many scenarios *SurvBoost* can achieve better selection accuracy and reduce computational time substantially compared to the existing R package that implements boosting algorithms without stratification. The proposed R package is also illustrated by an analysis of gene expression data with survival outcome in The Cancer Genome Atlas study. In addition, a detailed hands-on tutorial for *SurvBoost* is provided.
+author:
+- name: Emily Morris
+  affiliation: Department of Biostatistics, University of Michigan
+  address: |
+    1415 Washington Heights, Ann Arbor, MI 48109
+- name: Kevin He
+  affiliation: Department of Biostatistics, University of Michigan
+  address: |
+    1415 Washington Heights, Ann Arbor, MI 48109
+- name: Yanming Li
+  affiliation: Department of Biostatistics, University of Michigan
+  address: |
+    1415 Washington Heights, Ann Arbor, MI 48109
+- name: Yi Li
+  affiliation: Department of Biostatistics, University of Michigan
+  address: |
+    1415 Washington Heights, Ann Arbor, MI 48109
+- name: Jian Kang
+  affiliation: Department of Biostatistics, University of Michigan
+  address: |
+    1415 Washington Heights, Ann Arbor, MI 48109
+date: '2020-09-10'
+date_received: '2019-03-24'
+journal:
+  firstpage: '105'
+  lastpage: '117'
+volume: 12
+issue: 1
+slug: RJ-2020-018
+doi: 10.32614/RJ-2020-018
+packages:
+  cran:
+  - mboost
+  - survival
+  - Rcpp
+  - RcppArmadillo
+  - RcppParallel
+  bioc: []
+CTV:

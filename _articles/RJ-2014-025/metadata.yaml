@@ -1,0 +1,60 @@
+title: Applying spartan to Understand Parameter Uncertainty in Simulations
+abstract: 'In attempts to further understand the dynamics of complex systems, the application of computer simulation is becoming increasingly prevalent. Whereas a great deal of focus has been placed in the development of software tools that aid researchers develop simulations, similar focus has not been applied in the creation of tools that perform a rigorous statistical analysis of results generated through simulation: vital in understanding how these results offer an insight into the captured system. This encouraged us to develop *spartan*, a package of statistical techniques designed to assist researchers in understanding the relationship between their simulation and the real system. Previously we have described each technique within *spartan* in detail, with an accompanying immunology case study examining the development of lymphoid tissue. Here we provide a practical introduction to the package, demonstrating how each technique is run in R, to assist researchers in integrating this package alongside their chosen simulation platform.'
+author:
+- name: Kieran Alden
+  affiliation: |-
+    York Computational Immunology Laboratory, Centre for Immunology &
+    Infection, and Dept of Electronics,University of York
+  address:
+  - ',Heslington, York. YO10 5DD'
+  - |
+    UK
+- name: Mark Read
+  affiliation: |-
+    York Computational Immunology Laboratory and Dept of Electronics,
+    University of York
+  address:
+  - ', Heslington, York. YO10 5DD'
+  - |
+    UK
+- name: Paul Andrews
+  affiliation: |-
+    York Computational Immunology Laboratory and Dept of Computer Science,
+    University of York
+  address:
+  - ', Heslington, York. YO10 5DD'
+  - |
+    UK
+- name: Jon Timmis
+  affiliation: |-
+    York Computational Immunology Laboratory and Dept of Electronics,
+    University of York
+  address:
+  - Heslington, York. YO10 5DD
+  - |
+    UK
+- name: Mark Coles
+  affiliation: |-
+    York Computational Immunology Laboratory and Centre for Immunology &
+    Infection, University of York
+  address:
+  - ', Heslington, York. YO10 5DD'
+  - |
+    UK
+date: '2014-09-30'
+date_received: '2014-04-08'
+journal:
+  firstpage: '63'
+  lastpage: '80'
+volume: 6
+issue: 2
+slug: RJ-2014-025
+doi: 10.32614/RJ-2014-025
+packages:
+  cran:
+  - spartan
+  - lhs
+  - gplots
+  - XML
+  bioc: []
+CTV:

@@ -1,0 +1,20 @@
+title: Changes on CRAN
+abstract: The 'Changes on CRAN' article from the 2010-1 issue.
+author:
+- name: Kurt Hornik
+  affiliation: WU Wirtschaftsuniversität Wien, Austria
+- name: Achim Zeileis
+  affiliation: Universität Innsbruck, Austria
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 72
+  lastpage: 84
+volume: 2
+issue: 1
+slug: RJ-2010-1-cran
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

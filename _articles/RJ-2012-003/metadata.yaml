@@ -1,0 +1,35 @@
+title: openair -- Data Analysis Tools for the Air Quality Community
+abstract: The [*openair*](https://CRAN.R-project.org/package=openair) package contains data analysis tools for the air quality community. This paper provides an overview of data importers, main functions, and selected utilities and workhorse functions within the package and the function output class, as of package version 0.4-14. It is intended as an explanation of the rationale for the package and a technical description for those wishing to work more interactively with the main functions or develop additional functions to support 'higher level' use of [*openair*](https://CRAN.R-project.org/package=openair) and R.
+author:
+- name: Karl Ropkins
+  affiliation: Institute for Transport Studies, University of Leeds
+  address: |
+    , LS2 9JT, UK
+- name: David C. Carslaw
+  affiliation: King's College London
+  address:
+  - Environmental Research Group
+  - Franklin Wilkins Building, 150 Stamford Street
+  - |
+    London SE1 9NH, UK
+date: '2012-06-01'
+date_received:
+journal:
+  firstpage: '20'
+  lastpage: '29'
+volume: 4
+issue: 1
+slug: RJ-2012-003
+doi: 10.32614/RJ-2012-003
+packages:
+  cran:
+  - openair
+  - lattice
+  - latticeExtra
+  - hexbin
+  - grDevices
+  - mgcv
+  - stats
+  - RColorBrewer
+  bioc: []
+CTV:

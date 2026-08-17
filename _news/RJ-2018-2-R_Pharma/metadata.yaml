@@ -1,0 +1,19 @@
+title: 'Conference Report: R / Pharma 2018'
+abstract: 'The ''Conference Report: R / Pharma 2018'' article from the 2018-2 issue.'
+author:
+- name: Joseph Rickert
+  affiliation: |
+    RStudio
+date: '2018-12-01'
+date_received:
+journal:
+  firstpage: '579'
+  lastpage: '580'
+volume: 10
+issue: 2
+slug: RJ-2018-2-R_Pharma
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

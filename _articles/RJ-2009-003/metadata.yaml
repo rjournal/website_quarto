@@ -1,0 +1,22 @@
+title: AdMit
+abstract: A package for constructing and using an adaptive mixture of Student-t distributions as a flexible candidate distribution for efficient simulation.
+author:
+- name: David Ardia
+  affiliation: University of Fribourg, Switzerland
+- name: Lennart F. Hoogerheide
+  affiliation: Erasmus University Rotterdam, The Netherlands
+- name: Herman K. van Dijk
+  affiliation: Erasmus University Rotterdam, The Netherlands
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 25
+  lastpage: 30
+volume: 1
+issue: 1
+slug: RJ-2009-003
+doi: 10.32614/RJ-2009-003
+packages:
+  cran: []
+  bioc: []
+CTV:

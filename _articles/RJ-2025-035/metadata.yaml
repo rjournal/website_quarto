@@ -1,0 +1,60 @@
+title: 'movieROC: Visualizing the Decision Rules Underlying Binary Classification'
+abstract: |
+  The receiver operating characteristic (ROC) curve is a graphical tool
+  commonly used to depict the binary classification accuracy of a
+  continuous marker in terms of its sensitivity and specificity. The
+  standard ROC curve assumes a monotone relationship between the marker
+  and the response, inducing classification subsets of the form
+  $(c,\infty)$ with $c \in \mathbb{R}$. However, in non-standard cases,
+  the involved classification regions are not so clear, highlighting the
+  importance of tracking the decision rules. This paper introduces the R
+  package movieROC,
+  which provides visualization tools for understanding the ability of
+  markers to identify a characteristic of interest, complementing the
+  ROC curve representation. This tool accommodates multivariate
+  scenarios and generalizations involving different decision rules. The
+  main contribution of this package is the visualization of the
+  underlying classification regions, with the associated gain in
+  interpretability. Adding the time (videos) as a third dimension, this
+  package facilitates the visualization of binary classification in
+  multivariate problems. It constitutes a good tool to generate
+  graphical material for presentations.
+author:
+- name: Sonia Pérez-Fernández
+  affiliation: Department of Statistics and Operations Research and Mathematics Didactics, University of Oviedo (Asturias, Spain)
+  orcid: 0000-0002-2767-6399
+  email: perezsonia@uniovi.es
+- name: Pablo Martínez-Camblor
+  affiliation: Department of Anesthesiology, Geisel School of Medicine at Dartmouth (NH, USA); Faculty of Health Sciences, Universidad Autónoma de Chile (Chile)
+  orcid: 0000-0001-7845-3905
+  email: Pablo.Martinez-Camblor@hitchcock.org
+- name: Norberto Corral-Blanco
+  affiliation: Department of Statistics and Operations Research and Mathematics Didactics, University of Oviedo (Asturias, Spain)
+  orcid: 0000-0002-6962-6154
+  email: norbert@uniovi.es
+date: '2026-02-18'
+date_received: '2024-02-09'
+journal:
+  firstpage: 59
+  lastpage: 79
+volume: 17
+issue: 4
+slug: RJ-2025-035
+doi: 10.32614/RJ-2025-035
+packages:
+  cran:
+  - movieROC
+  - pROC
+  - ROCnReg
+  - OptimalCutpoints
+  - nsROC
+  - rms
+  - ks
+  - e1071
+  - animation
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

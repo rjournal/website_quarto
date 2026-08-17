@@ -1,0 +1,40 @@
+title: Variants of Simple Correspondence Analysis
+abstract: This paper presents the R package *CAvariants* [@CAvariants]. The package performs six variants of correspondence analysis on a two-way contingency table. The main function that shares the same name as the package -- `CAvariants` -- allows the user to choose (via a series of input parameters) from six different correspondence analysis procedures. These include the classical approach to (symmetrical) correspondence analysis, singly ordered correspondence analysis, doubly ordered correspondence analysis, non symmetrical correspondence analysis, singly ordered non symmetrical correspondence analysis and doubly ordered non symmetrical correspondence analysis. The code provides the flexibility for constructing either a classical correspondence plot or a biplot graphical display. It also allows the user to consider other important features that allow to assess the reliability of the graphical representations, such as the inclusion of algebraically derived elliptical confidence regions. This paper provides R functions that elaborates more fully on the code presented in @behlom14.
+author:
+- name: Rosaria Lombardo
+  affiliation: |-
+    Department of Economics, University of Naples Campania "Luigi
+    Vanvitelli"
+  address:
+  - via Gran Priorato di Malta, Capua 81043
+  - Italy
+- name: Eric J. Beh
+  affiliation: School of Mathematical & Physical Sciences, University of Newcastle
+  address: University Drive, Callaghan, NSW, 2308 Australia
+date: '2016-10-21'
+date_received: '2016-02-28'
+journal:
+  firstpage: '167'
+  lastpage: '184'
+volume: 8
+issue: 2
+slug: RJ-2016-039
+doi: 10.32614/RJ-2016-039
+packages:
+  cran:
+  - MASS
+  - ca
+  - anacor
+  - FactoMineR
+  - cabootcrs
+  - CAinterprTools
+  - homals
+  - dualScale
+  - ExPosition
+  - vegan
+  - ade4
+  - cncaGUI
+  - PTAk
+  - CAvariants
+  bioc: []
+CTV:

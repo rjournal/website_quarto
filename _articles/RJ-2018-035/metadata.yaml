@@ -1,0 +1,55 @@
+title: 'RatingScaleReduction package: stepwise rating scale item reduction without predictability loss'
+abstract: |
+  This study presents an innovative method for reducing the number of
+  rating scale items without predictability loss. The "area under the
+  receiver operator curve" method (AUC ROC) is used for the stepwise
+  method of reducing items of a rating scale. ***RatingScaleReduction***
+  R package contains the presented implementation. Differential
+  evolution (a metaheuristic for optimization) was applied to one of the
+  analyzed datasets to illustrate that the presented stepwise method can
+  be used with other classifiers to reduce the number of rating scale
+  items (variables). The targeted areas of application are decision
+  making, data mining, machine learning, and psychometrics.\
+  **Keywords:** rating scale, receiver operator characteristic, ROC,
+  AUC, scale reduction.
+author:
+- name: Waldemar W. Koczkodaj
+  affiliation: Computer Science, Laurentian University
+  address:
+  - Ramsey Lk Rd.
+  - Sudbury, Ontario P3E 2C6
+  - |
+    Canada
+- name: Feng Li
+  affiliation: Computer Science, Laurentian University
+  address:
+  - Ramsey Lk Rd.
+  - Sudbury, Ontario P3E 2C6
+  - |
+    Canada
+- name: Alicja Wolny--Dominiak
+  affiliation: |-
+    Department of Statistical and Mathematical Methods in Economics,
+    University of Economics in Katowice
+  address:
+  - ul. 1 Maja 50
+  - 40--287 Katowice
+  - |
+    Poland
+date: '2018-06-01'
+date_received: '2017-03-20'
+journal:
+  firstpage: '43'
+  lastpage: '55'
+volume: 10
+issue: 1
+slug: RJ-2018-035
+doi: 10.32614/RJ-2018-035
+packages:
+  cran:
+  - pROC
+  - ROCR
+  - RatingScaleReduction
+  - DEoptim
+  bioc: []
+CTV:

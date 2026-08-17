@@ -1,0 +1,58 @@
+title: 'ICSOutlier: Unsupervised Outlier Detection for Low-Dimensional Contamination Structure'
+abstract: Detecting outliers in a multivariate and unsupervised context is an important and ongoing problem notably for quality control. Many statistical methods are already implemented in R and are briefly surveyed in the present paper. But only a few lead to the accurate identification of potential outliers in the case of a small level of contamination. In this particular context, the Invariant Coordinate Selection (ICS) method shows remarkable properties for identifying outliers that lie on a low-dimensional subspace in its first invariant components. It is implemented in the ***ICSOutlier*** package. The main function of the package, `ics.outlier`, offers the possibility of labelling potential outliers in a completely automated way. Four examples, including two real examples in quality control, illustrate the use of the function. Comparing with several other approaches, it appears that ICS is generally as efficient as its competitors and shows an advantage in the context of a small proportion of outliers lying in a low-dimensional subspace. In quality control, the method may help in properly identifying some defective products while not detecting too many false positives.
+author:
+- name: Aurore Archimbaud
+  affiliation: TSE-R, University Toulouse 1 Capitole
+  address:
+  - 21 allée de Brienne, 31000 Toulouse
+  - |
+    France
+- name: Klaus Nordhausen
+  affiliation: |-
+    CSTAT - Computational Statistics, Institute of Statistics &
+    Mathematical Methods in Economics, Vienna University of Technology
+  orcid: |
+    0000-0002-3758-8501
+  address:
+  - Wiedner Hauptstr. 7, A-1040 Vienna
+  - Austria
+- name: Anne Ruiz-Gazen
+  affiliation: TSE-R, University Toulouse 1 Capitole
+  address:
+  - 21 allée de Brienne, 31000 Toulouse
+  - |
+    France
+date: '2018-05-30'
+date_received: '2017-06-29'
+journal:
+  firstpage: '234'
+  lastpage: '250'
+volume: 10
+issue: 1
+slug: RJ-2018-034
+doi: 10.32614/RJ-2018-034
+packages:
+  cran:
+  - mvoutlier
+  - CerioliOutlierDetection
+  - rrcovHD
+  - faoutlier
+  - abodOutlier
+  - HighDimOut
+  - alphaOutlier
+  - extremevalues
+  - HDoutliers
+  - outliers
+  - DMwR2
+  - ldbod
+  - Rlof
+  - depth
+  - REPPlab
+  - OutlierDC
+  - pcadapt
+  - rrcov
+  - ICSOutlier
+  - ICS
+  - robustbase
+  bioc: []
+CTV:

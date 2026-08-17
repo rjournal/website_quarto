@@ -1,0 +1,27 @@
+title: 'Conference Report: R / Medicine Report '
+abstract: 'The ''Conference Report: R / Medicine Report '' article from the 2018-2 issue.'
+author:
+- name: Joseph Rickert
+  affiliation: |
+    RStudio
+- name: Naras Balasubramanian
+  affiliation: Department of Statistics, Stanford University
+  address: |
+    Palo Alto, CA
+- name: Michael Kane
+  affiliation: Yale Center for Analytical Sciences, Yale University
+  address: |
+    New Haven, CT
+date: '2018-12-01'
+date_received:
+journal:
+  firstpage: '581'
+  lastpage: '582'
+volume: 10
+issue: 2
+slug: RJ-2018-2-R_Medicine
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

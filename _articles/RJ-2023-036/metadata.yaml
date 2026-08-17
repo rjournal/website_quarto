@@ -1,0 +1,38 @@
+title: 'Resampling Fuzzy Numbers with Statistical Applications: FuzzyResampling Package'
+abstract: ' The classical bootstrap has proven its usefulness in many areas of statistical inference. However, some shortcomings of this method are also known. Therefore, various bootstrap modifications and other resampling algorithms have been introduced, especially for real-valued data. Recently, bootstrap methods have become popular in statistical reasoning based on imprecise data often modeled by fuzzy numbers. One of the challenges faced there is to create bootstrap samples of fuzzy numbers which are similar to initial fuzzy samples but different in some way at the same time. These methods are implemented in [FuzzyResampling](https://CRAN.R-project.org/package=FuzzyResampling) package and applied in different statistical functions like single-sample or two-sample tests for the mean. Besides describing the aforementioned functions, some examples of their applications as well as numerical comparisons of the classical bootstrap with the new resampling algorithms are provided in this contribution. '
+author:
+- name: Maciej Romaniuk
+  affiliation: Systems Research Institute, Polish Academy of Sciences
+  email: |
+    mroman@ibspan.waw.pl
+  address:
+  - Newelska 6, 01-447 Warsaw
+  - Poland
+  - (0000-0001-9649-396X)
+- name: Przemysław Grzegorzewski
+  affiliation: |-
+    Faculty of Mathematics and Information Science, Warsaw University of
+    Technology
+  email: |
+    przemyslaw.grzegorzewski@pw.edu.pl
+  address:
+  - Koszykowa 75, 00-662 Warsaw
+  - Poland
+  - Systems Research Institute, Polish Academy of Sciences
+  - Newelska 6, 01-447 Warsaw
+  - Poland
+  - (0000-0002-5191-4123)
+date: '2023-08-26'
+date_received: '2022-06-07'
+journal:
+  firstpage: 271
+  lastpage: 283
+volume: 15
+issue: 1
+slug: RJ-2023-036
+doi: 10.32614/RJ-2023-036
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

@@ -1,0 +1,29 @@
+title: 'MultiStatM: Multivariate Statistical Methods in R'
+date: '2025-07-14'
+abstract: "The package MultiStatM presents a vectorial approach to multivariate moments and cumulants.  Functions provided concern algorithms to build set partitions and commutator matrices,  multivariate d-Hermite polynomials;  theoretical  vector moments and vector cumulants  of multivariate distributions and their conversion formulae. Applications discussed concern  multivariate measures of skewness and kurtosis;   asymptotic covariances for d-variate Hermite polynomials and multivariate moments and       cumulants;  Gram-Charlier approximations. \n"
+draft: no
+author:
+- name: György Terdik
+  affiliation: University of Debrecen
+  address:
+  - Department of Informatics
+  - Debrecen, Hungary
+  orcid: 0000-0002-9663-6892
+  email: terdik.gyorgy@inf.unideb.hu
+- name: Emanuele Taufer
+  affiliation: University of Trento
+  address:
+  - Department of Economics and Management
+  - Trento, Italy
+  email: emanuele.taufer@unitn.it
+  orcid: 0000-0001-5140-9912
+type: package
+date_received: '2024-02-09'
+volume: 16
+issue: 4
+slug: RJ-2024-039
+doi: 10.32614/RJ-2024-039
+journal:
+  lastpage: 140
+  firstpage: 123
+

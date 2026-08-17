@@ -1,0 +1,53 @@
+title: asteRisk - Integration and Analysis of Satellite Positional Data in R
+abstract: |
+  Over the past few years, the amount of artificial satellites orbiting Earth has grown fast, with close to a thousand new launches per year. Reliable calculation of the evolution of the satellites' position over time is required in order to efficiently plan the launch and operation of such satellites, as well as to avoid collisions that could lead to considerable losses and generation of harmful space debris. Here, we present \pkg{asteRisk}, the first R package for analysis of the trajectory of satellites. The package provides native implementations of different methods to calculate the orbit of satellites, as well as tools for importing standard file formats typically used to store satellite position data and to convert satellite coordinates between different frames of reference. Such functionalities provide the foundation for integrating orbital data and astrodynamics analysis in R.
+draft: no
+author:
+- name: Rafael Ayala
+  affiliation: Okinawa Institute of Science and Technology Graduate University
+  address:
+  - 7542 Onna, Onna-son, Kunigami, Okinawa 904-0411
+  - Japan
+  orcid: 0000-0002-9332-4623
+  email: rafael.ayala@oist.jp
+- name: Daniel Ayala
+  affiliation: University of Seville
+  address:
+  - ETSI Informática, Avda. de la Reina Mercedes, s/n, Sevilla E-41012
+  - Spain
+  orcid: 0000-0003-2095-1009
+  email: dayala1@us.es
+- name: Lara Sellés Vidal
+  affiliation: Okinawa Institute of Science and Technology Graduate University
+  address:
+  - 7542 Onna, Onna-son, Kunigami, Okinawa 904-0411
+  - Japan
+  orcid: 0000-0003-2537-6824
+  email: lara.sellesvidal@oist.jp
+- name: David Ruiz
+  affiliation: University of Seville
+  address:
+  - ETSI Informática, Avda. de la Reina Mercedes, s/n, Sevilla E-41012
+  - Spain
+  orcid: 0000-0003-4460-5493
+  email: druiz@us.es
+type: package
+csl: rjournal.csl
+creative_commons: CC BY
+always_allow_html: yes
+tables: yes
+header-includes:
+- \usepackage{tabu}
+- \usepackage{float}
+- \usepackage{booktabs}
+- \usepackage{colortbl}
+date: '2023-08-26'
+date_received: '2022-01-10'
+volume: 15
+issue: 1
+slug: RJ-2023-023
+doi: 10.32614/RJ-2023-023
+journal:
+  lastpage: 54
+  firstpage: 34
+

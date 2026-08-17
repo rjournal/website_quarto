@@ -1,0 +1,18 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2013-2 issue.
+author:
+- name: Hadley Wickham
+  affiliation: RStudio
+date: '2013-12-01'
+date_received:
+journal:
+  firstpage: '3'
+  lastpage: '3'
+volume: 5
+issue: 2
+slug: RJ-2013-2-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

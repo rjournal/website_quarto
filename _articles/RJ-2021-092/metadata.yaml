@@ -1,0 +1,31 @@
+title: 'SIQR: An R Package for Single-index Quantile Regression'
+abstract: We develop an R package *SIQR* that implements the single-index quantile regression (SIQR) models via an efficient iterative local linear approach in [@wu_single-index_2010]. Single-index quantile regression models are important tools in semiparametric regression to provide a comprehensive view of the conditional distributions of a response variable. It is especially useful when the data is heterogeneous or heavy-tailed. The package provides functions that allow users to fit SIQR models, predict, provide standard errors of the single-index coefficients via bootstrap, and visualize the estimated univariate function. We apply the R package *SIQR* to a well-known Boston Housing data.
+author:
+- name: Tianhai Zu
+  affiliation: University of Cincinnati
+  address:
+  - 2906 Woodside Drive
+  - |
+    Cincinnati, OH 45221
+- name: Yan Yu
+  affiliation: University of Cincinnati
+  orcid: |
+    0000-0002-2859-3093
+  address:
+  - 2906 Woodside Drive
+  - Cincinnati, OH 45221
+date: '2021-10-19'
+date_received: '2021-01-15'
+journal:
+  firstpage: '460'
+  lastpage: '470'
+volume: 13
+issue: 2
+slug: RJ-2021-092
+doi: 10.32614/RJ-2021-092
+packages:
+  cran:
+  - quantreg
+  - KernSmooth
+  bioc: []
+CTV:

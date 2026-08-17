@@ -1,0 +1,30 @@
+title: What's in a Name?
+abstract: Any shape that is drawn using the [*grid*](https://CRAN.R-project.org/package=grid) graphics package can have a name associated with it. If a name is provided, it is possible to access, query, and modify the shape after it has been drawn. These facilities allow for very detailed customisations of plots and also for very general transformations of plots that are drawn by packages based on [*grid*](https://CRAN.R-project.org/package=grid).
+author:
+- name: Paul Murrell
+  affiliation: Department of Statistics, The University of Auckland
+  address:
+  - The University of Auckland
+  - New Zealand
+  - |
+    [paul@stat.auckland.ac.nz](paul@stat.auckland.ac.nz){.uri}
+date: '2012-12-01'
+date_received:
+journal:
+  firstpage: '5'
+  lastpage: '12'
+volume: 4
+issue: 2
+slug: RJ-2012-016
+doi: 10.32614/RJ-2012-016
+packages:
+  cran:
+  - grid
+  - metafor
+  - lattice
+  - gridSVG
+  - ggplot2
+  - gridDebug
+  - playwith
+  bioc: []
+CTV:

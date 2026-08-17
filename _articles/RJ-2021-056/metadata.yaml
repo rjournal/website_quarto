@@ -1,0 +1,23 @@
+title: A Method for Deriving Information from Running R Code
+abstract: It is often useful to tap information from a running R script. Obvious use cases include monitoring the consumption of resources (time, memory) and logging. Perhaps less obvious cases include tracking changes in R objects or collecting the output of unit tests. In this paper, we demonstrate an approach that abstracts the collection and processing of such secondary information from the running R script. Our approach is based on a combination of three elements. The first element is to build a customized way to evaluate code. The second is labeled *local masking* and it involves temporarily masking a user-facing function so an alternative version of it is called. The third element we label *local side effect*. This refers to the fact that the masking function exports information to the secondary information flow without altering a global state. The result is a method for building systems in pure R that lets users create and control secondary flows of information with minimal impact on their workflow and no global side effects.
+author:
+- name: Mark P.J. van der Loo
+  affiliation: Statistics Netherlands
+  orcid: |
+    0000-0002-9807-4686
+  address:
+  - PO-BOX 24500, 2490HA Den Haag
+  - The Netherlands
+date: '2021-07-13'
+date_received: '2019-10-20'
+journal:
+  firstpage: '42'
+  lastpage: '52'
+volume: 13
+issue: 1
+slug: RJ-2021-056
+doi: 10.32614/RJ-2021-056
+packages:
+  cran: []
+  bioc: []
+CTV:

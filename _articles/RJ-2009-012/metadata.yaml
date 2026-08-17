@@ -1,0 +1,27 @@
+title: 'copas: An R package for Fitting the Copas Selection Model'
+abstract: This article describes the R package [*copas*](https://CRAN.R-project.org/package=copas) which is an add-on package to the R package [*meta*](https://CRAN.R-project.org/package=meta). The R package [*copas*](https://CRAN.R-project.org/package=copas) can be used to fit the Copas selection model to adjust for bias in meta-analysis. A clinical example is used to illustrate fitting and interpreting the Copas selection model.
+author:
+- name: James Carpenter
+  affiliation: Institute of Medical Biometry and Medical Informatics
+  address: University Medical Center Freiburg, Germany
+- name: Gerta Rücker
+  affiliation: Institute of Medical Biometry and Medical Informatics
+  address: University Medical Center Freiburg, Germany
+- name: Guido Schwarzer
+  affiliation: Institute of Medical Biometry and Medical Informatics
+  address: University Medical Center Freiburg, Germany
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: '31'
+  lastpage: '36'
+volume: 1
+issue: 2
+slug: RJ-2009-012
+doi: 10.32614/RJ-2009-012
+packages:
+  cran:
+  - copas
+  - meta
+  bioc: []
+CTV:

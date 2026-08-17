@@ -1,0 +1,42 @@
+title: 'Time Series Forecasting with KNN in R: the tsfknn Package'
+abstract: In this paper the *tsfknn* package for time series forecasting using $k$-nearest neighbor regression is described. This package allows users to specify a KNN model and to generate its forecasts. The user can choose among different multi-step ahead strategies and among different functions to aggregate the targets of the nearest neighbors. It is also possible to assess the forecast accuracy of the KNN model.
+author:
+- name: Francisco Martínez
+  affiliation: Computer Science Department, University of Jaén
+  address: |
+    Spain
+- name: María P. Frías
+  affiliation: Statistics and Operations Research Department, University of Jaén
+  address: |
+    Spain
+- name: Francisco Charte
+  affiliation: Computer Science Department, University of Jaén
+  address: |
+    Spain
+- name: Antonio J. Rivera
+  affiliation: Computer Science Department, University of Jaén
+  address: |
+    Spain
+date: '2019-07-30'
+date_received: '2018-05-29'
+journal:
+  firstpage: '229'
+  lastpage: '242'
+volume: 11
+issue: 2
+slug: RJ-2019-004
+doi: 10.32614/RJ-2019-004
+packages:
+  cran:
+  - forecast
+  - caret
+  - nnfor
+  - tsfknn
+  - forecastHybrid
+  - GMDH
+  - NTS
+  - tsDyn
+  - nnet
+  - neuralnet
+  bioc: []
+CTV:

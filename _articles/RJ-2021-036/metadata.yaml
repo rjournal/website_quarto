@@ -1,0 +1,36 @@
+title: 'DChaos: An R Package for Chaotic Time Series Analysis'
+abstract: Chaos theory has been hailed as a revolution of thoughts and attracting ever-increasing attention of many scientists from diverse disciplines. Chaotic systems are non-linear deterministic dynamic systems which can behave like an erratic and apparently random motion. A relevant field inside chaos theory is the detection of chaotic behavior from empirical time-series data. One of the main features of chaos is the well-known initial-value sensitivity property. Methods and techniques related to testing the hypothesis of chaos try to quantify the initial-value sensitive property estimating the so-called Lyapunov exponents. This paper describes the main estimation methods of the Lyapunov exponent from time series data. At the same time, we present the *DChaos* library. R users may compute the delayed-coordinate embedding vector from time series data, estimates the best-fitted neural net model from the delayed-coordinate embedding vectors, calculates analytically the partial derivatives from the chosen neural nets model. They can also obtain the neural net estimator of the Lyapunov exponent from the partial derivatives computed previously by two different procedures and four ways of subsampling by blocks. To sum up, the *DChaos* package allows the R users to test robustly the hypothesis of chaos in order to know if the data-generating process behind time series behaves chaotically or not. The package's functionality is illustrated by examples.
+author:
+- name: Julio E. Sandubete
+  affiliation: Complutense University of Madrid
+  orcid: |
+    0000-0002-1518-0417
+  address:
+  - Faculty of Statistical Studies
+  - 28040 Madrid, Spain
+- name: Lorenzo Escot
+  affiliation: Complutense University of Madrid
+  orcid: |
+    0000-0002-6734-6327
+  address:
+  - Faculty of Statistical Studies
+  - 28040 Madrid, Spain
+date: '2021-06-07'
+date_received: '2020-06-03'
+journal:
+  firstpage: '232'
+  lastpage: '252'
+volume: 13
+issue: 1
+slug: RJ-2021-036
+doi: 10.32614/RJ-2021-036
+packages:
+  cran:
+  - tseriesChaos
+  - nonlinearTseries
+  - fNonlinear
+  - DChaos
+  - highfrequency
+  - nnet
+  bioc: []
+CTV:

@@ -1,0 +1,19 @@
+title: Drawing Diagrams with R
+abstract: The 'Drawing Diagrams with R' article from the 2009-1 issue.
+author:
+- name: Paul Murrell
+  affiliation: Department of Statistics, The University of Auckland
+  address: New Zealand
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: '15'
+  lastpage: '21'
+volume: 1
+issue: 1
+slug: RJ-2009-006
+doi: 10.32614/RJ-2009-006
+packages:
+  cran: []
+  bioc: []
+CTV:

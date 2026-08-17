@@ -1,0 +1,31 @@
+title: 'optimParallel: An R Package Providing a Parallel Version of the L-BFGS-B Optimization Method'
+abstract: The R package *optimParallel* provides a parallel version of the L-BFGS-B optimization method of `optim()`. The main function of the package is `optimParallel()`, which has the same usage and output as `optim()`. Using `optimParallel()` can significantly reduce the optimization time, especially when the evaluation time of the objective function is large and no analytical gradient is available. We introduce the R package and illustrate its implementation, which takes advantage of the lexical scoping mechanism of R.
+author:
+- name: Dr. Florian Gerber
+  affiliation: Department of Applied Mathematics and Statistics
+  orcid: |
+    0000-0001-8545-5263
+  address: Colorado School of Mines, Colorado, USA
+- name: Prof. Dr. Reinhard Furrer
+  affiliation: Department of Mathematics & Department of Computational Science
+  orcid: |
+    0000-0002-6319-2332
+  address: University of Zurich, Switzerland
+date: '2019-08-17'
+date_received: '2018-05-29'
+journal:
+  firstpage: '352'
+  lastpage: '358'
+volume: 11
+issue: 1
+slug: RJ-2019-030
+doi: 10.32614/RJ-2019-030
+packages:
+  cran:
+  - lbfgsb3
+  - lbfgsb3c
+  - optimParallel
+  - testthat
+  - microbenchmark
+  bioc: []
+CTV:

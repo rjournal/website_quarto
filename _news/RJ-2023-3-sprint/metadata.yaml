@@ -1,0 +1,24 @@
+title: R Project Sprint 2023
+date: '2023-09-01'
+abstract: |
+  R Project Sprint 2023 was a three-day event at the University of Warwick, UK,  that brought together novice and experienced contributors to work alongside  members of the R Core Team. 55 members of the R community participated, with  external contributors selected to balance technical expertise and provide  opportunities for members of historically under-represented groups.  Participants worked collaboratively on contributions to base R and on  infrastructure supporting contribution. Several small tasks were completed  within the duration of the sprint, whilst significant steps were made on  larger projects. The event provided a unique opportunity for external  contributors to learn about the R development process and to develop their  contribution skills.
+draft: no
+author:
+- name: Heather Turner
+  affiliation: University of Warwick
+  address: Coventry, United Kingdom
+  orcid: 0000-0002-1256-3375
+  url: https://warwick.ac.uk/heatherturner
+  email: h.turner.1@warwick.ac.uk
+- name: Gabriel Becker
+  affiliation: Independent consultant
+  address: San Francisco, USA
+  email: gabembecker@gmail.com
+type: news
+volume: 15
+issue: 3
+slug: RJ-2023-3-sprint
+journal:
+  lastpage: 305
+  firstpage: 299
+

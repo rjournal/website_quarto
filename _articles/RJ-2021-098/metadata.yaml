@@ -1,0 +1,44 @@
+title: 'EMSS: New EM-type algorithms for the Heckman selection model in R'
+abstract: 'When investigators observe non-random samples from populations, sample selectivity problems may occur. The Heckman selection model is widely used to deal with selectivity problems. Based on the EM algorithm, [@Zhaoetal:2020] developed three algorithms, namely, ECM, ECM(NR), and ECME(NR), which also have the EM algorithm''s main advantages: stability and ease of implementation. This paper provides the implementation of these three new EM-type algorithms in the package *EMSS* and illustrates the usage of the package on several simulated and real data examples. The comparison between the maximum likelihood estimation method (MLE) and three new EM-type algorithms in robustness issues is further discussed.'
+author:
+- name: Kexuan Yang
+  affiliation: Department of Applied Statistics, Konkuk University
+  address:
+  - 120 Neungdong-ro, Gwangjin-gu, Seoul
+  - |
+    South Korea
+- name: Sang Kyu Lee
+  affiliation: Department of Statistics and Probability, Michigan State University
+  address:
+  - 619 Red Cedar Road East Lansing, MI 48824-1027
+  - |
+    the USA
+- name: Jun Zhao
+  affiliation: ''
+  address:
+  - School of Mathematics and Statistics, Ningbo University
+  - No. 818, Fenghua Road, Ningbo, Zhejiang
+  - |
+    China
+- name: Hyoung-Moon Kim
+  affiliation: ''
+  address:
+  - Department of Applied Statistics, Konkuk University
+  - 120 Neungdong-ro, Gwangjin-gu, Seoul
+  - |
+    South Korea
+date: '2021-12-15'
+date_received: '2020-10-30'
+journal:
+  firstpage: '306'
+  lastpage: '320'
+volume: 13
+issue: 2
+slug: RJ-2021-098
+doi: 10.32614/RJ-2021-098
+packages:
+  cran:
+  - sampleSelection
+  - mvtnorm
+  bioc: []
+CTV:

@@ -1,0 +1,41 @@
+title: Spatio-Temporal Interpolation using gstat
+abstract: We present new spatio-temporal geostatistical modelling and interpolation capabilities of the R package *gstat*. Various spatio-temporal covariance models have been implemented, such as the separable, product-sum, metric and sum-metric models. In a real-world application we compare spatio-temporal interpolations using these models with a purely spatial kriging approach. The target variable of the application is the daily mean $\rm{PM}_{10}$ concentration measured at rural air quality monitoring stations across Germany in 2005. R code for variogram fitting and interpolation is presented in this paper to illustrate the workflow of spatio-temporal interpolation using *gstat*. We conclude that the system works properly and that the extension of *gstat* facilitates and eases spatio-temporal geostatistical modelling and prediction for R users.
+author:
+- name: Benedikt Gräler
+  affiliation: Institute for Geoinformatics, University of Münster
+  address:
+  - Heisenbergstr. 2, 48149, Münster
+  - |
+    Germany
+- name: Edzer Pebesma
+  affiliation: Institute for Geoinformatics, University of Münster
+  address:
+  - Heisenbergstr. 2, 48149, Münster
+  - |
+    Germany
+- name: Gerard Heuvelink
+  affiliation: Department of Environmental Sciences, Wageningen University
+  address:
+  - PO Box 47, 6700AA, Wageningen
+  - |
+    The Netherlands
+date: '2016-06-13'
+date_received: '2015-07-24'
+journal:
+  firstpage: '204'
+  lastpage: '218'
+volume: 8
+issue: 1
+slug: RJ-2016-014
+doi: 10.32614/RJ-2016-014
+packages:
+  cran:
+  - spacetime
+  - gstat
+  - RandomFields
+  - spTimer
+  - spBayes
+  - spate
+  - FNN
+  bioc: []
+CTV:

@@ -1,0 +1,44 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2009-1 issue.
+author: |
+  Bioconductor Team
+  Program in Computational Biology
+  Fred Hutchinson Cancer Research Center
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 91
+  lastpage: 92
+volume: 1
+issue: 1
+slug: RJ-2009-1-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - SSPA
+  - dyebias
+  - spkTools
+  - Rmagpie
+  - MCRestimate
+  - flowflowJo
+  - flowStats
+  - GeneSelectMMD
+  - tspair
+  - metahdep
+  - betr
+  - qpgraph
+  - KEGGgraph
+  - geen2pathway
+  - GOSemSim
+  - SPIA
+  - AffyTiling
+  - rMAT
+  - crlmm
+  - GeneRegionScan
+  - biocDatasets
+  - PAnnBuilder
+  - DAVIDQuery
+  - Biostrings
+  - ShortRead
+CTV:

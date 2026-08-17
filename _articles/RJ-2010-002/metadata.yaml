@@ -1,0 +1,45 @@
+title: 'Online Reproducible Research: An Application to Multivariate Analysis of Bacterial DNA Fingerprint Data'
+abstract: This paper presents an example of online reproducible multivariate data analysis. This example is based on a web page providing an online computing facility on a server. HTML forms contain editable R code snippets that can be executed in any web browser thanks to the Rweb software. The example is based on the multivariate analysis of DNA fingerprints of the internal bacterial flora of the poultry red mite *Dermanyssus gallinae*. Several multivariate data analysis methods from the [*ade4*](https://CRAN.R-project.org/package=ade4) package are used to compare the fingerprints of mite pools coming from various poultry farms. All the computations and graphical displays can be redone interactively and further explored online, using only a web browser. Statistical methods are detailed in the duality diagram framework, and a discussion about online reproducibility is initiated.
+author:
+- name: Jean Thioulouse
+  affiliation: Université de Lyon, F-69000, Lyon ; Université Lyon 1;
+  address:
+  - CNRS, UMR5558, Biométrie et Biologie Evolutive,
+  - F-69622 Villeurbanne Cedex, France.
+  - ''
+  - <http://pbil.univ-lyon1.fr/JTHome/>
+- name: Claire Valiente-Moro
+  affiliation: Ecole Nationale Vétérinaire de Lyon,
+  address:
+  - 1 avenue Bourgelat, 69280 Marcy l'Etoile, France.
+  - Université de Lyon, F-69000, Lyon ; Université Lyon 1;
+  - CNRS, UMR5557, Écologie Microbienne,
+  - F-69622 Villeurbanne Cedex, France.
+  - |
+    .
+- name: Lionel Zenner
+  affiliation: Ecole Nationale Vétérinaire de Lyon,
+  address:
+  - 1 avenue Bourgelat, 69280 Marcy l'Etoile, France.
+  - Université de Lyon, F-69000, Lyon ; Université Lyon 1;
+  - CNRS, UMR5558, Biométrie et Biologie Evolutive,
+  - F-69622 Villeurbanne Cedex, France.
+  - ''
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 44
+  lastpage: 52
+volume: 2
+issue: 1
+slug: RJ-2010-002
+doi: 10.32614/RJ-2010-002
+packages:
+  cran:
+  - ade4
+  - seqinr
+  - vegan
+  - CGIwithR
+  - R2HTML
+  bioc: []
+CTV:

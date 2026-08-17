@@ -1,0 +1,28 @@
+title: 'longevity: An R Package for Modelling Excess Lifetimes'
+date: '2026-01-06'
+author:
+- name: Léo R. Belzile
+  affiliation: Department of Decision Sciences, HEC Montréal
+  address:
+  - 3000, chemin de la Côte-Sainte-Catherine
+  - Montréal (Québec), Canada
+  - H3T 2A7
+  url: https://lbelzile.bitbucket.io
+  orcid: 0000-0002-9135-014X
+  email: leo.belzile@hec.ca
+abstract: |
+  The longevity R package provides a maximum likelihood estimation routine for modelling of survival data that are subject to non-informative censoring or truncation. It includes a selection of 12 parametric models of varying complexity, with a focus on tools for extreme value analysis and more specifically univariate peaks over threshold modelling. The package provides utilities for univariate threshold selection, parametric and nonparametric maximum likelihood estimation, goodness of fit diagnostics and model comparison tools. These different methods are illustrated using individual Dutch records and aggregated Japanese human lifetime data.
+draft: no
+preamble: |
+  \usepackage{amsfonts}
+type: package
+nocite: '@survival-package, @Icens-package, @DTDA-package, @muhaz-package, @mev-package, @Rsolnp-pkg, @demography-package, @MortCast-package, @MortalityLaws-package, @vitality-package, @prodlim-package, @dblcens-package, @dplyr-package, @tranSurv-package, @rust-package, @fda-package, @lubridate-package, @tidyverse'
+date_received: '2024-01-11'
+volume: 17
+issue: 4
+slug: RJ-2025-034
+doi: 10.32614/RJ-2025-034
+journal:
+  lastpage: 58
+  firstpage: 37
+

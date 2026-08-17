@@ -1,0 +1,61 @@
+title: 'CDsampling: An R Package for Constrained D-Optimal Sampling in Paid Research Studies'
+abstract: |
+  In the context of paid research studies and clinical trials, budget
+  considerations often require patient sampling from available
+  populations, which comes with inherent constraints. We introduce the R
+  package CDsampling, which is the first to our knowledge to integrate
+  optimal design theories within the framework of constrained sampling.
+  This package offers the possibility to find both D-optimal approximate
+  and exact allocations for samplings with or without constraints.
+  Additionally, it provides functions to find constrained uniform
+  sampling as a robust sampling strategy when the model information is
+  limited. To demonstrate its efficacy, we provide simulated examples
+  and a real-data example with datasets embedded in the package and
+  compare them with classical sampling methods. Furthermore, the
+  CDsampling package revisits the theoretical results of the Fisher
+  information matrix for generalized linear models (including the
+  regular linear regression model) and multinomial logistic models,
+  offering functions for its computation.
+author:
+- name: Yifei Huang
+  affiliation: Department of Mathematics, Statistics, and Computer Science
+  address:
+  - University of Illinois at Chicago
+  - |
+    E-mail: [yhuan39@uic.edu](yhuan39@uic.edu){.uri}
+- name: Liping Tong
+  affiliation: Advocate Aurora Health
+  address: |
+    E-mail: [liping.tong@aah.org](liping.tong@aah.org){.uri}
+- name: Jie Yang
+  affiliation: Department of Mathematics, Statistics, and Computer Science
+  address:
+  - University of Illinois at Chicago
+  - |
+    E-mail: [jyang06@uic.edu](jyang06@uic.edu){.uri}
+date: '2025-08-18'
+date_received: '2025-01-22'
+journal:
+  firstpage: 160
+  lastpage: 179
+volume: 17
+issue: 1
+slug: RJ-2025-008
+doi: 10.32614/RJ-2025-008
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - CDsampling
+  - sampling
+  - SamplingStrata
+  - AlgDesign
+  - OptimalDesign
+  - acebayes
+  - OPDOE
+  - cubature
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

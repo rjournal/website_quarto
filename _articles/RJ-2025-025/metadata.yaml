@@ -1,0 +1,24 @@
+title: 'BoundaryStats: An R Package to Calculate Boundary Overlap Statistics'
+date: '2025-10-21'
+abstract: |
+  Ecologists and epidemiologists frequently rely on spatially distributed data. Studies in these fields may concern geographic boundaries, as environmental variation can determine the spatial distribution of organismal traits or diseases. In such cases, environmental boundaries produce coincident geographic boundaries in, for example, disease prevalence. Boundary analysis can be used to investigate the co-occurrence of organismal trait or disease boundaries and underlying environmental boundaries. Within boundary analysis, boundary overlap statistics test for the presence of significant geographic boundaries and spatial associations between the boundaries of two variables. There is one pre-existing implementation of boundary overlap statistics, though it is only on Windows and ESRI ArcView, limiting the availability of boundary overlap statistics to researchers. I have created BoundaryStats—an R package available on CRAN—that implements boundary overlap statistics. BoundaryStats is the first open-source, cross-platform implementation of these statistical methods, making the statistics more widely accessible to researchers.
+draft: no
+author:
+- name: Amy Luo
+  affiliation: University of Tennessee, Knoxville
+  address:
+  - Department of Ecology and Evolutionary Biology
+  - Knoxville, Tennessee
+  orcid: 0000-0002-9197-4673
+  email: amy.luo.15@gmail.com
+type: package
+link-citations: yes
+date_received: '2024-12-05'
+volume: 17
+issue: 3
+slug: RJ-2025-025
+doi: 10.32614/RJ-2025-025
+journal:
+  lastpage: 99
+  firstpage: 89
+

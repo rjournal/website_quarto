@@ -1,0 +1,28 @@
+title: 'mpoly: Multivariate Polynomials in R'
+abstract: The *mpoly* package is a general purpose collection of tools for symbolic computing with multivariate polynomials in R. In addition to basic arithmetic, *mpoly* can take derivatives of polynomials, compute bases of collections of polynomials, and convert polynomials into a functional form to be evaluated. Among other things, it is hoped that *mpoly* will provide an R-based foundation for the computational needs of algebraic statisticians.
+author:
+- name: David Kahle
+  affiliation: Baylor University
+  address:
+  - Department of Statistical Science
+  - 'One Bear Place #97140'
+  - |
+    Waco, TX 76798
+date: '2013-06-02'
+date_received: '2012-07-06'
+journal:
+  firstpage: '162'
+  lastpage: '170'
+volume: 5
+issue: 1
+slug: RJ-2013-015
+doi: 10.32614/RJ-2013-015
+packages:
+  cran:
+  - mpoly
+  - multipol
+  - polynom
+  - PolynomF
+  - rSymPy
+  bioc: []
+CTV:

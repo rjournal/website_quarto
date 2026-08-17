@@ -1,0 +1,41 @@
+title: Who Did What? The Roles of R Package Authors and How to Refer to Them
+abstract: Computational infrastructure for representing persons and citations has been available in R for several years, but has been restructured through enhanced classes `"person"` and `"bibentry"` in recent versions of R. The new features include support for the specification of the roles of package authors (e.g. maintainer, author, contributor, translator, etc.) and more flexible formatting/printing tools among various other improvements. Here, we introduce the new classes and their methods and indicate how this functionality is employed in the management of R packages. Specifically, we show how the authors of R packages can be specified along with their roles in package `DESCRIPTION` and/or `CITATION` files and the citations produced from it.
+author:
+- name: Kurt Hornik
+  affiliation: |-
+    Department of Finance, Accounting and Statistics, WU
+    Wirtschaftsuniversität Wien
+  address:
+  - Augasse 2--6, 1090, Wien
+  - |
+    Austria
+- name: Duncan Murdoch
+  affiliation: |-
+    Department of Statistical and Actuarial Sciences, University of
+    Western Ontario
+  address:
+  - London, Ontario
+  - |
+    Canada
+- name: Achim Zeileis
+  affiliation: Faculty of Economics and Statistics, Universität Innsbruck
+  address:
+  - Universitätsstr. 15, 6020 Innsbruck
+  - |
+    Austria
+date: '2012-06-01'
+date_received:
+journal:
+  firstpage: '64'
+  lastpage: '69'
+volume: 4
+issue: 1
+slug: RJ-2012-009
+doi: 10.32614/RJ-2012-009
+packages:
+  cran:
+  - boot
+  - bibtex
+  - XML
+  bioc: []
+CTV:

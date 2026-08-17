@@ -1,0 +1,58 @@
+title: 'MAINT.Data: Modelling and Analysing Interval Data in R'
+abstract: We present the CRAN R package *MAINT.Data* for the modelling and analysis of multivariate interval data, i.e., where units are described by variables whose values are intervals of $I\!\! R$, representing intrinsic variability. Parametric inference methodologies based on probabilistic models for interval variables have been developed, where each interval is represented by its midpoint and log-range, for which multivariate Normal and Skew-Normal distributions are assumed. The intrinsic nature of the interval variables leads to special structures of the variance-covariance matrix, which are represented by four different possible configurations. *MAINT.Data* implements the proposed methodologies in the S4 object system, introducing a specific data class for representing interval data. It includes functions and methods for modelling and analysing interval data, in particular maximum likelihood estimation, statistical tests for the different configurations, (M)ANOVA and Discriminant Analysis. For the Gaussian model, Model-based Clustering, robust estimation, outlier detection and Robust Discriminant Analysis are also available.
+author:
+- name: A. Pedro Duarte Silva
+  affiliation: Universidade Católica Portuguesa
+  address:
+  - Católica Porto Business School & CEGE
+  - Rua Diogo Botelho, 1327
+  - |
+    4169-005 Porto, Portugal
+- name: Paula Brito
+  affiliation: Faculdade de Economia, Universidade do Porto & LIAAD-INESC TEC
+  address:
+  - Rua Dr. Roberto Frias
+  - |
+    4200-464 Porto, Portugal
+- name: Peter Filzmoser
+  affiliation: |-
+    Institute of Statistics and Mathematical Methods in Economics, TU
+    Wien
+  address:
+  - Wiedner Hauptstraße 8-10
+  - |
+    1040 Vienna, Austria
+- name: José G. Dias
+  affiliation: Instituto Universitário de Lisboa (ISCTE-IUL)
+  address:
+  - Business Research Unit (BRU-IUL)
+  - Av. das Forças Armadas
+  - |
+    1648-026 Lisboa, Portugal
+date: '2021-08-17'
+date_received: '2020-10-30'
+journal:
+  firstpage: '336'
+  lastpage: '364'
+volume: 13
+issue: 2
+slug: RJ-2021-074
+doi: 10.32614/RJ-2021-074
+packages:
+  cran:
+  - survreg
+  - crch
+  - MAINT.Data
+  - symbolicDA
+  - RSDA
+  - iRegression
+  - GPCSIV
+  - sn
+  - Rcpp
+  - RcppArmadillo
+  - rrcov
+  - mclust
+  - nycflights13
+  - tidyverse
+  bioc: []
+CTV:

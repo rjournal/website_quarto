@@ -1,0 +1,34 @@
+title: Analysing Seasonal Data
+abstract: Many common diseases, such as the flu and cardiovascular disease, increase markedly in winter and dip in summer. These seasonal patterns have been part of life for millennia and were first noted in ancient Greece by both Hippocrates and Herodotus. Recent interest has focused on climate change, and the concern that seasons will become more extreme with harsher winter and summer weather. We describe a set of R functions designed to model seasonal patterns in disease. We illustrate some simple descriptive and graphical methods, a more complex method that is able to model non-stationary patterns, and the case-crossover to control for seasonal confounding.
+author:
+- name: Adrian Barnett
+  affiliation: School of Public Health, Queensland University of Technology
+  address: |
+    Australia
+- name: Peter Baker
+  affiliation: School of Population Health, University of Queensland
+  address: |
+    Australia
+- name: Annette Dobson
+  affiliation: School of Population Health, University of Queensland
+  address: |
+    Australia
+date: '2012-06-01'
+date_received:
+journal:
+  firstpage: '5'
+  lastpage: '10'
+volume: 4
+issue: 1
+slug: RJ-2012-001
+doi: 10.32614/RJ-2012-001
+packages:
+  cran:
+  - season
+  - timsac
+  - dynlm
+  - sspir
+  - forecast
+  - bfast
+  bioc: []
+CTV:

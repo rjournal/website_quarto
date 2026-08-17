@@ -1,0 +1,60 @@
+title: 'dad: an R Package for Visualisation, Classification and Discrimination of Multivariate Groups Modelled by their Densities'
+abstract: 'Multidimensional scaling (MDS), hierarchical cluster analysis (HCA), and discriminant analysis (DA) are classical techniques which deal with data made of $n$ individuals and $p$ variables. When the individuals are divided into $T$ groups, the R package *dad* associates with each group a multivariate probability density function and then carries out these techniques on the densities, which are estimated by the data under consideration. These techniques are based on distance measures between densities: chi-square, Hellinger, Jeffreys, Jensen-Shannon, and $L^p$ for discrete densities, Hellinger , Jeffreys, $L^2$, and 2-Wasserstein for Gaussian densities, and $L^2$ for numeric non-Gaussian densities estimated by the Gaussian kernel method. Practical methods help the user to give meaning to the outputs in the context of MDS and HCA and to look for an optimal prediction in the context of DA based on the one-leave-out misclassification ratio. Some functions for data management or basic statistics calculations on groups are annexed.'
+author:
+- name: Rachid Boumaza
+  affiliation: |-
+    IRHS-UMR1345, Université d'Angers, INRAE, Institut Agro, SFR 4207
+    QuaSaV
+  orcid: |
+    0000-0002-1600-1820
+  address:
+  - 49071, Beaucouzé
+  - France
+- name: Pierre Santagostini
+  affiliation: |-
+    IRHS-UMR1345, Université d'Angers, INRAE, Institut Agro, SFR 4207
+    QuaSaV
+  address:
+  - 49071, Beaucouzé
+  - |
+    France
+- name: Smail Yousfi
+  affiliation: Université Mouloud Mammeri
+  address:
+  - Département de mathématiques
+  - Tizi-Ouzou
+  - |
+    Algeria
+- name: Sabine Demotes-Mainard
+  affiliation: |-
+    IRHS-UMR1345, Université d'Angers, INRAE, Institut Agro, SFR 4207
+    QuaSaV
+  address:
+  - 49071, Beaucouzé
+  - |
+    France
+date: '2021-08-17'
+date_received: '2020-10-13'
+journal:
+  firstpage: '179'
+  lastpage: '207'
+volume: 13
+issue: 2
+slug: RJ-2021-071
+doi: 10.32614/RJ-2021-071
+packages:
+  cran:
+  - stats
+  - MASS
+  - ade4
+  - FactoMineR
+  - cluster
+  - dad
+  - fda
+  - fda.usc
+  - fdadensity
+  - compositions
+  - Compositional
+  - robCompositions
+  bioc: []
+CTV:

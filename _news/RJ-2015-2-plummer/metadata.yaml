@@ -1,0 +1,18 @@
+title: The R Consortium and the R Foundation
+abstract: The R Consortium was announced at the useR! 2015 conference in Aalborg, Denmark on 30 June. It is a non-profit organization set up to provide infrastructure for the R community. The purpose of this article is to explain some of the background to the setting up of the Consortium and how it interacts with the R Foundation.
+author:
+- name: Martyn Plummer
+  affiliation: Co-president, The R Foundation
+date: '2015-11-30'
+date_received:
+journal:
+  firstpage: '288'
+  lastpage: '288'
+volume: 7
+issue: 2
+slug: RJ-2015-2-plummer
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

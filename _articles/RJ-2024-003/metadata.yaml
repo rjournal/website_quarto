@@ -1,0 +1,80 @@
+title: 'bootCT: An R Package for Bootstrap Cointegration Tests in ARDL Models'
+abstract: |
+  The Autoregressive Distributed Lag approach to cointegration or bound
+  testing, proposed by Pesaran in 2001, has become prominent in
+  empirical research. Although this approach has many advantages over
+  the classical cointegration tests, it is not exempt from drawbacks,
+  such as possible inconclusive inference and distortion in size.
+  Recently, Bertelli and coauthors developed a bootstrap approach to the
+  bound tests to overcome these drawbacks. This paper introduces the R
+  package bootCT, which implements this method by deriving the bootstrap
+  versions of the bound tests and of the asymptotic F-test on the
+  independent variables proposed by Sam and coauthors in 2019. As a
+  spinoff, a general method for generating random multivariate time
+  series following a given VECM/ARDL structure is provided in the
+  package. Empirical applications showcase the main functionality of the
+  package.
+author:
+- name: Gianmarco Vacca
+  affiliation: Department of Economic Policy. Università Cattolica del Sacro Cuore
+  address:
+  - Largo Gemelli, 1, Milan.
+  - Italy
+  - (0000-0002-8996-5524)
+  - |
+    [gianmarco.vacca@unicatt.it](gianmarco.vacca@unicatt.it){.uri}
+- name: Maria Zoia
+  affiliation: Department of Economic Policy. Università Cattolica del Sacro Cuore
+  address:
+  - Largo Gemelli, 1, Milan.
+  - Italy
+  - (0000-0002-8169-781X)
+  - |
+    [maria.zoia@unicatt.it](maria.zoia@unicatt.it){.uri}
+- name: Stefano Bertelli
+  affiliation: |-
+    CRO Area, Internal Validation and Controls Department, Operational
+    Risk and ICAAP Internal Systems, Intesa Sanpaolo, Milan
+  address:
+  - Viale Stelvio, 55/57, Milan.
+  - Italy
+  - |
+    [stefano.bertelli@intesasanpaolo.com](stefano.bertelli@intesasanpaolo.com){.uri}
+date: '2025-01-10'
+date_received: '2022-07-25'
+journal:
+  firstpage: 39
+  lastpage: 67
+volume: 16
+issue: 1
+slug: RJ-2024-003
+doi: 10.32614/RJ-2024-003
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - bootCT
+  - dynamac
+  - magrittr
+  - gtools
+  - pracma
+  - Rcpp
+  - RcppArmadillo
+  - Rmisc
+  - ARDL
+  - aod
+  - vars
+  - urca
+  - aTSA
+  - tseries
+  - reshape2
+  - ggplot2
+  - stringr
+  - tidyverse
+  - dplyr
+  - ggplot
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

@@ -1,0 +1,44 @@
+title: Working with Daily Climate Model Output Data in R and the futureheatwaves Package
+abstract: Research on climate change impacts can require extensive processing of climate model output, especially when using ensemble techniques to incorporate output from multiple climate models and multiple simulations of each model. This processing can be particularly extensive when identifying and characterizing multi-day extreme events like heat waves and frost day spells, as these must be processed from model output with daily time steps. Further, climate model output is in a format and follows standards that may be unfamiliar to most R users. Here, we provide an overview of working with daily climate model output data in R. We then present the *futureheatwaves* package, which we developed to ease the process of identifying, characterizing, and exploring multi-day extreme events in climate model output. This package can input a directory of climate model output files, identify all extreme events using customizable event definitions, and summarize the output using user-specified functions.
+author:
+- name: G. Brooke Anderson
+  affiliation: Colorado State University
+  address:
+  - Department of Environmental & Radiological Health Sciences
+  - 1681 Campus Delivery
+  - Fort Collins, Colorado 80523
+- name: Colin Eason
+  affiliation: Colorado State University
+  address:
+  - Department of Computer Science
+  - 1873 Campus Delivery
+  - Fort Collins, Colorado 80523
+- name: Elizabeth A. Barnes
+  affiliation: Colorado State University
+  address:
+  - Department of Atmospheric Science
+  - 1371 Campus Delivery
+  - Fort Collins, CO 80523
+date: '2017-06-08'
+date_received: '2016-04-18'
+journal:
+  firstpage: '124'
+  lastpage: '137'
+volume: 9
+issue: 1
+slug: RJ-2017-032
+doi: 10.32614/RJ-2017-032
+packages:
+  cran:
+  - futureheatwaves
+  - ggplot2
+  - ncdf4
+  - RNetCDF
+  - ncdf4.helpers
+  - PCICt
+  - RCMIP5
+  - wux
+  - Rcpp
+  - leaflet
+  bioc: ncdfFlow
+CTV:

@@ -1,0 +1,34 @@
+title: Analyzing an Electronic Limit Order Book
+abstract: 'The [*orderbook*](https://CRAN.R-project.org/package=orderbook) package provides facilities for exploring and visualizing the data associated with an order book: the electronic collection of the outstanding limit orders for a financial instrument. This article provides an overview of the [*orderbook*](https://CRAN.R-project.org/package=orderbook) package and examples of its use.'
+author:
+- name: David Kane
+  affiliation: Kane Capital Management
+  address:
+  - Cambridge, MA
+  - |
+    USA
+- name: Andrew Liu
+  affiliation: Williams College
+  address:
+  - Williamstown, MA
+  - |
+    USA
+- name: Khanh Nguyen
+  affiliation: University Of Massachusetts at Boston
+  address:
+  - Boston, MA
+  - |
+    USA
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 64
+  lastpage: 68
+volume: 3
+issue: 1
+slug: RJ-2011-010
+doi: 10.32614/RJ-2011-010
+packages:
+  cran: orderbook
+  bioc: []
+CTV:

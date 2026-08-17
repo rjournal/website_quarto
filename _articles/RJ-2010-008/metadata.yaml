@@ -1,0 +1,29 @@
+title: Two-sided Exact Tests and Matching Confidence Intervals for Discrete Data
+abstract: There is an inherent relationship between two-sided hypothesis tests and confidence intervals. A series of two-sided hypothesis tests may be inverted to obtain the 100(1-$\alpha$)% confidence interval defined as the smallest interval that contains all point null parameter values that would not be rejected at the $\alpha$ level. Unfortunately, for discrete data there are several different ways of defining two-sided exact tests and the most commonly used two-sided exact tests are defined one way, while the most commonly used exact confidence intervals are inversions of tests defined another way. This can lead to inconsistencies where the exact test rejects but the exact confidence interval contains the null parameter value. The packages [*exactci*](https://CRAN.R-project.org/package=exactci) and [*exact2x2*](https://CRAN.R-project.org/package=exact2x2) provide several exact tests with the matching confidence intervals avoiding these inconsistencies as much as possible. Examples are given for binomial and Poisson parameters and both paired and unpaired $2 \times 2$ tables.
+author:
+- name: Michael P. Fay
+  affiliation: National Institute of Allergy and Infectious Diseases
+  address:
+  - 6700-A Rockledge Dr. Room 5133, Bethesda, MD 20817
+  - |
+    USA
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 53
+  lastpage: 58
+volume: 2
+issue: 1
+slug: RJ-2010-008
+doi: 10.32614/RJ-2010-008
+packages:
+  cran:
+  - exactci
+  - exact2x2
+  - stats
+  - PropCIs
+  - rateratio.test
+  - coin
+  - perm
+  bioc: []
+CTV:

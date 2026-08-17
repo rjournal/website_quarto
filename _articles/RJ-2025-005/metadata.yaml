@@ -1,0 +1,61 @@
+title: Space-Time Smoothing of Survey Outcomes using the R Package SUMMER
+author:
+- name: Zehang Richard Li
+  affiliation: University of California, Santa Cruz
+  address: Santa Cruz CA, USA
+  orcid: 0000-0002-9079-593X
+  email: lizehang@ucsc.edu
+- name: Bryan D Martin
+  email: bmartin6@uw.edu
+  affiliation: University of Washington
+  address: Seattle, WA, USA
+- name: Tracy Qi Dong
+  email: qdong@fredhutch.org
+  affiliation: Fred Hutchinson Cancer Research Center
+  address: Seattle, WA, USA
+  orcid: 0000-0001-6769-608X
+- name: Geir-Arne Fuglstad
+  email: geir-arne.fuglstad@ntnu.no
+  affiliation: Norwegian University of Science and Technology
+  address: Trondheim, Norway
+  orcid: 0000-0003-4995-2152
+- name: Jessica Godwin
+  email: jlg0003@uw.edu
+  affiliation: University of Washington
+  address: Seattle, WA, USA
+- name: John Paige
+  email: paigejo@gmail.com
+  affiliation: Norwegian Computing Center
+  address: Oslo, Norway
+  orcid: 0000-0003-2683-2596
+- name: Andrea Riebler
+  email: andrea.riebler@ntnu.no
+  affiliation: Norwegian University of Science and Technology
+  address: Trondheim, Norway
+- name: Samuel J Clark
+  email: work@samclark.net
+  affiliation: The Ohio State University
+  address: Columbus, OH, USA
+  orcid: 0000-0002-4929-6231
+- name: Jon Wakefield
+  email: jonno@uw.edu
+  affiliation: University of Washington
+  address: Seattle, WA, USA
+date: '2025-08-07'
+draft: no
+abstract: |
+  The increasing availability of complex survey data, and the continued need for estimates of demographic and health indicators at a fine spatial and temporal scale, has led to the need for spatio-temporal smoothing methods that acknowledge the manner in which the data were collected. The open source R package SUMMER implements a variety of methods for spatial or spatio-temporal smoothing of survey outcomes. In this paper, we focus primarily on demographic and health indicators. Our methods are particularly useful for data from Demographic Health Surveys (DHS) and Multiple Indicator Cluster Surveys (MICS). We build upon functions within the survey package, and use INLA for fast Bayesian computation. This paper includes a brief overview of these methods and illustrates the workflow of processing surveys, fitting space-time smoothing models for both binary and composite indicators, and visualizing results with both simulated data and DHS surveys.
+type: package
+preamble: |
+  \usepackage{amsmath, amsthm, amsfonts, amssymb, bm, natbib}
+  \newcommand{\red}[1]{\textcolor{red}{#1}}
+  \newcommand{\proglang}[1]{\text{#1}}
+date_received: '2024-05-24'
+volume: 17
+issue: 1
+slug: RJ-2025-005
+doi: 10.32614/RJ-2025-005
+journal:
+  lastpage: 107
+  firstpage: 88
+

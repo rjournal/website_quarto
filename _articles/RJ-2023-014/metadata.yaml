@@ -1,0 +1,67 @@
+title: 'A Study in Reproducibility: The Congruent Matching Cells Algorithm and cmcR Package'
+abstract: |
+  Scientific research is driven by our ability to use methods, procedures, and materials from previous studies and further research by adding to it. As the need for computationally-intensive methods to analyze large amounts of data grows, the criteria needed to achieve reproducibility, specifically computational reproducibility, have become more sophisticated. In general, prosaic descriptions of algorithms are not detailed or precise enough to ensure complete reproducibility of a method. Results may be sensitive to conditions not commonly specified in written-word descriptions such as implicit parameter settings or the programming language used. To achieve true computational reproducibility, it is necessary to provide all intermediate data and code used to produce published results. In this paper, we consider a class of algorithms developed to perform firearm evidence identification on cartridge case evidence known as the *Congruent Matching Cells* (CMC) methods. To date, these algorithms have been published as textual descriptions only. We introduce the first open-source implementation of the Congruent Matching Cells methods in the R package \CRANpkg{cmcR}. We have structured the \CRANpkg{cmcR} package as a set of sequential, modularized functions intended to ease the process of parameter experimentation. We use \CRANpkg{cmcR} and a novel variance ratio statistic to explore the CMC methodology and demonstrate how to fill in the gaps when provided with computationally ambiguous descriptions of algorithms.
+draft: no
+author:
+- name: Joseph Zemmels
+  address:
+  - Department of Statistics
+  - Iowa State University
+  - 2438 Osborn Drive
+  - Ames, IA 50011
+  affiliation: Center for Statistics and Applications in Forensic Evidence
+  email: jzemmels@iastate.edu
+- name: Susan VanderPlas
+  address:
+  - Department of Statistics
+  - 340 Hardin Hall North Wing
+  - 3310 Holdrege St.
+  - Lincoln, NE 68583
+  affiliation: University of Nebraska - Lincoln
+  email: susan.vanderplas@unl.edu
+- name: Heike Hofmann
+  address:
+  - Department of Statistics
+  - Iowa State University
+  - 2438 Osborn Drive
+  - Ames, IA 50011
+  affiliation: Center for Statistics and Applications in Forensic Evidence
+  email: hofmann@iastate.edu
+type: package
+preamble: |
+  \PassOptionsToPackage{table}{xcolor}
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{amsmath,amssymb,array}
+  \usepackage{booktabs}
+  \usepackage{subfig}
+  \usepackage{nameref}
+  \usepackage{booktabs}
+  \usepackage{longtable}
+  \usepackage{array}
+  \usepackage{multirow}
+  \usepackage{wrapfig}
+  \usepackage{float}
+  \usepackage{colortbl}
+  \usepackage{pdflscape}
+  \usepackage{tabu}
+  \usepackage{threeparttable}
+  \usepackage{threeparttablex}
+  \usepackage[normalem]{ulem}
+  \usepackage{makecell}
+  \newtheorem{definition}{Definition}
+header-includes: |
+  \definecolor{lightgray}{HTML}{D3D3D3}
+editor_options:
+  markdown:
+    wrap: sentence
+date: '2023-02-10'
+date_received: '2021-04-12'
+volume: 14
+issue: 4
+slug: RJ-2023-014
+doi: 10.32614/RJ-2023-014
+journal:
+  lastpage: 102
+  firstpage: 79
+

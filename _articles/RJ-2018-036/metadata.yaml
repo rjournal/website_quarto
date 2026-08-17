@@ -1,0 +1,36 @@
+title: Small Area Disease Risk Estimation and Visualization Using R
+abstract: Small area disease risk estimation is essential for disease prevention and control. In this paper, we demonstrate how R can be used to obtain disease risk estimates and quantify risk factors using areal data. We explain how to define disease risk models and how to perform Bayesian inference using the ***INLA*** package. We also show how to make interactive maps of estimates using the ***leaflet*** package to better understand the disease spatial patterns and communicate the results. We show an example of lung cancer risk in Pennsylvania, United States, in year 2002, and demonstrate that R represents an excellent tool for disease surveillance by enabling reproducible health data analysis.
+author:
+- name: Paula Moraga
+  affiliation: |-
+    Centre for Health Informatics, Computing and Statistics (CHICAS),
+    Lancaster Medical School
+  orcid: |
+    0000-0001-5266-0201
+  address:
+  - Lancaster University
+  - Lancaster, LA1 4YW
+  - United Kingdom
+date: '2018-06-07'
+date_received: '2018-02-03'
+journal:
+  firstpage: '495'
+  lastpage: '506'
+volume: 10
+issue: 1
+slug: RJ-2018-036
+doi: 10.32614/RJ-2018-036
+packages:
+  cran:
+  - leaflet
+  - SpatialEpi
+  - spdep
+  - ggplot2
+  - flexdashboard
+  - shiny
+  - SpatialEpiApp
+  - dygraphs
+  - DT
+  - rmarkdown
+  bioc: []
+CTV:

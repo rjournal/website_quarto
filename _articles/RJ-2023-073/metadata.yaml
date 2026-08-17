@@ -1,0 +1,37 @@
+title: 'mathml: Translate R Expressions to MathML and LaTeX'
+abstract: This R package translates R objects to suitable elements in MathML or LaTeX, thereby allowing for a pretty mathematical representation of R objects and functions in data analyses, scientific reports and interactive web content. In the R Markdown document rendering language, R code and mathematical content already exist side-by-side. The present package enables use of the same R objects for both data analysis and typesetting in documents or web content. This tightens the link between the statistical analysis and its verbal description or symbolic representation, which is another step towards reproducible science. User-defined hooks enable extension of the package by mapping specific variables or functions to new MathML and LaTeX entities. Throughout the paper, examples are given for the functions of the package, and a case study illustrates its use in a scientific report.
+author:
+- name: Matthias Gondan
+  affiliation: Universität Innsbruck
+  address:
+  - Department of Psychology
+  - Innsbruck, Austria
+  - <https://www.uibk.ac.at/psychologie/mitarbeiter/gondan-rochon/index.html.en>
+  orcid: 0000-0001-9974-0057
+  email: Matthias.Gondan-Rochon@uibk.ac.at
+- name: Irene Alfarone
+  affiliation: Universität Innsbruck
+  address:
+  - Department of Psychology
+  - Innsbruck, Austria
+  - <https://www.uibk.ac.at/psychologie/mitarbeiter/alfarone/index.html.en>
+  orcid: 0000-0002-8409-8900
+  email: Irene.Alfarone@uibk.ac.at
+date: '2023-12-18'
+date_received: '2023-05-06'
+journal:
+  firstpage: 277
+  lastpage: 291
+volume: 15
+issue: 3
+subid: 2023-47
+slug: RJ-2023-073
+doi: 10.32614/RJ-2023-073
+packages:
+  cran:
+  bioc:
+draft: no
+preamble: |
+  \usepackage{cancel}
+  \usepackage{amsmath}
+CTV:

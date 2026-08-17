@@ -1,0 +1,50 @@
+title: 'ProjectManagement: an R Package for Managing Projects'
+abstract: Project management is an important body of knowledge and practices that comprises the planning, organisation and control of resources to achieve one or more pre-determined objectives. In this paper, we introduce *ProjectManagement*, a new R package that provides the necessary tools to manage projects in a broad sense, and illustrate its use by examples.
+author:
+- name: Juan Carlos Gonçalves-Dosantos
+  affiliation: |-
+    Grupo MODES, CITIC and Departamento de Matemáticas, Universidade da
+    Coruña
+  orcid: |
+    0000-0003-1578-8411
+  address:
+  - Campus de Elviña, 15071 A Coruña
+  - Spain
+- name: Ignacio García-Jurado
+  affiliation: |-
+    Grupo MODES, CITIC and Departamento de Matemáticas, Universidade da
+    Coruña
+  orcid: |
+    0000-0002-6681-1629
+  address:
+  - Campus de Elviña, 15071 A Coruña
+  - Spain
+- name: Julian Costa
+  affiliation: Grupo MODES, Departamento de Matemáticas, Universidade da Coruña
+  orcid: |
+    0000-0001-9760-9581
+  address:
+  - Campus de Elviña, 15071 A Coruña
+  - Spain
+date: '2020-09-10'
+date_received: '2020-01-17'
+journal:
+  firstpage: '419'
+  lastpage: '436'
+volume: 12
+issue: 1
+slug: RJ-2020-009
+doi: 10.32614/RJ-2020-009
+packages:
+  cran:
+  - PlotPrjNetworks
+  - plan
+  - ProjectManagement
+  - triangle
+  - plotly
+  - igraph
+  - kappalab
+  - GameTheory
+  - lpSolveAPI
+  bioc: []
+CTV:

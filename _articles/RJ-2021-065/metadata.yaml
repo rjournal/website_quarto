@@ -1,0 +1,63 @@
+title: 'The bdpar Package: Big Data Pipelining Architecture for R'
+abstract: In the last years, big data has become a useful paradigm for taking advantage of multiple sources to find relevant knowledge in real domains (such as the design of personalized marketing campaigns or helping to palliate the effects of several fatal diseases). Big data programming tools and methods have evolved over time from a MapReduce to a pipeline-based archetype. Concretely the use of pipelining schemes has become the most reliable way of processing and analyzing large amounts of data. To this end, this work introduces *bdpar*, a new highly customizable pipeline-based framework (using the OOP paradigm provided by [*R6*](https://CRAN.R-project.org/package=R6) package) able to execute multiple preprocessing tasks over heterogeneous data sources. Moreover, to increase the flexibility and performance, *bdpar* provides helpful features such as (i) the definition of a novel object-based pipe operator (`%>|%`), (ii) the ability to easily design and deploy new (and customized) input data parsers, tasks, and pipelines, (iii) only-once execution which avoids the execution of previously processed information (instances), guaranteeing that only new both input data and pipelines are executed, (iv) the capability to perform serial or parallel operations according to the user needs, (v) the inclusion of a debugging mechanism which allows users to check the status of each instance (and find possible errors) throughout the process.
+author:
+- name: Miguel Ferreiro-Díaz
+  affiliation: SING Research Group, University of Vigo
+  address:
+  - Department of Computer Science
+  - |
+    CINBIO -- Centro de Investigaciones Biomédicas, University of Vigo,
+    Campus Universitario Lagoas-Marcosende, 36310 Vigo, Spain
+- name: Tomás R. Cotos-Yáñez
+  affiliation: SiDOR Research Group, University of Vigo
+  orcid: |
+    0000-0002-7732-6565
+  address:
+  - Department of Statistics and Operations Research
+  - |-
+    CINBIO -- Centro de Investigaciones Biomédicas, University of Vigo,
+    Campus Universitario Lagoas-Marcosende, 36310 Vigo, Spain
+- name: José R. Méndez
+  affiliation: |-
+    SING Research Group, Galicia Sur Health Research Institute (IIS
+    Galicia Sur)
+  orcid: |
+    0000-0002-1935-4760
+  address:
+  - Department of Computer Science
+  - SERGAS-UVIGO, Spain
+  - |-
+    CINBIO -- Centro de Investigaciones Biomédicas, University of Vigo,
+    Campus Universitario Lagoas-Marcosende, 36310 Vigo, Spain
+- name: David Ruano-Ordás
+  affiliation: |-
+    SING Research Group, Galicia Sur Health Research Institute (IIS
+    Galicia Sur)
+  orcid: |
+    0000-0002-6050-373X
+  address:
+  - Department of Computer Science
+  - SERGAS-UVIGO, Spain
+  - |-
+    CINBIO -- Centro de Investigaciones Biomédicas, University of Vigo,
+    Campus Universitario Lagoas-Marcosende, 36310 Vigo, Spain
+date: '2021-07-16'
+date_received: '2020-04-30'
+journal:
+  firstpage: '131'
+  lastpage: '145'
+volume: 13
+issue: 1
+slug: RJ-2021-065
+doi: 10.32614/RJ-2021-065
+packages:
+  cran:
+  - R6
+  - repo
+  - drake
+  - magrittr
+  - rtweet
+  - tuber
+  - tm
+  bioc: []
+CTV:

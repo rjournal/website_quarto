@@ -1,0 +1,50 @@
+title: 'ArCo: An R package to Estimate Artificial Counterfactuals'
+abstract: In this paper we introduce the ***ArCo*** package for R which consists of a set of functions to implement the the Artificial Counterfactual (ArCo) methodology to estimate causal effects of an intervention (treatment) on aggregated data and when a control group is not necessarily available. The ArCo method is a two-step procedure, where in the first stage a counterfactual is estimated from a large panel of time series from a pool of untreated peers. In the second-stage, the average treatment effect over the post-intervention sample is computed. Standard inferential procedures are available. The package is illustrated with both simulated and real datasets.
+author:
+- name: Yuri R. Fonseca
+  affiliation: |-
+    Department of Materials Science, Military Institute of Engineering
+    (IME)
+  address:
+  - Praça Gen Tibúrcio 80, Praia Vermelha, Rio de Janeiro, RJ
+  - |
+    Brazil
+- name: Ricardo P. Masini
+  affiliation: São Paulo School of Economics - FGV-SP
+  address:
+  - Address Rua Itapeva 474, Bela Vista, São Paulo, SP
+  - |
+    Brazil
+- name: Marcelo C. Medeiros
+  affiliation: |-
+    Department of Economics, Pontifical Catholic University of Rio de
+    Janeiro (PUC-Rio)
+  address:
+  - Rua Marquês de São Vicente 225, Gávea, Rio de Janeiro, RJ
+  - |
+    Brazil
+- name: Gabriel F. R. Vasconcelos
+  affiliation: |-
+    Department of Electrical Engineering, Pontifical Catholic University
+    of Rio de Janeiro (PUC-Rio)
+  address:
+  - Rua Marquês de São Vicente 225, Gávea, Rio de Janeiro, RJ
+  - |
+    Brazil
+date: '2018-05-16'
+date_received: '2017-05-09'
+journal:
+  firstpage: '91'
+  lastpage: '108'
+volume: 10
+issue: 1
+slug: RJ-2018-016
+doi: 10.32614/RJ-2018-016
+packages:
+  cran:
+  - ArCo
+  - boot
+  - glmnet
+  - Synth
+  bioc: []
+CTV:

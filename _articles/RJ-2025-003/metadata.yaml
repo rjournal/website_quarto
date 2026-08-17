@@ -1,0 +1,61 @@
+title: 'LCCR: An R Package for Inference on Latent Class Models for Capture-Recapture Data with Covariates'
+abstract: |
+  A detailed description of the R package LCCR for the analysis of
+  capture-recapture data relating to a closed population is provided.
+  The data that can be analyzed consist of the full capture history for
+  each sample unit and may possibly include individual covariates. The
+  package allows the specification and estimation of latent class models
+  in which the distribution of the capture history conditional on the
+  latent class and covariates follows either a log-linear model in which
+  bivariate interactions are allowed, or a logit model for the
+  conditional probability of capture at each occasion given the previous
+  capture history. Alternatively, the conditional distribution of each
+  capture occasion can be formulated by a logit model that may account
+  for the effect of previous capture occasions. Apart from the
+  conditional distribution of the capture history, the covariates can
+  also affect the distribution of the class weights. Estimation is based
+  on the unconditional maximum likelihood method, suitably extended to
+  account for the presence of covariates by including unit-specific
+  weights, which are commonly used in empirical likelihood methods. The
+  package also allows simulation of capture-recapture data from a
+  specified model and the computation of the profile confidence interval
+  for the population size. For illustration, we use a data set about
+  meningitis cases in an Italian region.
+author:
+- name: Francesco Bartolucci
+  affiliation: Department of Economics, University of Perugia
+  address:
+  - Perugia, 06124
+  - Italy
+  - (0000-0001-7057-1421)
+  - |
+    [francesco.bartolucci@unipg.it](francesco.bartolucci@unipg.it){.uri}
+- name: Antonio Forcina
+  affiliation: Formerly at University of Perugia
+  address:
+  - Perugia, 06124
+  - Italy
+  - (0000-0001-5239-5495)
+  - |
+    [forcinarosara@gmail.com](forcinarosara@gmail.com){.uri}
+date: '2025-08-07'
+date_received: '2024-05-17'
+journal:
+  firstpage: 47
+  lastpage: 66
+volume: 17
+issue: 1
+slug: RJ-2025-003
+doi: 10.32614/RJ-2025-003
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - LCCR
+  - Rcapture
+  - LCMCR
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

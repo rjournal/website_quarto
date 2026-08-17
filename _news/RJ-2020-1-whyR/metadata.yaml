@@ -1,0 +1,71 @@
+title: 'Conference Report: Why R? 2019'
+abstract: 'The ''Conference Report: Why R? 2019'' article from the 2020-1 issue.'
+author:
+- name: Michał Burdukiewicz
+  affiliation: Warsaw University of Technology, Why R? Foundation
+  address:
+  - Pl. Politechniki 1, 00-661 Warsaw
+  - |
+    Poland
+- name: Filip Pietluch
+  affiliation: University of Wrocław
+  address:
+  - Pl. Uniwersytecki 1, 50-137 Wrocław
+  - |
+    Poland
+- name: Jarosław Chilimoniuk
+  affiliation: University of Wrocław
+  address:
+  - Pl. Uniwersytecki 1, 50-137 Wrocław
+  - |
+    Poland
+- name: Katarzyna Sidorczuk
+  affiliation: University of Wrocław
+  address:
+  - Pl. Uniwersytecki 1, 50-137 Wrocław
+  - |
+    Poland
+- name: Dominik Rafacz
+  affiliation: Warsaw University of Technology
+  address:
+  - Pl. Politechniki 1, 00-661 Warsaw
+  - |
+    Poland
+- name: Leon Eyrich Jessen
+  affiliation: Technical University of Denmark
+  address:
+  - Anker Engelunds Vej 1, 2800 Kgs. Lyngby, Denmark
+  - |
+    Denmark
+- name: 'Stefan Rödiger'
+  affiliation: Brandenburg University of Technology Cottbus--Senftenberg
+  address:
+  - Universitätsplatz 1, Senftenberg
+  - |
+    Germany 
+  orcid: 0000-0002-1441-6512
+- name: Marcin Kosiński
+  affiliation: Gradient Metrics LLC, Why R? Foundation
+  address:
+  - Warsaw
+  - |
+    Poland
+- name: Piotr Wójcik
+  affiliation: University of Warsaw, Data Science Lab
+  address:
+  - ul. Dluga 44/50, 00-241 Warsaw
+  - |
+    Poland
+date: '2020-06-01'
+date_received:
+journal:
+  firstpage: '484'
+  lastpage: '494'
+volume: 12
+issue: 1
+slug: RJ-2020-1-whyR
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

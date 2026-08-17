@@ -1,0 +1,58 @@
+title: 'QuantifQuantile: An R Package for Performing Quantile Regression through Optimal Quantization'
+abstract: In quantile regression, various quantiles of a response variable $Y$ are modelled as functions of covariates (rather than its mean). An important application is the construction of reference curves/surfaces and conditional prediction intervals for $Y$. Recently, a nonparametric quantile regression method based on the concept of optimal quantization was proposed. This method competes very well with $k$-nearest neighbor, kernel, and spline methods. In this paper, we describe an R package, called *QuantifQuantile*, that allows to perform quantization-based quantile regression. We describe the various functions of the package and provide examples.
+author:
+- name: Isabelle Charlier
+  affiliation: Université Libre de Bruxelles
+  address:
+  - Département de Mathématique and ECARES
+  - Campus Plaine, Boulevard du Triomphe, CP210
+  - 1050 Brussels
+  - Belgium
+  - and
+  - Université de Bordeaux
+  - IMB, UMR 5251
+  - 33400 Talence
+  - France
+  - and
+  - Inria Bordeaux Sud-Ouest
+  - 200 Avenue Vieille Tour
+  - 33400 Talence
+  - |
+    France
+- name: Davy Paindaveine
+  affiliation: Université Libre de Bruxelles
+  address:
+  - ECARES and Département de Mathématique
+  - Avenue F.D. Roosevelt, 50, ECARES - CP114/04
+  - 1050 Brussels
+  - |
+    Belgium
+- name: Jérôme Saracco
+  affiliation: Université de Bordeaux
+  address:
+  - IMB, UMR 5251
+  - 33400 Talence
+  - France
+  - and
+  - Inria Bordeaux Sud-Ouest
+  - 200 Avenue Vieille Tour
+  - 33400 Talence
+  - |
+    France
+date: '2015-10-30'
+date_received: '2014-09-28'
+journal:
+  firstpage: '65'
+  lastpage: '80'
+volume: 7
+issue: 2
+slug: RJ-2015-021
+doi: 10.32614/RJ-2015-021
+packages:
+  cran:
+  - quantreg
+  - quantregGrowth
+  - QuantifQuantile
+  - rgl
+  bioc: []
+CTV:

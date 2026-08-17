@@ -1,0 +1,57 @@
+title: 'Automatic Time Series Forecasting with Ata Method in R: ATAforecasting Package'
+abstract: Ata method is a new univariate time series forecasting method that provides innovative solutions to issues faced during the initialization and optimization stages of existing methods. The Ata method's forecasting performance is superior to existing methods in terms of easy implementation and accurate forecasting. It can be applied to non-seasonal or deseasonalized time series, where the deseasonalization can be performed via any preferred decomposition method. The R package [*ATAforecasting*](https://CRAN.R-project.org/package=ATAforecasting) was developed as a comprehensive toolkit for automatic time series forecasting. It focuses on modeling all types of time series components with any preferred Ata methods and handling seasonality patterns by utilizing some popular decomposition techniques. The *ATAforecasting* package allows researchers to model seasonality with STL, STLplus, TBATS, stR, and TRAMO/SEATS, and power family transformation and analyze the any time series with a simple Ata method and additive, multiplicative, damped trend the Ata methods and level fixed Ata trended methods. It offers functions for researchers and data analysts to model any type of time series data sets without requiring specialization. However, an expert user may use the functions that can model all possible time series behaviors. The package also incorporates types of model specifications and their graphs, uses different accuracy measures that surely increase the Ata method's performance.
+author:
+- name: Ali Sabri Taylan
+  affiliation: Dokuz Eylul University
+  orcid: |
+    0000-0001-9514-934X
+  address:
+  - The Graduate School of Natural and Applied Sciences
+  - Tinaztepe Campus Buca, Izmir, TURKEY
+- name: Guckan Yapar
+  affiliation: Dokuz Eylul University
+  orcid: |
+    0000-0002-0971-6676
+  address:
+  - The Graduate School of Natural and Applied Sciences
+  - Tinaztepe Campus Buca, Izmir, TURKEY
+- name: Hanife Taylan Selamlar
+  affiliation: Dokuz Eylul University
+  orcid: |
+    0000-0002-4091-884X
+  address:
+  - The Graduate School of Natural and Applied Sciences
+  - Tinaztepe Campus Buca, Izmir, TURKEY
+date: '2021-12-15'
+date_received: '2021-01-15'
+journal:
+  firstpage: '507'
+  lastpage: '541'
+volume: 13
+issue: 2
+slug: RJ-2021-101
+doi: 10.32614/RJ-2021-101
+packages:
+  cran:
+  - ATAforecasting
+  - forecast
+  - stats
+  - stlplus
+  - stR
+  - tsibbledata
+  - ucra
+  - tseries
+  - seasonal
+  - Rcpp
+  - RcppArmadillo
+  - urca
+  - uroot
+  - xts
+  - timeSeries
+  - TSA
+  - Mcomp
+  - fable.ata
+  - fabletools
+  - fable
+  bioc: []
+CTV:

@@ -1,0 +1,39 @@
+title: Discrete Time Markov Chains with R
+abstract: The [*markovchain*](https://CRAN.R-project.org/package=markovchain) package aims to provide S4 classes and methods to easily handle Discrete Time Markov Chains (DTMCs), filling the gap with what is currently available in the CRAN repository. In this work, I provide an exhaustive description of the main functions included in the package, as well as hands-on examples.
+author:
+- name: Giorgio Alfredo Spedicato
+  affiliation: UnipolSai Assicurazioni
+  address:
+  - Piazza della Costituzione 2
+  - |
+    Bologna 40128, Italy
+date: '2017-07-24'
+date_received: '2016-11-16'
+journal:
+  firstpage: '84'
+  lastpage: '104'
+volume: 9
+issue: 2
+slug: RJ-2017-036
+doi: 10.32614/RJ-2017-036
+packages:
+  cran:
+  - markovchain
+  - clickstream
+  - DTMCPack
+  - MTCM
+  - FuzzyStatProb
+  - depmixS4
+  - HMM
+  - msm
+  - heemod
+  - TPmsm
+  - Rcpp
+  - igraph
+  - matlab
+  - Matrix
+  - expm
+  - method
+  - RcppParallel
+  bioc: []
+CTV:

@@ -1,0 +1,75 @@
+title: Forwards Column
+abstract: The study presented here is a first attempt to capture the demographics and opinions of the R community, starting with the attendees of the useR! conference 2016. One aim of Forwards, the R Foundation taskforce on women and other under-represented groups, is to identify groups that are under-represented in the R community and to further stimulate ideas and take initiatives for widening their participation. Since R is an open-source software with various platforms for exchange, however, it is difficult to obtain information about its community -- let alone define this community in the first place. As a starting point, a survey was conducted with the attendees of the useR! conference 2016 to document their sociodemographic and computational backgrounds, experiences and opinions. The present paper gives an overview of the results of this first survey. Most of the analysis focuses on women participants, that are generally under-represented in STEM (Science, Technology, Engineering, Mathematics) disciplines, but the results also show a severe under-representation of minorities. A surprising finding concerns a gender difference with regard to the experience with R and the publication of R packages. We investigated possible reasons for this difference by the means of a logistic regression analysis. The self-evident limitations of this first survey are discussed and directions for future research as well as potential means for improvement are outlined.
+author:
+- name: Stella Bollmann
+  affiliation: Department of Psychology, University of Zurich
+  address:
+  - Zurich
+  - |
+    Switzerland
+- name: Dianne Cook
+  affiliation: Department of Econometrics and Business Statistics, Monash University
+  address:
+  - Melbourne
+  - |
+    Australia
+- name: Jasmine Dumas
+  affiliation: Simple Finance
+  address:
+  - Hartford
+  - |
+    United States of America
+- name: John Fox
+  affiliation: Department of Sociology, McMaster University
+  address:
+  - Hamilton
+  - |
+    Canada
+- name: Julie Josse
+  affiliation: |-
+    Department of Applied Mathematics, Ecole Polytechnique, University of
+    Paris-Saclay
+  address:
+  - Paris
+  - |
+    France
+- name: Oliver Keyes
+  affiliation: |-
+    Department of Human Centred Design & Engineering, University of
+    Washington
+  address:
+  - Seattle
+  - |
+    United States of America
+- name: Carolin Strobl
+  affiliation: Department of Psychology, University of Zurich
+  address:
+  - Zurich
+  - |
+    Switzerland
+- name: Heather Turner
+  affiliation: Department of Statistics, University of Warwick
+  orcid: |
+    0000-0002-1256-3375
+  address:
+  - Coventry
+  - United Kingdom
+- name: Rudolf Debelak
+  affiliation: Department of Psychology, University of Zurich
+  address:
+  - Zurich
+  - |
+    Switzerland
+date: '2017-12-01'
+date_received:
+journal:
+  firstpage: '541'
+  lastpage: '552'
+volume: 9
+issue: 2
+slug: RJ-2017-2-forwards
+citation_url: https://rjournal.github.io/
+packages:
+  cran: forwards
+  bioc: []
+CTV:

@@ -1,0 +1,35 @@
+title: 'rqPen: An R Package for Penalized Quantile Regression'
+date: '2025-09-09'
+abstract: |
+  Quantile regression directly models a conditional quantile of interest. The R package rqPen provides penalized quantile regression estimation using the lasso, elastic net, adaptive lasso, SCAD, and MCP penalties. It also provides extensions to group penalties, both for groups of predictors and grouping variable selection across quantiles. This paper presents the different approaches to penalized quantile regression and how to use the provided methods in rqPen.
+draft: no
+author:
+- name: Ben Sherwood
+  affiliation: University of Kansas
+  address:
+  - School of Business
+  - Lawrence, KS
+  email: ben.sherwood@ku.edu
+- name: Shaobo Li
+  affiliation: University of Kansas
+  address:
+  - School of Business
+  - Lawrence, KS
+  email: shaobo.li@ku.edu
+- name: Adam Maidman
+  affiliation: University of Minnesota
+  address:
+  - School of Statistics
+  - Minneapolis, MN
+  email: abmaidman@gmail.com
+type: package
+preamble: \usepackage{thumbpdf,lmodern,amsfonts,amsmath,mathtools}
+date_received: '2024-05-24'
+volume: 17
+issue: 2
+slug: RJ-2025-017
+doi: 10.32614/RJ-2025-017
+journal:
+  lastpage: 175
+  firstpage: 146
+

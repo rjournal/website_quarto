@@ -1,0 +1,34 @@
+title: 'knitrdata: A Tool for Creating Standalone Rmarkdown Source Documents'
+date: '2023-02-10'
+author:
+- name: David M. Kaplan
+  url: https://www.davidmkaplan.fr
+  email: david.kaplan@ird.fr
+  orcid: 0000-0001-6087-359X
+  affiliation: MARBEC
+  address:
+  - Univ Montepllier, CNRS, Ifremer, IRD
+  - Sète, France
+  affiliation2: Institute de Recherche pour le Developpement (IRD)
+  address2:
+  - UMR MARBEC
+  - av. Jean Monnet
+  - CS 30171
+  - 34203 Sète cedex, France
+abstract: "Though Rmarkdown is a powerful tool for integrating text with code for analyses in a single source document exportable to a variety of output formats, until now there has been no simple way to integrate the data behind analyses into Rmarkdown source documents. The `knitrdata` package makes it possible for arbitrary text and binary data to be integrated directly into Rmarkdown source documents via implementation of a new `data` chunk type. The package includes command-line and graphical tools that facilitate creating and inserting `data` chunks into Rmarkdown documents, and the treatment of `data` chunks is highly configurable via chunk options. These tools allow one to easily create fully standalone Rmarkdown source documents integrating data, ancillary formatting files, analysis code and text in a single file. Used properly, the package can facilitate open distribution of source documents that demonstrate computational reproducibility of scientific results. \n"
+preamble: |
+  % Any extra LaTeX you need in the preamble
+  \usepackage{longtable}
+  \usepackage{calc} % for calculating minipage widths
+  \usepackage{etoolbox}
+type: package
+date_received: '2021-01-15'
+volume: 14
+issue: 4
+slug: RJ-2023-001
+doi: 10.32614/RJ-2023-001
+draft: no
+journal:
+  lastpage: 17
+  firstpage: 6
+

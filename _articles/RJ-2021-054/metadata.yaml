@@ -1,0 +1,41 @@
+title: 'Regularized Transformation Models: The tramnet Package'
+abstract: The [*tramnet*](https://CRAN.R-project.org/package=tramnet) package implements regularized linear transformation models by combining the flexible class of transformation models from [*tram*](https://CRAN.R-project.org/package=tram) with constrained convex optimization implemented in [*CVXR*](https://CRAN.R-project.org/package=CVXR). Regularized transformation models unify many existing and novel regularized regression models under one theoretical and computational framework. Regularization strategies implemented for transformation models in *tramnet* include the Lasso, ridge regression, and the elastic net and follow the parameterization in [*glmnet*](https://CRAN.R-project.org/package=glmnet). Several functionalities for optimizing the hyperparameters, including model-based optimization based on the [*mlrMBO*](https://CRAN.R-project.org/package=mlrMBO) package, are implemented. A multitude of `S3` methods is deployed for visualization, handling, and simulation purposes. This work aims at illustrating all facets of *tramnet* in realistic settings and comparing regularized transformation models with existing implementations of similar models.
+author:
+- name: Lucas Kook
+  affiliation: Institut für Epidemiologie, Biostatistik und Prävention
+  address:
+  - Universität Zürich
+  - Hirschengraben 84, CH-8001 Zürich
+  - |
+    Switzerland
+- name: Torsten Hothorn
+  affiliation: Institut für Epidemiologie, Biostatistik und Prävention
+  address:
+  - Universität Zürich
+  - Hirschengraben 84, CH-8001 Zürich
+  - |
+    Switzerland
+date: '2021-06-08'
+date_received: '2021-01-15'
+journal:
+  firstpage: '581'
+  lastpage: '594'
+volume: 13
+issue: 1
+slug: RJ-2021-054
+doi: 10.32614/RJ-2021-054
+packages:
+  cran:
+  - tramnet
+  - tram
+  - CVXR
+  - glmnet
+  - mlrMBO
+  - penalized
+  - basefun
+  - mlt
+  - coin
+  - trtf
+  - tbm
+  bioc: []
+CTV:

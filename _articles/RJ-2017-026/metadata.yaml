@@ -1,0 +1,40 @@
+title: 'Hosting Data Packages via drat: A Case Study with Hurricane Exposure Data'
+abstract: Data-only packages offer a way to provide extended functionality for other R users. However, such packages can be large enough to exceed the package size limit (5 megabytes) for the Comprehensive R Archive Network (CRAN). As an alternative, large data packages can be posted to additional repostiories beyond CRAN itself in a way that allows smaller code packages on CRAN to access and use the data. The *drat* package facilitates creation and use of such alternative repositories and makes it particularly simple to host them via GitHub. CRAN packages can draw on packages posted to *drat* repositories through the use of the 'Additonal_repositories' field in the DESCRIPTION file. This paper describes how R users can create a suite of coordinated packages, in which larger data packages are hosted in an alternative repository created with *drat*, while a smaller code package that interacts with this data is created that can be submitted to CRAN.
+author:
+- name: G. Brooke Anderson
+  affiliation: Colorado State University
+  address:
+  - Lake Street
+  - |
+    Fort Collins, CO
+- name: Dirk Eddelbuettel
+  affiliation: Debian and R Projects; Ketchum Trading
+  address: |
+    Chicago, IL, USA
+date: '2017-05-10'
+date_received: '2017-02-17'
+journal:
+  firstpage: '486'
+  lastpage: '497'
+volume: 9
+issue: 1
+slug: RJ-2017-026
+doi: 10.32614/RJ-2017-026
+packages:
+  cran:
+  - NMMAPSlite
+  - stashR
+  - rnoaa
+  - tigris
+  - UScensus2000
+  - drat
+  - grattan
+  - hurricaneexposure
+  - devtools
+  - rcmdcheck
+  - git2r
+  - littler
+  - knitr
+  - roxygen2
+  bioc: []
+CTV:

@@ -1,0 +1,40 @@
+title: 'fICA: FastICA Algorithms and Their Improved Variants'
+abstract: In independent component analysis (ICA) one searches for mutually independent nongaussian latent variables when the components of the multivariate data are assumed to be linear combinations of them. Arguably, the most popular method to perform ICA is FastICA. There are two classical versions, the deflation-based FastICA where the components are found one by one, and the symmetric FastICA where the components are found simultaneously. These methods have been implemented previously in two R packages, *fastICA* and *ica*. We present the R package *fICA* and compare it to the other packages. Additional features in *fICA* include optimization of the extraction order in the deflation-based version, possibility to use any nonlinearity function, and improvement to convergence of the deflation-based algorithm. The usage of the package is demonstrated by applying it to the real ECG data of a pregnant woman.
+author:
+- name: Jari Miettinen
+  affiliation: Department of Signal Processing and Acoustics, Aalto University
+  address:
+  - P.O.Box 15400, 20014 Aalto University
+  - |
+    Finland
+- name: Klaus Nordhausen
+  affiliation: |-
+    Institute of Statistics & Mathematical Methods in Economics, Vienna
+    University of Technology
+  address:
+  - Wiedner Hauptstr. 7, 1040 Vienna
+  - |
+    Austria
+- name: Sara Taskinen
+  affiliation: Department of Mathematics and Statistics, University of Jyväskylä
+  address:
+  - P.O.Box 35 (MaD), 40014 University of Jyväskylä
+  - |
+    Finland
+date: '2018-12-07'
+date_received: '2017-09-21'
+journal:
+  firstpage: '148'
+  lastpage: '158'
+volume: 10
+issue: 2
+slug: RJ-2018-046
+doi: 10.32614/RJ-2018-046
+packages:
+  cran:
+  - fastICA
+  - ica
+  - fICA
+  - BSSasymp
+  bioc: []
+CTV:

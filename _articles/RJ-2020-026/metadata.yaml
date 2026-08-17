@@ -1,0 +1,45 @@
+title: 'BayesMallows: An R Package for the Bayesian Mallows Model'
+abstract: '*BayesMallows* is an R package for analyzing preference data in the form of rankings with the Mallows rank model, and its finite mixture extension, in a Bayesian framework. The model is grounded on the idea that the probability density of an observed ranking decreases exponentially with the distance to the location parameter. It is the first Bayesian implementation that allows wide choices of distances, and it works well with a large amount of items to be ranked. *BayesMallows* handles non-standard data: partial rankings and pairwise comparisons, even in cases including non-transitive preference patterns. The Bayesian paradigm allows coherent quantification of posterior uncertainties of estimates of any quantity of interest. These posteriors are fully available to the user, and the package comes with convienient tools for summarizing and visualizing the posterior distributions.'
+author:
+- name: Øystein Sørensen
+  orcid: 0000-0003-0724-3542
+  affiliation: |-
+    Center for Lifespan Changes in Brain and Cognition, University of
+    Oslo
+  address:
+  - Department of Psychology
+- name: Marta Crispino
+  affiliation: Univ. Grenoble Alpes, Inria, CNRS, LJK
+  address: |
+    38000 Grenoble, France
+- name: Qinghua Liu
+  affiliation: |
+    Department of Mathematics, University of Oslo
+- name: Valeria Vitelli
+  orcid: 0000-0002-6746-0453
+  affiliation: Oslo Centre for Biostatistics and Epidemiology
+  address:
+  - Department of Biostatistics
+  - University of Oslo
+date: '2020-09-10'
+date_received: '2019-09-05'
+journal:
+  firstpage: '324'
+  lastpage: '342'
+volume: 12
+issue: 1
+slug: RJ-2020-026
+doi: 10.32614/RJ-2020-026
+packages:
+  cran:
+  - BayesMallows
+  - PerMallows
+  - pmr
+  - rankdist
+  - microbenchmark
+  - dplyr
+  - parallel
+  - tidyr
+  - label.switching
+  bioc: []
+CTV:

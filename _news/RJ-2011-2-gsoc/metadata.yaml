@@ -1,0 +1,40 @@
+title: R's Participation in the Google Summer of Code 2011
+abstract: |
+  This article describes the activity of R in the 2011 Google Summer of
+  Code (GSoC), which Wikipedia describes as follows.\
+  The Google Summer of Code (GSoC) is an annual program, first held from
+  May to August 2005, in which Google awards stipends (of 5000 USD, as
+  of 2010) to hundreds of students who successfully complete a requested
+  free or open source software coding project during the summer.
+author:
+- name: John C. Nash
+  affiliation: Telfer School of Management, University of Ottawa
+  address:
+  - 55 Laurier E, Ottawa, ON, Canada, K1N 6N5
+  - |
+    Canada
+- name: Claudia Beleites
+  affiliation: |-
+    Department of Spectroscopy and Imaging, Institute of Photonic
+    Technology
+  address:
+  - Albert-Einstein-Str. 9, 07745 Jena
+  - |
+    Germany
+date: '2011-12-01'
+date_received:
+journal:
+  firstpage: 64
+  lastpage: 67
+volume: 3
+issue: 2
+slug: RJ-2011-2-gsoc
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - huge
+  - RImageJ
+  - extracat
+  - SQUAREM
+  bioc: []
+CTV:

@@ -1,0 +1,34 @@
+title: 'auditor: an R Package for Model-Agnostic Visual Validation and Diagnostics'
+abstract: Machine learning models have successfully been applied to challenges in applied in biology, medicine, finance, physics, and other fields. With modern software it is easy to train even a complex model that fits the training data and results in high accuracy on test set. However, problems often arise when models are confronted with the real-world data. This paper describes methodology and tools for model-agnostic auditing. It provides functinos for assessing and comparing the goodness of fit and performance of models. In addition, the package may be used for analysis of the similarity of residuals and for identification of outliers and influential observations. The examination is carried out by diagnostic scores and visual verification. The code presented in this paper are implemented in the [*auditor*](https://CRAN.R-project.org/package=auditor) package. Its flexible and consistent grammar facilitates the validation models of a large class of models.
+author:
+- name: Alicja Gosiewska
+  affiliation: |-
+    Faculty of Mathematics and Information Science, Warsaw University of
+    Technology
+  address:
+  - Poland
+  - |
+    ORCID: 0000-0001-6563-5742
+- name: Przemysław Biecek
+  affiliation: |-
+    Faculty of Mathematics and Information Science, Warsaw University of
+    Technology
+  address:
+  - Faculty of Mathematics, Informatics and Mechanic
+  - University of Warsaw
+  - Poland
+  - |
+    ORCID: 0000-0001-8423-1823
+date: '2019-08-18'
+date_received: '2018-12-01'
+journal:
+  firstpage: '85'
+  lastpage: '98'
+volume: 11
+issue: 2
+slug: RJ-2019-036
+doi: 10.32614/RJ-2019-036
+packages:
+  cran: auditor
+  bioc: []
+CTV:

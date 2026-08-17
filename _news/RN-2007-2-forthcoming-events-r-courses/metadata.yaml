@@ -1,0 +1,17 @@
+title: 'Forthcoming Events: R Courses in Munich'
+abstract: '"Forthcoming Events: R Courses in Munich" published in R News.'
+author:
+- name: Friedrich Leisch
+date: '2007-10-01'
+volume: 7
+issue: 2
+slug: RN-2007-2-forthcoming-events-r-courses
+journal:
+  title: R News
+  issn: 1609-3631
+  firstpage: 76
+  lastpage: 77
+packages:
+  cran:
+  bioc:
+CTV:

@@ -1,0 +1,47 @@
+title: 'OrthoPanels: An R Package for Estimating a Dynamic Panel Model with Fixed Effects Using the Orthogonal Reparameterization Approach'
+abstract: 'This article describes the R package *OrthoPanels*, which includes the function `opm()`. This function implements the orthogonal reparameterization approach recommended by [@Lancaster2002] to estimate dynamic panel models with fixed effects (and optionally: wave specific intercepts). This article provides a statistical description of the orthogonal reparameterization approach, a demonstration of the package using real-world data, and simulations comparing the estimator to the known-to-be-biased OLS estimator and the commonly used GMM estimator.'
+author:
+- name: Mark Pickup
+  affiliation: Simon Fraser University
+  address:
+  - Department of Political Science
+  - 8888 University Drive
+  - Burnaby BC V5A 1S6
+  - |
+    Canada
+- name: Paul Gustafson
+  affiliation: The University of British Columbia
+  address:
+  - Department of Statistics
+  - 3182-2207 Main Mall
+  - Vancouver BC V6T 1Z4
+  - |
+    Canada
+- name: Davor Cubranic
+  affiliation: Department of Statistics, The University of British Columbia
+  address:
+  - 3182-2207 Main Mall
+  - Vancouver BC V6T 1Z4
+  - |
+    Canada
+- name: Geoffrey Evans
+  affiliation: Nuffield College, University of Oxford
+  address:
+  - New Road, Oxford, OX1 1NF
+  - |
+    United Kingdom
+date: '2017-05-10'
+date_received: '2015-11-15'
+journal:
+  firstpage: '60'
+  lastpage: '76'
+volume: 9
+issue: 1
+slug: RJ-2017-003
+doi: 10.32614/RJ-2017-003
+packages:
+  cran:
+  - OrthoPanels
+  - plm
+  bioc: []
+CTV:

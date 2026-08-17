@@ -1,0 +1,39 @@
+title: 'rassta: Raster-Based Spatial Stratification Algorithms'
+abstract: |
+  Spatial stratification of landscapes allows for the development of efficient  sampling surveys, the inclusion of domain knowledge in data-driven modeling  frameworks, and the production of information relating the spatial variability  of response phenomena to that of landscape processes. This work presents the  \pkg{rassta} package as a collection of algorithms dedicated to the spatial  stratification of landscapes, the calculation of landscape correspondence  metrics across geographic space, and the application of these metrics for  spatial sampling and modeling of environmental phenomena. The theoretical  background of \pkg{rassta} is presented through references to several studies  which have benefited from landscape stratification routines. The functionality  of \pkg{rassta} is presented through code examples which are complemented with  the geographic visualization of their outputs.
+draft: no
+author:
+- name: Bryan A. Fuentes
+  affiliation: University of Arkansas
+  address:
+  - Department of Crop, Soil, and Environmental Sciences
+  - Fayetteville, Arkansas
+  orcid: 0000-0003-3506-7101
+  email: bafuente@uark.edu
+- name: Minerva J. Dorantes
+  affiliation: University of Arkansas
+  address:
+  - Department of Crop, Soil, and Environmental Sciences
+  - Fayetteville, Arkansas
+  orcid: 0000-0002-2877-832X
+  email: mjdorant@uark.edu
+- name: John R. Tipton
+  orcid: 0000-0002-6135-8141
+  affiliation: University of Arkansas
+  address:
+  - Department of Mathematical Sciences
+  - Fayetteville, Arkansas
+  email: jrtipton@uark.edu
+type: package
+creative_commons: CC BY
+header-includes: \usepackage{float} \setcounter{tocdepth}{4}
+date: '2022-10-13'
+date_received: '2021-11-22'
+volume: 14
+issue: 2
+slug: RJ-2022-036
+doi: 10.32614/RJ-2022-036
+journal:
+  lastpage: 304
+  firstpage: 286
+

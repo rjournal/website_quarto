@@ -1,0 +1,36 @@
+title: 'Statistical Models for Repeated Categorical Ratings: The R Package rater'
+abstract: |
+  A common problem in many disciplines is the need to assign a set of items into categories or classes with known labels.  This is often done by one or more expert raters, or sometimes by an automated process.  If these assignments or 'ratings' are difficult to make accurately, a common tactic is to repeat them by different raters, or even by the same rater multiple times on different occasions. We present an R package \CRANpkg{rater}, available on CRAN, that implements Bayesian versions of several statistical models for analysis of repeated categorical rating data. Inference is possible for the true underlying (latent) class of each item, as well as the accuracy of each rater. The models are extensions of, and include, the Dawid--Skene model, and we implemented them using the Stan probabilistic programming language.  We illustrate the use of \CRANpkg{rater} through a few examples.  We also discuss in detail the techniques of marginalisation and conditioning, which are necessary for these models but also apply more generally to other models implemented in Stan.
+draft: no
+author:
+- name: Jeffrey M. Pullin
+  affiliation: University of Melbourne
+  orcid: 0000-0003-3651-5471
+  address:
+  - School of Mathematics and Statistics
+  - Melbourne, Australia
+- name: Lyle C. Gurrin
+  affiliation: University of Melbourne
+  orcid: 0000-0001-7052-1969
+  address:
+  - School of Population and Global Health
+  - Melbourne, Australia
+- name: Damjan Vukcevic
+  email: damjan.vukcevic@monash.edu
+  orcid: 0000-0001-7780-9586
+  affiliation: Monash University
+  address:
+  - Department of Econometrics and Business Statistics
+  - Melbourne, Australia
+type: package
+date: '2023-12-18'
+date_received: '2022-07-25'
+volume: 15
+issue: 3
+subid: 2022-136
+slug: RJ-2023-064
+doi: 10.32614/RJ-2023-064
+journal:
+  lastpage: 118
+  firstpage: 93
+

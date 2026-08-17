@@ -1,0 +1,19 @@
+title: Party on!
+abstract: 'Random forests are one of the most popular statistical learning algorithms, and a variety of methods for fitting random forests and related recursive partitioning approaches is available in R. This paper points out two important features of the random forest implementation `cforest` available in the *party* package: The resulting forests are unbiased and thus preferable to the `randomForest` implementation available in *randomForest* if predictor variables are of different types. Moreover, a conditional permutation importance measure has recently been added to the *party* package, which can help evaluate the importance of correlated predictor variables. The rationale of this new measure is illustrated and hands-on advice is given for the usage of recursive partitioning tools in R.'
+author:
+- name: Carolin Strobl
+  affiliation: Department of Statistics, Ludwig-Maximilians-Universität
+  address: Munich, Germany
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: '14'
+  lastpage: '17'
+volume: 1
+issue: 2
+slug: RJ-2009-013
+doi: 10.32614/RJ-2009-013
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,80 @@
+title: 'Rfssa: An R Package for Functional Singular Spectrum Analysis'
+abstract: |
+  Functional Singular Spectrum Analysis (FSSA) is a non-parametric
+  approach for analyzing Functional Time Series (FTS) and Multivariate
+  FTS (MFTS) data. This paper introduces Rfssa, an R package that
+  addresses implementing FSSA for FTS and MFTS data types. Rfssa
+  provides a flexible container, the funts class, for FTS/MFTS data
+  observed on one-dimensional or multi-dimensional domains. It accepts
+  arbitrary basis systems and offers powerful graphical tools for
+  visualizing time-varying features and pattern changes. The package
+  incorporates two forecasting algorithms for FTS data. Developed using
+  object-oriented programming and Rcpp/RcppArmadillo, Rfssa ensures
+  computational efficiency. The paper covers theoretical background,
+  technical details, usage examples, and highlights potential
+  applications of Rfssa.
+author:
+- name: Hossein Haghbin
+  affiliation: |-
+    Artificial Intelligence and Data Mining Research Group, ICT Research
+    Institute
+  address:
+  - |-
+    Faculty of Intelligent Systems Engineering and Data Science, Persian
+    Gulf University
+  - Boushehr, Iran
+  - (ORCiD 0000-0001-8416-2354)
+  - |
+    [haghbin@pgu.ac.ir](haghbin@pgu.ac.ir){.uri}
+- name: Jordan Trinka
+  affiliation: |-
+    Department of Mathematical and Statistical Sciences, Marquette
+    University,
+  address:
+  - Wisconsin, USA
+  - (ORCiD 0000-0001-9118-5781)
+  - |
+    [jordantrinka4@hotmail.com](jordantrinka4@hotmail.com){.uri}
+- name: Mehdi Maadooliat
+  affiliation: |-
+    Department of Mathematical and Statistical Sciences, Marquette
+    University,
+  address:
+  - Wisconsin, USA
+  - '(ORCiD: 0000-0002-5408-2676)'
+  - |
+    [mehdi.maadooliat@mu.edu](mehdi.maadooliat@mu.edu){.uri}
+date: '2025-03-11'
+date_received: '2023-07-02'
+journal:
+  firstpage: 82
+  lastpage: 99
+volume: 16
+issue: 2
+slug: RJ-2024-019
+doi: 10.32614/RJ-2024-019
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - fda
+  - funFEM
+  - fda.usc
+  - refund
+  - fdapace
+  - funData
+  - ftsspec
+  - rainbow
+  - ftsa
+  - fdasrvf
+  - roahd
+  - Rfssa
+  - Rcpp
+  - RcppArmadillo
+  - Rssa
+  - ASSA
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

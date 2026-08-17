@@ -1,0 +1,24 @@
+title: Temporal Disaggregation of Time Series
+abstract: Temporal disaggregation methods are used to disaggregate low frequency time series to higher frequency series, where either the sum, the average, the first or the last value of the resulting high frequency series is consistent with the low frequency series. Temporal disaggregation can be performed with or without one or more high frequency indicator series. The package *tempdisagg* is a collection of several methods for temporal disaggregation.
+author:
+- name: Christoph Sax
+  affiliation: State Secretariat of Economic Affaires, Bern, University of Basel
+  address: |
+    Switzerland
+- name: Peter Steiner
+  affiliation: Federal Finance Administration, Bern, University of Bern
+  address: |
+    Switzerland
+date: '2013-08-26'
+date_received: '2013-03-01'
+journal:
+  firstpage: '80'
+  lastpage: '87'
+volume: 5
+issue: 2
+slug: RJ-2013-028
+doi: 10.32614/RJ-2013-028
+packages:
+  cran: tempdisagg
+  bioc: []
+CTV:

@@ -1,0 +1,34 @@
+title: 'Nowcasting: An R Package for Predicting Economic Variables Using Dynamic Factor Models'
+abstract: The [*nowcasting*](https://CRAN.R-project.org/package=nowcasting) package provides the tools to make forecasts of monthly or quarterly economic variables using dynamic factor models. The objective is to help the user at each step of the forecasting process, starting with the construction of a database, all the way to the interpretation of the forecasts. The dynamic factor model adopted in this package is based on the articles from @giannoneetal2008 and @banburaetal2011. Although there exist several other dynamic factor model packages available for R, ours provides an environment to easily forecast economic variables and interpret results.
+author:
+- name: Serge de Valk
+  affiliation: EPGE Brazilian School of Economics and Finance (FGV EPGE)
+  address:
+  - 60 Barão de Itambi, Botafogo, Rio de Janeiro - RJ
+  - |
+    Brazil
+- name: Daiane Marcolino de Mattos
+  affiliation: FGV-IBRE
+  address:
+  - 60 Barão de Itambi, Botafogo, Rio de Janeiro - RJ
+  - |
+    Brazil
+- name: Pedro Guilherme Costa Ferreira
+  affiliation: FGV-IBRE
+  address:
+  - 60 Barão de Itambi, Botafogo, Rio de Janeiro - RJ
+  - |
+    Brazil
+date: '2019-08-16'
+date_received: '2018-12-01'
+journal:
+  firstpage: '230'
+  lastpage: '244'
+volume: 11
+issue: 1
+slug: RJ-2019-020
+doi: 10.32614/RJ-2019-020
+packages:
+  cran: nowcasting
+  bioc: []
+CTV:

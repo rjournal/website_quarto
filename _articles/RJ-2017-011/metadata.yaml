@@ -1,0 +1,32 @@
+title: 'EMSaov: An R Package for the Analysis of Variance with the Expected Mean Squares and its Shiny Application'
+abstract: '*EMSaov* is a new R package that we developed to provide users with an analysis of variance table including the expected mean squares (EMS) for various types of experimental design. It is not easy to find the appropriate test, particularly the denominator for the F statistic that depends on the EMS, when some variables exhibit random effects or when we use a special experimental design such as nested design, repeated measures design, or split-plot design. With *EMSaov*, a user can easily find the F statistic denominator and can determine how to analyze the data when using a special experimental design. We also develop a web application with a GUI interface using the *shiny* package in `R` . We expect that our application can contribute to the efficient and easy analysis of experimental data.'
+author:
+- name: Hye-Min Choe
+  affiliation: Department of Statistics, Ewha Womans University
+  address: |
+    Seoul, Korea
+- name: Mijeong Kim
+  affiliation: Department of Statistics, Ewha Womans University
+  address: |
+    Seoul, Korea
+- name: Eun-Kyung Lee
+  affiliation: Department of Statistics, Ewha Womans University
+  address: |
+    Seoul, Korea
+date: '2017-05-10'
+date_received: '2016-08-25'
+journal:
+  firstpage: '252'
+  lastpage: '261'
+volume: 9
+issue: 1
+slug: RJ-2017-011
+doi: 10.32614/RJ-2017-011
+packages:
+  cran:
+  - nlme
+  - afex
+  - EMSaov
+  - shiny
+  bioc: []
+CTV:

@@ -1,0 +1,30 @@
+title: 'mle.tools: An R Package for Maximum Likelihood Bias Correction'
+abstract: 'Recently, [@mazucheli-mletools] uploaded the package *mle.tools* to CRAN. It can be used for bias corrections of maximum likelihood estimates through the methodology proposed by [@MR0237052]. The main function of the package, `coxsnell.bc()`, computes the bias corrected maximum likelihood estimates. Although in general, the bias corrected estimators may be expected to have better sampling properties than the uncorrected estimators, analytical expressions from the formula proposed by [@MR0237052] are either tedious or impossible to obtain. The purpose of this paper is twofolded: to introduce the *mle.tools* package, especially the `coxsnell.bc()` function; secondly, to compare, for thirty one continuous distributions, the bias estimates from the `coxsnell.bc()` function and the bias estimates from analytical expressions available in the literature. We also compare, for five distributions, the observed and expected Fisher information. Our numerical experiments show that the functions are efficient to estimate the biases by the Cox-Snell formula and for calculating the observed and expected Fisher information.'
+author:
+- name: Josmar Mazucheli
+  affiliation: Department of Statistics, Universidade Estadual de Maringá
+  address: |
+    Maringá, Brazil
+- name: André Felipe Berdusco Menezes
+  affiliation: Department of Statistics, Universidade Estadual de Maringá
+  address: |
+    Maringá, Brazil
+- name: Saralees Nadarajah
+  affiliation: School of Mathematics, University of Manchester
+  address: |
+    Manchester M13 9PL, United Kingdom
+date: '2017-11-01'
+date_received: '2017-04-04'
+journal:
+  firstpage: '268'
+  lastpage: '290'
+volume: 9
+issue: 2
+slug: RJ-2017-055
+doi: 10.32614/RJ-2017-055
+packages:
+  cran:
+  - mle.tools
+  - fitdistrplus
+  bioc: []
+CTV:

@@ -1,0 +1,63 @@
+title: 'micompr: An R Package for Multivariate Independent Comparison of Observations'
+abstract: The R package *micompr* implements a procedure for assessing if two or more multivariate samples are drawn from the same distribution. The procedure uses principal component analysis to convert multivariate observations into a set of linearly uncorrelated statistical measures, which are then compared using a number of statistical methods. This technique is independent of the distributional properties of samples and automatically selects features that best explain their differences. The procedure is appropriate for comparing samples of time series, images, spectrometric measures or similar high-dimension multivariate observations.
+author:
+- name: Nuno Fachada
+  affiliation: Institute for Systems and Robotics, LARSyS,Universidade de Lisboa
+  address:
+  - Instituto Superior Técnico,
+  - Lisboa,
+  - |
+    Portugal
+- name: João Rodrigues
+  affiliation: École Polytechnique Fédérale de Lausanne,
+  address:
+  - Lausanne,
+  - |
+    Switzerland
+- name: Vitor V. Lopes
+  affiliation: UTEC - Universidad de Ingeniería & Tecnología,
+  address:
+  - Lima,
+  - |
+    Perú
+- name: Rui C. Martins
+  affiliation: Life and Health Sciences Research Institute, University of Minho
+  address:
+  - School of Health Sciences,
+  - Braga,
+  - |
+    Portugal
+- name: Agostinho C. Rosa
+  affiliation: Institute for Systems and Robotics, LARSyS, Universidade de Lisboa
+  address:
+  - Instituto Superior Técnico,
+  - Lisboa,
+  - |
+    Portugal
+date: '2016-11-21'
+date_received: '2016-05-10'
+journal:
+  firstpage: '405'
+  lastpage: '420'
+volume: 8
+issue: 2
+slug: RJ-2016-055
+doi: 10.32614/RJ-2016-055
+packages:
+  cran:
+  - micompr
+  - vegan
+  - Blossom
+  - energy
+  - crossmatch
+  - cramer
+  - ks
+  - ChemoSpec
+  - biotools
+  - MVN
+  - testthat
+  - knitr
+  - roxygen2
+  - deseasonalize
+  bioc: []
+CTV:

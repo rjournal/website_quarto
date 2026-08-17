@@ -1,0 +1,39 @@
+title: 'ppseq: An R Package for Sequential Predictive Probability Monitoring'
+abstract: |
+  Advances in drug discovery have produced numerous biomarker-guided therapeutic strategies for treating cancer. Yet the promise of precision medicine comes with the cost of increased complexity. Recent trials of targeted treatments have included expansion cohorts with sample sizes far exceeding those in traditional early phase trials of chemotherapeutic agents. The enlarged sample sizes raise ethical concerns for patients who enroll in clinical trials, and emphasize the need for rigorous statistical designs to ensure that trials can stop early for futility while maintaining traditional control of type I error and power. The R package \pkg{ppseq} provides a framework for designing early phase clinical trials of binary endpoints using sequential futility monitoring based on Bayesian predictive probability. Trial designs can be compared using interactive plots and selected based on measures of efficiency or accuracy.
+draft: no
+author:
+- name: Emily C. Zabor
+  affiliation: Department of Quantitative Health Sciences & Taussig Cancer Institute, Cleveland Clinic
+  address:
+  - 9500 Euclid Ave. CA-60
+  - Cleveland, OH 44195 USA
+  url: http://www.emilyzabor.com/
+  orcid: 0000-0002-1402-4498
+  email: zabore2@ccf.org
+- name: Brian P. Hobbs
+  email: brian.hobbs@austin.utexas.edu
+  orcid: 0000-0003-2189-5846
+  affiliation: Dell Medical School, The University of Texas at Austin
+  address:
+  - 1501 Red River Street MC: Z0100
+  - Austin, TX 78712
+- name: Michael J. Kane
+  email: michael.kane@yale.edu
+  orcid: 0000-0003-1899-6662
+  affiliation: Department of Biostatistics, Yale University
+  address:
+  - 60 College Street
+  - New Haven, CT 06511
+date: '2023-02-10'
+type: package
+creative_commons: CC BY
+date_received: '2022-02-10'
+volume: 14
+issue: 4
+slug: RJ-2023-017
+doi: 10.32614/RJ-2023-017
+journal:
+  lastpage: 290
+  firstpage: 280
+

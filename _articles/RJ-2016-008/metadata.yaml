@@ -1,0 +1,38 @@
+title: 'quickpsy: An R Package to Fit Psychometric Functions for Multiple Groups'
+abstract: '*quickpsy* is a package to parametrically fit psychometric functions. In comparison with previous R packages, *quickpsy* was built to easily fit and plot data for multiple groups. Here, we describe the standard parametric model used to fit psychometric functions and the standard estimation of its parameters using maximum likelihood. We also provide examples of usage of *quickpsy*, including how allowing the lapse rate to vary can sometimes eliminate the bias in parameter estimation, but not in general. Finally, we describe some implementation details, such as how to avoid the problems associated to round-off errors in the maximisation of the likelihood or the use of closures and non-standard evaluation functions.'
+author:
+- name: Daniel Linares
+  affiliation: |-
+    Vision and Control of Action Group, Departament de Psicologia Bàsica,
+    Universitat de Barcelona
+  address:
+  - Passeig Vall d' Hebron 171, Barcelona 08035
+  - Spain
+- name: Joan López-Moliner
+  affiliation: |-
+    Vision and Control of Action Group, Departament de Psicologia Bàsica,
+    Universitat de Barcelona
+  address:
+  - Institute for Brain, Cognition and Behaviour (IR3C), Barcelona
+  - Passeig Vall d' Hebron 171, Barcelona 08035
+  - Spain
+date: '2015-11-08'
+date_received: '2015-05-12'
+journal:
+  firstpage: '122'
+  lastpage: '131'
+volume: 8
+issue: 1
+slug: RJ-2016-008
+doi: 10.32614/RJ-2016-008
+packages:
+  cran:
+  - quickpsy
+  - psyphy
+  - modelfree
+  - MPDiR
+  - gridExtra
+  - dplyr
+  - ggplot2
+  bioc: []
+CTV:

@@ -1,0 +1,68 @@
+title: 'Structured Bayesian Regression Tree Models for Estimating Distributed Lag Effects: The R Package dlmtree'
+abstract: |
+  When examining the relationship between an exposure and an outcome,
+  there is often a time lag between exposure and the observed effect on
+  the outcome. A common statistical approach for estimating the
+  relationship between the outcome and lagged measurements of exposure
+  is a distributed lag model (DLM). Because repeated measurements are
+  often autocorrelated, the lagged effects are typically constrained to
+  vary smoothly over time. A recent statistical development on the
+  smoothing constraint is a tree structured DLM framework. We present an
+  R package dlmtree, available on CRAN, that integrates tree structured
+  DLM and extensions into a comprehensive software package with
+  user-friendly implementation. A conceptual background on tree
+  structured DLMs and a demonstration of the fitting process of each
+  model using simulated data are provided. We also demonstrate inference
+  and interpretation using the fitted models, including summary and
+  visualization. Additionally, a built-in shiny app for heterogeneity
+  analysis is included.
+author:
+- name: Seongwon Im
+  affiliation: Department of Statistics
+  address:
+  - Colorado State University
+  - United States of America
+  - (0009-0000-8447-5852)
+  - |
+    [seongwon.im@colostate.edu](seongwon.im@colostate.edu){.uri}
+- name: Ander Wilson
+  affiliation: Department of Statistics
+  address:
+  - Colorado State University
+  - United States of America
+  - (0000-0003-4774-3883)
+  - |
+    [ander.wilson@colostate.edu](ander.wilson@colostate.edu){.uri}
+- name: Daniel Mork
+  affiliation: Department of Biostatistics
+  address:
+  - Harvard T.H. Chan School of Public Health
+  - United States of America
+  - (0000-0002-7924-0706)
+  - |
+    [dmork@hsph.harvard.edu](dmork@hsph.harvard.edu){.uri}
+date: '2025-08-11'
+date_received: '2024-07-12'
+journal:
+  firstpage: 136
+  lastpage: 159
+volume: 17
+issue: 1
+slug: RJ-2025-007
+doi: 10.32614/RJ-2025-007
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - dlnm
+  - dlim
+  - bdlim
+  - DiscreteDLM
+  - dlmtree
+  - shiny
+  - dplyr
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

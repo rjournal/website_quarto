@@ -1,0 +1,54 @@
+title: Identifying and Testing Recursive vs. Interdependent Links in Simultaneous Equation Models via the SIRE Package
+abstract: |
+  Simultaneous equation models (SEMs) are composed of relations which
+  either represent unidirectional links, which entail a causal
+  interpretation, or bidirectional links, due to feedback loops, which
+  lead to the notion of interdependence. The issue is of prominent
+  interest in several respects. Investigating the causal structure of a
+  SEM, on the one hand, brings to light the theoretical assumptions
+  behind the model and, on the other hand, pilots the choice of the
+  befitting estimation method and of which policy to implement.\
+  This paper provides an operational method to distinguish causal
+  relations from interdependent ones in SEMs, such as macro-econometric
+  models, models in ecology, biology, demography, and so forth. It is
+  shown that the causal structure of a system crucially rests on the
+  feedback loops, which possibly affect the equations. These loops are
+  associated to the non-null entries of the Hadamard product of matrices
+  encoding the direct and indirect links among the SEM dependent
+  variables. The effectiveness of feedbacks is verified with a Wald test
+  based on the significance of the aforementioned non-null entries.\
+  An R package, *SIRE* (System of Interdependent/Recursive Equations),
+  provides the operational completion of the methodological and analytic
+  results of the paper. *SIRE* is applied to a macroeconomic model to
+  illustrate how this type of analysis proves useful in clarifying the
+  nature of the complex relations in SEMs.
+author:
+- name: Gianmarco Vacca
+  affiliation: Department of Economic Policy
+  address:
+  - Largo Gemelli 1, 20123 Milan, Italy
+  - |
+    Italy
+- name: Maria Grazia Zoia
+  affiliation: Department of Economic Policy
+  address:
+  - Largo Gemelli 1, 20123 Milan, Italy
+  - |
+    Italy
+date: '2019-08-15'
+date_received: '2018-10-08'
+journal:
+  firstpage: '149'
+  lastpage: '169'
+volume: 11
+issue: 1
+slug: RJ-2019-016
+doi: 10.32614/RJ-2019-016
+packages:
+  cran:
+  - SIRE
+  - igraph
+  - systemfit
+  - Rsolnp
+  bioc: []
+CTV:

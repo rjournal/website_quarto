@@ -1,0 +1,77 @@
+title: R as an Environment for Reproducible Analysis of DNA Amplification Experiments
+abstract: There is an ever-increasing number of applications, which use quantitative PCR (qPCR) or digital PCR (dPCR) to elicit fundamentals of biological processes. Moreover, quantitative isothermal amplification (qIA) methods have become more prominent in life sciences and point-of-care-diagnostics. Additionally, the analysis of melting data is essential during many experiments. Several software packages have been developed for the analysis of such datasets. In most cases, the software is either distributed as closed source software or as monolithic block with little freedom to perform highly customized analysis procedures. We argue, among others, that R is an excellent foundation for reproducible and transparent data analysis in a highly customizable cross-platform environment. However, for novices it is often challenging to master R or learn capabilities of the vast number of packages available. In the paper, we describe exemplary workflows for the analysis of qPCR, qIA or dPCR experiments including the analysis of melting curve data. Our analysis relies entirely on R packages available from public repositories. Additionally, we provide information related to standardized and reproducible research.
+author:
+- name: 'Stefan Rödiger'
+  affiliation: |-
+    Faculty of Natural Sciences, Brandenburg University of Technology
+    Cottbus--Senftenberg
+  address:
+  - Senftenberg
+  - |
+    Germany
+- name: Michał Burdukiewicz
+  affiliation: University of Wroclaw
+  address:
+  - Faculty of Biotechnoloy
+  - Department of Genomics
+  - Wroclaw
+  - |
+    Poland
+- name: Konstantin Blagodatskikh
+  affiliation: All-Russia Research Institute of Agricultural Biotechnology
+  address:
+  - Center for collective use 'Biotechnology'
+  - Moscow
+  - |
+    Russia
+- name: Michael Jahn
+  affiliation: Helmholtz Centre for Environmental Research - UFZ
+  address:
+  - Flow cytometry group / Environmental microbiology
+  - Leipzig
+  - |
+    Germany
+- name: Peter Schierack
+  affiliation: |-
+    Faculty of Natural Sciences, Brandenburg University of Technology
+    Cottbus--Senftenberg
+  address:
+  - Senftenberg
+  - |
+    Germany
+date: '2015-06-25'
+date_received: '2014-11-30'
+journal:
+  firstpage: '127'
+  lastpage: '150'
+volume: 7
+issue: 1
+slug: RJ-2015-011
+doi: 10.32614/RJ-2015-011
+packages:
+  cran:
+  - dpcR
+  - kulife
+  - MCMC.qpcr
+  - qPCR.CT
+  - DivMelt
+  - qpcR
+  - chipPCR
+  - MBmca
+  - RDML
+  - RNetCDF
+  - archivist
+  - settings
+  - shiny
+  - rateratio.test
+  bioc:
+  - nondetects
+  - qpcrNorm
+  - HTqPCR
+  - SLqPCR
+  - ddCt
+  - EasyqpcR
+  - unifiedWMWqPCR
+  - ReadqPCR
+  - NormqPCR
+CTV:

@@ -1,0 +1,29 @@
+title: Dynamic Simulation and Testing for Single-Equation Cointegrating and Stationary Autoregressive Distributed Lag Models
+abstract: While autoregressive distributed lagmodels allow for extremely flexible dynamics, interpreting the substantive significance of complex lag structures remains difficult. In this paper we discuss *dynamac* (dynamic autoregressive and cointegrating models), an `R` package designed to assist users in estimating, dynamically simulating, and plotting the results of a variety of autoregressive distributed lagmodels. It also contains a number of post-estimation diagnostics, including a test for cointegration for when researchers are estimating the error-correction variant of the autoregressive distributed lagmodel.
+author:
+- name: Soren Jordan
+  affiliation: Department of Political Science, Auburn University
+  address: |
+    United States
+- name: Andrew Q. Philips
+  affiliation: Department of Political Science, University of Colorado Boulder
+  address: |
+    United States
+date: '2018-12-31'
+date_received: '2018-05-29'
+journal:
+  firstpage: '469'
+  lastpage: '488'
+volume: 10
+issue: 2
+slug: RJ-2018-076
+doi: 10.32614/RJ-2018-076
+packages:
+  cran:
+  - \pkgnme
+  - dynsim
+  - Zelig
+  - urca
+  - MASS
+  bioc: []
+CTV:

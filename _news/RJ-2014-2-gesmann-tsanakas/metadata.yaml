@@ -1,0 +1,26 @@
+title: 'Conference Report: R in Insurance 2014'
+abstract: 'The ''Conference Report: R in Insurance 2014'' article from the 2014-2 issue.'
+author:
+- name: Markus Gesmann
+  affiliation: ChainLadder project
+  address:
+  - London
+  - UK
+- name: Andreas Tsanakas
+  affiliation: Cass Business School
+  address:
+  - London
+  - UK
+date: '2014-11-30'
+date_received:
+journal:
+  firstpage: '185'
+  lastpage: '186'
+volume: 6
+issue: 2
+slug: RJ-2014-2-gesmann-tsanakas
+citation_url: https://rjournal.github.io/
+packages:
+  cran: uplift
+  bioc: []
+CTV:

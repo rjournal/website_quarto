@@ -1,0 +1,78 @@
+title: Fitting a Quantile Regression Model for Residual Life with the R Package qris
+abstract: |
+  In survival analysis, regression modeling has traditionally focused on
+  assessing covariate effects on survival times, which is defined as the
+  elapsed time between a baseline and event time. Nevertheless, focusing
+  on residual life can provide a more dynamic assessment of covariate
+  effects, as it offers more updated information at specific time points
+  between the baseline and event occurrence. Statistical methods for
+  fitting quantile regression models have recently been proposed,
+  providing favorable alternatives to modeling the mean of residual
+  lifetimes. Despite these progresses, the lack of computer software
+  that implements these methods remains an obstacle for researchers
+  analyzing data in practice. In this paper, we introduce an R package
+  qris, which
+  implements methods for fitting semiparametric quantile regression
+  models on residual life subject to right censoring. We demonstrate the
+  effectiveness and versatility of this package through comprehensive
+  simulation studies and a real-world data example, showcasing its
+  valuable contributions to survival analysis research.
+author:
+- name: Kyu Hyun Kim
+  affiliation: |-
+    Department of Statistics and Data Science and Department of Applied
+    Statistics
+  address:
+  - Yonsei University
+  - 50 Yonsei-ro, Seodaemun-gu, Seoul
+  - Republic of Korea
+  - |
+    [kyuhyunkim07@yonsei.ac.kr](kyuhyunkim07@yonsei.ac.kr){.uri}
+- name: Sangwook Kang
+  affiliation: |-
+    Department of Statistics and Data Science and Department of Applied
+    Statistics
+  address:
+  - Yonsei University
+  - 50 Yonsei-ro, Seodaemun-gu, Seoul
+  - Republic of Korea
+  - |
+    [kanggi1@yonsei.ac.kr](kanggi1@yonsei.ac.kr){.uri}
+- name: Sy Han Chiou
+  affiliation: Department of Statistics and Data Science
+  address:
+  - Southern Methodist University
+  - P.O. Box 750332, Dallas, TX
+  - USA
+  - '[schiou@smu.edu](schiou@smu.edu){.uri}'
+  - |
+    <https://www.sychiou.com/>
+date: '2025-01-10'
+date_received: '2022-10-21'
+journal:
+  firstpage: 114
+  lastpage: 135
+volume: 16
+issue: 1
+slug: RJ-2024-007
+doi: 10.32614/RJ-2024-007
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - qris
+  - quantreg
+  - aftgee
+  - ctqr
+  - Brq
+  - brms
+  - cmprskQR
+  - ggplot2
+  - Rcpp
+  - RcppArmadillo
+  - survival
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

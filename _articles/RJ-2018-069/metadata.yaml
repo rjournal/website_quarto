@@ -1,0 +1,34 @@
+title: 'BNSP: an R Package for Fitting Bayesian Semiparametric Regression Models and Variable Selection'
+abstract: The R package [*BNSP*](https://CRAN.R-project.org/package=BNSP) provides a unified framework for semiparametric location-scale regression and stochastic search variable selection. The statistical methodology that the package is built upon utilizes basis function expansions to represent semiparametric covariate effects in the mean and variance functions, and spike-slab priors to perform selection and regularization of the estimated effects. In addition to the main function that performs posterior sampling, the package includes functions for assessing convergence of the sampler, summarizing model fits, visualizing covariate effects and obtaining predictions for new responses or their means given feature/covariate vectors.
+author:
+- name: Georgios Papageorgiou
+  affiliation: |
+    Department of Economics, Mathematics and Statistics, Birkbeck,
+    University of London
+date: '2018-12-08'
+date_received: '2018-07-31'
+journal:
+  firstpage: '526'
+  lastpage: '548'
+volume: 10
+issue: 2
+slug: RJ-2018-069
+doi: 10.32614/RJ-2018-069
+packages:
+  cran:
+  - BNSP
+  - bamlss
+  - spikeSlabGAM
+  - brms
+  - gamboostLSS
+  - mgcv
+  - coda
+  - ggplot2
+  - plot3D
+  - threejs
+  - colorspace
+  - np
+  - gamair
+  - lattice
+  bioc: []
+CTV:

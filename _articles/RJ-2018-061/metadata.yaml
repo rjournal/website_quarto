@@ -1,0 +1,35 @@
+title: Geospatial Point Density
+abstract: This paper introduces a spatial point density algorithm designed to be explainable, meaningful, and efficient. Originally designed for military applications, this technique applies to any spatial point process where there is a desire to clearly understand the measurement of density and maintain fidelity of the point locations. Typical spatial density plotting algorithms, such as kernel density estimation, implement some type of smoothing function that often results in a density value that is difficult to interpret. The purpose of the visualization method in this paper is to understand spatial point activity density with precision and meaning. The temporal tendency of the point process as an extension of the point density methodology is also discussed and displayed. Applications include visualization and measurement of any type of spatial point process. Visualization techniques integrate *ggmap* with examples from San Diego crime data.
+author:
+- name: Paul F. Evangelista
+  affiliation: United States Military Academy
+  address:
+  - West Point, NY
+  - |
+    United States
+- name: David Beskow
+  affiliation: United States Military Academy
+  address:
+  - West Point, NY
+  - |
+    United States
+date: '2018-12-08'
+date_received: '2018-04-04'
+journal:
+  firstpage: '347'
+  lastpage: '356'
+volume: 10
+issue: 2
+slug: RJ-2018-061
+doi: 10.32614/RJ-2018-061
+packages:
+  cran:
+  - pointdensityP
+  - spatstat
+  - kde2d
+  - bkde2D
+  - ggplot2
+  - ggmap
+  - data.table
+  bioc: []
+CTV:

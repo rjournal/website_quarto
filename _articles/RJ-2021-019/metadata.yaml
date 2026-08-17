@@ -1,0 +1,42 @@
+title: 'MoTBFs: An R Package for Learning Hybrid Bayesian Networks Using Mixtures of Truncated Basis Functions'
+abstract: This paper introduces [*MoTBFs*](https://CRAN.R-project.org/package=MoTBFs), an R package for manipulating mixtures of truncated basis functions. This class of functions allows the representation of joint probability distributions involving discrete and continuous variables simultaneously, and includes mixtures of truncated exponentials and mixtures of polynomials as special cases. The package implements functions for learning the parameters of univariate, multivariate, and conditional distributions, and provides support for parameter learning in Bayesian networks with both discrete and continuous variables. Probabilistic inference using forward sampling is also implemented. Part of the functionality of the *MoTBFs* package relies on the [*bnlearn*](https://CRAN.R-project.org/package=bnlearn) package, which includes functions for learning the structure of a Bayesian network from a data set. Leveraging this functionality, the *MoTBFs* package supports learning of MoTBF-based Bayesian networks over hybrid domains. We give a brief introduction to the methodological context and algorithms implemented in the package. An extensive illustrative example is used to describe the package, its functionality, and its usage.
+author:
+- name: Inmaculada Pérez-Bernabé
+  affiliation: Department of Mathematics, University of Almería
+  address:
+  - Almería, 04120, Spain
+- name: Ana D. Maldonado
+  affiliation: Department of Mathematics, University of Almería
+  orcid: |
+    0000-0001-8253-2526
+  address: Almería, 04120, Spain
+- name: Thomas D. Nielsen
+  affiliation: Department of Computer Science, Aalborg University
+  address: |
+    Aalborg, 9220, Denmark
+- name: Antonio Salmerón
+  affiliation: |-
+    Department of Mathematics and Center for the Development and Transfer
+    of Mathematical Research to Industry (CDTIME), University of Almería
+  orcid: |
+    0000-0003-4982-8725
+  address: Almería, 04120, Spain
+date: '2021-01-15'
+date_received: '2020-04-05'
+journal:
+  firstpage: '343'
+  lastpage: '359'
+volume: 12
+issue: 2
+slug: RJ-2021-019
+doi: 10.32614/RJ-2021-019
+packages:
+  cran:
+  - MoTBFs
+  - bnlearn
+  - deal
+  - pcalg
+  - HydeNet
+  - abn
+  bioc: []
+CTV:

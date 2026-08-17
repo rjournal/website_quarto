@@ -1,0 +1,27 @@
+title: Changes in R
+abstract: We give a selection of the most important changes in R 4.2.0 and of subsequent bug fixes for the Windows port of R. We also provide statistics on source code commits.
+author:
+- name: Tomas Kalibera
+  affiliation: |
+    Czech Technical University, Czech Republic
+- name: Sebastian Meyer
+  affiliation: |
+    Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
+- name: Kurt Hornik
+  affiliation: |
+    WU Wirtschaftsuniversität Wien, Austria
+date: '2022-06-01'
+date_received:
+journal:
+  firstpage: '336'
+  lastpage: '338'
+volume: 14
+issue: 2
+slug: RJ-2022-2-rcore
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - knitr
+  - rJava
+  bioc: []
+CTV:

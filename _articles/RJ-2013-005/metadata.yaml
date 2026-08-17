@@ -1,0 +1,36 @@
+title: 'osmar: OpenStreetMap and R'
+abstract: OpenStreetMap provides freely accessible and editable geographic data. The *osmar* package smoothly integrates the OpenStreetMap project into the R ecosystem. The *osmar* package provides infrastructure to access OpenStreetMap data from different sources, to enable working with the OSM data in the familiar R idiom, and to convert the data into objects based on classes provided by existing R packages. This paper explains the package's concept and shows how to use it. As an application we present a simple navigation device.
+author:
+- name: Manuel J. A. Eugster
+  affiliation: Institut für Statistik, Ludwig-Maximilians-Universität München
+  address:
+  - Ludwigstrasse 33, 80539 Munich
+  - |
+    Germany
+- name: Thomas Schlesinger
+  affiliation: Institut für Statistik, Ludwig-Maximilians-Universität München
+  address:
+  - Ludwigstrasse 33, 80539 Munich
+  - |
+    Germany
+date: '2013-06-02'
+date_received: '2012-02-03'
+journal:
+  firstpage: '53'
+  lastpage: '63'
+volume: 5
+issue: 1
+slug: RJ-2013-005
+doi: 10.32614/RJ-2013-005
+packages:
+  cran:
+  - osmar
+  - OpenStreetMap
+  - RgoogleMaps
+  - ggmap
+  - sp
+  - igraph
+  - geosphere
+  - Rcpp
+  bioc: []
+CTV:

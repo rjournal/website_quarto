@@ -1,0 +1,27 @@
+title: 'genpathmox: An R Package to Tackle Numerous Categorical Variables and Heterogeneity in Partial Least Squares Structural Equation Modeling'
+abstract: Partial least squares structural equation modeling (PLS-SEM), combined with the analysis of the effects of categorical variables after estimating the model, is a well-established statistical approach to the study of complex relationships between variables. However, the statistical methods and software packages available are limited when we are interested in assessing the effects of several categorical variables and shaping different groups following different models. Following the framework established by @Lamberti16, we have developed the  [genpathmox](https://CRAN.R-project.org/package=genpathmox) *R* package for handling a large number of categorical variables when faced with heterogeneity in PLS-SEM. The package has functions for various aspects of the analysis of heterogeneity in PLS-SEM models, including estimation, visualization, and hypothesis testing. In this paper, we describe the implementation of genpathmox in detail and demonstrate its usefulness by analyzing employee satisfaction data.
+author:
+- name: Giuseppe Lamberti,
+  affiliation: Department of Business, Universitat Autonoma de Barcelona UAB,
+  email: |
+    giuseppe.lamberti@uab.cat
+  address:
+  - Spain.
+  - http://orcid.org/0000-0002-8666-796X
+date: '2023-11-01'
+date_received: '2022-11-10'
+journal:
+  firstpage: 294
+  lastpage: 308
+volume: 15
+issue: 2
+slug: RJ-2023-051
+doi: 10.32614/RJ-2023-051
+packages:
+  cran:
+  bioc:
+draft: no
+tex_native: yes
+nocite: |
+  @Beker22,@Chin10,@Chow60,@Dijkstra15,@Vinzi08,@Evermann21,@Hair16,@Hair17b,@Hair17,@Hair19,@Hair21,@henseler21,@Henseler09,@Henseler16,@Keil00,@Klesel19,@Klesel22,@Kollmann20,@Lamberti21,@genpathmox,@Lamberti16,@Lamberti17,@Lamberti20,@Lebart79,@loh97,@csem,@seminr,@matpls,@lavaan,@Sanchez06,@plspm,@Sarstedt22a,@Sarstedt22b,@Sarstedt22c,@Shmueli16,@Shmueli19,@diagram,@Wold85
+CTV:

@@ -1,0 +1,24 @@
+title: 'Conference Report: useR! 2015'
+abstract: 'The ''Conference Report: useR! 2015'' article from the 2015-2 issue.'
+author:
+- name: Torben Tvedebrink
+  affiliation: Department of Mathematical Sciences, Aalborg University
+  address:
+  - Fredrik Bajers Vej 7G, DK-9220 Aalborg
+  - Denmark
+date:
+date_received: '2015-11-30'
+journal:
+  firstpage: '289'
+  lastpage: '290'
+volume: 7
+issue: 2
+slug: RJ-2015-2-tvedebrink
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - dplyr
+  - mlr
+  - spatstat
+  bioc: []
+CTV:

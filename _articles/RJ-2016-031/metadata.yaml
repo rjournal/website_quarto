@@ -1,0 +1,46 @@
+title: 'QPot: An R Package for Stochastic Differential Equation Quasi-Potential Analysis'
+abstract: QPot (pronounced $ky\overline{\textbf{o}o} + p\ddot{a}t$) is an R package for analyzing two-dimensional systems of stochastic differential equations. It provides users with a wide range of tools to simulate, analyze, and visualize the dynamics of these systems. One of *QPot's* key features is the computation of the quasi-potential, an important tool for studying stochastic systems. Quasi-potentials are particularly useful for comparing the relative stabilities of equilibria in systems with alternative stable states. This paper describes *QPot*'s primary functions, and explains how quasi-potentials can yield insights about the dynamics of stochastic systems. Three worked examples guide users through the application of *QPot*'s functions.
+author:
+- name: Christopher M. Moore
+  affiliation: Department of Biology, Case Western Reserve University
+  address: United States
+- name: Christopher R. Stieha
+  affiliation: Department of Biology, Case Western Reserve University
+  address: United States
+- name: Ben C. Nolting
+  affiliation: Department of Biology, Case Western Reserve University
+  address:
+  - United States
+  - ''
+  - 'Current:'
+  - Department of Mathematics and Statistics, California State University
+  - ', Chico'
+  - United States
+- name: Maria K. Cameron
+  affiliation: Department of Mathematics, University of Maryland
+  address: United States
+- name: Karen C. Abbott
+  affiliation: Department of Biology, Case Western Reserve University
+  address: United States
+date: '2016-09-09'
+date_received: '2015-10-22'
+journal:
+  firstpage: '19'
+  lastpage: '38'
+volume: 8
+issue: 2
+slug: RJ-2016-031
+doi: 10.32614/RJ-2016-031
+packages:
+  cran:
+  - QPot
+  - rootSolve
+  - deSolve
+  - phaseR
+  - Sim.DiffProc
+  - yuima
+  - viridis
+  - plot3D
+  - rgl
+  bioc: []
+CTV:

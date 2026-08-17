@@ -1,0 +1,27 @@
+title: Addendum to "Statistical Software from a Blind Person's Perspective"
+abstract: This short note explains a solution to a problem for blind users when using the R terminal under Windows Vista or Windows 7, as identified in [@GodfreyRJournal]. We note the way the solution was discovered and subsequent confirmatory experiments.
+author:
+- name: A. Jonathan R. Godfrey
+  affiliation: Massey University, Palmerston North
+  address: |
+    New Zealand
+- name: Robert Erhardt
+  affiliation: Wake Forest University
+  address:
+  - Winston-Salem
+  - North Carolina
+  - |
+    United States
+date: '2014-03-03'
+date_received: '2014-02-12'
+journal:
+  firstpage: '182'
+  lastpage: '182'
+volume: 6
+issue: 1
+slug: RJ-2014-017
+doi: 10.32614/RJ-2014-017
+packages:
+  cran: []
+  bioc: []
+CTV:

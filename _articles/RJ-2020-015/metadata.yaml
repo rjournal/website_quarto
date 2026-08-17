@@ -1,0 +1,40 @@
+title: The R package NonProbEst for estimation in non-probability surveys
+abstract: Different inference procedures are proposed in the literature to correct selection bias that might be introduced with non-random sampling mechanisms. The R package [*NonProbEst*](https://CRAN.R-project.org/package=NonProbEst) enables the estimation of parameters using some of these techniques to correct selection bias in non-probability surveys. The mean and the total of the target variable are estimated using Propensity Score Adjustment, calibration, statistical matching, model-based, model-assisted and model-calibratated techniques. Confidence intervals can also obtained for each method. Machine learning algorithms can be used for estimating the propensities or for predicting the unknown values of the target variable for the non-sampled units. Variance of a given estimator is performed by two different Leave-One-Out jackknife procedures. The functionality of the package is illustrated with example data sets.
+author:
+- name: María del Mar Rueda
+  affiliation: |-
+    Department of Statistics and Operations Research, University of
+    Granada
+  orcid: |
+    0000-0002-2903-8745
+  address: Spain
+- name: Ramón Ferri-García
+  affiliation: |-
+    Department of Statistics and Operations Research, University of
+    Granada
+  orcid: |
+    0000-0002-9655-933X
+  address: Spain
+- name: Luis Castro
+  affiliation: |-
+    Department of Statistics and Operations Research, University of
+    Granada
+  address: |
+    Spain
+date: '2020-09-10'
+date_received: '2020-04-05'
+journal:
+  firstpage: '406'
+  lastpage: '418'
+volume: 12
+issue: 1
+slug: RJ-2020-015
+doi: 10.32614/RJ-2020-015
+packages:
+  cran:
+  - NonProbEst
+  - caret
+  - sampling
+  - survey
+  bioc: []
+CTV:

@@ -1,0 +1,31 @@
+title: R Day report
+abstract: The 'R Day report' article from the 2018-1 issue.
+author:
+- name: Fernando P. Mayer
+  affiliation: |
+    Laboratório de Estatística e Geoinformação - LEG/DEST/UFPR
+- name: Walmes M. Zeviani
+  affiliation: |
+    Laboratório de Estatística e Geoinformação - LEG/DEST/UFPR
+- name: Wagner H. Bonat
+  affiliation: |
+    Laboratório de Estatística e Geoinformação - LEG/DEST/UFPR
+- name: Elias T. Krainski
+  affiliation: |
+    Laboratório de Estatística e Geoinformação - LEG/DEST/UFPR
+- name: Paulo J. Ribeiro Jr
+  affiliation: |
+    Laboratório de Estatística e Geoinformação - LEG/DEST/UFPR
+date: '2018-06-01'
+date_received:
+journal:
+  firstpage: '551'
+  lastpage: '554'
+volume: 10
+issue: 1
+slug: RJ-2018-1-rday
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

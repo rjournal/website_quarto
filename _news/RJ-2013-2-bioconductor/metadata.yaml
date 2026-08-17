@@ -1,0 +1,26 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2013-2 issue.
+author:
+- name: Bioconductor Team
+  affiliation: |
+    Program in Computational Biology, Fred Hutchinson Cancer Research
+    Center
+date: '2013-12-01'
+date_received:
+journal:
+  firstpage: '162'
+  lastpage: '163'
+volume: 5
+issue: 2
+slug: RJ-2013-2-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: shiny
+  bioc:
+  - VariantTools
+  - GenomicRanges
+  - AnnotationHub
+  - PSICQUIC
+  - interactiveDisplay
+  - BiocParallel
+CTV:

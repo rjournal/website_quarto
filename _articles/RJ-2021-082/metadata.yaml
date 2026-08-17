@@ -1,0 +1,54 @@
+title: 'miRecSurv Package: Prentice-Williams-Peterson Models with Multiple Imputation of Unknown Number of Previous Episodes'
+abstract: Left censoring can occur with relative frequency when analyzing recurrent events in epidemiological studies, especially observational ones. Concretely, the inclusion of individuals that were already at risk before the effective initiation in a cohort study may cause the unawareness of prior episodes that have already been experienced, and this will easily lead to biased and inefficient estimates. The [*miRecSurv*](https://CRAN.R-project.org/package=miRecSurv) package is based on the use of models with specific baseline hazard, with multiple imputation of the number of prior episodes when unknown by means of the COMPoisson distribution, a very flexible count distribution that can handle over, sub, and equidispersion, with a stratified model depending on whether the individual had or had not previously been at risk, and the use of a frailty term. The usage of the package is illustrated by means of a real data example based on an occupational cohort study and a simulation study.
+author:
+- name: David Moriña
+  affiliation: Universitat de Barcelona (UB)
+  orcid: |
+    0000-0001-5949-7443
+  address:
+  - |-
+    Department of Econometrics, Statistics and Applied Economics -
+    Riskcenter (IREA),
+  - Avinguda Diagonal, 690 (08034) Barcelona
+  - Spain
+  - Centre de Recerca Matemàtica (CRM)
+- name: Gilma Hernández-Herrera
+  affiliation: Universidad de Antioquia
+  address:
+  - Instituto de Investigaciones Médicas, Facultad de Medicina,
+  - Carrera 51 D No. 62-29. Edificio Manuel Uribe Ángel, Medellín
+  - Colombia
+  - |-
+    PhD program in Methodology of Biomedical Research and Public Health.
+    Autnomous University of Barcelona (UAB)
+  - Avinguda de Can Domènech, S/N (08193) Cerdanyola del Vallès
+  - |
+    Spain
+- name: Albert Navarro
+  affiliation: Autonomous University of Barcelona (UAB)
+  address:
+  - |-
+    Research group on Psychosocial Risks, Organization of Work and Health
+    (POWAH),
+  - |-
+    Biostatistics Unit, Faculty of Medicine, Autonomous University of
+    Barcelona (UAB)
+  - Avinguda de Can Domènech, S/N (08193) Cerdanyola del Vallès
+  - |
+    Spain
+date: '2021-09-20'
+date_received: '2020-10-31'
+journal:
+  firstpage: '419'
+  lastpage: '426'
+volume: 13
+issue: 2
+slug: RJ-2021-082
+doi: 10.32614/RJ-2021-082
+packages:
+  cran:
+  - miRecSurv
+  - compoisson
+  - survsim
+  bioc: []
+CTV:

@@ -1,0 +1,30 @@
+title: 'Conference Review: Kickoff Workshop for Project MOSAIC'
+abstract: 'The ''Conference Review: Kickoff Workshop for Project MOSAIC'' article from the 2011-1 issue.'
+author:
+- name: Nicholas J. Horton
+  affiliation: Department of Mathematics and Statistics, Smith College
+  address:
+  - Clark Science Center, 44 College Lane
+  - |
+    Northampton, MA 01063-0001 USA
+- name: Randall Pruim
+  affiliation: Department of Mathematics and Statistics, Calvin College
+  address: |
+    Grand Rapids, MI 49546 USA
+- name: Danny Kaplan
+  affiliation: Department of Mathematics and Computer Science, Macalester College
+  address: |
+    1600 Grand Avenue, St. Paul, MN 55105 USA
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 78
+  lastpage: 78
+volume: 3
+issue: 1
+slug: RJ-2011-1-mosaic
+citation_url: https://rjournal.github.io/
+packages:
+  cran: mosaic
+  bioc: []
+CTV:

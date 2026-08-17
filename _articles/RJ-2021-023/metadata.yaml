@@ -1,0 +1,43 @@
+title: 'FarmTest: An R Package for Factor-Adjusted Robust Multiple Testing'
+abstract: 'We provide a publicly available library [*FarmTest*](https://CRAN.R-project.org/package=FarmTest) in the R programming system. This library implements a factor-adjusted robust multiple testing principle proposed by [@FKSZ2017] for large-scale simultaneous inference on mean effects. We use a multi-factor model to explicitly capture the dependence among a large pool of variables. Three types of factors are considered: observable, latent, and a mixture of observable and latent factors. The non-factor case, which corresponds to standard multiple mean testing under weak dependence, is also included. The library implements a series of adaptive Huber methods integrated with fast data-driven tuning schemes to estimate model parameters and to construct test statistics that are robust against heavy-tailed and asymmetric error distributions. Extensions to two-sample multiple mean testing problems are also discussed. The results of some simulation experiments and a real data analysis are reported.'
+author:
+- name: Koushiki Bose, Jianqing Fan
+  affiliation: |-
+    Department of Operations Research and Financial Engineering, Princeton
+    University
+  address:
+  - Princeton, NJ 08544
+  - |
+    USA
+- name: Yuan Ke
+  affiliation: Department of Statistics, University of Georgia
+  address:
+  - Athens, GA 30602
+  - |
+    USA
+- name: Xiaoou Pan, Wen-Xin Zhou
+  affiliation: Department of Mathematics, University of California
+  address:
+  - San Diego, La Jolla, CA 92093
+  - |
+    USA
+date: '2021-01-15'
+date_received: '2020-06-03'
+journal:
+  firstpage: '389'
+  lastpage: '402'
+volume: 12
+issue: 2
+slug: RJ-2021-023
+doi: 10.32614/RJ-2021-023
+packages:
+  cran:
+  - FarmTest
+  - Rcpp
+  - multcomp
+  - mutoss
+  - rstiefel
+  bioc:
+  - qvalue
+  - multtest
+CTV:

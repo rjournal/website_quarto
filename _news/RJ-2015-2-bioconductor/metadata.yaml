@@ -1,0 +1,23 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2015-2 issue.
+author:
+- name: Bioconductor Team
+  affiliation: Biostatistics and Bioinformatics, Roswell Park Cancer Institute
+  address: |
+    , Buffalo, NY, USA
+date: '2015-12-01'
+date_received:
+journal:
+  firstpage: '291'
+  lastpage: '292'
+volume: 7
+issue: 2
+slug: RJ-2015-2-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - AnnotationHub
+  - biomaRt
+  - BiocCheck
+CTV:

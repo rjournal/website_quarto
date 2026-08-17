@@ -1,0 +1,20 @@
+title: 'Conference Report: eRum 2018'
+abstract: 'The ''Conference Report: eRum 2018'' article from the 2018-1 issue.'
+author:
+- name: Gergely Daróczi
+  affiliation: Budapest Users of R Network, Hungary
+  orcid: |
+    0000-0003-3149-8537
+date: '2018-06-01'
+date_received:
+journal:
+  firstpage: '549'
+  lastpage: '550'
+volume: 10
+issue: 1
+slug: RJ-2018-1-erums
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

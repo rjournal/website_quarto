@@ -1,0 +1,21 @@
+title: 'comf: An R Package for Thermal Comfort Studies'
+abstract: The field of thermal comfort generated a number of thermal comfort indices. Their code implementation needs to be done by individual researchers. This paper presents the R package, *comf*, which includes functions for common and new thermal comfort indices. Additional functions allow comparisons between the predictive performance of these indices. This paper reviews existing thermal comfort indices and available code implementations. This is followed by the description of the R package and an example how to use the R package for the comparison of different thermal comfort indices on data from a thermal comfort study.
+author:
+- name: Marcel Schweiker
+  affiliation: Karlsruhe Institute of Technology, Building Science Group
+  address:
+  - Englerstr. 7, 76131 Karlsruhe
+  - Germany
+date: '2016-10-21'
+date_received: '2016-04-18'
+journal:
+  firstpage: '341'
+  lastpage: '351'
+volume: 8
+issue: 2
+slug: RJ-2016-050
+doi: 10.32614/RJ-2016-050
+packages:
+  cran: comf
+  bioc: []
+CTV:

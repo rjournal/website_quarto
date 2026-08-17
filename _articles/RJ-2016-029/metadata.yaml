@@ -1,0 +1,36 @@
+title: 'sbtools: A Package Connecting R to Cloud-based Data for Collaborative Online Research'
+abstract: The adoption of high-quality tools for collaboration and reproducibile research such as R and Github is becoming more common in many research fields. While Github and other version management systems are excellent resources, they were originally designed to handle code and scale poorly to large text-based or binary datasets. A number of scientific data repositories are coming online and are often focused on dataset archival and publication. To handle collaborative workflows using large scientific datasets, there is increasing need to connect cloud-based online data storage to R. In this article, we describe how the new R package *sbtools* enables direct access to the advanced online data functionality provided by ScienceBase, the U.S. Geological Survey's online scientific data storage platform.
+author:
+- name: Luke A Winslow
+  affiliation: U.S. Geological Survey, Office of Water Information
+  address:
+  - Middleton, Wisconsin
+  - USA
+- name: Scott Chamberlain
+  affiliation: rOpenSci / University of California, Berkeley
+  address:
+  - Berkeley, California
+  - USA
+- name: Alison P Appling
+  affiliation: U.S. Geological Survey, Office of Water Information
+  address:
+  - Middleton, Wisconsin
+  - USA
+- name: Jordan S Read
+  affiliation: U.S. Geological Survey, Office of Water Information
+  address:
+  - Middleton, Wisconsin
+  - USA
+date: '2016-07-23'
+date_received: '2016-04-30'
+journal:
+  firstpage: '387'
+  lastpage: '398'
+volume: 8
+issue: 1
+slug: RJ-2016-029
+doi: 10.32614/RJ-2016-029
+packages:
+  cran: []
+  bioc: []
+CTV:

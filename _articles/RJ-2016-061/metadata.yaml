@@ -1,0 +1,37 @@
+title: Measurement Units in R
+abstract: We briefly review SI units, and discuss R packages that deal with measurement units, their compatibility and conversion. Built upon *udunits2* and the UNIDATA udunits library, we introduce the package *units* that provides a class for maintaining unit metadata. When used in expression, it automatically converts units, and simplifies units of results when possible; in case of incompatible units, errors are raised. The class flexibly allows expansion beyond predefined units. Using *units* may eliminate a whole class of potential scientific programming mistakes. We discuss the potential and limitations of computing with explicit units.
+author:
+- name: Edzer Pebesma
+  affiliation: Institute for Geoinformatics
+  address:
+  - Heisenbergstraße 2, 48149 Münster
+  - Germany
+- name: Thomas Mailund
+  affiliation: Bioinformatics Research Center, Aarhus University
+- name: James Hiebert
+  affiliation: Pacific Climate Impacts Consortium, University of Victoria
+  address: Canada
+date: '2016-12-12'
+date_received: '2016-07-12'
+journal:
+  firstpage: '486'
+  lastpage: '494'
+volume: 8
+issue: 2
+slug: RJ-2016-061
+doi: 10.32614/RJ-2016-061
+packages:
+  cran:
+  - lubridate
+  - sp
+  - measurements
+  - NISTunits
+  - udunits2
+  - units
+  - ggplot2
+  - spacetime
+  - h5
+  - RNetCDF
+  - sos4R
+  bioc: []
+CTV:

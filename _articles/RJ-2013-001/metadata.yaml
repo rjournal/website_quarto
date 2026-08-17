@@ -1,0 +1,61 @@
+title: 'RTextTools: A Supervised Learning Package for Text Classification'
+abstract: Social scientists have long hand-labeled texts to create datasets useful for studying topics from congressional policymaking to media reporting. Many social scientists have begun to incorporate machine learning into their toolkits. [*RTextTools*](https://CRAN.R-project.org/package=RTextTools) was designed to make machine learning accessible by providing a start-to-finish product in less than 10 steps. After installing [*RTextTools*](https://CRAN.R-project.org/package=RTextTools), the initial step is to generate a document term matrix. Second, a container object is created, which holds all the objects needed for further analysis. Third, users can use up to nine algorithms to train their data. Fourth, the data are classified. Fifth, the classification is summarized. Sixth, functions are available for performance evaluation. Seventh, ensemble agreement is conducted. Eighth, users can cross-validate their data. Finally, users write their data to a spreadsheet, allowing for further manual coding if required.
+author:
+- name: Timothy P. Jurka
+  affiliation: Department of Political Science, University of California, Davis
+  address:
+  - One Shields Avenue
+  - Davis, CA 95616
+  - |
+    USA
+- name: Loren Collingwood
+  affiliation: Department of Political Science, University of California, Riverside
+  address:
+  - 900 University Avenue
+  - Riverside, CA 92521
+  - |
+    USA
+- name: Amber E. Boydstun
+  affiliation: Department of Political Science, University of California, Davis
+  address:
+  - One Shields Avenue
+  - Davis, CA 95616
+  - |
+    USA
+- name: Emiliano Grossman
+  affiliation: Sciences Po /CEE
+  address:
+  - 28, rue des Saints-Pères
+  - 75007 Paris
+  - |
+    France
+- name: Wouter van Atteveldt
+  affiliation: Communication Science Department
+  address:
+  - Vrije Universiteit
+  - de Boelelaan 1081a
+  - 1081 HV Amsterdam
+  - The Netherlands
+date: '2013-06-02'
+date_received: '2011-08-19'
+journal:
+  firstpage: '6'
+  lastpage: '12'
+volume: 5
+issue: 1
+slug: RJ-2013-001
+doi: 10.32614/RJ-2013-001
+packages:
+  cran:
+  - RTextTools
+  - glmnet
+  - maxent
+  - e1071
+  - tm
+  - ipred
+  - caTools
+  - randomForest
+  - nnet
+  - tree
+  bioc: []
+CTV:

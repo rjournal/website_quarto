@@ -1,0 +1,22 @@
+title: 'Conference Report: useR!2017'
+abstract: 'The ''Conference Report: useR!2017'' article from the 2017-2 issue.'
+author:
+- name: Tobias Verbeke
+  affiliation: Open Analytics NV
+  address:
+  - Jupiterstraat 20
+  - |
+    2600 Antwerp, Belgium
+date: '2017-12-01'
+date_received:
+journal:
+  firstpage: '537'
+  lastpage: '538'
+volume: 9
+issue: 2
+slug: RJ-2017-2-useR2017
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

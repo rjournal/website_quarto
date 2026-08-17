@@ -1,0 +1,40 @@
+title: Prinsimp
+abstract: Principal Components Analysis (PCA) is a common way to study the sources of variation in a high-dimensional data set. Typically, the leading principal components are used to understand the variation in the data or to reduce the dimension of the data for subsequent analysis. The remaining principal components are ignored since they explain little of the variation in the data. However, the space spanned by the low variation principal components may contain interesting structure, structure that PCA cannot find. *Prinsimp* is an R package that looks for interesting structure of low variability. "Interesting" is defined in terms of a simplicity measure. Looking for interpretable structure in a low variability space has particular importance in evolutionary biology, where such structure can signify the existence of a genetic constraint.
+author:
+- name: Jonathan Zhang
+  affiliation: Statistics Department, University of British Columbia
+  address:
+  - Vancouver BC
+  - Canada
+- name: Nancy Heckman
+  affiliation: Statistics Department, University of British Columbia
+  address:
+  - Vancouver BC
+  - Canada
+- name: Davor Cubranic
+  affiliation: Statistics Department, University of British Columbia
+  address:
+  - Vancouver BC
+  - Canada
+- name: Joel G. Kingsolver
+  affiliation: Department of Biology, University of North Carolina
+  address: Chapel Hill, NC
+- name: J.S. Marron
+  affiliation: Statistics Department, University of North Carolina
+  address: Chapel Hill NC
+- name: Travis L. Gaydos
+  affiliation: The MITRE Corporation
+  address: McLean, VA
+date: '2014-09-28'
+date_received: '2013-11-04'
+journal:
+  firstpage: '27'
+  lastpage: '42'
+volume: 6
+issue: 2
+slug: RJ-2014-022
+doi: 10.32614/RJ-2014-022
+packages:
+  cran: prinsimp
+  bioc: []
+CTV:

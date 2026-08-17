@@ -1,0 +1,48 @@
+title: Limitations in Detecting Multicollinearity due to Scaling Issues in the mcvis Package
+abstract: |
+  Transformation of the observed data is a very common practice when a troubling degree of near multicollinearity is detected in a linear regression model. However, it is important to take into account that these transformations may affect the detection of this problem, so they should not be performed systematically. In this paper we analyze the transformation of the data when applying the R package mcvis, showing that it only detects essential near multicollinearity when the *studentise* transformation is performed.
+draft: no
+author:
+- name: Roman Salmeron Gomez
+  affiliation: University of Granada
+  address:
+  - Department of Quantitative Methods for Economics and Busines
+  - Poligono La Cartuja sn, 18071, Granada, Spain.
+  url: http://metodoscuantitativos.ugr.es/pages/web/romansg
+  orcid: 0000-0003-2589-4058
+  email: romansg@ugr.es
+- name: Catalina B. Garcia Garcia
+  url: http://metodoscuantitativos.ugr.es/pages/web/cbgarcia
+  email: cbgarcia@ugr.es
+  orcid: 0000-0003-1622-3877
+  affiliation: University of Granada
+  address:
+  - Department of Quantitative Methods for Economics and Busines
+  - Poligono La Cartuja sn, 18071, Granada, Spain.
+- name: Ainara Rodriguez Sanchez
+  url: http://metodoscuantitativos.ugr.es/pages/web/cbgarcia
+  email: arsanchez@cee.uned.es
+  orcid: 0000-0003-1622-3877
+  affiliation: U.N.E.D.
+  address:
+  - Department of Applied Economics and Economic History
+  - Madrid, Spain.
+- name: Claudia Garcia Garcia
+  url: http://metodoscuantitativos.ugr.es/pages/web/cbgarcia
+  email: clgarc13@ucm.es
+  orcid: 0000-0003-1622-3877
+  affiliation: Complutense University of Madrid
+  address:
+  - Department of Applied Economics, Structure and History
+  - Madrid, Spain.
+type: package
+date: '2023-02-10'
+date_received: '2021-12-06'
+volume: 14
+issue: 4
+slug: RJ-2023-010
+doi: 10.32614/RJ-2023-010
+journal:
+  lastpage: 279
+  firstpage: 264
+

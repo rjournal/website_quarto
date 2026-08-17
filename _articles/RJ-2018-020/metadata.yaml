@@ -1,0 +1,37 @@
+title: 'FHDI: An R Package for Fractional Hot Deck Imputation'
+abstract: Fractional hot deck imputation (FHDI), proposed by [@kalton84] and investigated by [@kim04], is a tool for handling item nonresponse in survey sampling. In FHDI, each missing item is filled with multiple observed values yielding a single completed data set for subsequent analyses. An R package ***FHDI*** is developed to perform FHDI and also the fully efficient fractional imputation (FEFI) method of [@fuller05] to impute multivariate missing data with arbitrary missing patterns. FHDI substitutes missing items with a few observed values jointly obtained from a set of donors whereas the FEFI uses all the possible donors. This paper introduces ***FHDI*** as a tool for implementing the multivariate version of fractional hot deck imputation discussed in [@im15] as well as FEFI. For variance estimation of FHDI and FEFI, the Jackknife method is implemented, and replicated weights are provided as a part of the output.
+author:
+- name: Jongho Im
+  affiliation: Department of Applied Statistics, Yonsei University
+  address: |
+    South Korea
+- name: In Ho Cho
+  affiliation: |-
+    Department of Civil, Construction and Environmental Engineering, Iowa
+    State University
+  address: |
+    United States
+- name: Jae Kwang Kim
+  affiliation: Center for Survey Statistics and Methodology, Iowa State University
+  address:
+  - Department of Statistics
+  - |
+    United States
+date: '2018-05-21'
+date_received: '2017-06-02'
+journal:
+  firstpage: '140'
+  lastpage: '154'
+volume: 10
+issue: 1
+slug: RJ-2018-020
+doi: 10.32614/RJ-2018-020
+packages:
+  cran:
+  - mice
+  - mi
+  - Amelia
+  - VIM
+  - FHDI
+  bioc: []
+CTV:

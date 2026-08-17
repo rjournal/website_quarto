@@ -1,0 +1,49 @@
+title: Comparing Multiple Survival Functions with Crossing Hazards in R
+abstract: It is frequently of interest in time-to-event analysis to compare multiple survival functions nonparametrically. However, when the hazard functions cross, tests in existing R packages do not perform well. To address the issue, we introduce the package *survELtest*, which provides tests for comparing multiple survival functions with possibly crossing hazards. Due to its powerful likelihood ratio formulation, this is the only R package to date that works when the hazard functions cross. We illustrate the use of the procedures in *survELtest* by applying them to data from randomized clinical trials and simulated datasets. We show that these methods lead to more significant results than those obtained by existing R packages.
+author:
+- name: Hsin-wen Chang
+  affiliation: Institute of Statistical Science, Academia Sinica
+  orcid: |
+    0000-0003-4566-7047
+  address:
+  - 128 Academia Road, Section 2,
+  - Nankang, Taipei 11529, Taiwan (R.O.C)
+- name: Pei-Yuan Tsai
+  affiliation: Institute of Statistical Science, Academia Sinica
+  address: |
+    Taipei, Taiwan (R.O.C)
+- name: Jen-Tse Kao
+  affiliation: Institute of Statistical Science, Academia Sinica
+  address: |
+    Taipei, Taiwan (R.O.C)
+- name: Guo-You Lan
+  affiliation: Department of Economics, National Chengchi University
+  address: |
+    Taipei, Taiwan (R.O.C)
+date: '2021-01-14'
+date_received: '2019-07-01'
+journal:
+  firstpage: '107'
+  lastpage: '119'
+volume: 12
+issue: 2
+slug: RJ-2021-002
+doi: 10.32614/RJ-2021-002
+packages:
+  cran:
+  - survival
+  - YPmodel
+  - survRM2
+  - survELtest
+  - emplik
+  - emplik2
+  - ELYP
+  - FHtest
+  - clinfun
+  - LogrankA
+  - coin
+  - maxstat
+  - boot
+  - muhaz
+  bioc: []
+CTV:

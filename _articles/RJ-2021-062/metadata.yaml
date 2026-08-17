@@ -1,0 +1,47 @@
+title: Unidimensional and Multidimensional Methods for Recurrence Quantification Analysis with crqa
+abstract: Recurrence quantification analysis is a widely used method for characterizing patterns in time series. This article presents a comprehensive survey for conducting a wide range of recurrence-based analyses to quantify the dynamical structure of single and multivariate time series and capture coupling properties underlying leader-follower relationships. The basics of recurrence quantification analysis (RQA) and all its variants are formally introduced step-by-step from the simplest auto-recurrence to the most advanced multivariate case. Importantly, we show how such RQA methods can be deployed under a single computational framework in R using a substantially renewed version of our *crqa* 2.0 package. This package includes implementations of several recent advances in recurrence-based analysis, among them applications to multivariate data and improved entropy calculations for categorical data. We show concrete applications of our package to example data, together with a detailed description of its functions and some guidelines on their usage.
+author:
+- name: Moreno I. Coco
+  affiliation: School of Psychology, University of East London
+  address: |
+    E154LZ, London, UK
+- name: Dan Mønster
+  affiliation: School of Business and Social Sciences, Aarhus University
+  orcid: |
+    0000-0001-9639-8823
+  address: DK-8210, Aarhus V, Denmark
+- name: Giuseppe Leonardi
+  affiliation: University of Economics and Human Sciences in Warsaw
+  address:
+  - Institute of Psychology
+  - |
+    01-043, Warsaw, Poland
+- name: Rick Dale
+  affiliation: University of California, Los Angeles
+  address:
+  - Department of Communication
+  - |
+    CA 90005, Los Angeles, USA
+- name: Sebastian Wallot
+  affiliation: Max Planck Institute for Empirical Aesthetics
+  address:
+  - Department of Language and Literature
+  - |
+    GR-60322, Frankfurt a.M., Germany
+date: '2021-06-21'
+date_received: '2020-04-30'
+journal:
+  firstpage: '112'
+  lastpage: '130'
+volume: 13
+issue: 1
+slug: RJ-2021-062
+doi: 10.32614/RJ-2021-062
+packages:
+  cran:
+  - tseriesChaos
+  - nonlinearTseries
+  - RHRV
+  - crqa
+  bioc: []
+CTV:

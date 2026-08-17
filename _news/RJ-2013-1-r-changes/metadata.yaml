@@ -1,0 +1,16 @@
+title: Changes in R
+abstract: The 'Changes in R' article from the 2013-1 issue.
+author: The R Core Team
+date: '2013-06-01'
+date_received:
+journal:
+  firstpage: '221'
+  lastpage: '238'
+volume: 5
+issue: 1
+slug: RJ-2013-1-r-changes
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

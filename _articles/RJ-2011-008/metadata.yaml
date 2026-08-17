@@ -1,0 +1,28 @@
+title: Raster Images in R Graphics
+abstract: The R graphics engine has new support for rendering raster images via the functions `rasterImage()` and `grid.raster()`. This leads to better scaling of raster images, faster rendering to screen, and smaller graphics files. Several examples of possible applications of these new features are described.
+author:
+- name: Paul Murrell
+  affiliation: Department of Statistics, The University of Auckland
+  address:
+  - Private Bag 92019, Auckland
+  - |
+    New Zealand
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: '48'
+  lastpage: '54'
+volume: 2
+issue: 2
+slug: RJ-2011-008
+doi: 10.32614/RJ-2011-008
+packages:
+  cran:
+  - graphics
+  - grid
+  - lattice
+  - ReadImages
+  - png
+  - maps
+  bioc: []
+CTV:

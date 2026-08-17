@@ -1,0 +1,33 @@
+title: Bootstrapping Clustered Data in R using lmeresampler
+author:
+- name: Adam Loy
+  affiliation: Carleton College
+  address: Northfield, MN, USA
+  url: https://aloy.rbind.io/
+  orcid: 0000-0002-5780-4611
+  email: aloy@carleton.edu
+- name: Jenna Korobova
+  email: jenna.korobova@gmail.com
+  affiliation: Carleton College
+  address: Northfield, MN, USA
+abstract: |
+  Linear mixed-effects models are commonly used to analyze clustered data structures. There are numerous packages to fit these models in R and conduct likelihood-based inference. The implementation of resampling-based procedures for inference are more  limited. In this paper, we introduce the \pkg{lmeresampler} package for bootstrapping nested linear mixed-effects models fit via \pkg{lme4} or \pkg{nlme}. Bootstrap  estimation allows for bias correction, adjusted standard errors and confidence  intervals for small samples sizes and when distributional assumptions break down.  We will also illustrate how bootstrap resampling can be used to diagnose this model  class. In addition, \pkg{lmeresampler} makes it easy to construct interval estimates  of functions of model parameters.
+preamble: |
+  % Any extra LaTeX you need in the preamble
+  \usepackage{bm}
+  \usepackage{booktabs}
+  \usepackage{longtable}
+editor_options:
+  markdown:
+    wrap: 72
+date: '2023-02-10'
+date_received: '2021-05-10'
+volume: 14
+issue: 4
+slug: RJ-2023-015
+doi: 10.32614/RJ-2023-015
+draft: no
+journal:
+  lastpage: 120
+  firstpage: 103
+

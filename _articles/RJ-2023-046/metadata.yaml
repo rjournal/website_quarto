@@ -1,0 +1,28 @@
+title: 'langevitour: Smooth Interactive Touring of High Dimensions, Demonstrated with scRNA-Seq Data'
+abstract: |
+  \CRANpkg{langevitour} displays interactive animated 2D projections of high-dimensional datasets.
+  Langevin Dynamics is used to produce a smooth path of projections. Projections are initially explored at random. A "guide" can be activated to look for an informative projection, or variables can be manually positioned. After a projection of particular interest has been found, continuing small motions provide a channel of visual information not present in a static scatter plot.
+  \CRANpkg{langevitour} is implemented in Javascript, allowing for a high frame rate and responsive interaction, and can be used directly from the R environment or embedded in HTML documents produced using R.
+  Single cell RNA-sequencing (scRNA-Seq) data is used to demonstrate the widget. \CRANpkg{langevitour}'s linear projections provide a less distorted view of this data than commonly used non-linear dimensionality reductions such as UMAP.
+draft: no
+author:
+- name: Paul Harrison
+  affiliation: Monash Genomics and Bioinformatics Platform, Monash University
+  address:
+  - 15 Innovation Walk
+  - Monash University, Clayton Campus
+  - Clayton VIC, Australia, 3800
+  url: https://logarithmic.net/pfh/
+  orcid: 0000-0002-3980-268X
+  email: paul.harrison@monash.edu
+type: package
+date: '2023-11-01'
+date_received: '2022-08-29'
+volume: 15
+issue: 2
+slug: RJ-2023-046
+doi: 10.32614/RJ-2023-046
+journal:
+  lastpage: 219
+  firstpage: 206
+

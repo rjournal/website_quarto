@@ -1,0 +1,33 @@
+title: A Comparison of R Tools for Nonlinear Least Squares Modeling
+abstract: |
+  Our Google Summer of Code project "Improvements to `nls()`" investigated rationalizing R tools for nonlinear regression and nonlinear estimation tools by considering usability, maintainability, and functionality, especially for a Gauss-Newton solver. <!-- JN: copyedit essentially accepted --> The rich features of `nls()` are weakened by several deficiencies and inconsistencies such as a lack of stabilization of the Gauss-Newton solver. Further considerations are the usability and  maintainability of the code base that provides the functionality `nls()` claims to offer. Various packages, including our `nlsr`, provide alternative capabilities. We consider the differences in goals, approaches, and features of different tools for nonlinear least squares modeling in R. Discussion of  these matters is relevant to improving R generally as well as its  nonlinear estimation tools.
+author:
+- name: John C. Nash
+  affiliation: retired professor, University of Ottawa
+  address:
+  - Telfer School of Management
+  - Ottawa ON Canada K1N 6N5
+  orcid: 0000-0002-2762-8039
+  email: profjcnash@gmail.com
+- name: Arkajyoti Bhattacharjee
+  affiliation: Indian Institute of Technology
+  address:
+  - Department of Mathematics and Statistics
+  - Kanpur
+  email: arkastat98@gmail.com
+type: package
+preamble: \DeclareTextSymbolDefault{\textasciigrave}{TS1}
+date: '2024-04-11'
+date_received: '2023-02-27'
+journal:
+  firstpage: 198
+  lastpage: 215
+volume: 15
+issue: 4
+slug: RJ-2023-091
+doi: 10.32614/RJ-2023-091
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

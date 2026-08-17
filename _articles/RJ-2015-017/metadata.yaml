@@ -1,0 +1,47 @@
+title: Fitting Conditional and Simultaneous Autoregressive Spatial Models in hglm
+abstract: We present a new version ($\geqslant 2.0$) of the *hglm* package for fitting hierarchical generalized linear models (HGLMs) with spatially correlated random effects. `CAR()` and `SAR()` families for conditional and simultaneous autoregressive random effects were implemented. Eigen decomposition of the matrix describing the spatial structure (e.g., the neighborhood matrix) was used to transform the CAR/SAR random effects into an independent, but heteroscedastic, Gaussian random effect. A linear predictor is fitted for the random effect variance to estimate the parameters in the CAR and SAR models. This gives a computationally efficient algorithm for moderately sized problems.
+author:
+- name: Moudud Alam
+  affiliation: |-
+    Statistics, School of Technology and Business Studies, Dalarna
+    University
+  address: Sweden
+- name: Lars ård
+  affiliation: |-
+    Statistics, School of Technology and Business Studies, Dalarna
+    University
+  address:
+  - Sweden
+  - and
+  - Department of Animal Breeding and Genetics
+  - Swedish University of Agricultural Sciences, Sweden
+  - and
+  - Division of Computational Genetics
+  - Department of Clinical Sciences
+  - Swedish University of Agricultural Sciences, Sweden
+- name: Xia Shen
+  affiliation: |-
+    Department of Medical Epidemiology and Biostatistics, Karolinska
+    Institutet
+  address:
+  - Sweden
+  - and
+  - MRC Human Genetics Unit
+  - MRC Institute of Genetics and Molecular Medicine
+  - University of Edinburgh, United Kingdom
+date: '2015-09-09'
+date_received: '2014-01-21'
+journal:
+  firstpage: '5'
+  lastpage: '18'
+volume: 7
+issue: 2
+slug: RJ-2015-017
+doi: 10.32614/RJ-2015-017
+packages:
+  cran:
+  - hglm
+  - spaMM
+  - HGLMMM
+  bioc: []
+CTV:

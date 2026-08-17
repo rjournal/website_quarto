@@ -1,0 +1,16 @@
+title: Changes in R 2.10.1--2.11.1
+abstract: The 'Changes in R 2.10.1--2.11.1' article from the 2010-1 issue.
+author: The R Core Team
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 64
+  lastpage: 71
+volume: 2
+issue: 1
+slug: RJ-2010-1-r-changes
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

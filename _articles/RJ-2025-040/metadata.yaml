@@ -1,0 +1,34 @@
+title: 'rvif: a Decision Rule to Detect Troubling Statistical Multicollinearity Based on Redefined VIF'
+date: '2026-02-04'
+abstract: |
+  Multicollinearity is relevant in many different fields where linear regression models are applied since its presence may affect the analysis of ordinary least squares estimators not only numerically but also from a statistical point of view, which is the focus of this paper. Thus, it is known that collinearity can lead to incoherence in the statistical significance of the coefficients of the independent variables and in the global significance of the model. In this paper, the thresholds of the Redefined Variance Inflation Factor (RVIF) are reinterpreted and presented as a statistical test with a region of non-rejection (which depends on a significance level) to diagnose the existence of a degree of worrying multicollinearity that affects the linear regression model from a statistical point of view. The proposed methodology is implemented in the rvif package of R and its application is illustrated with different real data examples previously applied in the scientific literature.
+draft: no
+author:
+- name: Román Salmerón-Gómez
+  affiliation: University of Granada
+  address:
+  - Department of Quantitative Methods for Economics and Business
+  - Campus Universitario de La Cartuja, Universidad de Granada. 18071 Granada (España)
+  url: https://www.ugr.es/~romansg/web/index.html
+  orcid: 0000-0003-2589-4058
+  email: romansg@ugr.es
+- name: Catalina B. García-García
+  affiliation: University of Granada
+  address:
+  - Department of Quantitative Methods for Economics and Business
+  - Campus Universitario de La Cartuja, Universidad de Granada. 18071 Granada (España)
+  url: https://metodoscuantitativos.ugr.es/informacion/directorio-personal/catalina-garcia-garcia
+  email: cbgarcia@ugr.es
+  orcid: 0000-0003-1622-3877
+type: package
+editor_options:
+  chunk_output_type: console
+date_received: '2025-02-06'
+volume: 17
+issue: 4
+slug: RJ-2025-040
+doi: 10.32614/RJ-2025-040
+journal:
+  lastpage: 216
+  firstpage: 193
+

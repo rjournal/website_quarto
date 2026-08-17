@@ -1,0 +1,28 @@
+title: Sparse Model Matrices for Multidimensional Hierarchical Aggregation
+abstract: |
+  Multidimensional hierarchical sum aggregations can be formulated as matrix multiplications involving dummy matrices which can be referred to as model matrices. In contrast to standard model matrices, all categories of all variables must be included. For this purpose, the R package SSBtools includes functionality to create model matrices in two alternative ways, by model formulas or by so-called hierarchies. The latter means a coding of hierarchical relationships, and this can be done in several ways. Tree-shaped hierarchies are not required. The internal standard in the package is a parent-child coding. Functionality to find hierarchies automatically from the data is also included. The model matrix functionality is applied in several R packages for statistical disclosure control. This enables general implementation of methods and a flexible user interface. This paper describes the model matrix and hierarchy functions in SSBtools, as well as the methods and functions behind it.
+author:
+- name: Øyvind Langsrud
+  affiliation: Statistics Norway
+  address:
+  - P.O. Box 8131 Dep.,
+  - 0033 Oslo, Norway
+  url: https://github.com/olangsrud
+  orcid: 0000-0002-1380-4396
+  email: Oyvind.Langsrud@ssb.no
+type: package
+header-includes: \usepackage{longtable}
+date: '2024-04-11'
+date_received: '2023-01-17'
+journal:
+  firstpage: 150
+  lastpage: 166
+volume: 15
+issue: 4
+slug: RJ-2023-088
+doi: 10.32614/RJ-2023-088
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

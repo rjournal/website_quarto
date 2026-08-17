@@ -1,0 +1,38 @@
+---
+title: "The R Journal"
+toc: false
+page-layout: full
+---
+
+<style>
+#title-block-header {
+  display: none;
+}
+</style>
+<div class="journal-home">
+<div class="journal-home-layout">
+<main class="journal-home-main">
+<section class="journal-hero" aria-labelledby="journal-home-title">
+<div class="journal-hero-copy">
+<h1 id="journal-home-title">The R Journal</h1>
+<p class="journal-hero-tagline">Peer-reviewed, open-access articles for R users and developers.</p>
+<p>The R Journal is the official peer-reviewed publication of <a href="https://www.r-project.org/foundation/">the R Foundation</a>. Its articles highlight packages, programming, applications, reviews, benchmarks, teaching resources, and topics of interest to the broader R community. All articles are open access and there are no submission fees.</p>
+</div>
+<div class="journal-hero-visual" aria-hidden="true">
+<img src="assets/R_logo.svg" alt="" class="journal-hero-logo">
+</div>
+</section>
+
+<section class="journal-articles" aria-labelledby="latest-articles-heading">
+<div class="journal-section-header">
+<h2 id="latest-articles-heading">Latest Articles</h2>
+<a href="pages/issues.html">View all issues</a>
+</div>
+
+```{r, echo=FALSE, results='asis'}
+cat(readLines("generated/latest-articles.html", warn = FALSE), sep = "\n")
+```
+</section>
+</main>
+</div>
+</div>

@@ -1,0 +1,34 @@
+title: Using the Google Visualisation API with R
+abstract: The [*googleVis*](https://CRAN.R-project.org/package=googleVis) package provides an interface between R and the Google Visualisation API to create interactive charts which can be embedded into web pages. The best known of these charts is probably the Motion Chart, popularised by Hans Rosling in his TED talks. With the [*googleVis*](https://CRAN.R-project.org/package=googleVis) package users can easily create web pages with interactive charts based on R data frames and display them either via the local R HTTP help server or within their own sites.
+author:
+- name: Markus Gesmann
+  affiliation: googleVis project
+  address:
+  - London
+  - |
+    UK
+- name: Diego de Castillo
+  affiliation: googleVis project
+  address:
+  - Cologne
+  - |
+    Germany
+date: '2011-12-01'
+date_received:
+journal:
+  firstpage: 40
+  lastpage: 44
+volume: 3
+issue: 2
+slug: RJ-2011-017
+doi: 10.32614/RJ-2011-017
+packages:
+  cran:
+  - googleVis
+  - R.rsp
+  - brew
+  - RJSONIO
+  - rsp
+  - rjsonio
+  bioc: []
+CTV:

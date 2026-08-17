@@ -1,0 +1,28 @@
+title: 'stellaR: A Package to Manage Stellar Evolution Tracks and Isochrones'
+abstract: We present the R package *stellaR*, which is designed to access and manipulate publicly available stellar evolutionary tracks and isochrones from the Pisa low-mass database. The procedures for extracting important stages in the evolution of a star from the database, for constructing isochrones from stellar tracks and for interpolating among tracks are discussed and demonstrated.
+author:
+- name: Matteo Dell'Omodarme
+  affiliation: Dipartimento di Fisica "Enrico Fermi", Università di Pisa
+  address:
+  - Largo Pontecorvo 3, Pisa I-56127
+  - |
+    Italy
+- name: Giada Valle
+  affiliation: Dipartimento di Fisica "Enrico Fermi", Università di Pisa
+  address:
+  - Largo Pontecorvo 3, Pisa I-56127
+  - |
+    Italy
+date: '2013-06-02'
+date_received: '2012-05-30'
+journal:
+  firstpage: '108'
+  lastpage: '116'
+volume: 5
+issue: 1
+slug: RJ-2013-011
+doi: 10.32614/RJ-2013-011
+packages:
+  cran: stellaR
+  bioc: []
+CTV:

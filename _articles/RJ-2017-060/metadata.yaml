@@ -1,0 +1,33 @@
+title: 'ManlyMix: An R Package for Manly Mixture Modeling'
+abstract: Model-based clustering is a popular technique for grouping objects based on a finite mixture model. It has countless applications in different fields of study. The R package *ManlyMix* implements the Manly mixture model that allows modeling skewness within data groups and performs cluster analysis. *ManlyMix* is a powerful diagnostics tool that is capable of conducting investigation concerning the normality of variables upon fitting of a Manly forward or backward model. Theoretical foundations as well as description of functions are provided. All features of the package are illustrated with examples in great detail. The analysis of real-life datasets demonstrates the flexibility and usefulness of the package.
+author:
+- name: Xuwen Zhu
+  affiliation: Department of Mathematics, The University of Louisville
+  address:
+  - Louisville, KY 40208
+  - USA
+- name: Volodymyr Melnykov
+  affiliation: |-
+    Department of Information Systems, Statistics, and Management Science,
+    The University of Alabama
+  address:
+  - Tuscaloosa, AL 35487
+  - USA
+date: '2017-11-22'
+date_received: '2017-02-17'
+journal:
+  firstpage: '176'
+  lastpage: '197'
+volume: 9
+issue: 2
+slug: RJ-2017-060
+doi: 10.32614/RJ-2017-060
+packages:
+  cran:
+  - flowClust
+  - mixsmsn
+  - EMMIXskew
+  - EMMIXuskew
+  - ManlyMix
+  bioc: []
+CTV:

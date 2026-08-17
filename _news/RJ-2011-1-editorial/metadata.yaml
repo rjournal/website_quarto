@@ -1,0 +1,18 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2011-1 issue.
+author:
+- name: Heather Turner
+  affiliation: PharmaTherapeutics Statistics, Pfizer Ltd, UK
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 3
+  lastpage: 3
+volume: 3
+issue: 1
+slug: RJ-2011-1-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

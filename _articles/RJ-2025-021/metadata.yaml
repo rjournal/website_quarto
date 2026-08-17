@@ -1,0 +1,88 @@
+title: 'lsirm12pl: An R Package for the Latent Space Item Response Model'
+abstract: |
+  The item response model in latent space (LSIRM; Jeon et al. (2021))
+  uncovers unobserved interactions between respondents and items in the
+  item response data by embedding both in a shared latent metric space.
+  The R package lsirm12pl implements Bayesian estimation of the LSIRM
+  and its extensions for various response types, base model
+  specifications, and missing data handling. Furthermore, the lsirm12pl
+  package provides methods to improve model utilization and
+  interpretation, such as clustering item positions on an estimated
+  interaction map. The package also offers convenient summary and
+  plotting options to evaluate and process the estimated results. In
+  this paper, we provide an overview of the LSIRM's methodological
+  foundation and describe several extensions included in the package. We
+  then demonstrate the use of the package with real data examples
+  contained within it.
+author:
+- name: Dongyoung Go
+  affiliation: Department of Statistics and Data Science
+  address:
+  - Department of Applied Statistics
+  - Yonsei University
+  - 50 Yonsei-ro, Seodaemun, Seoul, Republic of Korea
+  - |
+    [dongyoung.gr@yonsei.ac.kr](dongyoung.gr@yonsei.ac.kr){.uri}
+- name: Gwanghee Kim
+  affiliation: Department of Statistics and Data Science
+  address:
+  - Yonsei University
+  - 50 Yonsei-ro, Seodaemun, Seoul, Republic of Korea
+  - |
+    [musagh08@yonesi.ac.kr](musagh08@yonesi.ac.kr){.uri}
+- name: Jina Park
+  affiliation: Department of Statistics and Data Science
+  address:
+  - Department of Applied Statistics
+  - Yonsei University
+  - 50 Yonsei-ro, Seodaemun, Seoul, Republic of Korea
+  - |
+    [pja070707@yonesi.ac.kr](pja070707@yonesi.ac.kr){.uri}
+- name: Junyong Park
+  affiliation: Samsung Electronics, Formerly at Yonsei University
+  address:
+  - 1 Samsung Electronics-ro, Hwaseong-si, Gyeonggi-do, Republic of Korea
+  - |
+    [jun94.park@samsung.com](jun94.park@samsung.com){.uri}
+- name: Minjeong Jeon
+  affiliation: School of Education and Information Studies
+  address:
+  - University of California, Los Angeles
+  - 405 Hilgard Avenue, Los Angeles, CA 90095
+  - |
+    [mjjeon@ucla.edu](mjjeon@ucla.edu){.uri}
+- name: Ick Hoon Jin
+  affiliation: Department of Statistics and Data Science
+  address:
+  - Department of Applied Statistics
+  - Yonsei University
+  - 50 Yonsei-ro, Seodaemun, Seoul, Republic of Korea
+  - |
+    [ijin@yonsei.ac.kr](ijin@yonsei.ac.kr){.uri}
+date: '2025-10-21'
+date_received: '2023-09-24'
+journal:
+  firstpage: 4
+  lastpage: 29
+volume: 17
+issue: 3
+slug: RJ-2025-021
+doi: 10.32614/RJ-2025-021
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - ltm
+  - eRm
+  - mirt
+  - pcIRT
+  - lsirm12pl
+  - GPArotation
+  - kernlab
+  - Rcpp
+  - RcppArmadillo
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

@@ -1,0 +1,32 @@
+title: A Clustering Algorithm to Organize Satellite Hotspot Data for the Purpose of Tracking Bushfires Remotely
+author:
+- name: Weihao Li
+  affiliation: Monash University
+  address: Econometrics and Business Statistics
+  email: weihao.li@monash.edu
+  orcid: 0000-0003-4959-106X
+- name: Emily Dodwell
+  email: emdodwell@gmail.com
+- name: Dianne Cook
+  affiliation: Monash University
+  address: Econometrics and Business Statistics
+  url: http://www.dicook.org
+  email: dicook@monash.edu
+  orcid: 0000-0002-3813-7155
+abstract: |
+  This paper proposes a spatiotemporal clustering algorithm and its implementation in the R package \CRANpkg{spotoroo}. This work is motivated by the catastrophic bushfires in Australia throughout the summer of 2019-2020 and made possible by the availability of satellite hotspot data. The algorithm is inspired by two existing spatiotemporal clustering algorithms but makes enhancements to cluster points spatially in conjunction with their movement across consecutive time periods. It also allows for the adjustment of key parameters, if required, for different locations and satellite data sources. Bushfire data from Victoria, Australia, is used to illustrate the algorithm and its use within the package.
+type: package
+creative_commons: CC BY
+date: '2023-08-26'
+editor_options:
+  chunk_output_type: console
+date_received: '2021-12-06'
+volume: 15
+issue: 1
+slug: RJ-2023-022
+doi: 10.32614/RJ-2023-022
+draft: no
+journal:
+  lastpage: 33
+  firstpage: 17
+

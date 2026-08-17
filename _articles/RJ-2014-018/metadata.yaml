@@ -1,0 +1,48 @@
+title: 'oligoMask: A Framework for Assessing and Removing the Effect of Genetic Variants on Microarray Probes'
+abstract: As expression microarrays are typically designed relative to a reference genome, any individual genetic variant that overlaps a probe's genomic position can possibly cause a reduction in hybridization due to the probe no longer being a perfect match to a given sample's mRNA at that locus. If the samples or groups used in a microarray study differ in terms of genetic variants, the results of the microarray experiment can be negatively impacted. The *oligoMask* package is an R/SQLite framework which can utilize publicly available genetic variants and works in conjunction with the *oligo* package to read in the expression data and remove microarray probes which are likely to impact a given microarray experiment prior to analysis. Tools are provided for creating an SQLite database containing the probe and variant annotations and for performing the commonly used RMA preprocessing procedure for Affymetrix microarrays. The *oligoMask* package is freely available at <https://github.com/dbottomly/oligoMask>.
+author:
+- name: Daniel Bottomly
+  affiliation: Oregon Clinical and Translational Research Institute
+  address:
+  - Oregon Health and Science University
+  - 3181 SW Sam Jackson Park Rd.
+  - Portland, Oregon 97239
+  - |
+    USA
+- name: Beth Wilmot
+  affiliation: Oregon Clinical and Translational Research Institute
+  address:
+  - Division of Bioinformatics and Computational Biology, DMICE
+  - 3181 SW Sam Jackson Park Rd.
+  - Portland, Oregon 97239
+  - |
+    USA
+- name: Shannon K. McWeeney
+  affiliation: Oregon Clinical and Translational Research Institute
+  address:
+  - Knight Cancer Institute
+  - Division of Bioinformatics and Computational Biology, DMICE
+  - Division of Biostatistics, PHPM
+  - 3181 SW Sam Jackson Park Rd.
+  - Portland, Oregon 97239
+  - |
+    USA
+date: '2014-05-27'
+date_received: '2014-03-06'
+journal:
+  firstpage: '159'
+  lastpage: '163'
+volume: 6
+issue: 1
+slug: RJ-2014-018
+doi: 10.32614/RJ-2014-018
+packages:
+  cran: []
+  bioc:
+  - oligo
+  - xps
+  - maskBAD
+  - VariantAnnotation
+  - BSgenome
+  - Biostrings
+CTV:

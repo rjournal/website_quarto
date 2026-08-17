@@ -1,0 +1,33 @@
+title: Non-Parametric Analysis of Spatial and Spatio-Temporal Point Patterns
+abstract: |
+  The analysis of spatial and spatio-temporal point patterns is becoming increasingly necessary, given the rapid emergence of geographically and temporally indexed data in a wide range of fields. Non-parametric point pattern methods are a highly adaptable approach to answering questions about the real-world using complex data in the form of collections of points. Several methodological advances have been introduced in the last few years. This paper examines the current methodology, including the most recent developments in estimation and computation, and shows how various R packages can be combined to run a set of non-parametric point pattern analyses in a guided and intuitive way. An example of non-specific gastrointestinal disease reports in Hampshire, UK, from 2001 to 2003 is used to illustrate the methods, procedures and interpretations.
+draft: no
+author:
+- name: Jonatan A. González
+  affiliation: King Abdullah University of Science and Technology (KAUST)
+  address:
+  - Computer, Electrical and Mathematical Sciences and Engineering Division
+  - Thuwal, 23955-6900, Saudi Arabia
+  orcid: 0000-0002-2296-5271
+  email: jonathan.gonzalez@kaust.edu.sa
+- name: Paula Moraga
+  url: http://www.paulamoraga.com
+  email: paula.moraga@kaust.edu.sa
+  orcid: 0000-0001-5266-0201
+  affiliation: King Abdullah University of Science and Technology (KAUST)
+  address:
+  - Computer, Electrical and Mathematical Sciences and Engineering Division
+  - Thuwal, 23955-6900, Saudi Arabia
+type: package
+date: '2023-08-26'
+params:
+  run_all_code: no
+date_received: '2022-01-10'
+volume: 15
+issue: 1
+slug: RJ-2023-025
+doi: 10.32614/RJ-2023-025
+journal:
+  lastpage: 82
+  firstpage: 65
+

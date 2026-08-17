@@ -1,0 +1,26 @@
+title: 'nlmeVPC: Visual Model Diagnosis for the Nonlinear Mixed Effect Model'
+date: '2023-08-26'
+abstract: "A nonlinear mixed effects model is useful when the data are repeatedly measured within the same unit or correlated between units. Such models are widely used in medicine, disease mechanics, pharmacology, ecology, social science, psychology, etc. After fitting the nonlinear mixed effect model, model diagnostics are essential for verifying that the results are reliable. The visual predictive check (VPC) has recently been highlighted as a visual diagnostic tool for pharmacometric models. This method can also be applied to general nonlinear mixed effects models. However, functions for VPCs in existing R packages are specialized for pharmacometric model diagnosis, and are not suitable for general nonlinear mixed effect models. In this paper, we propose \\CRANpkg{nlmeVPC}, an R package for the visual diagnosis of various nonlinear mixed effect models. The \\pkg{nlmeVPC} package allows for more diverse model diagnostics, including visual diagnostic tools that extend the concept of VPCs along with the capabilities of existing R packages. \n"
+draft: no
+author:
+- name: Eun-Hwa Kang
+  affiliation: Ewha Womans University
+  address: Department of Statistics, Ewha Womans University, Seoul, Korea
+- name: Myungji Ko
+  affiliation: Ewha Womans University
+  address: Department of Statistics, Ewha Womans University, Seoul, Korea
+- name: Eun-Kyung Lee
+  affiliation: Ewha Womans University
+  address: Department of Statistics, Ewha Womans University, Seoul, Korea
+  email: lee.eunk@ewha.ac.kr
+  orcid: 0000-0003-0817-5000
+type: package
+date_received: '2022-02-24'
+volume: 15
+issue: 1
+slug: RJ-2023-026
+doi: 10.32614/RJ-2023-026
+journal:
+  lastpage: 100
+  firstpage: 83
+

@@ -1,0 +1,19 @@
+title: R Foundation News
+abstract: The 'R Foundation News' article from the 2020-2 issue.
+author:
+- name: Torsten Hothorn
+  affiliation: |
+    Universität Zürich, Switzerland
+date: '2020-12-01'
+date_received:
+journal:
+  firstpage: '413'
+  lastpage: '415'
+volume: 12
+issue: 2
+slug: RJ-2020-2-foundation
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

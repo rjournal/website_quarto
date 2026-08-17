@@ -1,0 +1,39 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2014-2 issue.
+author:
+- name: The Bioconductor Team
+  affiliation: |
+    Program in Computational Biology, Fred Hutchinson Cancer Research
+    Center
+date: '2014-12-01'
+date_received:
+journal:
+  firstpage: '227'
+  lastpage: '228'
+volume: 6
+issue: 2
+slug: RJ-2014-2-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - GenomicAlignments
+  - ballgown
+  - derfinder
+  - csaw
+  - mQTL.NMR
+  - DOQTL
+  - facopy
+  - focalCall
+  - flowcatchR
+  - flowCHIC
+  - flowDensity
+  - groHMM
+  - FourCSeq
+  - systemPipeR
+  - IRanges
+  - GenomicRanges
+  - GenomicFeatures
+  - AnnotationHub
+  - BiocCheck
+CTV:

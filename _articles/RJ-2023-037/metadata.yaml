@@ -1,0 +1,46 @@
+title: 'combinIT: An R Package for Combining Interaction Tests for Unreplicated Two-Way Tables'
+abstract: ' Several new tests have been proposed for testing interaction in unreplicated two-way analysis of variance models. Unfortunately, each test is powerful for detecting a pattern of interaction. Therefore, it is reasonable to combine multiple interaction tests to increase the power of detection for significant interactions. We introduce the package [combinIT](https://CRAN.R-project.org/package=combinIT) that provides researchers the results of six existing recommended interaction tests, including: the value of test statistics, exact Monte Carlo p-values, approximated or adjusted p-values, the results of four combined tests and explanations of interaction types if the discussed tests are significant. The software combinIT is a more comprehensive R package in comparison with the two existing packages. In addition, the software is executed quickly to obtain the exact Monte Carlo p-values, even for large Monte Carlo runs, in contrast to existing packages. '
+author:
+- name: Mahmood Kharrati-Kopaei
+  affiliation: Department of Statistics, College of Science, Shiraz University
+  email: |
+    mkharati@shirazu.ac.ir
+  address:
+  - Shiraz
+  - Iran
+  - (ORCiD 0000-0001-5555-253X)
+- name: Zahra Shenavari
+  affiliation: |-
+    Department of Mathematics, Faculty of Sciences, Shiraz Branch, Islamic
+    Azad University
+  email: |
+    zshenavari@yahoo.com
+  address:
+  - Shiraz
+  - Iran
+  - (ORCiD 0000-0001-8347-0590)
+- name: Hossein Haghbin
+  affiliation: |-
+    Department of Statistics, Faculty of Intelligent Systems Engineering
+    and Data Science, Persian Gulf University
+  email: |
+    haghbin@pgu.ac.ir
+  address:
+  - Boushehr
+  - Iran
+  - (ORCiD 0000-0001-8416-2354)
+  - <https://github.com/haghbinh>
+date: '2023-08-26'
+date_received: '2022-07-11'
+journal:
+  firstpage: 284
+  lastpage: 296
+volume: 15
+issue: 1
+slug: RJ-2023-037
+doi: 10.32614/RJ-2023-037
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

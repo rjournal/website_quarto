@@ -1,0 +1,38 @@
+title: 'progenyClust: an R package for Progeny Clustering'
+abstract: 'Identifying the optimal number of clusters is a common problem faced by data scientists in various research fields and industry applications. Though many clustering evaluation techniques have been developed to solve this problem, the recently developed algorithm Progeny Clustering is a much faster alternative and one that is relevant to biomedical applications. In this paper, we introduce an R package *progenyClust* that implements and extends the original Progeny Clustering algorithm for evaluating clustering stability and identifying the optimal cluster number. We illustrate its applicability using two examples: a simulated test dataset for proof-of-concept, and a cell imaging dataset for demonstrating its application potential in biomedical research. The *progenyClust* package is versatile in that it offers great flexibility for picking methods and tuning parameters. In addition, the default parameter setting as well as the plot and summary methods offered in the package make the application of Progeny Clustering straightforward and coherent.'
+author:
+- name: Chenyue W. Hu
+  affiliation: Rice University
+  address:
+  - |-
+    Suite 610, BioScience Research Collaborative, 6500 Main St, Houston,
+    TX 77030
+  - U.S.A
+- name: Amina A. Qutub
+  affiliation: Rice University
+  address:
+  - |-
+    Suite 610, BioScience Research Collaborative, 6500 Main St, Houston,
+    TX 77030
+  - U.S.A
+date: '2016-05-01'
+date_received: '2016-01-01'
+journal:
+  firstpage: '328'
+  lastpage: '338'
+volume: 8
+issue: 1
+slug: RJ-2016-023
+doi: 10.32614/RJ-2016-023
+packages:
+  cran:
+  - cclust
+  - clusterSim
+  - cluster
+  - Nbclust
+  - fpc
+  - progenyClust
+  - stat
+  - Hmisc
+  bioc: []
+CTV:

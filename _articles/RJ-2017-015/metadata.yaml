@@ -1,0 +1,53 @@
+title: 'GsymPoint: An R Package to Estimate the Generalized Symmetry Point, an Optimal Cut-off Point for Binary Classification in Continuous Diagnostic Tests'
+abstract: In clinical practice, it is very useful to select an optimal cutpoint in the scale of a continuous biomarker or diagnostic test for classifying individuals as healthy or diseased. Several methods for choosing optimal cutpoints have been presented in the literature, depending on the ultimate goal. One of these methods, the generalized symmetry point, recently introduced, generalizes the symmetry point by incorporating the misclassification costs. Two statistical approaches have been proposed in the literature for estimating this optimal cutpoint and its associated sensitivity and specificity measures, a parametric method based on the generalized pivotal quantity and a nonparametric method based on empirical likelihood. In this paper, we introduce [*GsymPoint*](https://CRAN.R-project.org/package=GsymPoint), an R package that implements these methods in a user-friendly environment, allowing the end-user to calculate the generalized symmetry point depending on the levels of certain categorical covariates. The practical use of this package is illustrated using three real biomedical datasets.
+author:
+- name: Mónica López-Ratón
+  affiliation: |-
+    Biostatistics Unit, Department of Statistics and Operations Research,
+    Universidad de Santiago de Compostela
+  address:
+  - San Francisco s/n
+  - |
+    15782 Santiago de Compostela,Spain
+- name: Elisa M. Molanes-López
+  affiliation: |-
+    Department of Statistics and Operations Research, Universidad
+    Complutense de Madrid
+  address:
+  - Plaza Ramón y Cajal s/n
+  - |
+    28040 Ciudad Universitaria-Madrid, Spain
+- name: Emilio Letón
+  affiliation: |-
+    Department of Artificial Intelligence, Universidad Nacional de
+    Educación a Distancia
+  address:
+  - C/ Juan del Rosal 16
+  - |
+    28040 Madrid, Spain
+- name: Carmen Cadarso-Suárez
+  affiliation: |-
+    Biostatistics Unit, Department of Statistics and Operations Research,
+    Universidad de Santiago de Compostela
+  address:
+  - San Francisco s/n
+  - |
+    15782 Santiago de Compostela, Spain
+date: '2017-05-10'
+date_received: '2016-08-25'
+journal:
+  firstpage: '262'
+  lastpage: '283'
+volume: 9
+issue: 1
+slug: RJ-2017-015
+doi: 10.32614/RJ-2017-015
+packages:
+  cran:
+  - GsymPoint
+  - PresenceAbsence
+  - DiagnosisMed
+  - pROC
+  - OptimalCutpoints
+  bioc: []
+CTV:

@@ -1,0 +1,37 @@
+title: 'Rattle: A Data Mining GUI for R'
+abstract: Data mining delivers insights, patterns, and descriptive and predictive models from the large amounts of data available today in many organisations. The data miner draws heavily on methodologies, techniques and algorithms from statistics, machine learning, and computer science. R increasingly provides a powerful platform for data mining. However, scripting and programming is sometimes a challenge for data analysts moving into data mining. The Rattle package provides a graphical user interface specifically for data mining using R. It also provides a stepping stone toward using R as a programming language for data analysis.
+author:
+- name: Graham Williams
+  affiliation: Togaware Pty Ltd
+  address: |
+    [Graham.Williams@togaware.com](Graham.Williams@togaware.com){.uri}
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: '45'
+  lastpage: '55'
+volume: 1
+issue: 2
+slug: RJ-2009-016
+doi: 10.32614/RJ-2009-016
+packages:
+  cran:
+  - arules
+  - RGtk2
+  - rattle
+  - Hmisc
+  - fBasics
+  - mice
+  - rggobi
+  - latticist
+  - playwith
+  - lattice
+  - reshape
+  - randomForest
+  - Amelia
+  - rpart
+  - party
+  - ROCR
+  - pmml
+  bioc: []
+CTV:

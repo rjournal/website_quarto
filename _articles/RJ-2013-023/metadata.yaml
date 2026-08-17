@@ -1,0 +1,31 @@
+title: RNetCDF -- A Package for Reading and Writing NetCDF Datasets
+abstract: This paper describes the *RNetCDF* package (version 1.6), an interface for reading and writing files in Unidata NetCDF format, and gives an introduction to the NetCDF file format. NetCDF is a machine independent binary file format which allows storage of different types of array based data, along with short metadata descriptions. The package presented here allows access to the most important functions of the NetCDF C-interface for reading, writing, and modifying NetCDF datasets. In this paper, we present a short overview on the NetCDF file format and show usage examples of the package.
+author:
+- name: Pavel Michna
+  affiliation: Institute of Geography
+  address:
+  - Hallerstrasse 12, CH-3012 Bern
+  - |
+    Switzerland
+- name: Milton Woods
+  affiliation: Bureau of Meteorology
+  address:
+  - GPO Box 1289, Melbourne VIC 3001
+  - |
+    Australia
+date: '2013-10-14'
+date_received: '2012-08-27'
+journal:
+  firstpage: '29'
+  lastpage: '36'
+volume: 5
+issue: 2
+slug: RJ-2013-023
+doi: 10.32614/RJ-2013-023
+packages:
+  cran:
+  - RNetCDF
+  - ncdf
+  - ncdf4
+  bioc: []
+CTV:

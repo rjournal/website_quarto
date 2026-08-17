@@ -1,0 +1,44 @@
+title: The openVA Toolkit for Verbal Autopsies
+author:
+- name: Zehang Richard Li
+  affiliation: University of California, Santa Cruz
+  address: Santa Cruz CA, USA
+  orcid: 0000-0001-9551-9638
+  email: lizehang@ucsc.edu
+- name: Jason Thomas
+  orcid: 0000-0002-7694-3262
+  email: thomas.3912@osu.edu
+  affiliation: The Ohio State University
+  address: Columbus, OH, USA
+- name: Eungang Choi
+  orcid: 0000-0003-1333-8126
+  email: choi.1443@osu.edu
+  affiliation: The Ohio State University
+  address: Columbus, OH, USA
+- name: Tyler H. McCormick
+  orcid: 0000-0002-6490-1129
+  email: tylermc@u.washington.edu
+  affiliation: University of Washington
+  address: Seattle, WA, USA
+- name: Samuel J Clark
+  orcid: 0000-0002-4929-6231
+  email: work@samclark.net
+  affiliation: The Ohio State University
+  address: Columbus, OH, USA
+abstract: "Verbal autopsy (VA) is a survey-based tool widely used to infer cause of death (COD) in regions without complete-coverage civil registration and vital statistics systems. In such settings, many deaths happen outside of medical facilities and are not officially documented by a medical professional. VA surveys, consisting of signs and symptoms reported by a person close to the decedent, are used to infer the COD for an individual, and to estimate and monitor the COD distribution in the population. Several classification algorithms have been developed and widely used to assign causes of death using VA data. However, the incompatibility between different idiosyncratic model implementations and required data structure makes it difficult to systematically apply and compare different methods. The \\CRANpkg{openVA} package provides the first standardized framework for analyzing VA data that is compatible with all openly available methods and data structure. It provides an open-source, R implementation of several most widely used VA methods. It supports different data input and output formats, and customizable information about the associations between causes and symptoms. The paper discusses the relevant algorithms, their implementations in R packages under the \\CRANpkg{openVA} suite, and demonstrates the pipeline of model fitting, summary, comparison, and visualization in the R environment. \n"
+type: package
+preamble: |
+  \usepackage{amsmath, amsthm, amsfonts, amssymb, bm, natbib}
+  \newcommand{\red}[1]{\textcolor{red}{#1}}
+  \newcommand{\proglang}[1]{\text{#1}}
+date: '2023-02-25'
+date_received: '2022-03-15'
+volume: 14
+issue: 4
+slug: RJ-2023-020
+doi: 10.32614/RJ-2023-020
+draft: no
+journal:
+  lastpage: 334
+  firstpage: 316
+

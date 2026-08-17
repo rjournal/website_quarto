@@ -1,0 +1,28 @@
+title: Furniture for Quantitative Scientists
+abstract: A basic understanding of the distributions of study variables and the relationships among them is essential to inform statistical modeling. This understanding is achieved through the computation of summary statistics and exploratory data analysis. Unfortunately, this step tends to be under-emphasized in the research process, in part because of the often tedious nature of thorough exploratory data analysis. The `table1()` function in the *furniture* package streamlines much of the exploratory data analysis process, making the computation and communication of summary statistics simple and beautiful while offering significant time-savings to the researcher.
+author:
+- name: Tyson S. Barrett
+  affiliation: Utah State University
+  address:
+  - 2810 Old Main Hill, Logan, UT, 84322
+  - |
+    U.S.A
+- name: Emily Brignone
+  affiliation: VA Pittsburgh Healthcare System
+  address:
+  - Pittsburgh, PA 15240
+  - |
+    U.S.A
+date: '2017-07-24'
+date_received: '2016-12-23'
+journal:
+  firstpage: '142'
+  lastpage: '148'
+volume: 9
+issue: 2
+slug: RJ-2017-037
+doi: 10.32614/RJ-2017-037
+packages:
+  cran: furniture
+  bioc: []
+CTV:

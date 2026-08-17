@@ -1,0 +1,43 @@
+title: Remembering Friedrich "Fritz" Leisch
+date: '2025-01-11'
+draft: no
+author:
+- name: Bettina Grün
+  affiliation: WU Wirtschaftsuniversität Wien
+  address: Austria
+  orcid: 0000-0001-7265-4773
+  email: Bettina.Gruen@wu.ac.at
+- name: Kurt Hornik
+  affiliation: WU Wirtschaftsuniversität Wien
+  address: Austria
+  orcid: 0000-0003-4198-9911
+  email: Kurt.Hornik@R-project.org
+- name: Torsten Hothorn
+  affiliation: Universität Zürich
+  address: Switzerland
+  orcid: 0000-0001-8301-0471
+  email: Torsten.Hothorn@R-project.org
+- name: Theresa Scharl
+  affiliation: BOKU University
+  address: Austria
+  orcid: 0000-0001-8850-3312
+  email: Theresa.Scharl@boku.ac.at
+- name: Achim Zeileis
+  affiliation: Universität Innsbruck
+  address: Austria
+  url: https://www.zeileis.org/
+  orcid: 0000-0003-0918-3766
+  email: Achim.Zeileis@R-project.org
+abstract: |
+  This article remembers our friend and colleague Fritz Leisch (1968--2024) who sadly died earlier this year. Many of the readers of The R Journal will know Fritz as a member of the R Core Team and for many of his contributions to the R community. For us, the co-authors of this article, he was an important companion on our journey with the R project and other scientific endeavours over the years. In the following, we provide a brief synopsis of his career, present his key contributions to the R project and to the scientific community more generally, acknowledge his academic service, and highlight his teaching and mentoring achievements.
+preamble: |
+  %\newcommand{\doi}[1]{\href{https://doi.org/#1}{\normalfont\texttt{doi:\discretionary{}{}{}{#1}}}}
+date_received: '2024-10-01'
+volume: 16
+issue: 1
+slug: RJ-2024-001
+doi: 10.32614/RJ-2024-001
+journal:
+  lastpage: 14
+  firstpage: 5
+

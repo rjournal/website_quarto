@@ -1,0 +1,31 @@
+title: Changes in R
+abstract: We present important changes in the development version of R (referred to as R-devel, to become R 4.2) and give a summary of the new search engine interfaced by `RSiteSearch()`. Some statistics on bug tracking activities in 2021 are also provided.
+author:
+- name: Tomas Kalibera
+  affiliation: |
+    Czech Technical University, Czech Republic
+- name: Sebastian Meyer
+  affiliation: |
+    Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
+- name: Kurt Hornik
+  affiliation: |
+    WU Wirtschaftsuniversität Wien, Austria
+- name: Gennadiy Starostin
+  affiliation: |
+    WU Wirtschaftsuniversität Wien, Austria
+- name: Luke Tierney
+  affiliation: |
+    University of Iowa, USA
+date: '2021-12-01'
+date_received:
+journal:
+  firstpage: '734'
+  lastpage: '737'
+volume: 13
+issue: 2
+slug: RJ-2021-2-core
+citation_url: https://rjournal.github.io/
+packages:
+  cran: sos
+  bioc: []
+CTV:

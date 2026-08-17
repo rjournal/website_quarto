@@ -1,0 +1,23 @@
+title: 'Forthcoming Events: useR! 2011'
+abstract:
+author:
+- name: |-
+    John Aston, Julia Brettschneider, David Firth, Ashley Ford, Ioannis
+    Kosmidis, Tom Nichols, Elke and Heather Turner
+  affiliation: The organizing committee
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 79
+  lastpage: 80
+volume: 2
+issue: 2
+slug: RJ-2010-2-forthcoming-user
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - lme4
+  - rms
+  - caret
+  bioc: []
+CTV:

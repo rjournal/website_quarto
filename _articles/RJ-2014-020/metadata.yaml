@@ -1,0 +1,33 @@
+title: Coordinate-Based Meta-Analysis of fMRI Studies with R
+abstract: This paper outlines how to conduct a simple meta-analysis of neuroimaging foci of activation in R. In particular, the first part of this paper reviews the nature of fMRI data, and presents a brief overview of the existing packages that can be used to analyze fMRI data in R. The second part illustrates how to handle fMRI data by showing how to visualize the results of different neuroimaging studies in a so-called orthographic view, where the spatial distribution of the foci of activation from different fMRI studies can be inspected visually.
+author:
+- name: Andrea Stocco
+  affiliation: |-
+    Department of Psychology and Institute for Learning and Brain
+    Sciences, University of Washington
+  address:
+  - Campus Box 357988, Seattle, WA
+  - |
+    USA
+date: '2014-11-13'
+date_received: '2013-03-01'
+journal:
+  firstpage: '5'
+  lastpage: '15'
+volume: 6
+issue: 2
+slug: RJ-2014-020
+doi: 10.32614/RJ-2014-020
+packages:
+  cran:
+  - fmri
+  - RNiftyReg
+  - AnalyzeFMRI
+  - RfmriVC
+  - arf3DS4
+  - BHMSMAfMRI
+  - neuRosim
+  - oro.nifti
+  - spatstat
+  bioc: []
+CTV:

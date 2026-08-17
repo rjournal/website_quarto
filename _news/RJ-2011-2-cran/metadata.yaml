@@ -1,0 +1,24 @@
+title: Changes on CRAN
+abstract: The 'Changes on CRAN' article from the 2011-2 issue.
+author:
+- name: Kurt Hornik
+  affiliation: WU Wirtschaftsuniversität Wien, Austria
+  address: |
+    [Kurt.Hornik@R-project.org](Kurt.Hornik@R-project.org){.uri}
+- name: Achim Zeileis
+  affiliation: Universität Innsbruck, Austria
+  address: |
+    [Achim.Zeileis@R-project.org](Achim.Zeileis@R-project.org){.uri}
+date: '2011-12-01'
+date_received:
+journal:
+  firstpage: 84
+  lastpage: 85
+volume: 3
+issue: 2
+slug: RJ-2011-2-cran
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

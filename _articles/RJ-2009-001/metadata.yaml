@@ -1,0 +1,28 @@
+title: 'New Numerical Algorithm for Multivariate Normal Probabilities in Package mvtnorm'
+abstract: The 'New Numerical Algorithm for Multivariate Normal Probabilities in Package [*mvtnorm*](https://CRAN.R-project.org/package=mvtnorm)' article from the 2009-1 issue.
+author:
+- name: Xuefei Mi
+  affiliation: Institut für Biostatistik
+  address: |
+    Leibniz Universität Hannover, Germany
+- name: Tetsuhisa Miwa
+  affiliation: National Institute for Agro-Environmental Sciences
+  address: |
+    Kannondai, Japan
+- name: Torsten Hothorn
+  affiliation: Institut für Statistik
+  address: |
+    Ludwig-Maximilians-Universität München, Germany
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 37
+  lastpage: 39
+volume: 1
+issue: 1
+slug: RJ-2009-001
+doi: 10.32614/RJ-2009-001
+packages:
+  cran: mvtnorm
+  bioc: []
+CTV:

@@ -1,0 +1,110 @@
+title: 'e-Rum2020: how we turned a physical conference into a successful virtual event'
+abstract: The European R Users Meeting 2020 (e-Rum2020) was a conference that was held virtually in June 2020. Originally, e-Rum2020 had been planned as a physical event to be held in Milano. However, the spread of the COVID-19 pandemic and the declaration of a nationwide lockdown induced the Organizing Committee to fully rethink the event, and to turn it into a live virtual conference. In this article, we describe the challenges that we encountered during the organization of e-Rum2020, and how we reacted to them. In doing so, we aim to provide future conference organizers with useful information on how to organize a successful virtual conference, and even to turn a physical conference into a virtual meeting on a relatively short notice.
+author:
+- name: Mariachiara Fortuna
+  affiliation: Vanlog
+  address:
+  - Via Amedeo Peyron 19, Torino
+  - |
+    Italy
+- name: Francesca Vitalini
+  affiliation: Mirai Solutions GmbH
+  address:
+  - Gotthardstrasse 56, Zurich
+  - |
+    Switzerland
+- name: Mirko Signorelli
+  affiliation: |-
+    Department of Biomedical Data Sciences, Leiden University Medical
+    Center
+  address:
+  - Einthovenweg 20, Leiden
+  - The Netherlands
+  - |
+    ORCID: 0000-0002-8102-3356
+- name: Emanuela Furfaro
+  affiliation: Department of Statistics, University of California
+  orcid: |
+    0000-0002-2440-841X
+  address:
+  - 1 Shields Ave, Davis
+  - United States of America
+- name: Federico Marini
+  affiliation: |-
+    Institute of Medical Biostatistics, Epidemiology and Informatics,
+    University Medical Center of the Johannes Gutenberg University Mainz
+  orcid: |
+    0000-0003-3252-7758
+  address:
+  - Obere Zahlbacher Str. 69, Mainz
+  - Germany
+- name: Gert Janssenswillen
+  affiliation: Faculty of Business Economics, Hasselt University
+  orcid: |
+    0000-0002-7474-2088
+  address:
+  - Agoralaan, 3590 Diepenbeek
+  - Belgium
+- name: Riccardo Porreca
+  affiliation: Mirai Solutions GmbH
+  address:
+  - Gotthardstrasse 56, Zurich
+  - |
+    Switzerland
+- name: Riccardo L. Rossi
+  affiliation: Istituto Nazionale Genetica Molecolare
+  orcid: |
+    0000-0002-4964-3264
+  address:
+  - Via F. Sforza 35, Milano
+  - Italy
+- name: Andrea Guzzo
+  affiliation: Moxoff
+  orcid: |
+    0000-0001-7840-1179
+  address:
+  - Via Schiaffino 11/19, Milano
+  - Italy
+- name: Roberta Sirovich
+  affiliation: Department of Mathematics G. Peano, University of Torino
+  orcid: |
+    0000-0002-3189-8269
+  address:
+  - Via Carlo Alberto 10, Torino
+  - Italy
+- name: Andrea Melloncelli
+  affiliation: Vanlog
+  address:
+  - Via Amedeo Peyron 19, Torino
+  - |
+    Italy
+- name: Lorenzo Salvi
+  affiliation: Comune di Torino
+  address:
+  - Piazza Palazzo di Città 1, Torino
+  - |
+    Italy
+- name: Serena Signorelli
+  affiliation: UBI Banca SpA
+  address:
+  - via Cefalonia 74, Brescia
+  - |
+    Italy
+- name: Filippo Chiarello
+  affiliation: University of Pisa
+  address:
+  - Lungarno Antonio Pacinotti 43, Pisa
+  - |
+    Italy
+date: '2020-11-30'
+journal:
+  firstpage: '416'
+  lastpage: '425'
+volume: 12
+issue: 2
+slug: RJ-2020-2-erum
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

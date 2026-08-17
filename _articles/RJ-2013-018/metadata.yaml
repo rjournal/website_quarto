@@ -1,0 +1,40 @@
+title: RcmdrPlugin.temis, a Graphical Integrated Text Mining Solution in R
+abstract: We present the package *RcmdrPlugin.temis*, a graphical user interface for user-friendly text mining in R. Built as a plug-in to the R Commander provided by the *Rcmdr* package, it brings together several existing packages and provides new features streamlining the process of importing, managing and analyzing a corpus, in addition to saving results and plots to a report file. Beyond common file formats, automated import of corpora from the Dow Jones Factiva content provider and Twitter is supported. Featured analyses include vocabulary and dissimilarity tables, terms frequencies, terms specific of levels of a variable, term co-occurrences, time series, correspondence analysis and hierarchical clustering.
+author:
+- name: Milan Bouchet-Valat
+  affiliation: Quantitative Sociology Laboratory (LSQ-CREST),
+  address:
+  - Centre for Studies in Social Change (OSC-Sciences Po & CNRS),
+  - National Institute for Demographic Studies (INED)
+  - |
+    France
+- name: Gilles Bastin
+  affiliation: Institute for Political Studies, University of Grenoble
+  address:
+  - Pacte Research Centre (CNRS)
+  - |
+    France
+date: '2013-06-02'
+date_received: '2012-10-29'
+journal:
+  firstpage: '188'
+  lastpage: '196'
+volume: 5
+issue: 1
+slug: RJ-2013-018
+doi: 10.32614/RJ-2013-018
+packages:
+  cran:
+  - tm
+  - RcmdrPlugin.temis
+  - Rcmdr
+  - RODBC
+  - tm.plugin.factiva
+  - twitteR
+  - SnowballC
+  - zoo
+  - lattice
+  - ca
+  - R2HTML
+  bioc: []
+CTV:

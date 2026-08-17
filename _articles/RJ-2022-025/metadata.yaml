@@ -1,0 +1,29 @@
+title: 'akc: A Tidy Framework for Automatic Knowledge Classification in R'
+abstract: |
+  Knowledge classification is an extensive and practical approach in domain knowledge management. Automatically extracting and organizing knowledge from unstructured textual data is desirable and appealing in various circumstances. In this paper, the tidy framework for automatic knowledge classification supported by the \CRANpkg{akc} package is introduced. With  powerful support from the R ecosystem, the \CRANpkg{akc} framework can handle multiple procedures in data science workflow, including text cleaning, keyword extraction, synonyms consolidation and data presentation. While focusing on bibliometric analysis, the \CRANpkg{akc} package is extensible to be used in other contexts. This paper introduces the framework and its features in detail. Specific examples are given to guide the potential users and developers to participate in open science of text mining.
+draft: no
+author:
+- name: Tian-Yuan Huang
+  affiliation: National Science Library, Chinese Academy of Sciences
+  address: Beijing, China
+  orcid: 0000-0002-4151-3764
+  email: huangtianyuan@mail.las.ac.cn
+- name: Li Li
+  affiliation: National Science Library, Chinese Academy of Sciences; Department of Library, Information and Archives Management, School of Economics and Management, University of Chinese Academy of Science
+  address: Beijing, China
+  email: lili2020@mail.las.ac.cn
+- name: Liying Yang
+  affiliation: National Science Library, Chinese Academy of Sciences
+  address: Beijing, China
+  email: yangly@mail.las.ac.cn
+type: package
+date: '2022-11-11'
+date_received: '2021-04-12'
+volume: 14
+issue: 2
+slug: RJ-2022-025
+doi: 10.32614/RJ-2022-025
+journal:
+  lastpage: 76
+  firstpage: 67
+

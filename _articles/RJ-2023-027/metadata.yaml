@@ -1,0 +1,41 @@
+title: Likelihood Ratio Test-Based Drug Safety Assessment using R Package \pkg{pvLRT}
+abstract: |
+  Medical product safety continues to be a key concern of the twenty-first century. Several spontaneous adverse events reporting databases established across the world continuously collect and archive adverse events data on various medical products. Determining signals of disproportional reporting (SDR) of product/adverse event pairs from these large-scale databases require the use of principled statistical techniques. Likelihood ratio test (LRT)-based approaches are particularly noteworthy in this context as they permit objective SDR detection without requiring ad hoc thresholds. However, their implementation is non-trivial due to analytical complexities, which necessitate the use of computation-heavy methods. Here we introduce R package pvLRT which implements a suite of LRT approaches, along with various post-processing and graphical summary functions, to facilitate simplified use of the methodologies. Detailed examples are provided to illustrate the package through analyses of three real product safety datasets obtained from publicly available FDA FAERS and VAERS databases.
+draft: no
+author:
+- name: Saptarshi Chakraborty
+  affiliation: Department of Biostatistics, SUNY University at Buffalo
+  orcid: 0000-0002-3121-9174
+  email: chakrab2@buffalo.edu
+  address:
+  - School of Public Health and Health Professions
+  - 704 Kimball Tower, Buffalo, NY 14214, USA
+- name: Marianthi Markatou
+  email: markatou@buffalo.edu
+  orcid: 0000-0002-1453-8229
+  affiliation: Department of Biostatistics, SUNY University at Buffalo
+  address:
+  - School of Public Health and Health Professions
+  - 726 Kimball Tower, Buffalo, NY 14214, USA
+- name: Robert Ball
+  affiliation: Center for Drug Evaluation and Research, U.S. Food and Drug Administration
+  orcid: 0000-0002-1609-7420
+  email: Robert.Ball@fda.hhs.gov
+  address:
+  - Office of Surveillance and Epidemiology
+  - Silver Spring, Maryland, USA
+preamble: "% Any extra LaTeX you need in the preamble\n\\renewcommand{\\texttt}{\\code}\n\\usepackage{multirow, makecell}\n\\usepackage{multicol}\n\\usepackage{tabularx, booktabs}    \n"
+type: package
+params:
+  arxiv: no
+always_allow_html: yes
+date: '2023-08-26'
+date_received: '2022-03-02'
+volume: 15
+issue: 1
+slug: RJ-2023-027
+doi: 10.32614/RJ-2023-027
+journal:
+  lastpage: 121
+  firstpage: 101
+

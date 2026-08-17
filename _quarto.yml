@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: docs
+  pre-render: _scripts/pre.R
+  post-render: _scripts/post.R
+  resources:
+    - .nojekyll
+    - assets/BibTeX_logo.svg
+    - rss.xml
+  render:
+    - "index.qmd"
+    - "pages/*.qmd"
+    - "assets/article-template/index.qmd"
+    - "issues/**/*.qmd"
+
+website:
+  title: "The R Journal"
+  site-url: https://journal.r-project.org
+  page-footer:
+    center: |
+      © The R Foundation, <a href="mailto:r-journal@r-project.org">Contact us.</a>.
+  navbar:
+    left:
+      - href: pages/about.qmd
+        text: About
+      - href: pages/issues.qmd
+        text: Issues
+      - href: pages/news.qmd
+        text: News
+      - href: pages/editors.qmd
+        text: Editorial Board
+      - text: Contribute
+        menu:
+          - href: pages/contribute_authors.qmd
+            text: Authors
+          - href: pages/contribute_reviewers.qmd
+            text: Reviewers
+          - href: pages/contribute_editors.qmd
+            text: Editors
+          - href: pages/contribute_readers.qmd
+            text: Report problems
+    right:
+      - icon: rss
+        href: rss.xml
+        aria-label: RSS feed
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    include-in-header:
+      text: |
+        <link rel="alternate" type="application/rss+xml" title="The R Journal" href="/rss.xml">
+    toc: true

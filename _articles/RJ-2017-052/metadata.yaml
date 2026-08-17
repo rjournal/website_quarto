@@ -1,0 +1,31 @@
+title: 'BayesBD: An R Package for Bayesian Inference on Image Boundaries'
+abstract: We present the *BayesBD* package providing Bayesian inference for boundaries of noisy images. The *BayesBD* package implements flexible Gaussian process priors indexed by the circle to recover the boundary in a binary or Gaussian noised image. The boundary recovered by *BayesBD* has the practical advantages of guaranteed geometric restrictions and convenient joint inferences under certain assumptions, in addition to its desirable theoretical property of achieving (nearly) minimax optimal rate in a way that is adaptive to the unknown smoothness. The core sampling tasks for our model have linear complexity, and are implemented in C++ for computational efficiency using packages *Rcpp* and *RcppArmadillo*. Users can access the full functionality of the package in both the command line and the corresponding *shiny* application. Additionally, the package includes numerous utility functions to aid users in data preparation and analysis of results. We compare *BayesBD* with selected existing packages using both simulations and real data applications, demonstrating the excellent performance and flexibility of *BayesBD* even when the observation contains complicated structural information that may violate its assumptions.
+author:
+- name: Nicholas Syring
+  affiliation: Department of Statistics, North Carolina State University
+  address:
+  - 5109 SAS Hall
+  - 2311 Stinson Dr.
+  - Raleigh, NC 27695 USA
+- name: Meng Li
+  affiliation: Rice University
+  address:
+  - Department of Statistics
+  - 6100 Main St
+  - Houston, TX 77251-1892 USA
+date: '2017-10-25'
+date_received: '2016-12-23'
+journal:
+  firstpage: '149'
+  lastpage: '162'
+volume: 9
+issue: 2
+slug: RJ-2017-052
+doi: 10.32614/RJ-2017-052
+packages:
+  cran:
+  - BayesBD
+  - RcppArmadillo
+  - shiny
+  bioc: []
+CTV:

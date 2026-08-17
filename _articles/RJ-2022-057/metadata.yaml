@@ -1,0 +1,30 @@
+title: Analysis of the Results of Metadynamics Simulations by metadynminer and metadynminer3d
+abstract: |
+  Molecular simulations solve the equation of motion of molecular systems, making the 3D shapes of molecules four-dimensional by adding the time coordinate. These methods have great potential in drug discovery because they can realistically model the structures of protein molecules targeted by drugs, as well as the process of binding of a potential drug to its molecular target. However, routine application of biomolecular simulations is hampered by the very high computational costs of this method. Several methods have been developed to address this problem. One of them, metadynamics, disfavors states of the simulated system that have been already visited and thus forces the system to explore new states. Here we present the package \CRANpkg{metadynminer} and \CRANpkg{metadynminer3d} to analyze and visualize results from metadynamics, in particular those produced by a popular metadynamics package Plumed.
+draft: no
+author:
+- name: Dalibor Trapl
+  affiliation: Department of Biochemistry and Microbiology, University of Chemistry and Technology, Prague
+  address:
+  - Technicka 3
+  - Prague 6, 166 28, Czech Republic
+  orcid: 0000-0002-3435-5841
+  email: dalibor.trapl@gmail.com
+- name: Vojtech Spiwok
+  affiliation: Department of Biochemistry and Microbiology, University of Chemistry and Technology, Prague
+  address:
+  - Technicka 3
+  - Prague 6, 166 28, Czech Republic
+  orcid: 0000-0001-8108-2033
+  email: spiwokv@vscht.cz
+type: package
+date: '2022-12-20'
+date_received: '2020-10-30'
+volume: 14
+issue: 3
+slug: RJ-2022-057
+doi: 10.32614/RJ-2022-057
+journal:
+  lastpage: 58
+  firstpage: 46
+

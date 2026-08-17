@@ -1,0 +1,37 @@
+title: Student t-Lévy regression model in yuima
+date: '2025-09-08'
+abstract: This paper presents an estimation and simulation method in the R package yuima  for a linear regression model driven by a Student-t Lévy process with constant scale and arbitrary degrees of freedom. This process finds applications in several fields, for example finance, physics, biology, etc. The first challenge involves simulating sample paths at high-frequency levels, as only unit-time increments are Student-t distributed. In yuima, we solve this problem by means of the inverse Fourier transform for simulating the increments of a Student-t Lévy defined on an interval with any length. The second challenge is the joint estimation of trend, scale, and degrees of freedom, a problem not previously explored in the literature. In yuima, we develop a two-step estimation procedure that efficiently deals with this issue. Numerical examples are given in order to explain methods and classes used in the yuima package.
+draft: no
+author:
+- name: Hiroki Masuda
+  affiliation: The University of Tokyo
+  address:
+  - Graduate School of Mathematical Sciences,
+  - 3-8-1 Komaba Meguro-ku Tokyo 153-8914, Japan
+  url: https://www.ms.u-tokyo.ac.jp/teacher_e/masuda_e.html
+  orcid: 0000-0002-5553-9201
+  email: hmasuda@ms.u-tokyo.ac.jp
+- name: Lorenzo Mercuri
+  affiliation: University of Milan
+  address:
+  - Department of Economics, Management and Quantitative Methods
+  - Via Del Conservatorio Milano 7, Italy.
+  url: https://www.unimi.it/en/ugov/person/lorenzo-mercuri
+  email: lorenzo.mercuri@unimi.it
+  orcid: 0000-0003-0490-2952
+- name: Yuma Uehara
+  affiliation: Kansai University
+  address: Department of Mathematics, Faculty of Engineering Science, 3-3-35 Yamate-cho Suita-shi Osaka 564-8680, Japan
+  url: https://kugakujo.kansai-u.ac.jp/html/100000728_en.html
+  email: y-uehara@kansai-u.ac.j
+  orcid: 0000-0002-7084-0457
+type: package
+date_received: '2024-03-08'
+volume: 17
+issue: 2
+slug: RJ-2025-014
+doi: 10.32614/RJ-2025-014
+journal:
+  lastpage: 83
+  firstpage: 56
+

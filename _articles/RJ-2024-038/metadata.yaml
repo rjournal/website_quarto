@@ -1,0 +1,32 @@
+title: Calculating Standardised Indices Using SEI
+date: '2025-07-14'
+abstract: |
+  Standardised indices are measurements of variables on a standardised scale. The standardised scale facilitates comparisons between different variables, and its probabilistic interpretation means the indices are effective for risk management and decision making. Standardised indices have become popular in weather and climate settings, for example within operational drought monitoring systems, and have also been applied in other contexts, such as to energy variables. To facilitate their implementation in practice, the SEI package in R allows the flexible calculation of standardised indices. This paper discusses the theory underlying well-known standardised indices, outlines the general framework to construct them, and provides implementation details for the SEI package. Two case studies are presented whereby standardised indices are applied to climate and energy variables.
+draft: no
+author:
+- name: Sam Allen
+  affiliation: ETH Zürich
+  address:
+  - Seminar for Statistics
+  - Rämistrasse 101
+  - 8092 Zurich, Switzerland
+  orcid: 0000-0003-1971-8277
+  email: sam.allen@stat.math.ethz.ch
+- name: Noelia Otero
+  affiliation: University of Bern and Oeschger Centre for Climate Change Research
+  address:
+  - Institute of Geography
+  - Hallerstrasse 12
+  - 3012 Bern, Switzerland
+  orcid: 0000-0003-3217-3945
+  email: noelia.otero@unibe.ch
+type: package
+date_received: '2024-02-09'
+volume: 16
+issue: 4
+slug: RJ-2024-038
+doi: 10.32614/RJ-2024-038
+journal:
+  lastpage: 122
+  firstpage: 102
+

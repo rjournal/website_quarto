@@ -1,0 +1,59 @@
+title: 'NGSSEML: Non-Gaussian State Space with Exact Marginal Likelihood'
+abstract: |
+  The number of packages/software for Gaussian State Space models has
+  increased over recent decades. However, there are very few codes
+  available for non-Gaussian State Space (NGSS) models due to analytical
+  intractability that prevents exact calculations. One of the few
+  tractable exceptions is the family of NGSS with exact marginal
+  likelihood, named NGSSEML. In this work, we present the wide range of
+  data formats and distributions handled by NGSSEML and a package in the
+  R language to perform classical and Bayesian inference for them.
+  Special functions for filtering, forecasting, and smoothing procedures
+  and the exact calculation of the marginal likelihood function are
+  provided. The methods implemented in the package are illustrated for
+  count and volatility time series and some reliability/survival models,
+  showing that the codes are easy to handle. Therefore, the NGSSEML
+  family emerges as a simple and interesting option/alternative for
+  modeling non-Gaussian time-varying structures commonly encountered in
+  time series and reliability/survival studies.\
+  **Keywords**: Bayesian, classical inference, reliability, smoothing,
+  time series, software R
+author:
+- name: Thiago R. Santos
+  affiliation: Universidade Federal de Minas Gerais
+  orcid: |
+    0000-0003-2244-2718
+  address: Brazil
+- name: Dani Gamerman
+  affiliation: Universidade Federal do Rio de Janeiro
+  address: |
+    Brazil
+- name: Glaura C. Franco
+  affiliation: Universidade Federal de Minas Gerais
+  address: |
+    Brazil
+date: '2021-10-25'
+date_received: '2020-06-25'
+journal:
+  firstpage: '208'
+  lastpage: '227'
+volume: 13
+issue: 2
+slug: RJ-2021-087
+doi: 10.32614/RJ-2021-087
+packages:
+  cran:
+  - StructTS
+  - dlm
+  - dlmodeler
+  - SSsimple
+  - MARSS
+  - sspir
+  - pomp
+  - KFAS
+  - bssm
+  - dynamichazard
+  - NGSSEML
+  - coda
+  bioc: []
+CTV:

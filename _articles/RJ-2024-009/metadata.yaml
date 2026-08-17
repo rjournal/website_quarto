@@ -1,0 +1,42 @@
+title: 'shinymgr: A Framework for Building, Managing, and Stitching Shiny Modules into Reproducible Workflows'
+draft: no
+URL: https://code.usgs.gov/vtcfwru/shinymgr
+BugReports: https://code.usgs.gov/vtcfwru/shinymgr/issues
+LazyData: yes
+RoxygenNote: 7.2.1
+type: package
+disclaimer: This draft manuscript is distributed solely for purposes of scientific peer review. Its content is deliberative and predecisional, so it must not be disclosed or released by reviewers. Because the manuscript has not yet been approved for publication by the U.S. Geological Survey (USGS), it does not represent any official USGS finding or policy.
+abstract: |
+  The R package shinymgr provides a unifying framework that allows Shiny developers to create, manage, and deploy a master Shiny application comprised of one or more "apps", where an "app" is a tab-based workflow that guides end-users through a step-by-step analysis. Each tab in a given "app" consists of one or more Shiny modules. The shinymgr app builder allows developers to "stitch" Shiny modules together so that outputs from one module serve as inputs to the next, creating an analysis pipeline that is easy to implement and maintain. Apps developed using shinymgr can be incorporated into R packages or deployed on a server, where they are accessible to end-users.  Users of shinymgr apps can save analyses as an RDS file that fully reproduces the analytic steps and can be ingested into an RMarkdown or Quarto report for rapid reporting. In short, developers use the shinymgr framework to write Shiny modules and seamlessly combine them into Shiny apps, and end-users of these apps can execute reproducible analyses that can be incorporated into reports for rapid dissemination. A comprehensive overview of the package is provided by 12 learnr tutorials.
+author:
+- name: Laurence A. Clarfeld
+  affiliation: Vermont Cooperative Fish and Wildlife Research Unit
+  address:
+  - 302 Aiken Center, University of Vermont
+  - Burlington, VT 05405 USA
+  orcid: 0000-0002-3927-9411
+  email: laurence.clarfeld@uvm.edu
+- name: Caroline Tang
+  email: 17ct24@queensu.ca
+  orcid: 0000-0001-7966-5854
+  affiliation: Queen's University
+  address:
+  - Biology Department
+  - 116 Barrie St, Kingston, ON K7L 3N6
+- name: Therese Donovan
+  email: tdonovan@uvm.edu
+  affiliation: U.S. Geological Survey, Vermont Cooperative Fish and Wildlife Research Unit
+  address:
+  - 302 Aiken Center, University of Vermont
+  - Burlington, VT 05405 USA
+  orcid: 0000-0001-8124-9251
+date: '2025-01-10'
+date_received: '2022-11-03'
+volume: 16
+issue: 1
+slug: RJ-2024-009
+doi: 10.32614/RJ-2024-009
+journal:
+  lastpage: 174
+  firstpage: 157
+

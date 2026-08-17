@@ -1,0 +1,29 @@
+title: 'bqror: An R package for Bayesian Quantile Regression in Ordinal Models'
+abstract: ' This article describes an R package [bqror](https://CRAN.R-project.org/package=bqror) that estimates Bayesian quantile regression in ordinal models introduced in Rahman (2016). The paper classifies ordinal models into two types and offers computationally efficient yet simple Markov chain Monte Carlo (MCMC) algorithms for estimating ordinal quantile regression. The generic ordinal model with 3 or more outcomes (labeled $OR_{I}$ model) is estimated by a combination of Gibbs sampling and Metropolis-Hastings algorithm, whereas an ordinal model with exactly 3 outcomes (labeled $OR_{II}$ model) is estimated using a Gibbs sampling algorithm only. In line with the Bayesian literature, we suggest using the marginal likelihood for comparing alternative quantile regression models and explain how to compute it. The models and their estimation procedures are illustrated via multiple simulation studies and implemented in two applications. The article also describes several functions contained within the [bqror](https://CRAN.R-project.org/package=bqror) package, and illustrates their usage for estimation, inference, and assessing model fit. '
+author:
+- name: Prajual Maheshwari
+  affiliation: Quantitative Researcher, Ogha Research
+  address:
+  - 2123, 14th Main Road, HAL 3rd Stage, Kodihalli, Bengaluru, Karnataka, India
+  url: https://prajual.netlify.app
+  email: prajual1391@gmail.com
+- name: Mohammad Arshad Rahman
+  affiliation: Department of Economic Sciences, Indian Institute of Technology Kanpur
+  address: Room 672, Faculty Building, Indian Institute of Technology Kanpur, India
+  url: https://www.arshadrahman.com
+  orcid: 0000-0001-8434-0042
+  email: marshad@iitk.ac.in, arshadrahman25@gmail.com
+date: '2023-11-01'
+date_received: '2021-12-06'
+journal:
+  firstpage: 39
+  lastpage: 55
+volume: 15
+issue: 2
+slug: RJ-2023-042
+doi: 10.32614/RJ-2023-042
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

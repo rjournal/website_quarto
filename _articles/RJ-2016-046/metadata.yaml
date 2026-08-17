@@ -1,0 +1,37 @@
+title: An Introduction to Principal Surrogate Evaluation with the pseval Package
+abstract: We describe a new package called *pseval* that implements the core methods for the evaluation of principal surrogates in a single clinical trial. It provides a flexible interface for defining models for the risk given treatment and the surrogate, the models for integration over the missing counterfactual surrogate responses, and the estimation methods. Estimated maximum likelihood and pseudo-score can be used for estimation, and the bootstrap for inference. A variety of post-estimation methods are provided, including print, summary, plot, and testing. We summarize the main statistical methods that are implemented in the package and illustrate its use from the perspective of a novice R user.
+author:
+- name: Michael C Sachs
+  affiliation: |-
+    Unit of Biostatistics, Institute of Environmental Medicine, Karolinska
+    Institute
+  address:
+  - Nobel väg 13
+  - 17165 Stockholm, Sweden
+- name: Erin E Gabriel
+  affiliation: |-
+    Biostatistics Research Branch, National Institute of Allergy and
+    Infectious Disease
+  address:
+  - 5601 Fishers Lane
+  - Rockville, MD 20892
+  - USA
+date: '2016-11-21'
+date_received: '2016-03-19'
+journal:
+  firstpage: '277'
+  lastpage: '292'
+volume: 8
+issue: 2
+slug: RJ-2016-046
+doi: 10.32614/RJ-2016-046
+packages:
+  cran:
+  - pseval
+  - survival
+  - survey
+  - ggplot2
+  - lattice
+  - Surrogate
+  bioc: []
+CTV:

@@ -1,0 +1,21 @@
+title: Bioconductor Notes, March 2024
+date: '2024-03-01'
+abstract: |
+  We discuss general project news.
+author:
+- name: Maria Doyle, Bioconductor Community Manager
+  affiliation: University of Limerick
+- name: Bioconductor Core Developer Team
+  affiliation: Dana-Farber Cancer Institute, Roswell Park Comprehensive Cancer Center, City University of New York, Fred Hutchinson Cancer Research Center, Mass General Brigham
+execute:
+  echo: no
+  warning: no
+  message: no
+volume: 16
+issue: 1
+slug: RJ-2024-1-bioconductor
+draft: no
+journal:
+  lastpage: 218
+  firstpage: 216
+

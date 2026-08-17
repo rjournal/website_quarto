@@ -1,0 +1,32 @@
+title: 'csurvey: Implementing Order Constraints in Survey Data Analysis'
+author:
+- name: Xiyue Liao
+  affiliation: San Diego State University
+  address:
+  - San Diego State University
+  - Department of Mathematics and Statistics
+  - San Diego, California 92182, United States of America
+  orcid: 0000-0002-4508-9219
+  email: xliao@sdsu.edu
+- name: Mary C. Meyer
+  email: meyer@stat.colostate.edu
+  affiliation: Colorado State University
+  address:
+  - Colorado State University
+  - Department of Statistics
+  - Fort Collins, Colorado 80523, United States of America
+abstract: |
+  Recent work in survey domain estimation has shown that incorporating a priori assumptions  about orderings of population domain means reduces the variance of the estimators.  The new R package csurvey allows users to implement order constraints using a design  specified in the well-known survey package. The order constraints not only give  estimates that satisfy a priori assumptions, but they also provide smaller confidence  intervals with good coverage, and allow for design-based estimation in small-sample or  empty domains. A test for constant versus increasing domain means is available in the  package, with generalizations to other one-sided tests. A cone information criterion  may be used to provide evidence that the order constraints are valid. Examples with  well-known survey data sets show the utility of the methods. This package is now  available from the Comprehensive R Archive Network at  <http://CRAN.R-project.org/package=csurvey>.
+preamble: |
+  % Any extra LaTeX you need in the preamble
+date: '2026-01-05'
+date_received: '2023-09-24'
+volume: 17
+issue: 4
+slug: RJ-2025-032
+doi: 10.32614/RJ-2025-032
+draft: no
+journal:
+  lastpage: 19
+  firstpage: 4
+

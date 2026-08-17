@@ -1,0 +1,55 @@
+title: 'BINCOR: An R package for Estimating the Correlation between Two Unevenly Spaced Time Series'
+abstract: 'This paper presents a computational program named *BINCOR* (BINned CORrelation) for estimating the correlation between two unevenly spaced time series. This program is also applicable to the situation of two evenly spaced time series not on the same time grid. *BINCOR* is based on a novel estimation approach proposed by [@mudelsee_2010] for estimating the correlation between two climate time series with different timescales. The idea is that autocorrelation (e.g. an AR1 process) means that memory enables values obtained on different time points to be correlated. Binned correlation is performed by resampling the time series under study into time bins on a regular grid, assigning the mean values of the variable under scrutiny within those bins. We present two examples of our *BINCOR* package with real data: instrumental and paleoclimatic time series. In both applications *BINCOR* works properly in detecting well-established relationships between the climate records compared.'
+author:
+- name: Josue M. Polanco-Martinez
+  affiliation: Basque Centre for Climate Change - BC3
+  address:
+  - Sede Building 1, 1st floor - Scientific Campus of the UPV/EHU
+  - 48940 Leioa
+  - '&'
+  - Econometrics Research Group - Institute of Public Economics
+  - University of the Basque Country
+  - 48015 Bilbao
+  - |
+    SPAIN
+- name: Martin A. Medina-Elizalde
+  affiliation: Dept. of Geosciences, Auburn University
+  address:
+  - 2050 Beard Eaves Coliseum, 36849 Auburn, AL
+  - |
+    USA
+- name: Maria F. Sanchez Goni
+  affiliation: Ecole Pratique des Hautes Etudes (EPHE), PSL University
+  address:
+  - '& UMR EPOC CNRS 5805, University of Bordeaux'
+  - Allee Geoffroy St Hilair, 33615 Pessac
+  - |
+    FRANCE
+- name: Manfred Mudelsee
+  affiliation: Climate Risk Analysis
+  address:
+  - 37581 Bad Gandersheim
+  - '&'
+  - |-
+    Alfred Wegener Institute (AWI) - Helmholtz Centre for Polar and Marine
+    Research
+  - 27570 Bremerhaven
+  - |
+    GERMANY
+date: '2019-08-18'
+date_received: '2018-02-14'
+journal:
+  firstpage: '170'
+  lastpage: '184'
+volume: 11
+issue: 1
+slug: RJ-2019-035
+doi: 10.32614/RJ-2019-035
+packages:
+  cran:
+  - BINCOR
+  - dplR
+  - pracma
+  - TSdist
+  bioc: []
+CTV:

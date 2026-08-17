@@ -1,0 +1,75 @@
+title: 'R Medicine 2020: The Power of Going Virtual'
+abstract: The third annual R/Medicine conference was planned as a physical event to be held in Philadelphia at the end of August 2020. However, a nationwide lockdown induced by the COVID-19 pandemic required a swift transition to a virtual conference. This article describes the challenges and benefits we encountered with this transition and provides an overview of the conference content.
+author:
+- name: Elizabeth J. Atkinson
+  affiliation: Department of Quantitative Health Sciences, Mayo Clinic
+  orcid: |
+    0000-0002-1191-3775
+  address:
+  - 200 First Street SW
+  - Rochester, MN 55905
+- name: Peter D. Higgins
+  affiliation: Department of Internal Medicine, University of Michigan Health
+  address:
+  - 1500 E Medical Center Dr.
+  - |
+    Ann Arbor, MI 48109
+- name: Denise Esserman
+  affiliation: Department of Biostatistics, Yale School of Public Health
+  address:
+  - 300 George Street, Ste 555
+  - |
+    New Haven, CT 06511
+- name: Michael J. Kane
+  affiliation: Department of Biostatistics, Yale School of Public Health
+  address:
+  - 300 George Street, Ste 555
+  - |
+    New Haven, CT 06511
+- name: Steven J. Schwager
+  affiliation: Cornell University
+  address:
+  - 129 Garden Ave.
+  - |
+    Ithaca, NY 14853
+- name: Joseph B. Rickert
+  affiliation: R Consortium, RStudio
+  address:
+  - 548 Market St.
+  - |
+    San Francisco, CA 94104
+- name: Daniella Mark
+  affiliation: Procogia
+  address:
+  - 3600 136th Pl SE Suite 300
+  - |
+    Bellevue, WA 98006
+- name: Mara Alexeev
+  affiliation: Department of Biomedical Informatics, Boston Children's Hospital
+  address:
+  - 10 Shattuck Street, Suite 514
+  - |
+    Boston, MA 02115
+- name: Stephan Kadauke
+  affiliation: |-
+    Department of Pathology and Laboratory Medicine, Children's Hospital
+    of Philadelphia, Perelman School of Medicine, University of
+    Pennsylvania
+  orcid: |
+    0000-0003-2996-8034
+  address:
+  - 3401 Civic Center Blvd.
+  - Philadelphia, PA 19104
+date: '2021-06-01'
+date_received:
+journal:
+  firstpage: '642'
+  lastpage: '647'
+volume: 13
+issue: 1
+slug: RJ-2021-1-rmed2020
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

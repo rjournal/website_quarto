@@ -1,0 +1,51 @@
+title: 'mgee2: An R package for marginal analysis of longitudinal ordinal data with misclassified responses and covariates'
+abstract: Marginal methods have been widely used for analyzing longitudinal ordinal data due to their simplicity in model assumptions, robustness in inference results, and easiness in the implementation. However, they are often inapplicable in the presence of measurement errors in the variables. Under the setup of longitudinal studies with ordinal responses and covariates subject to misclassification, @Chen2013 developed marginal methods for misclassification adjustments using the second-order estimating equations and proposed a two-stage estimation approach when the validation subsample is available. Parameter estimation is conducted through the Newton-Raphson algorithm, and the asymptotic distribution of the estimators is established. While the methods of @Chen2013 can successfully correct the misclassification effects, its implementation is not accessible to general users due to the lack of a software package. In this paper, we develop an R package, [*mgee2*](https://CRAN.R-project.org/package=mgee2), to implement the marginal methods proposed by @Chen2013. To evaluate the performance and illustrate the features of the package, we conduct numerical studies.
+author:
+- name: Yuliang Xu
+  affiliation: University of Michigan
+  address:
+  - School of Public Health
+  - |
+    500 S. State Street, Ann Arbor, Michigan 48109 USA
+- name: Shuo Shuo Liu
+  affiliation: Pennsylvania State University
+  orcid: |
+    0000-0001-8396-4515
+  address:
+  - Department of Statistics
+  - 201 Old Main, University Park, Pennsylvania 16802 USA
+- name: Grace Y. Yi
+  affiliation: University of Western Ontario
+  address:
+  - Department of Statistical and Actuarial Sciences
+  - Department of Computer Science
+  - |
+    1151 Richmond Street, London, Ontario, Canada N6A 3K7
+date: '2021-10-19'
+date_received: '2021-01-15'
+journal:
+  firstpage: '471'
+  lastpage: '484'
+volume: 13
+issue: 2
+slug: RJ-2021-093
+doi: 10.32614/RJ-2021-093
+packages:
+  cran:
+  - mgee2
+  - SAMBA
+  - misclassGLM
+  - augSIMEX
+  - kml
+  - kml3d
+  - gee
+  - wgeesel
+  - swgee
+  - MASS
+  - Matrix
+  - ggplot2
+  - mgee2k
+  - mgee2v
+  - ordGEE2
+  bioc: []
+CTV:

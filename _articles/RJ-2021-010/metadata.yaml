@@ -1,0 +1,55 @@
+title: A Fast and Scalable Implementation Method for Competing Risks Data with the R Package fastcmprsk
+abstract: Advancements in medical informatics tools and high-throughput biological experimentation make large-scale biomedical data routinely accessible to researchers. Competing risks data are typical in biomedical studies where individuals are at risk to more than one cause (type of event) which can preclude the others from happening. The [@fine1999proportional] proportional subdistribution hazards model is a popular and well-appreciated model for competing risks data and is currently implemented in a number of statistical software packages. However, current implementations are not computationally scalable for large-scale competing risks data. We have developed an R package, [*fastcmprsk*](https://CRAN.R-project.org/package=fastcmprsk), that uses a novel forward-backward scan algorithm to significantly reduce the computational complexity for parameter estimation by exploiting the structure of the subject-specific risk sets. Numerical studies compare the speed and scalability of our implementation to current methods for unpenalized and penalized Fine-Gray regression and show impressive gains in computational efficiency.
+author:
+- name: Eric S. Kawaguchi
+  affiliation: University of Southern California
+  address:
+  - Department of Preventive Medicine
+  - |
+    2001 N. Soto St. Los Angeles, CA 90032, USA
+- name: Jenny I. Shen
+  affiliation: The Lundquist Institute at Harbor-UCLA Medical Center
+  address:
+  - Division of Nephrology and Hypertension
+  - 1124 W. Carson St.
+  - |
+    Torrance, CA 90502, USA
+- name: Gang Li
+  affiliation: University of California, Los Angeles
+  address:
+  - Departments of Biostatistics and Computational Medicine
+  - |
+    Los Angeles, CA 90095, USA
+- name: Marc A. Suchard
+  affiliation: University of California, Los Angeles
+  address:
+  - |-
+    Departments of Biostatistics, Computational Medicine, and Human
+    Genetics
+  - |
+    Los Angeles, CA 90095, USA
+date: '2021-01-14'
+date_received: '2020-01-16'
+journal:
+  firstpage: '43'
+  lastpage: '60'
+volume: 12
+issue: 2
+slug: RJ-2021-010
+doi: 10.32614/RJ-2021-010
+packages:
+  cran:
+  - fastcmprsk
+  - cmprsk
+  - riskRegression
+  - timereg
+  - survival
+  - crrSC
+  - crrstep
+  - crrp
+  - glmnet
+  - ncvreg
+  - Cyclops
+  - doParallel
+  bioc: []
+CTV:

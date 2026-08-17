@@ -1,0 +1,30 @@
+title: 'TreeSearch: Morphological Phylogenetic Analysis in R'
+author:
+- name: Martin R. Smith
+  affiliation: University of Durham
+  address:
+  - Department of Earth Sciences
+  - Durham, UK
+  - DH1 3LE
+  url: https://smithlabdurham.github.io/
+  orcid: 0000-0001-5660-1727
+  email: martin.smith@durham.ac.uk
+editor_options:
+  markdown:
+    wrap: 80
+abstract: |
+  \CRANpkg{TreeSearch} is an R package for phylogenetic analysis, optimized for discrete character data. Tree search may be conducted using equal or implied step weights with an explicit (albeit inexact) allowance for inapplicable character entries, avoiding some of the pitfalls inherent in standard parsimony methods. Profile parsimony and user-specified optimality criteria are supported.
+  A graphical interface, which requires no familiarity with R, is designed to help a user to improve the quality of datasets through critical review of underpinning character codings; and to obtain additional information from results by identifying and summarizing clusters of similar trees, mapping the distribution of trees, and removing 'rogue' taxa that obscure underlying relationships.
+  Taken together, the package aims to support methodological rigour at each step of data collection, analysis, and the exploration of phylogenetic results.
+draft: no
+type: package
+date: '2023-02-10'
+date_received: '2022-02-24'
+volume: 14
+issue: 4
+slug: RJ-2023-019
+doi: 10.32614/RJ-2023-019
+journal:
+  lastpage: 315
+  firstpage: 305
+

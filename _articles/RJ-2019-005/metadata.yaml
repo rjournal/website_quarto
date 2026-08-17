@@ -1,0 +1,40 @@
+title: 'rollmatch: An R Package for Rolling Entry Matching'
+abstract: The gold standard of experimental research is the randomized control trial. However, interventions are often implemented without a randomized control group for practical or ethical reasons. Propensity score matching (PSM) is a popular method for minimizing the effects of a randomized experiment from observational data by matching members of a treatment group to similar candidates that did not receive the intervention. Traditional PSM is not designed for studies that enroll participants on a rolling basis and does not provide a solution for interventions in which the baseline and intervention period are undefined in the comparison group. Rolling Entry Matching (REM) is a new matching method that addresses both issues. REM selects comparison members who are similar to intervention members with respect to both static (e.g., race) and dynamic (e.g., health conditions) characteristics. This paper will discuss the key components of REM and introduce the [*rollmatch*](https://CRAN.R-project.org/package=rollmatch) R package.
+author:
+- name: Kasey Jones
+  affiliation: Division for Statistical and Data Sciences, RTI International
+  address: |
+    United States
+- name: Rob Chew
+  affiliation: Division for Statistical and Data Sciences, RTI International
+  address: |
+    United States
+- name: Allison Witman
+  affiliation: University of North Carolina Wilmington
+  address:
+  - Assistant Professor of Economics
+  - |
+    United States
+- name: Yiyan (Echo) Liu
+  affiliation: Research Economist, RTI International
+  address: |
+    United States
+date: '2019-07-30'
+date_received: '2018-05-29'
+journal:
+  firstpage: '243'
+  lastpage: '253'
+volume: 11
+issue: 2
+slug: RJ-2019-005
+doi: 10.32614/RJ-2019-005
+packages:
+  cran:
+  - rollmatch
+  - CBPS
+  - ipw
+  - MatchIt
+  - Matching
+  - optmatch
+  bioc: []
+CTV:

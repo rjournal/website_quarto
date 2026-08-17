@@ -1,0 +1,20 @@
+title: R Foundation News
+abstract: The 'R Foundation News' article from the 2016-2 issue.
+author:
+- name: Torsten Hothorn
+  affiliation: Universität Zürich
+  address: |
+    Switzerland
+date: '2016-12-01'
+date_received:
+journal:
+  firstpage: '506'
+  lastpage: '506'
+volume: 8
+issue: 2
+slug: RJ-2016-2-foundation
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

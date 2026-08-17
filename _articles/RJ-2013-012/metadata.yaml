@@ -1,0 +1,34 @@
+title: Let Graphics Tell the Story - Datasets in R
+abstract: Graphics are good for showing the information in datasets and for complementing modelling. Sometimes graphics show information models miss, sometimes graphics help to make model results more understandable, and sometimes models show whether information from graphics has statistical support or not. It is the interplay of the two approaches that is valuable. Graphics could be used a lot more in R examples and we explore this idea with some datasets available in R packages.
+author:
+- name: Antony R Unwin
+  affiliation: Computer-Oriented Statistics And Data Analysis, Augsburg University
+  address: |
+    Germany
+- name: Heike Hofmann
+  affiliation: Department of Statistics, Iowa State University
+  address: |
+    United States
+- name: Dianne H Cook
+  affiliation: Department of Statistics, Iowa State University
+  address: |
+    United States
+date: '2013-06-02'
+date_received: '2012-05-30'
+journal:
+  firstpage: '117'
+  lastpage: '129'
+volume: 5
+issue: 1
+slug: RJ-2013-012
+doi: 10.32614/RJ-2013-012
+packages:
+  cran:
+  - MASS
+  - granova
+  - ggplot2
+  - vcd
+  - knitr
+  - HH
+  bioc: []
+CTV:

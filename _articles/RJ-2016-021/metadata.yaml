@@ -1,0 +1,49 @@
+title: 'mclust 5: Clustering, Classification and Density Estimation Using Gaussian Finite Mixture Models'
+abstract: Finite mixture models are being used increasingly to model a wide variety of random phenomena for clustering, classification and density estimation. *mclust* is a powerful and popular package which allows modelling of data as a Gaussian finite mixture with different covariance structures and different numbers of mixture components, for a variety of purposes of analysis. Recently, version 5 of the package has been made available on CRAN. This updated version adds new covariance structures, dimension reduction capabilities for visualisation, model selection criteria, initialisation strategies for the EM algorithm, and bootstrap-based inference, making it a full-featured R package for data analysis via finite mixture modelling.
+author:
+- name: Luca Scrucca
+  affiliation: Università degli Studi di Perugia
+  address:
+  - Via A. Pascoli 20, 06123 Perugia
+  - Italy
+- name: Michael Fop
+  affiliation: University College Dublin
+  address:
+  - Belfield, Dublin 4
+  - Ireland
+- name: T. Brendan Murphy
+  affiliation: University College Dublin
+  address:
+  - Belfield, Dublin 4
+  - Ireland
+- name: Adrian E. Raftery
+  affiliation: University of Washington
+  address:
+  - Box 354320
+  - Seattle, WA 98195-4320
+date: '2016-06-13'
+date_received: '2015-11-11'
+journal:
+  firstpage: '289'
+  lastpage: '317'
+volume: 8
+issue: 1
+slug: RJ-2016-021
+doi: 10.32614/RJ-2016-021
+packages:
+  cran:
+  - mclust
+  - cranlogs
+  - Rmixmod
+  - mixture
+  - EMCluster
+  - mixtools
+  - bgmm
+  - flexmix
+  - igraph
+  - gclus
+  - rrcov
+  - tourr
+  - fpc
+  bioc: []
+CTV:

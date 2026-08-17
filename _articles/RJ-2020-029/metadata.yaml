@@ -1,0 +1,23 @@
+title: Provenance of R's Gradient Optimizers
+abstract: Gradient optimization methods (function minimizers) are well-represented in both the base and package universe of R [@citeR]. However, some of the methods and the codes developed from them were published before standards for hardware and software were established, in particular the IEEE arithmetic [@IEEE754A]. There have been cases of unexpected behaviour or outright errors, and these are the focus of the **histoRicalg** project. A summary history of some of the tools in R for gradient optimization methods is presented to give perspective on such methods and the occasions where they could be used effectively.
+author:
+- name: John C. Nash
+  affiliation: Retired Professor
+  orcid: |
+    0000-0002-2762-8039
+  address:
+  - University of Ottawa, Telfer School of Management
+  - Ottawa, Ontario
+  - Canada
+date: '2020-06-1'
+journal:
+  firstpage: '477'
+  lastpage: '483'
+volume: 12
+issue: 1
+slug: RJ-2020-029
+doi: 10.32614/RJ-2020-029
+packages:
+  cran: []
+  bioc: []
+CTV:

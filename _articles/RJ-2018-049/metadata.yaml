@@ -1,0 +1,74 @@
+title: 'Stilt: Easy Emulation of Time Series AR(1) Computer Model Output in Multidimensional Parameter Space'
+abstract: Statistically approximating or "emulating" time series model output in parameter space is a common problem in climate science and other fields. There are many packages for spatio-temporal modeling. However, they often lack focus on time series, and exhibit statistical complexity. Here, we present the R package *stilt* designed for simplified AR(1) time series Gaussian process emulation, and provide examples relevant to climate modelling. Notably absent is Markov chain Monte Carlo estimation -- a challenging concept to many scientists. We keep the number of user choices to a minimum. Hence, the package can be useful pedagogically, while still applicable to real life emulation problems. We provide functions for emulator cross-validation, empirical coverage, prediction, as well as response surface plotting. While the examples focus on climate model emulation, the emulator is general and can be also used for kriging spatio-temporal data.
+author:
+- name: Roman Olson
+  affiliation: Department of Atmospheric Sciences, Yonsei University
+  address:
+  - 529A Sciences Building, 50 Yonsei-ro
+  - Sinchon-dong, Seodaemun-gu, Seoul, 03722, South Korea
+  - 'And:'
+  - Center for Climate Physics
+  - Institute for Basic Science
+  - Room 1111, Tonghapgigyegwan Building
+  - Busandaehak-ro 63 beon-gil 2
+  - Geumjeong-gu, Busan, 46241
+  - South Korea
+  - 'And:'
+  - |
+    Pusan National University, Busan, South Korea, 46241
+- name: Kelsey L. Ruckert
+  affiliation: Penn State University
+  address:
+  - Earth and Environmental Systems Institute
+  - 320c EES Building
+  - |
+    University Park, PA, 16802, United States of America
+- name: Won Chang
+  affiliation: Division of Statistics and Data Science, University of Cincinatti
+  address:
+  - Department of Mathematical Sciences, University of Cincinatti
+  - 5516 French Hall, 2815 Commons Way
+  - |
+    Cincinatti, OH, 45221-0025, United States of America
+- name: Klaus Keller
+  affiliation: Department of Geosciences, Penn State University
+  address:
+  - 436 Deike Building
+  - |
+    University Park, PA, 16802, United States of America
+- name: Murali Haran
+  affiliation: Department of Statistics, Penn State University
+  address:
+  - 326 Thomas Building
+  - |
+    University Park, PA, 16802, United States of America
+- name: Soon-Il An
+  affiliation: Department of Atmospheric Sciences, Yonsei University
+  address:
+  - 538 Sciences Building, 50 Yonsei-ro
+  - |
+    Sinchon-dong, Seodaemun-gu, Seoul, 03722, South Korea
+date: '2018-12-07'
+date_received: '2017-11-16'
+journal:
+  firstpage: '209'
+  lastpage: '225'
+volume: 10
+issue: 2
+slug: RJ-2018-049
+doi: 10.32614/RJ-2018-049
+packages:
+  cran:
+  - gstat
+  - mlegp
+  - spBayes
+  - ramps
+  - spTimer
+  - RandomFields
+  - stilt
+  - fields
+  - maps
+  - spam
+  - dotCall64
+  bioc: []
+CTV:

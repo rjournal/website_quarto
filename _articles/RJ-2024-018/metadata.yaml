@@ -1,0 +1,36 @@
+title: 'reslr: An R Package for Relative Sea Level Modelling'
+date: '2025-03-09'
+abstract: "We present reslr, an R package to perform Bayesian modelling of relative sea level data. We include a variety of different statistical models previously proposed in the literature, with a unifying framework for loading data, fitting models, and summarising the results. Relative sea-level data often contain measurement error in multiple dimensions, and so our package allows for these to be included in the statistical models. When plotting the output sea level curves, the focus is often on comparing rates of change, and so our package allows for computation of the derivatives of sea level curves with appropriate consideration of the uncertainty. We provide a large example dataset from the Atlantic coast of North America and show some of the results that might be obtained from our package. \n"
+draft: no
+author:
+- name: Maeve Upton
+  affiliation: Maynooth University
+  address:
+  - Hamilton Institute, ICARUS and Department of Mathematics and Statistics
+  - Maynooth, Ireland
+  orcid: 0000-0002-1151-6657
+  email: uptonmaeve010@gmail.com
+- name: Andrew Parnell
+  email: andrew.parnell@mu.ie
+  orcid: 0000-0001-7956-7939
+  affiliation: Maynooth University
+  address:
+  - Hamilton Institute, ICARUS and Department of Mathematics and Statistics
+  - Maynooth, Ireland
+- name: Niamh Cahill
+  email: niamh.cahill@mu.ie
+  orcid: 0000-0003-3086-550X
+  affiliation: Maynooth University
+  address:
+  - Department of Mathematics and Statistics and ICARUS
+  - Maynooth, Ireland
+type: package
+date_received: '2023-07-02'
+volume: 16
+issue: 2
+slug: RJ-2024-018
+doi: 10.32614/RJ-2024-018
+journal:
+  lastpage: 81
+  firstpage: 61
+

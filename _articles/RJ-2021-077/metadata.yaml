@@ -1,0 +1,58 @@
+title: 'volesti: Volume Approximation and Sampling for Convex Polytopes in R'
+abstract: Sampling from high-dimensional distributions and volume approximation of convex bodies are fundamental operations that appear in optimization, finance, engineering, artificial intelligence, and machine learning. In this paper, we present *volesti*, an R package that provides efficient, scalable algorithms for volume estimation, uniform, and Gaussian sampling from convex polytopes. *volesti* scales to hundreds of dimensions, handles efficiently three different types of polyhedra and provides non existing sampling routines to R. We demonstrate the power of *volesti* by solving several challenging problems using the R language.
+author:
+- name: Apostolos Chalkis
+  affiliation: National & Kapodistrian University of Athens
+  orcid: |
+    0000-0002-4628-1907
+  address:
+  - Department of Informatics & Telecommunications
+  - Greece
+  - GeomScale org.
+- name: Vissarion Fisikopoulos
+  affiliation: National & Kapodistrian University of Athens
+  orcid: |
+    0000-0002-0780-666X
+  address:
+  - Department of Informatics & Telecommunications
+  - Greece
+  - GeomScale org.
+date: '2021-08-17'
+date_received: '2021-04-12'
+journal:
+  firstpage: '642'
+  lastpage: '660'
+volume: 13
+issue: 2
+slug: RJ-2021-077
+doi: 10.32614/RJ-2021-077
+packages:
+  cran:
+  - volesti
+  - tmg
+  - multinomineq
+  - lineqGPR
+  - restrictedMVN
+  - tmvmixnorm
+  - hitandrun
+  - limSolve
+  - HybridMC
+  - rhmc
+  - mcmc
+  - MHadaptive
+  - geometry
+  - Rcpp
+  - Rfast
+  - coda
+  - SimplicialCubature
+  - cubature
+  - stats
+  - methods
+  - BH
+  - RcppEigen
+  - testthat
+  - ggplot2
+  - plotly
+  - rgl
+  bioc: []
+CTV:

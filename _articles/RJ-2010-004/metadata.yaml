@@ -1,0 +1,28 @@
+title: Mapping and Measuring Country Shapes
+abstract: The article introduces the [*cshapes*](https://CRAN.R-project.org/package=cshapes) R package, which includes our CShapes dataset of contemporary and historical country boundaries, as well as computational tools for computing geographical measures from these maps. We provide an overview of the need for considering spatial dependence in comparative research, how this requires appropriate historical maps, and detail how the [*cshapes*](https://CRAN.R-project.org/package=cshapes) associated R package [*cshapes*](https://CRAN.R-project.org/package=cshapes) can contribute to these ends. We illustrate the use of the package for drawing maps, computing spatial variables for countries, and generating weights matrices for spatial statistics.
+author:
+- name: Nils B. Weidmann
+  affiliation: Woodrow Wilson School,Princeton University
+  address: USA
+- name: Kristian Skrede Gleditsch
+  affiliation: Department of Government, University of Essex
+  address: UK
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: '18'
+  lastpage: '24'
+volume: 2
+issue: 1
+slug: RJ-2010-004
+doi: 10.32614/RJ-2010-004
+packages:
+  cran:
+  - cshapes
+  - sp
+  - maptools
+  - spdep
+  - classInt
+  - rJava
+  bioc: []
+CTV:

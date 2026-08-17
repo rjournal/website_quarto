@@ -1,0 +1,18 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2018-2 issue.
+author:
+- name: John Verzani
+  affiliation: .na.character
+date: '2018-12-01'
+date_received:
+journal:
+  firstpage: '4'
+  lastpage: '5'
+volume: 10
+issue: 2
+slug: RJ-2018-2-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

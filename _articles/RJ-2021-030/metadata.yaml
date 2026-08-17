@@ -1,0 +1,38 @@
+title: 'Linear Regression with Stationary Errors: the R Package slm'
+abstract: This paper introduces the R package [*slm*](https://CRAN.R-project.org/package=slm), which stands for Stationary Linear Models. The package contains a set of statistical procedures for linear regression in the general context where the error process is strictly stationary with a short memory. We work in the setting of [@hannan1973central], who proved the asymptotic normality of the (normalized) least squares estimators (LSE) under very mild conditions on the error process. We propose different ways to estimate the asymptotic covariance matrix of the LSE and then to correct the type I error rates of the usual tests on the parameters (as well as confidence intervals). The procedures are evaluated through different sets of simulations.
+author:
+- name: Emmanuel Caron
+  affiliation: Avignon Université
+  address:
+  - Laboratoire de Mathématiques d'Avignon EA2151
+  - |
+    74 Rue Louis Pasteur, 84029 Avignon France
+- name: Jérôme Dedecker
+  affiliation: Université Paris Descartes
+  address:
+  - Laboratoire MAP5 UMR 8145
+  - |
+    45 Rue des Saints-Pères, 75006 Paris France
+- name: Bertrand Michel
+  affiliation: Ecole Centrale Nantes
+  address:
+  - Laboratoire de Mathématiques Jean Leray UMR 6629
+  - |
+    1 Rue de la Noë, 44300 Nantes France
+date: '2021-06-07'
+date_received: '2020-05-01'
+journal:
+  firstpage: '146'
+  lastpage: '163'
+volume: 13
+issue: 1
+slug: RJ-2021-030
+doi: 10.32614/RJ-2021-030
+packages:
+  cran:
+  - slm
+  - sandwich
+  - stats
+  - capushe
+  bioc: []
+CTV:

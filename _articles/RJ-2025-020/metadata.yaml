@@ -1,0 +1,55 @@
+title: 'MSmix: An R Package for clustering partial rankings via mixtures of Mallows Models with Spearman distance'
+abstract: |
+  MSmix is a recently developed R package
+  implementing maximum likelihood estimation of finite mixtures of
+  Mallows models with Spearman distance for full and partial rankings.
+  The package is designed to implement computationally tractable
+  estimation routines, with the ability to handle arbitrary forms of
+  partial rankings and a large number of items. The frequentist
+  estimation task is accomplished via Expectation-Maximization
+  algorithms, integrating data augmentation strategies to recover the
+  unobserved heterogeneity and the missing ranks. The package also
+  provides functionalities for uncertainty quantification of the
+  parameter estimates, via diverse bootstrap methods and asymptotic
+  confidence intervals. Generic methods for S3 class objects are
+  constructed for more effectively managing the output of the main
+  routines. The usefulness of the package and its computational
+  performance compared with competing software is illustrated via
+  applications to both simulated and original real ranking datasets.
+author:
+- name: Marta Crispino
+  affiliation: |-
+    Department of Economics, Statistics and Research,Bank of Italy Rome,
+    Italy
+  address: |
+    [marta.crispino@bancaditalia.it](marta.crispino@bancaditalia.it){.uri}
+- name: Cristina Mollica
+  affiliation: Department of Statistical Sciences, Sapienza University of Rome
+  address:
+  - Italy
+  - |
+    [cristina.mollica@uniroma1.it](cristina.mollica@uniroma1.it){.uri}
+- name: Lucia Modugno
+  affiliation: Department of Economics, Statistics and Research, Bank of Italy
+  address:
+  - Rome, Italy
+  - |
+    [lucia.modugno@bancaditalia.it](lucia.modugno@bancaditalia.it){.uri}
+date: '2025-09-25'
+date_received: '2024-07-16'
+journal:
+  firstpage: 206
+  lastpage: 231
+volume: 17
+issue: 2
+slug: RJ-2025-020
+doi: 10.32614/RJ-2025-020
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

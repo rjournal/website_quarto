@@ -1,0 +1,56 @@
+title: The CRAN Task View Initiative
+date: '2025-10-05'
+draft: no
+author:
+- name: Achim Zeileis
+  affiliation: Universität Innsbruck
+  address: Department of Statistics
+  url: https://www.zeileis.org/
+  orcid: 0000-0003-0918-3766
+  email: Achim.Zeileis@R-project.org
+- name: Roger Bivand
+  affiliation: Norwegian School of Economics
+  address: Department of Economics
+  url: https://www.nhh.no/en/employees/faculty/roger-bivand/
+  orcid: 0000-0003-2392-6140
+  email: Roger.Bivand@R-project.org
+- name: Dirk Eddelbuettel
+  affiliation: University of Illinois Urbana-Champaign
+  address: Department of Statistics
+  url: https://dirk.eddelbuettel.com
+  orcid: 0000-0001-6419-907X
+  email: Dirk.Eddelbuettel@R-project.org
+- name: Kurt Hornik
+  affiliation: WU Wirtschaftsuniversität Wien
+  address: Institute for Statistics and Mathematics
+  url: https://statmath.wu.ac.at/~hornik/
+  orcid: 0000-0003-4198-9911
+  email: Kurt.Hornik@R-project.org
+- name: Julia Piaskowski
+  affiliation: University of Idaho
+  address: College of Agriculture and Life Sciences
+  url: https://jpiaskowski.gitlab.io/
+  orcid: 0000-0003-3700-0859
+  email: julia.piask@gmail.com
+- name: Nathalie Vialaneix
+  affiliation: INRAE Toulouse
+  address: Unité MIA-T
+  url: https://www.nathalievialaneix.eu/
+  orcid: 0000-0003-1156-0639
+  email: Nathalie.Vialaneix@inrae.fr
+abstract: |
+  CRAN Task Views have been available on the Comprehensive R Archive Network since 2005. They provide guidance about which CRAN packages are relevant for tasks related to a certain topic, and can also facilitate automatic installation of all corresponding packages. Motivated by challenges from the growth of CRAN and the R community as a whole since 2005, all of the task view infrastructure and workflows were rethought and relaunched in 2021/22 in order to facilitate maintenance, and to foster deeper interactions with the R community. The redesign encompassed the establishment of a group of CRAN Task View Editors, moving all task view sources to dedicated GitHub repositories, adopting well-documented workflows with a code of conduct, and leveraging R/Markdown files (rather than XML) for the content of the task views.
+preamble: |
+  \newcommand{\doi}[1]{\href{https://doi.org/#1}{\normalfont\texttt{doi:\discretionary{}{}{}{#1}}}}
+  \usepackage{longtable}
+  %%\definecolor{link}{RGB}{39,109,195}
+  %%\pagestyle{plain}
+date_received: '2023-07-02'
+volume: 17
+issue: 2
+slug: RJ-2025-011
+doi: 10.32614/RJ-2025-011
+journal:
+  lastpage: 14
+  firstpage: 4
+

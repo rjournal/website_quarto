@@ -1,0 +1,59 @@
+title: 'GREENeR: An R Package to Estimate and Visualize Nutrients Pressures on Surface Waters'
+author:
+- name: Angel Udías
+  affiliation: European Commission, Joint Research Centre (JRC)
+  address:
+  - Via Enrico Fermi 2749, I-21027, Ispra
+  - Italy
+  affiliation2: Departament of Computer Science and Statistics, Rey Juan Carlos University
+  address2:
+  - Calle Tulipán S/N, 28933, Móstoles, Madrid
+  - Spain
+  orcid: 0000-0003-1219-0465
+  email: angel.luis.udias@urjc.es
+- name: Bruna Grizzetti
+  affiliation: European Commission, Joint Research Centre (JRC)
+  address:
+  - Via Enrico Fermi 2749, I-21027, Ispra
+  - Italy
+  email: bruna.grizzetti@jrc.it
+- name: Olga Vigiak
+  affiliation: European Commission, Joint Research Centre (JRC)
+  address:
+  - Via Enrico Fermi 2749, I-21027, Ispra
+  - Italy
+  email: Olga.VIGIAK@ec.europa.eu
+- name: Alberto Aloe
+  affiliation: European Commission, Joint Research Centre (JRC)
+  address:
+  - Via Enrico Fermi 2749, I-21027, Ispra
+  - Italy
+  email: alberto.aloe@jrc.it
+- name: Cesar Alfaro
+  affiliation: Departament of Computer Science and Statistics, Rey Juan Carlos University
+  address:
+  - Calle Tulipán S/N, 28933, Móstoles, Madrid
+  - Spain
+  orcid: 0000-0002-9146-4067
+  email: cesar.alfaro@urjc.es
+- name: Javier Gomez
+  affiliation: Departament of Computer Science and Statistics, Rey Juan Carlos University
+  address:
+  - Calle Tulipán S/N, 28933, Móstoles, Madrid
+  - Spain
+  orcid: 0000-0001-6434-7263
+  email: javier.gomez@urjc.es
+draft: no
+date_received: '2022-09-13'
+volume: 15
+issue: 3
+subid: 2022-165
+slug: RJ-2023-065
+doi: 10.32614/RJ-2023-065
+header-includes: \usepackage{float}
+type: package
+abstract: "Nutrient pollution affects fresh and coastal waters around the globe. Planning mitigating actions requires tools to assess fluxes of nutrient emissions to waters and expected restoration impacts. Conceptual river basin models take advantage of data on nutrient emissions and concentrations at monitoring stations, providing a physical interpretation of monitored conditions, and enabling scenario analysis. The GREENeR package streamlines water quality model in a region of interest, considering nutrient pathways and the hydrological structure of the river network. The package merges data sources, analyzes local conditions, calibrate the model, and assesses yearly nutrient levels along the river network, determining contributions of load in freshwaters from diffuse and point sources. The package is enriched with functions to perform thorough parameter sensitivity analysis and for mapping nutrient sources and fluxes. The functionalities of the package are demonstrated using datasets from the Vistula river basin. \n"
+journal:
+  lastpage: 137
+  firstpage: 119
+

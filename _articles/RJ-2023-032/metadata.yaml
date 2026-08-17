@@ -1,0 +1,37 @@
+title: 'markovMSM: An R Package for Checking the Markov Condition in Multi-State Survival Data'
+abstract: ' Multi-state models can be used to describe processes in which an individual moves through a finite number of states in continuous time. These models allow a detailed view of the evolution or recovery of the process and can be used to study the effect of a vector of explanatory variables on the transition intensities or to obtain prediction probabilities of future events after a given event history. In both cases, before using these models, we have to evaluate whether the Markov assumption is tenable. This paper introduces the [markovMSM](https://CRAN.R-project.org/package=markovMSM) package, a software application for R, which considers tests of the Markov assumption that are applicable to general multi-state models. Three approaches using existing methodology are considered: a simple method based on including covariates depending on the history; methods based on measuring the discrepancy of the non-Markov estimators of the transition probabilities to the Markovian Aalen-Johansen estimators; and, finally, methods that were developed by considering summaries from families of log-rank statistics where individuals are grouped by the state occupied by the process at a particular time point. The main functionalities of the [markovMSM](https://CRAN.R-project.org/package=markovMSM) package are illustrated using real data examples. '
+author:
+- name: Gustavo Soutinho
+  affiliation: |-
+    EPIUnit, Institute of Public Health of the University of Porto
+    (ISPUP)
+  email: |
+    gdsoutinho@gmail.com
+  address:
+  - Rua das Taipas 135, 4050-600 Porto
+  - Portugal
+  - 'ORCID: 0000-0002-0559-1327'
+- name: Luís Meira-Machado
+  affiliation: |-
+    Department of Mathematics & Centre of Mathematics, University of
+    Minho
+  email: |
+    lmachado@math.uminho.pt
+  address:
+  - Campus de Azurém - 4800-058 Guimarães
+  - Portugal
+  - 'ORCID: 0000-0002-8577-7665'
+date: '2023-09-24'
+date_received: '2022-05-20'
+journal:
+  firstpage: 195
+  lastpage: 211
+volume: 15
+issue: 1
+slug: RJ-2023-032
+doi: 10.32614/RJ-2023-032
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

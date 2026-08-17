@@ -1,0 +1,66 @@
+title: 'boinet: An R Package for Bayesian Optimal Interval Design for Dose Finding Based on Both Efficacy and Toxicity Outcomes'
+abstract: |
+  Bayesian optimal interval based on both efficacy and toxicity outcomes
+  (BOIN-ET) design is a model-assisted oncology phase I/II trial design,
+  aiming to establish an optimal biological dose accounting for efficacy
+  and toxicity in the framework of dose-finding. Some extensions of
+  BOIN-ET design are also available to allow for time-to-event efficacy
+  and toxicity outcomes based on cumulative and pending data
+  (time-to-event BOIN-ET: TITE-BOIN-ET), ordinal graded efficacy and
+  toxicity outcomes (generalized BOIN-ET: gBOIN-ET), and their
+  combination (TITE-gBOIN-ET). The R package boinet implements the
+  BOIN-ET design family. The package supports
+  the conduct of simulation studies to assess operating characteristics
+  of BOIN-ET, TITE-BOIN-ET, gBOIN-ET, and TITE-gBOIN-ET designs, where
+  users can choose design parameters in flexible and straightforward
+  ways depending on their own application. We demonstrate its capability
+  and effectiveness using several simulation studies.
+author:
+- name: Yusuke Yamaguchi
+  affiliation: |-
+    Quantitative Sciences and Evidence Generation, Astellas Pharma Global
+    Development, Inc.
+  address:
+  - 2375 Waterview Drive, Northbrook, Illinois 60062
+  - United States
+  - |
+    [yusuke-yamaguchi@astellas.com](yusuke-yamaguchi@astellas.com){.uri}
+- name: Kentaro Takeda
+  affiliation: |-
+    Quantitative Sciences and Evidence Generation, Astellas Pharma Global
+    Development, Inc.
+  address:
+  - 2375 Waterview Drive, Northbrook, Illinois 60062
+  - United States
+  - |
+    [kentaro.takeda@astellas.com](kentaro.takeda@astellas.com){.uri}
+- name: Kazushi Maruo
+  affiliation: |-
+    Department of Biostatistics, Faculty of Medicine, University of
+    Tsukuba
+  address:
+  - 1-1-1, Tennodai, Tsukuba, Ibaraki 305-8577
+  - Japan
+  - |
+    [kazushi.maruo@gmail.com](kazushi.maruo@gmail.com){.uri}
+date: '2025-09-23'
+date_received: '2023-07-02'
+journal:
+  firstpage: 15
+  lastpage: 34
+volume: 17
+issue: 2
+slug: RJ-2025-012
+doi: 10.32614/RJ-2025-012
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - boinet
+  - Keyboard
+  - escalation
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

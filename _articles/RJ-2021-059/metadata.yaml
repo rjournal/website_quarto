@@ -1,0 +1,62 @@
+title: The HBV.IANIGLA Hydrological Model
+abstract: Over the past 40 years, the HBV (Hydrologiska Byråns Vattenbalansavdelning) hydrological model has been one of the most used worldwide due to its robustness, simplicity, and reliable results. Despite these advantages, the available versions impose some limitations for research studies in mountain watersheds dominated by ice-snow melt runoff (i.e., no glacier module, a limited number of elevation bands, among other constraints). Here we present HBV.IANIGLA, a tool for hydroclimatic studies in regions with steep topography and/or cryospheric processes which provides a modular and extended implementation of the HBV model as an R package. To our knowledge, this is the first modular version of the original HBV model. This feature can be very useful for teaching hydrological modeling, as it offers the possibility to build a customized, open-source model that can be adjusted to different requirements of students and users.
+author:
+- name: Ezequiel Toum
+  affiliation: IANIGLA-CONICET
+  address:
+  - Av. Ruiz Leal s/n Parque General San Martin - Mendoza
+  - |
+    Argentina
+- name: Mariano H. Masiokas
+  affiliation: IANIGLA-CONICET
+  address:
+  - Av. Ruiz Leal s/n Parque General San Martin - Mendoza
+  - |
+    Argentina
+- name: Ricardo Villalba
+  affiliation: IANIGLA-CONICET
+  address:
+  - Av. Ruiz Leal s/n Parque General San Martin - Mendoza
+  - |
+    Argentina
+- name: Pierre Pitte
+  affiliation: IANIGLA-CONICET
+  address:
+  - Av. Ruiz Leal s/n Parque General San Martin - Mendoza
+  - |
+    Argentina
+- name: Lucas Ruiz
+  affiliation: IANIGLA-CONICET
+  address:
+  - Av. Ruiz Leal s/n Parque General San Martin - Mendoza
+  - |
+    Argentina
+date: '2021-06-21'
+date_received: '2020-10-27'
+journal:
+  firstpage: '395'
+  lastpage: '412'
+volume: 13
+issue: 1
+slug: RJ-2021-059
+doi: 10.32614/RJ-2021-059
+packages:
+  cran:
+  - TUWmodel
+  - topmodel
+  - dynatopmodel
+  - airGR
+  - glacierSMBM
+  - HBV.IANIGLA
+  - Evapotranspiration
+  - Rcpp
+  - microbechmark
+  - DEoptim
+  - tidyverse
+  - sp
+  - raster
+  - hydroGOF
+  - plotly
+  - hydroToolkit
+  bioc: []
+CTV:

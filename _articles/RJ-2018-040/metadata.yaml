@@ -1,0 +1,37 @@
+title: Profile Likelihood Estimation of the Correlation Coefficient in the Presence of Left, Right or Interval Censoring and Missing Data
+abstract: We discuss implementation of a profile likelihood method for estimating a Pearson correlation coefficient from bivariate data with censoring and/or missing values. The method is implemented in an [R]{.sans-serif} package *clikcorr* which calculates maximum likelihood estimates of the correlation coefficient when the data are modeled with either a Gaussian or a Student $t$-distribution, in the presence of left, right, or interval censored and/or missing data. The [R]{.sans-serif} package includes functions for conducting inference and also provides graphical functions for visualizing the censored data scatter plot and profile log likelihood function. The performance of *clikcorr* in a variety of circumstances is evaluated through extensive simulation studies. We illustrate the package using two dioxin exposure datasets.
+author:
+- name: Yanming Li
+  affiliation: Department of Biostatistics, University of Michigan
+  address: |
+    Ann Arbor, MI 48109-2029
+- name: Brenda Gillespie
+  affiliation: Department of Biostatistics, University of Michigan
+  address: |
+    Ann Arbor, MI 48109-2029
+- name: Kerby Shedden
+  affiliation: Department of Statistics, University of Michigan
+  address: |
+    Ann Arbor, MI 48109-1107
+- name: John Gillespie
+  affiliation: |-
+    Department of Mathematics and Statistics, University of
+    Michigan-Dearborn
+  address: |
+    Dearborn, MI 48128
+date: '2018-08-17'
+date_received: '2017-10-01'
+journal:
+  firstpage: '159'
+  lastpage: '179'
+volume: 10
+issue: 2
+slug: RJ-2018-040
+doi: 10.32614/RJ-2018-040
+packages:
+  cran:
+  - clikcorr
+  - survival
+  - mvtnorm
+  bioc: []
+CTV:

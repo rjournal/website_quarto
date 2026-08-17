@@ -1,0 +1,30 @@
+title: 'BSGS: Bayesian Sparse Group Selection'
+abstract: An R package *BSGS* is provided for the integration of Bayesian variable and sparse group selection separately proposed by @Chen:2011 and @Chen:2014 for variable selection problems, even in the cases of large $p$ and small $n$. This package is designed for variable selection problems including the identification of the important groups of variables and the active variables within the important groups. This article introduces the functions in the *BSGS* package that can be used to perform sparse group selection as well as variable selection through simulation studies and real data.
+author:
+- name: Kuo-Jung Lee
+  affiliation: Department of Statistics, National Cheng-Kung University
+  address:
+  - Assistant Professor
+  - Tainan, Taiwan 70101
+  - |
+    Taiwan
+- name: Ray-Bing Chen
+  affiliation: Department of Statistics, National Cheng-Kung University
+  address:
+  - Professor
+  - Tainan, Taiwan 70101
+  - |
+    Taiwan
+date: '2015-08-05'
+date_received: '2015-02-16'
+journal:
+  firstpage: '122'
+  lastpage: '133'
+volume: 7
+issue: 2
+slug: RJ-2015-025
+doi: 10.32614/RJ-2015-025
+packages:
+  cran: BSGS
+  bioc: []
+CTV:

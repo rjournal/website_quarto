@@ -1,0 +1,54 @@
+title: Spatial Uncertainty Propagation Analysis with the spup R Package
+abstract: Many environmental and geographical models, such as those used in land degradation, agro-ecological and climate studies, make use of spatially distributed inputs that are known imperfectly. The R package *spup* provides functions for examining the uncertainty propagation from input data and model parameters onto model outputs via the environmental model. The functions include uncertainty model specification, stochastic simulation and propagation of uncertainty using Monte Carlo (MC) techniques. Uncertain variables are described by probability distributions. Both numerical and categorical data types are handled. The package also accommodates spatial auto-correlation within a variable and cross-correlation between variables. The MC realizations may be used as input to the environmental models written in or called from R. This article provides theoretical background and three worked examples that guide users through the application of *spup*.
+author:
+- name: Kasia Sawicka
+  affiliation: Centre for Ecology & Hydrology
+  orcid: |
+    0000-0002-7553-3149
+  address:
+  - Deiniol Road
+  - Bangor
+  - LL57 2UW
+  - United Kingdom
+  - '(Previously at: Soil Geography and Landscape Group'
+  - Wageningen University
+  - PO Box 47
+  - 6700AA Wageningen
+  - The Netherlands)
+- name: Gerard B.M. Heuvelink
+  affiliation: Soil Geography and Landscape group, Wageningen University
+  orcid: |
+    0000-0003-0959-9358
+  address:
+  - PO Box 47
+  - 6700AA Wageningen
+  - The Netherlands
+- name: Dennis J.J. Walvoort
+  affiliation: Wageningen Environmental Research
+  address:
+  - PO Box 47
+  - 6700AA Wageningen
+  - |
+    The Netherlands
+date: '2018-12-07'
+date_received: '2017-10-03'
+journal:
+  firstpage: '180'
+  lastpage: '199'
+volume: 10
+issue: 2
+slug: RJ-2018-047
+doi: 10.32614/RJ-2018-047
+packages:
+  cran:
+  - propagate
+  - errors
+  - metRology
+  - spup
+  - gstat
+  - stats
+  - mvtnorm
+  - whisker
+  - shiny
+  bioc: []
+CTV:

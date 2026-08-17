@@ -1,0 +1,41 @@
+title: 'The mosaic Package: Helping Students to ''Think with Data'' Using R'
+abstract: The mosaic package provides a simplified and systematic introduction to the core functionality related to descriptive statistics, visualization, modeling, and simulation-based inference required in first and second courses in statistics. This introduction to the package describes some of the guiding principles behind the design of the package and provides illustrative examples of several of the most important functions it implements. These can be combined to help students "think with data\" using R in their early course work, starting with simple, yet powerful, declarative commands.
+author:
+- name: Randall Pruim
+  affiliation: Calvin College
+  address:
+  - Department of Mathematics and Statistics
+  - 3201 Burton St SE
+  - Grand Rapids, MI 49546
+- name: Daniel T Kaplan
+  affiliation: Macalester College
+  address:
+  - Department of Mathematics and Computer Science
+  - 1600 Grand Avenue
+  - St. Paul, MN 55105 USA
+- name: Nicholas J Horton
+  affiliation: Amherst College
+  address:
+  - Department of Mathematics and Statistics
+  - 'PO Box 5000 AC #2239'
+  - Amherst, MA 01002-5000
+date: '2017-05-10'
+date_received: '2015-11-19'
+journal:
+  firstpage: '77'
+  lastpage: '102'
+volume: 9
+issue: 1
+slug: RJ-2017-024
+doi: 10.32614/RJ-2017-024
+packages:
+  cran:
+  - mosaic
+  - lattice
+  - mosaicData
+  - ggplot2
+  - dplyr
+  - parallel
+  - MASS
+  bioc: []
+CTV:

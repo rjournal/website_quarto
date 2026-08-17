@@ -1,0 +1,33 @@
+title: Identifying Complex Causal Dependencies in Configurational Data with Coincidence Analysis
+abstract: We present cna, a package for performing Coincidence Analysis (CNA). CNA is a configurational comparative method for the identification of complex causal dependencies---in particular, causal chains and common cause structures---in configurational data. After a brief introduction to the method's theoretical background and main algorithmic ideas, we demonstrate the use of the package by means of an artificial and a real-life data set. Moreover, we outline planned enhancements of the package that will further increase its applicability.
+author:
+- name: Michael Baumgartner
+  affiliation: Department of Philosophy, University of Geneva
+  address:
+  - Rue de Candolle 2 / Bât. Landolt
+  - 1211 Geneva
+  - |
+    Switzerland
+- name: Alrik Thiem
+  affiliation: Department of Philosophy, University of Geneva
+  address:
+  - Rue de Candolle 2 / Bât. Landolt
+  - 1211 Geneva
+  - |
+    Switzerland
+date: '2015-03-30'
+date_received: '2014-12-17'
+journal:
+  firstpage: '170'
+  lastpage: '184'
+volume: 7
+issue: 1
+slug: RJ-2015-014
+doi: 10.32614/RJ-2015-014
+packages:
+  cran:
+  - QCA
+  - SetMethods
+  - cna
+  bioc: []
+CTV:

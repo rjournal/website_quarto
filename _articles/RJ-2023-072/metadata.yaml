@@ -1,0 +1,29 @@
+title: 'Updates to the R Graphics Engine:  One Person''s Chart Junk is Another''s Chart Treasure'
+abstract: |
+  Starting from R version 4.1.0, the R graphics engine has gained support for gradient fills, pattern fills, clipping paths, masks, compositing operators, and stroked and filled paths. This document provides a basic introduction to each of these new features and demonstrates how to use the new features in R.
+author:
+- name: Paul Murrell
+  affiliation: The University of Auckland
+  address:
+  - Department of Statistics
+  - 38 Princes Street
+  - Auckland
+  - New Zealand
+  url: https://www.stat.auckland.ac.nz/~paul/
+  orcid: 0000-0002-3224-8858
+  email: paul@stat.auckland.ac.nz
+type: package
+date: '2023-12-18'
+date_received: '2023-04-20'
+journal:
+  firstpage: 257
+  lastpage: 276
+volume: 15
+issue: 3
+subid: 2023-33
+slug: RJ-2023-072
+doi: 10.32614/RJ-2023-072
+packages:
+  cran:
+  bioc:
+draft: no

@@ -1,0 +1,33 @@
+title: hydrotoolbox, a Package for Hydrometeorological Data Management
+abstract: |
+  The hydrometeorological data provided by federal agencies, research groups and private companies tend to be heterogeneous: records are kept in different formats, quality control processes are not standardized and may even vary within a given agency, variables are not always recorded with the same temporal resolution, and there are data gaps and incorrectly recorded values. Once these problems are dealt with, it is useful to have tools to safely store and manipulate the series, providing temporal aggregation, interactive visualization for analysis, static graphics to publish and/or communicate results, techniques to correct and/or modify the series, among others. Here we introduce a package written in the R language using object-oriented programming and designed to accomplish these objectives, giving to the user a general framework for working with any kind of hydrometeorological series. We present the package design, its strengths, limitations and show its application for two real cases.
+draft: no
+author:
+- name: Ezequiel Toum
+  affiliation: IANIGLA-CONICET
+  address:
+  - Av. Ruiz Leal s/n Parque General San Martin - Mendoza
+  - Argentina
+  orcid: 0000-0002-4482-0559
+  email: etoum@mendoza-conicet.gob.ar
+- name: Pierre Pitte
+  affiliation: IANIGLA-CONICET
+  address:
+  - Av. Ruiz Leal s/n Parque General San Martin - Mendoza
+  - Argentina
+  orcid: 0000-0001-5625-8287
+  email: pierrepitte@mendoza-conicet.gob.ar
+type: package
+editor_options:
+  markdown:
+    wrap: 72
+date: '2023-11-01'
+date_received: '2021-11-08'
+volume: 15
+issue: 2
+slug: RJ-2023-041
+doi: 10.32614/RJ-2023-041
+journal:
+  lastpage: 38
+  firstpage: 25
+

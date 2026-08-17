@@ -1,0 +1,28 @@
+title: 'ctmcd: An R Package for Estimating the Parameters of a Continuous-Time Markov Chain from Discrete-Time Data'
+abstract: This article introduces the R package *ctmcd*, which provides an implementation of methods for the estimation of the parameters of a continuous-time Markov chain given that data are only available on a discrete-time basis. This data consists of partial observations of the state of the chain, which are made without error at discrete times, an issue also known as the embedding problem for Markov chains. The functions provided comprise matrix logarithm based approximations as described in @Israel01, as well as @Kreinin01, an expectation-maximization algorithm and a Gibbs sampling approach, both introduced by @Bladt05. For the expectation-maximization algorithm Wald confidence intervals based on the Fisher information estimation method of @Oakes99 are provided. For the Gibbs sampling approach, equal-tailed credibility intervals can be obtained. In order to visualize the parameter estimates, a matrix plot function is provided. The methods described are illustrated by Standard and Poor's discrete-time corporate credit rating transition data.
+author:
+- name: Marius Pfeuffer
+  affiliation: |-
+    Department of Statistics and Econometrics, University of
+    Erlangen-Nuremberg
+  address:
+  - Lange Gasse 20, 90403 Nuremberg
+  - Germany
+date: '2017-07-28'
+date_received: '2016-12-12'
+journal:
+  firstpage: '127'
+  lastpage: '141'
+volume: 9
+issue: 2
+slug: RJ-2017-038
+doi: 10.32614/RJ-2017-038
+packages:
+  cran:
+  - msm
+  - ctmcd
+  - coda
+  - foreach
+  - doParallel
+  bioc: []
+CTV:

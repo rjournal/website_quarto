@@ -1,0 +1,58 @@
+title: A Framework for Producing Small Area Estimates Based on Area-Level Models in R
+abstract: ' The R package [emdi](https://CRAN.R-project.org/package=emdi) facilitates the estimation of regionally disaggregated indicators using small area estimation methods and provides tools for model building, diagnostics, presenting, and exporting the results. The package version 1.1.7 includes unit-level small area models that rely on access to micro data. The area-level model by @Fay1979 and various extensions have been added to the package since the release of version 2.0.0. These extensions include (a) area-level models with back-transformations, (b) spatial and robust extensions, (c) adjusted variance estimation methods, and (d) area-level models that account for measurement errors. Corresponding mean squared error estimators are implemented for assessing the uncertainty. User-friendly tools like a stepwise variable selection, model diagnostics, benchmarking options, high quality maps and results exportation options enable a complete analysis procedure. The functionality of the package is illustrated by examples based on synthetic data for Austrian districts. '
+author:
+- name: Sylvia Harmening
+  affiliation: |-
+    Institute for Statistics and Econometrics, School of Business &
+    Economics, Freie Universität Berlin
+  email: |
+    sylvia.harmening@fu-berlin.de
+  address:
+  - Garystr. 21, 14195 Berlin
+  - Germany
+- name: Ann-Kristin Kreutzmann
+  affiliation: |-
+    Institute for Statistics and Econometrics, School of Business &
+    Economics, Freie Universität Berlin
+  email: |
+    ann-kristin.kreutzmann@fu-berlin.de
+  address:
+  - Garystr. 21, 14195 Berlin
+  - Germany
+- name: Sören Schmidt
+  affiliation: |-
+    Institute for Statistics and Econometrics, School of Business &
+    Economics, Freie Universität Berlin
+  email: |
+    soeren.pannier@fu-berlin.de
+  address:
+  - Garystr. 21, 14195 Berlin
+  - Germany
+- name: Nicola Salvati
+  affiliation: Department of Economics and Management, University of Pisa
+  email: |
+    nicola.salvati@unipi.it
+  address:
+  - Via C. Ridolfi, 10 56124 Pisa
+  - Italy
+- name: Timo Schmid
+  affiliation: Institute of Statistics, Otto-Friedrich-Universität Bamberg
+  email: |
+    timo.schmid@uni-bamberg.de
+  address:
+  - Feldkirchenstr. 21, 96052 Bamberg
+  - Germany
+date: '2023-09-24'
+date_received: '2022-09-13'
+journal:
+  firstpage: 316
+  lastpage: 341
+volume: 15
+issue: 1
+slug: RJ-2023-039
+doi: 10.32614/RJ-2023-039
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

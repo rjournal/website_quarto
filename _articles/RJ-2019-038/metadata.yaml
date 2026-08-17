@@ -1,0 +1,34 @@
+title: 'SemiCompRisks: An R Package for the Analysis of Independent and Cluster-correlated Semi-competing Risks Data'
+abstract: 'Semi-competing risks refer to the setting where primary scientific interest lies in estimation and inference with respect to a non-terminal event, the occurrence of which is subject to a terminal event. In this paper, we present the R package **SemiCompRisks** that provides functions to perform the analysis of independent/clustered semi-competing risks data under the illness-death multi-state model. The package allows the user to choose the specification for model components from a range of options giving users substantial flexibility, including: accelerated failure time or proportional hazards regression models; parametric or non-parametric specifications for baseline survival functions; parametric or non-parametric specifications for random effects distributions when the data are cluster-correlated; and, a Markov or semi-Markov specification for terminal event following non-terminal event. While estimation is mainly performed within the Bayesian paradigm, the package also provides the maximum likelihood estimation for select parametric models. The package also includes functions for univariate survival analysis as complementary analysis tools.'
+author:
+- name: Danilo Alvares
+  affiliation: Department of Statistics, Pontificia Universidad Católica de Chile
+  address: |
+    Macul, Santiago, Chile
+- name: Sebastien Haneuse
+  affiliation: |-
+    Department of Biostatistics, Harvard T. H. Chan School of Public
+    Health
+  address: |
+    02115 Boston, MA, USA
+- name: Catherine Lee
+  affiliation: Division of Research, Kaiser Permanente Northern California
+  address: |
+    94612 Oakland, CA, USA
+- name: Kyu Ha Lee
+  affiliation: Epidemiology and Biostatistics Core, The Forsyth Institute
+  address: |
+    02142 Cambridge, MA, USA
+date: '2019-08-20'
+date_received: '2018-05-29'
+journal:
+  firstpage: '376'
+  lastpage: '400'
+volume: 11
+issue: 1
+slug: RJ-2019-038
+doi: 10.32614/RJ-2019-038
+packages:
+  cran: []
+  bioc: []
+CTV:

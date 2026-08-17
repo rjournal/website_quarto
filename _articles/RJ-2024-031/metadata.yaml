@@ -1,0 +1,37 @@
+title: 'PubChemR: An R Package for Accessing Chemical Data from PubChem'
+date: '2025-05-20'
+abstract: |
+  Chemical data is a cornerstone in the fields of chemistry, pharmacology, bioinformatics, and environmental science. The PubChemR package provides a comprehensive R interface to the PubChem database, which is one of the largest and most complete repositories of chemical data. This package simplifies the process of querying and retrieving chemical information, including compound structures, properties, biological activities, and more, directly from within R. By leveraging PubChemR, users can programmatically access a wealth of chemical data, which is essential for research and analysis in the chemical sciences. The package supports various functionalities such as searching by chemical identifiers, downloading chemical structures, and retrieving bioassay results, among others. PubChemR is designed to be user-friendly, providing a intuitive experience for R users ranging from academic researchers to practitioners across various scientific disciplines. This paper presents the capabilities of PubChemR, demonstrates its use through practical examples, and discusses its potential impact on chemical data analysis.
+draft: no
+author:
+- name: Selcuk Korkmaz
+  affiliation: Trakya University
+  address:
+  - Department Biostatistics
+  - Edirne, Türkiye
+  orcid: 0000-0003-4632-6850
+  email: selcukkorkmaz@trakya.edu.tr
+- name: Bilge Eren Yamasan
+  affiliation: Trakya University
+  address:
+  - Department Biophysics
+  - Edirne, Türkiye
+  email: berenyamasan@trakya.edu.tr
+  orcid: 0000-0002-6525-2503
+- name: Dincer Goksuluk
+  affiliation: Erciyes University
+  address:
+  - Department Biostatistics
+  - Kayseri, Türkiye
+  email: dincergoksuluk@erciyes.edu.tr
+  orcid: 0000-0002-2752-7668
+type: package
+date_received: '2024-02-09'
+volume: 16
+issue: 3
+slug: RJ-2024-031
+doi: 10.32614/RJ-2024-031
+journal:
+  lastpage: 185
+  firstpage: 150
+

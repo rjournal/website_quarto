@@ -1,0 +1,20 @@
+title: Giving a useR! Talk
+abstract: Giving a UseR! talk at the the international R user conference is a balancing act in which you have to try to impart some new ideas, provide sufficient background and keep the audience interested, all in a very short period of time.
+author:
+- name: Rob J Hyndman
+  affiliation: Department of Econometrics & Business Statistics, Monash University
+  address: |
+    Australia
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 69
+  lastpage: 71
+volume: 3
+issue: 1
+slug: RJ-2011-1-Hyndman
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,16 @@
+title: 'Forthcoming Events: DSC 2009'
+abstract:
+author: Peter Dalgaard
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 66
+  lastpage: 66
+volume: 1
+issue: 1
+slug: RJ-2009-1-DSC
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,55 @@
+title: 'beadarrayFilter: An R Package to Filter Beads'
+abstract: Microarrays enable the expression levels of thousands of genes to be measured simultaneously. However, only a small fraction of these genes are expected to be expressed under different experimental conditions. Nowadays, filtering has been introduced as a step in the microarray pre-processing pipeline. Gene filtering aims at reducing the dimensionality of data by filtering redundant features prior to the actual statistical analysis. Previous filtering methods focus on the Affymetrix platform and can not be easily ported to the Illumina platform. As such, we developed a filtering method for Illumina bead arrays. We developed an R package, *beadarrayFilter*, to implement the latter method. In this paper, the main functions in the package are highlighted and using many examples, we illustrate how *beadarrayFilter* can be used to filter bead arrays.
+author:
+- name: Anyiawung Chiara Forcheh
+  affiliation: |-
+    Interuniversity Institute for Biostatistics and statistical
+    Bioinformatics,
+  address:
+  - |-
+    Katholieke Universiteit Leuven, Kapucijnenvoer 35, Blok D, bus 7001,
+    B3000 Leuven, Belgium,
+  - and Universiteit Hasselt,
+  - |
+    Belgium
+- name: Geert Verbeke and Lieven Clement
+  affiliation: |-
+    Interuniversity Institute for Biostatistics and statistical
+    Bioinformatics, Katholieke Universiteit Leuven,
+  address:
+  - Kapucijnenvoer 35, Blok D, bus 7001, B3000 Leuven,
+  - |
+    Belgium and Universiteit Hasselt, Belgium
+- name: Dan Lin and Ziv Shkedy
+  affiliation: |-
+    Interuniversity Institute for Biostatistics and statistical
+    Bioinformatics, Universiteit Hasselt,
+  address:
+  - |-
+    Agoralaan 1, B3590 Diepenbeek, Belgium, and Katholieke Universiteit
+    Leuven,
+  - |
+    Belgium
+- name: Adetayo Kasim
+  affiliation: Wolfson Research Institute, Durham University,
+  address:
+  - Queen's Campus, University Boulevard, Thornaby,
+  - |
+    Stockton-on-Tees,TS17 6BH, United Kingdom
+- name: 'Willem Talloen and Hinrich W.H. '
+  affiliation: Janssen Pharmaceutica N.V.,
+  address: |
+    Beerse, Belgium
+date: '2013-06-02'
+date_received: '2012-07-06'
+journal:
+  firstpage: '171'
+  lastpage: '180'
+volume: 5
+issue: 1
+slug: RJ-2013-016
+doi: 10.32614/RJ-2013-016
+packages:
+  cran: beadarrayFilter
+  bioc: []
+CTV:

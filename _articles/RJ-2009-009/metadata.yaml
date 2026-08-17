@@ -1,0 +1,23 @@
+title: 'The hwriter package : Composing HTML documents with R objects'
+abstract: 'The ''The hwriter package : Composing HTML documents with R objects'' article from the 2009-1 issue.'
+author:
+- Gregoire Pau
+- Wolfgang Huber
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 22
+  lastpage: 24
+volume: 1
+issue: 1
+slug: RJ-2009-009
+doi: 10.32614/RJ-2009-009
+packages:
+  cran:
+  - arrayQualityMetrics
+  - cellHTS2
+  - R2HTML
+  - xtable
+  - hwriter
+  bioc: []
+CTV:

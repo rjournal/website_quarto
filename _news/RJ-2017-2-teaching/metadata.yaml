@@ -1,0 +1,62 @@
+title: R Teaching Column
+abstract: The *revisit* package, developed as a collaborative tool for scientists, also serves as a tool for teaching statistics, in a manner that can be highly motivating for students. Using either the included case studies or datasets/code provided by the instructor, students can explore several alternate paths of analysis, such as the effects of including/excluding certain variables, employing different types of statistical methodology and so on. The package includes features that help students follow modern statistical standards and avoid various statistical errors, such as "p-hacking" and lack of attention to outlier data.
+author:
+- name: Matthias Gehrke
+  affiliation: FOM University of Applied Sciences
+  address:
+  - Franklinstr. 52, 60486 Frankfurt a. M.
+  - |
+    Germany
+- name: Reed Davis
+  affiliation: ''
+  address:
+  - Sunnyvale, CA
+  - |
+    USA
+- name: Norman Matloff
+  affiliation: University of California, Davis
+  address:
+  - Dept. of Computer Science
+  - |
+    USA
+- name: Paul Thompson
+  affiliation: Sanford Research
+  address:
+  - Sioux Falls, SD
+  - |
+    USA
+- name: Tiffany Chen
+  affiliation: University of California, Davis
+  address:
+  - Dept. of Statistics
+  - |
+    USA
+- name: Emily Watkins
+  affiliation: University of California, Davis
+  address:
+  - Dept. of Statistics
+  - |
+    USA
+- name: Laurel Beckett
+  affiliation: University of California, Davis
+  address:
+  - School of Medicine
+  - |
+    USA
+date: '2017-12-01'
+date_received:
+journal:
+  firstpage: '553'
+  lastpage: '562'
+volume: 9
+issue: 2
+slug: RJ-2017-2-teaching
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - regtools
+  - quantreg
+  - cdparcoord
+  - freqparcoord
+  bioc: []
+CTV:

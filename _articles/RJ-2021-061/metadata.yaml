@@ -1,0 +1,38 @@
+title: 'penPHcure: Variable Selection in Proportional Hazards Cure Model with Time-Varying Covariates'
+abstract: We describe the [*penPHcure*](https://CRAN.R-project.org/package=penPHcure) R package, which implements the semiparametric proportional-hazards (PH) cure model of @Sy_Taylor_2000 extended to time-varying covariates and the variable selection technique based on its SCAD-penalized likelihood proposed by @Beretta_Heuchenne_2019. In survival analysis, cure models are a useful tool when a fraction of the population is likely to be immune from the event of interest. They can separate the effects of certain factors on the probability of being susceptible and on the time until the occurrence of the event. Moreover, the *penPHcure* package allows the user to simulate data from a PH cure model, where the event-times are generated on a continuous scale from a piecewise exponential distribution conditional on time-varying covariates, with a method similar to @Hendry_2014. We present the results of a simulation study to assess the finite sample performance of the methodology and illustrate the functionalities of the *penPHcure* package using criminal recidivism data.
+author:
+- name: Alessandro Beretta
+  affiliation: Centre for Quantitative Methods and Operations Management (QuantOM)
+  address:
+  - HEC Liège
+  - Rue Louvrex, 14 - 4000 Liège
+  - |
+    Belgium
+- name: Cédric Heuchenne
+  affiliation: Centre for Quantitative Methods and Operations Management (QuantOM)
+  address:
+  - HEC Liège
+  - Rue Louvrex, 14 - 4000 Liège
+  - |
+    Belgium
+date: '2021-06-21'
+date_received: '2020-02-14'
+journal:
+  firstpage: '53'
+  lastpage: '66'
+volume: 13
+issue: 1
+slug: RJ-2021-061
+doi: 10.32614/RJ-2021-061
+packages:
+  cran:
+  - penPHcure
+  - flexsurvcure
+  - flexsurv
+  - nltm
+  - smcure
+  - spduration
+  - survival
+  - RcmdrPlugin.survival
+  bioc: []
+CTV:

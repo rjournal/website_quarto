@@ -1,0 +1,111 @@
+title: Gaussian Mixture Models in R
+abstract: ' Gaussian mixture models (GMMs) are widely used for modelling stochastic problems. Indeed, a wide diversity of packages have been developed in R. However, no recent review describing the main features offered by these packages and comparing their performances has been performed. In this article, we first introduce GMMs and the EM algorithm used to retrieve the parameters of the model and analyse the main features implemented among seven of the most widely used R packages. We then empirically compare their statistical and computational performances in relation with the choice of the initialisation algorithm and the complexity of the mixture. We demonstrate that the best estimation with well-separated components or with a small number of components with distinguishable modes is obtained with REBMIX initialisation, implemented in the [rebmix](https://CRAN.R-project.org/package=rebmix) package, while the best estimation with highly overlapping components is obtained with *k*-means or random initialisation. Importantly, we show that implementation details in the EM algorithm yield differences in the parameters'' estimation. Especially, packages [mixtools](https://CRAN.R-project.org/package=mixtools) (Young et al. 2020) and [Rmixmod](https://CRAN.R-project.org/package=Rmixmod) (Langrognet et al. 2021) estimate the parameters of the mixture with smaller bias, while the RMSE and variability of the estimates is smaller with packages [bgmm](https://CRAN.R-project.org/package=bgmm) (Ewa Szczurek 2021) , [EMCluster](https://CRAN.R-project.org/package=EMCluster) (W.-C. Chen and Maitra 2022) , [GMKMcharlie](https://CRAN.R-project.org/package=GMKMcharlie) (Liu 2021), [flexmix](https://CRAN.R-project.org/package=flexmix) (Gruen and Leisch 2022) and [mclust](https://CRAN.R-project.org/package=mclust) (Fraley, Raftery, and Scrucca 2022). The comparison of these packages provides R users with useful recommendations for improving the computational and statistical performance of their clustering and for identifying common deficiencies. Additionally, we propose several improvements in the development of a future, unified mixture model package. '
+author:
+- name: Bastien Chassagnol
+  affiliation: |-
+    Laboratoire de Probabilités, Statistiques et Modélisation (LPSM), UMR
+    CNRS 8001
+  address:
+  - 4 Place Jussieu Sorbonne Université
+  - 75005, Paris, France
+  - '*ORCiD: [0000-0002-8955-2391](https://orcid.org/0000-0002-8955-2391)*'
+  - |
+    [`bastien_chassagnol@laposte.net`](mailto:bastien_chassagnol@laposte.net)
+- name: Antoine Bichat
+  affiliation: Les Laboratoires Servier
+  address:
+  - 50 Rue Carnot
+  - 92150, Suresnes, France
+  - <https://rdrr.io/github/abichat/abutils/>
+  - '*ORCiD: [0000-0001-6599-7081](https://orcid.org/0000-0001-6599-7081)*'
+  - |
+    [`antoine.bichat@servier.com`](mailto:antoine.bichat@servier.com)
+- name: Cheïma Boudjeniba
+  affiliation: |-
+    Systems Biology Group, Dept. of Computational Biology, Institut
+    Pasteur
+  address:
+  - 25 Rue du Dr Roux
+  - 75015 Paris
+  - |
+    [`cheima.boudjeniba@servier.com`](mailto:cheima.boudjeniba@servier.com)
+- name: Pierre-Henri Wuillemin
+  affiliation: Laboratoire d'Informatique de Paris 6 (LIP6), UMR 7606
+  address:
+  - 4 Place Jussieu Sorbonne Université
+  - 75005, Paris, France
+  - <http://www-desir.lip6.fr/~phw/>
+  - '*ORCiD: [0000-0003-3691-4886](https://orcid.org/0000-0003-3691-4886)*'
+  - |
+    [`pierre-henri.wuillemin@lip6.fr`](mailto:pierre-henri.wuillemin@lip6.fr)
+- name: Mickaël Guedj
+  affiliation: Les Laboratoires Servier
+  address:
+  - 50 Rue Carnot
+  - 92150, Suresnes, France
+  - <https://michaelguedj.github.io/>
+  - '*ORCiD: [0000-0001-6694-0554](https://orcid.org/0000-0001-6694-0554)*'
+  - |
+    [`mickael.guedj@gmail.com`](mailto:mickael.guedj@gmail.com)
+- name: David Gohel
+  affiliation: ArData
+  address:
+  - 59 rue Voltaire
+  - 92800, PUTEAUX, France
+  - <https://www.ardata.fr/expertise-r/>
+  - '*ORCiD: [0000-0003-2837-8884](https://orcid.org/0000-0003-2837-8884)*'
+  - |
+    [`david.gohel@ardata.fr`](mailto:david.gohel@ardata.fr)
+- name: Gregory Nuel
+  affiliation: |-
+    Laboratoire de Probabilités, Statistiques et Modélisation (LPSM), UMR
+    CNRS 8001
+  address:
+  - 4 Place Jussieu Sorbonne Université
+  - 75005, Paris, France
+  - <http://nuel.perso.math.cnrs.fr/>
+  - '*ORCiD: [0000-0001-9910-2354](https://orcid.org/0000-0001-9910-2354)*'
+  - |
+    [`Gregory.Nuel@math.cnrs.fr`](mailto:Gregory.Nuel@math.cnrs.fr)
+- name: Etienne Becht
+  affiliation: Les Laboratoires Servier
+  address:
+  - 50 Rue Carnot
+  - 92150, Suresnes, France
+  - '*ORCiD: [0000-0003-1859-9202](https://orcid.org/0000-0003-1859-9202)*'
+  - |
+    [`etienne.becht@servier.com`](mailto:etienne.becht@servier.com)
+date: '2023-11-01'
+date_received: '2021-12-06'
+journal:
+  firstpage: 56
+  lastpage: 76
+volume: 15
+issue: 2
+slug: RJ-2023-043
+doi: 10.32614/RJ-2023-043
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:
+preamble: |
+  \usepackage[most]{tcolorbox}
+  \usepackage{booktabs}
+  \usepackage{bm, amsmath}
+  \usepackage{array}
+  \usepackage{multirow}
+  \usepackage{wrapfig}
+  \usepackage{float}
+  \usepackage{colortbl}
+  \usepackage{xcolor}
+  \usepackage{longtable}
+  \usepackage{tabu}
+  \usepackage{adjustbox}
+  \usepackage{threeparttable}
+  \usepackage{makecell}
+  \def\greentick{\includegraphics[scale=0.05]{figures/green_tick.png}}
+  \def\redcross{\includegraphics[scale=0.05]{figures/red_cross.png}}
+  \newtcolorbox{blackbox}[1]{colback=white, colframe=black, coltext=black, boxsep=1.5pt, arc=4pt, before=\centering, title=#1}
+  \newenvironment{cols}[1][]{}{} \newenvironment{col}[1]{\begin{minipage}{#1}\ignorespaces}{\end{minipage} \ifhmode\unskip\fi
+  \aftergroup\useignorespacesandallpars} \def\useignorespacesandallpars#1\ignorespaces\fi{#1\fi\ignorespacesandallpars}

@@ -1,0 +1,19 @@
+title: R Foundation News
+date: '2025-12-01'
+draft: no
+author:
+- name: Torsten Hothorn
+  affiliation: Universität Zürich
+  address: Switzerland
+  email: Torsten.Hothorn@R-project.org
+  orcid: 0000-0001-8301-0471
+header-includes:
+- \usepackage{xeCJK}
+- \setCJKmainfont{Noto Sans CJK SC}
+volume: 17
+issue: 4
+slug: RJ-2025-4-rfoundation
+journal:
+  lastpage: 331
+  firstpage: 331
+

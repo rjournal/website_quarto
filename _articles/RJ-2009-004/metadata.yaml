@@ -1,0 +1,20 @@
+title: Easier parallel computing in R with snowfall and sfCluster
+abstract: The 'Easier parallel computing in R with snowfall and sfCluster' article from the 2009-1 issue.
+author:
+- name: Jochen Knaus, Christine Porzelius, Harald Binder and Guido Schwarzer
+  affiliation: Department of Medical Biometry and Statistics, University of Freiburg
+  address: |
+    Germany
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: '54'
+  lastpage: '59'
+volume: 1
+issue: 1
+slug: RJ-2009-004
+doi: 10.32614/RJ-2009-004
+packages:
+  cran: []
+  bioc: []
+CTV:

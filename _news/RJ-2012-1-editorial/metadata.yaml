@@ -1,0 +1,21 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2012-1 issue.
+author: Martyn Plummer
+date: '2012-06-01'
+date_received:
+journal:
+  firstpage: '3'
+  lastpage: '3'
+volume: 4
+issue: 1
+slug: RJ-2012-1-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - openair
+  - MARSS
+  - season
+  - Vdgraph
+  - maxent
+  bioc: []
+CTV:

@@ -1,0 +1,32 @@
+title: Computing Pareto Frontiers and Database Preferences with the rPref Package
+abstract: The concept of Pareto frontiers is well-known in economics. Within the database community there exist many different solutions for the specification and calculation of Pareto frontiers, also called Skyline queries in the database context. Slight generalizations like the combination of the Pareto operator with the lexicographical order have been established under the term database preferences. In this paper we present the *rPref* package which allows to efficiently deal with these concepts within R. With its help, database preferences can be specified in a very similar way as in a state-of-the-art database management system. Our package provides algorithms for an efficient calculation of the Pareto-optimal set and further functionalities for visualizing and analyzing the induced preference order.
+author:
+- name: Patrick Roocks
+  affiliation: University of Augsburg
+  address:
+  - Institute of Computer Science
+  - Universitätsstr. 6a
+  - 86159 Augsburg
+  - Germany
+date: '2017-01-03'
+date_received: '2016-05-10'
+journal:
+  firstpage: '393'
+  lastpage: '404'
+volume: 8
+issue: 2
+slug: RJ-2016-054
+doi: 10.32614/RJ-2016-054
+packages:
+  cran:
+  - rPref
+  - emoa
+  - mco
+  - TunePareto
+  - dplyr
+  - lazyeval
+  - RcppParallel
+  - igraph
+  - ggplot2
+  bioc: Rgraphviz
+CTV:

@@ -1,0 +1,56 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2010-2 issue.
+author:
+- name: Bioconductor Team
+  affiliation: Program in Computational Biology, Fred Hutchinson Cancer Research Center
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 101
+  lastpage: 101
+volume: 2
+issue: 2
+slug: RJ-2010-2-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - iSeq
+  - RMAPPER
+  - MEDIPS
+  - rnaSeqMap
+  - R453Plus1Toolbox
+  - OTUbase
+  - ADaCGH2
+  - les
+  - LVSmiRNA
+  - MBCB
+  - fabia
+  - farms
+  - RDRToolbox
+  - IsoGeneGUI
+  - gage
+  - HTSanalyzeR
+  - PatientGeneSets
+  - BioNet
+  - netresponse
+  - attract
+  - CoGAPS
+  - ontoCAT
+  - DEgraph
+  - NTW
+  - RCytoscape
+  - BHC
+  - CGEN
+  - SQUADD
+  - imageHTS
+  - CRImage
+  - coRNAi
+  - GeneGA
+  - NuPoP
+  - graph
+  - GenomicRanges
+  - GenomicFeatures
+  - Biostrings
+  - chipseq
+CTV:

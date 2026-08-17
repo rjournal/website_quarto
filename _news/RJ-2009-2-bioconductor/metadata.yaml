@@ -1,0 +1,53 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2009-2 issue.
+author:
+- name: Bioconductor Team
+  affiliation: Program in Computational Biology
+  address: |
+    Fred Hutchinson Cancer Research Center
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: 95
+  lastpage: 95
+volume: 1
+issue: 2
+slug: RJ-2009-2-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - chipseq
+  - ChIPseqR
+  - chIPpeakAnno
+  - ChIPsim
+  - DEGseq
+  - baySeq
+  - GenomicFeatures
+  - Rolexa
+  - BioSeqClass
+  - cycle
+  - LiquidAssociation
+  - SpeCond
+  - RPA
+  - CNTools
+  - CNVtools
+  - Starr
+  - CGHnormaliter
+  - mBPCR
+  - AgiMicroRna
+  - RmiR
+  - MiChip
+  - methylumi
+  - flowFP
+  - flowMerge
+  - plateCore
+  - ddCt
+  - HTqPCR
+  - clippda
+  - RTCA
+  - RTools4TB
+  - GeneAnswers
+  - BUS
+  - ChromHeatMap
+CTV:

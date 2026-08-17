@@ -1,0 +1,18 @@
+title: R Foundation News
+abstract: The 'R Foundation News' article from the 2011-1 issue.
+author:
+- name: Kurt Hornik
+  affiliation: WU Wirtschaftsuniversität Wien, Austria
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 102
+  lastpage: 102
+volume: 3
+issue: 1
+slug: RJ-2011-1-r-foundation
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

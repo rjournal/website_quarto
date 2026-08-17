@@ -1,0 +1,103 @@
+title: glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling
+abstract: Count data can be analyzed using generalized linear mixed models when observations are correlated in ways that require random effects. However, count data are often *zero-inflated*, containing more zeros than would be expected from the typical error distributions. We present a new package, *glmmTMB*, and compare it to other R packages that fit zero-inflated mixed models. The *glmmTMB* package fits many types of GLMMs and extensions, including models with continuously distributed responses, but here we focus on count responses. *glmmTMB* is faster than *glmmADMB*, *MCMCglmm*, and *brms*, and more flexible than *INLA* and *mgcv* for zero-inflated modeling. One unique feature of *glmmTMB* (among packages that fit zero-inflated mixed models) is its ability to estimate the Conway-Maxwell-Poisson distribution parameterized by the mean. Overall, its most appealing features for new users may be the combination of speed, flexibility, and its interface's similarity to *lme4*.
+author:
+- name: Mollie E. Brooks
+  affiliation: |-
+    National Institute of Aquatic Resources, Technical University of
+    Denmark
+  orcid: |
+    0000-0001-6963-8326
+  address:
+  - Building 201, 2800 Lyngby
+  - Denmark
+  - |-
+    Department of Evolutionary Biology and Environmental Studies,
+    University of Zurich
+  - Winterthurerstrasse 190, 8057 Zurich
+  - Switzerland
+- name: Kasper Kristensen
+  affiliation: |-
+    National Institute of Aquatic Resources, Technical University of
+    Denmark
+  address:
+  - Building 201, 2800 Lyngby
+  - |
+    Denmark
+- name: Koen J. van Benthem
+  affiliation: |-
+    Department of Evolutionary Biology and Environmental Studies,
+    University of Zurich
+  address:
+  - Winterthurerstrasse 190, 8057 Zurich
+  - |
+    Switzerland
+- name: Arni Magnusson
+  affiliation: International Council for the Exploration of the Sea
+  address:
+  - H.C. Andersens Boulevard 44-46, 1553 Copenhagen
+  - |
+    Denmark
+- name: Casper W. Berg
+  affiliation: |-
+    National Institute of Aquatic Resources, Technical University of
+    Denmark
+  address:
+  - Building 201, 2800 Lyngby
+  - |
+    Denmark
+- name: Anders Nielsen
+  affiliation: |-
+    National Institute of Aquatic Resources, Technical University of
+    Denmark
+  address:
+  - Building 201, 2800 Lyngby
+  - |
+    Denmark
+- name: Hans J. Skaug
+  affiliation: Department of Mathematics, University of Bergen
+  address:
+  - P.O. Box 7803, 5020 Bergen
+  - |
+    Norway
+- name: Martin Mächler
+  affiliation: Seminar für Statistik, ETH Zurich
+  orcid: |
+    0000-0002-8685-9910
+  address:
+  - 8092 Zurich
+  - Switzerland
+- name: Benjamin M. Bolker
+  affiliation: Department of Mathematics and Statistics, McMaster University
+  orcid: |
+    0000-0002-2127-0443
+  address:
+  - 1280 Main St W, L8S4L8 Hamilton, Ontario
+  - Canada
+  - Department of Biology, McMaster University
+  - 1280 Main St W, L8S4L8 Hamilton, Ontario
+  - Canada
+date: '2017-12-01'
+date_received: '2017-05-29'
+journal:
+  firstpage: '378'
+  lastpage: '400'
+volume: 9
+issue: 2
+slug: RJ-2017-066
+doi: 10.32614/RJ-2017-066
+packages:
+  cran:
+  - glmmTMB
+  - pscl
+  - MCMCglmm
+  - mgcv
+  - brms
+  - gamlss
+  - flexmix
+  - MXM
+  - VGAM
+  - TMB
+  - COMPoissonReg\ package
+  - devtools
+  bioc: []
+CTV:

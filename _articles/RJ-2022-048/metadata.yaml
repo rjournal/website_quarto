@@ -1,0 +1,33 @@
+title: 'did2s: Two-Stage Difference-in-Differences'
+author:
+- name: Kyle Butts
+  affiliation: University of Colorado Boulder
+  url: https://www.kylebutts.com/
+  orcid: 0000-0002-9048-8059
+  email: buttskyle96@gmail.com
+- name: John Gardner
+  affiliation: University of Mississippi
+  url: https://jrgcmu.github.io/
+  email: jrgardne@olemiss.edu
+abstract: |
+  Recent work has highlighted the difficulties of estimating difference-in-differences models when the treatment is adopted at different times for different units. This article introduces the R package \CRANpkg{did2s} which implements the estimator introduced in @Gardner_2021. The article provides an approachable review of the underlying econometric theory and introduces the syntax for the function `did2s`. Further, the package introduces functions, event_study and plot_event_study, which uses a common syntax to implement all of the modern event-study estimators.
+header-includes:
+- \usepackage{threeparttable}
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{adjustbox}
+- \usepackage{lscape}
+- \usepackage{enumitem}
+- \usepackage{array}
+- \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+date: '2022-12-20'
+date_received: '2021-10-04'
+volume: 14
+issue: 3
+slug: RJ-2022-048
+doi: 10.32614/RJ-2022-048
+draft: no
+journal:
+  lastpage: 173
+  firstpage: 162
+

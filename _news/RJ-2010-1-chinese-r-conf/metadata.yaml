@@ -1,0 +1,32 @@
+title: 'Conference Review: The 2nd Chinese R Conference'
+abstract: 'The ''Conference Review: The 2nd Chinese R Conference'' article from the 2010-1 issue.'
+author:
+- name: Jing Jiao
+  affiliation: |-
+    School of Resources and Environment Science, East China Normal
+    University
+  address: |
+    China P. R.
+- name: Jingjing Guan
+  affiliation: School of Statistics, Renmin University of China
+  address: |
+    China P. R.
+- name: Yihui Xie
+  affiliation: |-
+    Department of Statistics & Statistical Laboratory, Iowa State
+    University
+  address: |
+    USA
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 60
+  lastpage: 61
+volume: 2
+issue: 1
+slug: RJ-2010-1-chinese-r-conf
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

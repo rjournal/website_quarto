@@ -1,0 +1,20 @@
+title: 'EMD: A Package for Empirical Mode Decomposition and Hilbert Spectrum'
+abstract: 'The ''EMD: A Package for Empirical Mode Decomposition and Hilbert Spectrum'' article from the 2009-1 issue.'
+author:
+- name: Donghoh Kim
+  affiliation: Sejong University, Korea
+- name: Hee-Seok Oh
+  affiliation: Seoul National University, Korea
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: '40'
+  lastpage: '46'
+volume: 1
+issue: 1
+slug: RJ-2009-002
+doi: 10.32614/RJ-2009-002
+packages:
+  cran: []
+  bioc: []
+CTV:

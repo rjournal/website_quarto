@@ -1,0 +1,44 @@
+title: 'The politeness Package: Detecting Politeness in Natural Language'
+abstract: This package provides tools to extract politeness markers in English natural language. It also allows researchers to easily visualize and quantify politeness between groups of documents. This package combines and extends prior research on the linguistic markers of politeness [@brown:1987; @danescu:2013; @voigt:2017]. We demonstrate two applications for detecting politeness in natural language during consequential social interactions---distributive negotiations, and speed dating.
+author:
+- name: Michael Yeomans
+  affiliation: Harvard University
+  address: |
+    Cambridge, MA 02138, USA
+- name: Alejandro Kantor
+  affiliation: Institute for Quantitative Social Science, Harvard University
+  address:
+  - |
+    Cambridge, MA 02138, USA
+- name: Dustin Tingley
+  affiliation: Department of Government, Harvard University
+  address:
+  - |
+    Cambridge, MA 02138, USA
+date: '2018-12-08'
+date_received: '2018-05-29'
+journal:
+  firstpage: '489'
+  lastpage: '502'
+volume: 10
+issue: 2
+slug: RJ-2018-079
+doi: 10.32614/RJ-2018-079
+packages:
+  cran:
+  - tidytext
+  - tm
+  - quanteda
+  - coreNLP
+  - spacyR
+  - SentimentAnalysis
+  - syuzhet
+  - topicmodeling
+  - stm
+  - glmnet
+  - textir
+  - hunspell
+  - data.table
+  - politeness
+  bioc: []
+CTV:

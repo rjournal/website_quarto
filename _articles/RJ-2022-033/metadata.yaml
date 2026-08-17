@@ -1,0 +1,28 @@
+title: 'kStatistics: Unbiased Estimates of Joint Cumulant Products from the Multivariate Faà Di Bruno''s Formula'
+abstract: |
+  \CRANpkg{kStatistics} is a package in `R` that serves as a unified framework for estimating univariate and multivariate cumulants as well as products of univariate and multivariate cumulants of a random sample, using unbiased estimators with minimum variance. The main computational machinery of \CRANpkg{kStatistics}  is an algorithm for computing multi-index partitions. The same algorithm underlies the general-purpose multivariate Faà di Bruno's formula, which therefore has been included in the last release of the package. This formula gives the coefficients of formal power series compositions as well as the partial derivatives of multivariable function compositions. One of the most significant applications of this formula is the possibility to generate many well-known polynomial families as special cases. So, in the package, there are special functions for generating very popular polynomial families, such as the  Bell polynomials. However, further families can be obtained, for suitable choices of the formal power series involved in the composition or when suitable symbolic strategies are employed. In both cases, we give examples on how to modify the `R` codes of the package to accomplish this task. Future developments are addressed at the end of the paper
+draft: no
+author:
+- name: Elvira Di Nardo
+  affiliation: University of Turin
+  address:
+  - Department of Mathematics "G.Peano"
+  - Via Carlo Alberto 10, 10123 Turin (Italy)
+  url: https://www.elviradinardo.it
+  orcid: 0000-0003-3447-9155
+  email: elvira.dinardo@unito.it
+- name: Giuseppe Guarino
+  affiliation: Università Cattolica del Sacro Cuore
+  address: Largo Agostino Gemelli 8, 00168, Rome (Italy)
+  email: giuseppe.guarino@rete.basilicata.it
+type: package
+date: '2022-10-11'
+date_received: '2021-08-23'
+volume: 14
+issue: 2
+slug: RJ-2022-033
+doi: 10.32614/RJ-2022-033
+journal:
+  lastpage: 228
+  firstpage: 208
+

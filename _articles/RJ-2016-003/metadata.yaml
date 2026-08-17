@@ -1,0 +1,29 @@
+title: Conditional Fractional Gaussian Fields with the Package FieldSim
+abstract: 'We propose an effective and fast method to simulate multidimensional [conditional fractional Gaussian fields]{style="color: black"} with the package *FieldSim*. Our method is valid not only for [conditional simulations]{style="color: black"} associated to fractional Brownian fields, but to any Gaussian field and on any (non regular) grid of points.'
+author:
+- name: Alexandre Brouste
+  affiliation: |-
+    Laboratoire Manceau de Mathématiques, Institut du Risque et de
+    l'Assurance du Mans, Université du Maine
+  address: 72000 Le Mans, France
+- name: Jacques Istas
+  affiliation: Laboratoire Jean Kuntzmann, Université de Grenoble
+  address: 38041 Grenoble Cedex 9, France
+- name: Sophie Lambert-Lacroix
+  affiliation: UPMF Laboratoire TIMC, Faculté de Médecine, Université de Grenoble
+  address: 38706 La Tronche Cedex, France
+date: '2016-04-03'
+date_received: '2015-03-06'
+journal:
+  firstpage: '38'
+  lastpage: '47'
+volume: 8
+issue: 1
+slug: RJ-2016-003
+doi: 10.32614/RJ-2016-003
+packages:
+  cran:
+  - FieldSim
+  - RandomFields
+  bioc: []
+CTV:

@@ -1,0 +1,53 @@
+title: 'BCClong: An R Package for Bayesian Consensus Clustering for Multiple Longitudinal Features'
+abstract: |
+  It is very common nowadays for a study to collect multiple
+  longitudinal features and appropriately integrating these features
+  simultaneously for defining individual subgroups (i.e., clusters)
+  becomes increasingly crucial to understanding population heterogeneity
+  and predicting future outcomes. The aim of this paper is to describe a
+  new package, BCClong, which implements a Bayesian consensus
+  clustering (BCC) model for multiple longitudinal features. Compared to
+  existing packages, several key features make the BCClong package
+  appealing: (a) it allows simultaneous clustering of mixed-type (e.g.,
+  continuous, discrete and categorical) longitudinal features, (b) it
+  allows each longitudinal feature to be collected from different
+  sources with measurements taken at distinct sets of time points (known
+  as irregularly sampled longitudinal data), (c) it relaxes the
+  assumption that all features have the same clustering structure by
+  estimating the feature-specific (local) clusterings and consensus
+  (global) clustering. Using two real data examples, we provide a
+  tutorial with step-by-step instructions on using the package.
+author:
+- name: Zhiwen Tan
+  affiliation: Department of Public Health Sciences
+  address: |
+    Queen's University
+- name: Chang Shen
+  affiliation: Department of Electrical and Computer Engineering
+  address: |
+    Queen's University
+- name: Zihang Lu
+  affiliation: Department of Public Health Sciences
+  address:
+  - '*and* Department of Mathematics and Statistics'
+  - Queen's University
+  - |
+    [zihang.lu@queensu.ca](zihang.lu@queensu.ca){.uri}
+date: '2025-03-09'
+date_received: '2023-04-20'
+journal:
+  firstpage: 41
+  lastpage: 61
+volume: 16
+issue: 2
+slug: RJ-2024-017
+doi: 10.32614/RJ-2024-017
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

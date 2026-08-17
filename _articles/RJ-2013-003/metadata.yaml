@@ -1,0 +1,41 @@
+title: Multiple Factor Analysis for Contingency Tables in the *FactoMineR* Package
+abstract: We present multiple factor analysis for contingency tables (MFACT) and its implementation in the *FactoMineR* package. This method, through an option of the `MFA` function, allows us to deal with multiple contingency or frequency tables, in addition to the categorical and quantitative multiple tables already considered in previous versions of the package. Thanks to this revised function, either a multiple contingency table or a mixed multiple table integrating quantitative, categorical and frequency data can be tackled.
+author:
+- name: Belchin Kostov
+  affiliation: |-
+    Transverse group for research in primary care, IDIBAPS Primary Health
+    Care Center Les Corts, CAPSE
+  address:
+  - Mejia Lequerica, s / n.
+  - 08028 Barcelona
+  - |
+    Spain
+- name: Mónica Bécue-Bertaut
+  affiliation: |-
+    Department of Statistics and Operational Research, Universitat
+    Politècnica de Catalunya
+  address:
+  - North Campus - C5
+  - Jordi Girona 1-3
+  - 08034 Barcelona
+  - |
+    Spain
+- name: François Husson
+  affiliation: Agrocampus Rennes
+  address:
+  - 65 rue de Saint-Brieuc
+  - |
+    35042 Rennes France
+date: '2013-06-02'
+date_received: '2011-12-14'
+journal:
+  firstpage: '29'
+  lastpage: '38'
+volume: 5
+issue: 1
+slug: RJ-2013-003
+doi: 10.32614/RJ-2013-003
+packages:
+  cran: FactoMineR
+  bioc: []
+CTV:

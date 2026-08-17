@@ -1,0 +1,16 @@
+title: Facets of R
+abstract: The 'Facets of R' article from the 2009-1 issue.
+author: John M. Chambers
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 5
+  lastpage: 8
+volume: 1
+issue: 1
+slug: RJ-2009-008
+doi: 10.32614/RJ-2009-008
+packages:
+  cran: []
+  bioc: []
+CTV:

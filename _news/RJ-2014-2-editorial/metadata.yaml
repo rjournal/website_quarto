@@ -1,0 +1,18 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2014-2 issue.
+author:
+- name: Deepayan Sarkar
+  affiliation: .na.character
+date: '2014-12-01'
+date_received:
+journal:
+  firstpage: '3'
+  lastpage: '3'
+volume: 6
+issue: 2
+slug: RJ-2014-2-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

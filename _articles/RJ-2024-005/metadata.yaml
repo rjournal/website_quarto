@@ -1,0 +1,62 @@
+title: 'text2sdg: An R Package to Monitor Sustainable Development Goals from Text'
+abstract: |
+  Monitoring progress on the United Nations Sustainable Development
+  Goals (SDGs) is important for both academic and non-academic
+  organizations. Existing approaches to monitoring SDGs have focused on
+  specific data types; namely, publications listed in proprietary
+  research databases. We present the text2sdg package for the R
+  language, a user-friendly, open-source package that detects SDGs in
+  text data using different individual query systems, an ensemble of
+  query systems, or custom-made ones. The text2sdg package thereby
+  facilitates the monitoring of SDGs for a wide array of text sources
+  and provides a much-needed basis for validating and improving extant
+  methods to detect SDGs from text.
+author:
+- name: Dominik S. Meier
+  affiliation: University of Basel
+  address:
+  - Steinengraben 22 4051 Basel
+  - Switzerland
+  - '(ORCID: 0000-0002-3999-1388)'
+  - |
+    [dominik.meier@unibas.ch](dominik.meier@unibas.ch){.uri}
+- name: Rui Mata
+  affiliation: University of Basel
+  address:
+  - Missionsstrasse 60-62 4055 Basel
+  - Switzerland
+  - '(ORCID: 0000-0002-1679-906X)'
+  - |
+    [rui.mata@unibas.ch](rui.mata@unibas.ch){.uri}
+- name: Dirk U. Wulff
+  affiliation: University of Basel
+  address:
+  - Missionsstrasse 60-62 4055 Basel
+  - Switzerland
+  - '(ORCID: 0000-0002-4008-8022)'
+  - |
+    [dirk.wulff@unibas.ch](dirk.wulff@unibas.ch){.uri}
+date: '2025-01-10'
+date_received: '2022-09-13'
+journal:
+  firstpage: 83
+  lastpage: 96
+volume: 16
+issue: 1
+slug: RJ-2024-005
+doi: 10.32614/RJ-2024-005
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - text2sdg
+  - corpustools
+  - readr
+  - ggplot2
+  - deeplr
+  - SDGdetector
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

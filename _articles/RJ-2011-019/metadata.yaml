@@ -1,0 +1,25 @@
+title: 'rainbow: An R Package for Visualizing Functional Time Series'
+abstract: Recent advances in computer technology have tremendously increased the use of functional data, whose graphical representation can be infinite-dimensional curves, images or shapes. This article describes four methods for visualizing functional time series using an R add-on package. These methods are demonstrated using age-specific Australian fertility data from 1921 to 2006 and monthly sea surface temperatures from January 1950 to December 2006.
+author:
+- name: Han Lin Shang
+  affiliation: Department of Econometrics and Business Statistics, Monash University
+  address:
+  - Caulfield East, Victoria 3145,
+  - Melbourne, Australia.
+date: '2011-12-01'
+date_received:
+journal:
+  firstpage: 54
+  lastpage: 59
+volume: 3
+issue: 2
+slug: RJ-2011-019
+doi: 10.32614/RJ-2011-019
+packages:
+  cran:
+  - fda
+  - rainbow
+  - colorspace
+  - animate
+  bioc: []
+CTV:

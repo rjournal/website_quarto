@@ -1,0 +1,33 @@
+title: 'rankFD: An R Software Package for Nonparametric Analysis of General Factorial Designs'
+abstract: ' Many experiments can be modeled by a factorial design which allows statistical analysis of main factors and their interactions. A plethora of parametric inference procedures have been developed, for instance based on normality and additivity of the effects. However, often, it is not reasonable to assume a parametric model, or even normality, and effects may not be expressed well in terms of location shifts. In these situations, the use of a fully nonparametric model may be advisable. Nevertheless, until very recently, the straightforward application of nonparametric methods in complex designs has been hampered by the lack of a comprehensive R package. This gap has now been closed by the novel R-package [rankFD](https://CRAN.R-project.org/package=rankFD) that implements current state of the art nonparametric ranking methods for the analysis of factorial designs. In this paper, we describe its use, along with detailed interpretations of the results. '
+author:
+- name: Frank Konietschke
+  affiliation: Charité Universitätsmedizin Berlin
+  email: |
+    Frank.Konietschke@charite.de
+  address:
+  - Institute of Biometry and Clinical Epidemiology
+  - Reinhardstr. 58
+  - 10117 Berlin, Germany
+- name: Edgar Brunner
+  affiliation: University Medical School Göttingen
+  email: |
+    ebrunne1@gwdg.de
+  address:
+  - Institut für Medizinische Statistik
+  - Humboldtallee 32
+  - 37073 Göttingen, Germany
+date: '2023-08-26'
+date_received: '2022-04-28'
+journal:
+  firstpage: 142
+  lastpage: 158
+volume: 15
+issue: 1
+slug: RJ-2023-029
+doi: 10.32614/RJ-2023-029
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

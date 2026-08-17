@@ -1,0 +1,56 @@
+title: 'GCPBayes:  An R package for studying Cross-Phenotype Genetic Associations with Group-level Bayesian Meta-Analysis'
+abstract: |
+  Several R packages have been developed to study cross-phenotypes associations (or pleiotropy) at the SNP-level, based on summary statistics data from genome-wide association studies (GWAS). However, none of them allow for consideration of the underlying group structure of the data. We developed an R package, entitled \CRANpkg{GCPBayes} (Group level Bayesian Meta-Analysis for Studying Cross-Phenotype Genetic Associations), introduced by Baghfalaki et al. (2021), that implements continuous and Dirac spike priors for group selection, and also a Bayesian sparse group selection approach with hierarchical spike and slab priors, to select important variables at the group level and within the groups. The methods use summary statistics data from association studies or individual level data as inputs, and perform Bayesian meta-analysis approaches across multiple phenotypes to detect pleiotropy at both group-level (e.g., at the gene or pathway level) and within group (e.g., at the SNP level).
+draft: no
+author:
+- name: Taban Baghfalaki
+  affiliation: Tarbiat Modares University
+  address:
+  - Faculty of Mathematical scinces
+  - Tehran, Iran.
+  email: t.baghfalaki@modares.ac.ir
+  orcid: 0000-0002-2100-4532
+  affiliation2: Université Paris-Saclay; UVSQ; INSERM, U1018; Gustave Roussy; CESP, Team Exposome and Heredity
+  address2: Villejuif, France
+- name: Pierre-Emmanuel Sugier
+  affiliation: Laboratoire de Mathématiques et de leurs Applications de Pau
+  address:
+  - Université de Pau et des Pays de l’Adour,
+  - UMR CNRS 5142, E2S-UPPA, France.
+  email: pe.sugier@univ-pau.fr
+  orcid: 0000-0002-5846-1104
+  affiliation2: Université Paris-Saclay; UVSQ; INSERM, U1018; Gustave Roussy; CESP, Team Exposome and Heredity
+  address2: Villejuif, France
+- name: Yazdan Asgari
+  affiliation: Université Paris-Saclay; UVSQ; INSERM, U1018; Gustave Roussy; CESP, Team Exposome and Heredity
+  address: Villejuif, France
+  email: yazdan.asgari@inserm.fr
+  orcid: 0000-0001-6993-6956
+- name: Thérèse Truong
+  email: therese.truong@inserm.fr
+  orcid: 0000-0002-2943-6786
+  affiliation: Université Paris-Saclay; UVSQ; INSERM, U1018; Gustave Roussy; CESP, Team Exposome and Heredity
+  address: Villejuif, France
+- name: Benoit Liquet
+  affiliation: Macquarie University
+  address:
+  - School of Mathematics and Physical Sciences
+  - NSW, Australia
+  email: benoit.liquet-weiland@mq.edu.au, benoit.liquet@univ-pau.fr
+  orcid: 0000-0002-8136-2294
+  affiliation2: Universite de Pau et des Pays de l’Adour
+  address2:
+  - Laboratoire de Mathématiques et de leurs Applications de Pau
+  - UMR CNRS 5142, E2S-UPPA, France
+  email2: benoit.liquet@univ-pau.fr
+type: package
+date: '2023-08-26'
+date_received: '2022-03-15'
+volume: 15
+issue: 1
+slug: RJ-2023-028
+doi: 10.32614/RJ-2023-028
+journal:
+  lastpage: 141
+  firstpage: 122
+

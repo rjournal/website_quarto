@@ -1,0 +1,45 @@
+title: 'panelPomp: Analysis of Panel Data via Partially Observed Markov Processes in R'
+date: '2025-08-07'
+abstract: |
+  Panel data arise when time series measurements are collected from multiple, dynamically independent but structurally related systems. Each system's time series can be modeled as a partially observed Markov process (POMP), and the ensemble of these models is called a PanelPOMP. If the time series are relatively short, statistical inference for each time series must draw information from across the entire panel. The component systems in the panel are called units; model parameters may be shared between units or may be unit-specific. Differences between units may be of direct inferential interest or may be a nuisance for studying the commonalities. The R package panelPomp supports analysis of panel data via a general class of PanelPOMP models. This includes a suite of tools for manipulation of models and data that take advantage of the panel structure. The panelPomp package currently highlights recent advances enabling likelihood based inference via simulation based algorithms. However, the general framework provided by panelPomp supports development of additional, new inference methodology for panel data.
+draft: no
+author:
+- name: Carles Bretó
+  affiliation: Universitat de València
+  address:
+  - Department of Economic Analysis
+  - Valencia, Spain
+  orcid: 0000-0003-4695-4902
+  email: carles.breto@uv.es
+- name: Jesse Wheeler
+  affiliation: University of Michigan
+  address:
+  - Department of Statistics
+  - Ann Arbor, Michigan
+  orcid: 0000-0003-3941-3884
+  email: jeswheel@umich.edu
+- name: Aaron A. King
+  email: kingaa@umich.edu
+  orcid: 0000-0001-6159-3207
+  affiliation: University of Michigan and Santa Fe Institute
+  address:
+  - Department of Ecology and Evolutionary Biology
+  - Ann Arbor, Michigan
+- name: Edward L. Ionides
+  email: ionides@umich.edu
+  orcid: 0000-0002-4190-0174
+  affiliation: University of Michigan
+  address:
+  - Department of Statistics
+  - Ann Arbor, Michigan
+type: package
+header-includes: \usepackage{amsmath} \usepackage{amssymb} \usepackage[ruled,noline]{algorithm2e} \usepackage{amsfonts} \usepackage{xcolor} \usepackage{tikz}
+date_received: '2025-01-31'
+volume: 17
+issue: 1
+slug: RJ-2025-009
+doi: 10.32614/RJ-2025-009
+journal:
+  lastpage: 199
+  firstpage: 180
+

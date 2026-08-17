@@ -1,0 +1,34 @@
+title: 'lba: An R Package for Latent Budget Analysis'
+abstract: The latent budget model is a mixture model for compositional data sets in which the entries, a contingency table, may be either realizations from a product multinomial distribution or distribution free. Based on this model, the latent budget analysis considers the interactions of two variables; the explanatory (row) and the response (column) variables. The package ***lba*** uses expectation-maximization and active constraints method (ACM) to carry out, respectively, the maximum likelihood and the least squares estimation of the model parameters. It contains three main functions, `lba` which performs the analysis, `goodnessfit` for model selection and goodness of fit and the plotting functions `plotcorr` and `plotlba` used as a help in the interpretation of the results.
+author:
+- name: Enio Jelihovschi
+  affiliation: |-
+    Departamento de Ciências Exatas e Tecnológicas, Universidade Estadual
+    de Santa Cruz
+  address: |
+    Cep 45650-000, Ilhéus, Bahia, Brazil
+- name: Ivan Bezerra Allaman
+  affiliation: |-
+    Departamento de Ciências Exatas e Tecnológicas, Universidade Estadual
+    de Santa Cruz
+  address: |
+    Cep 45650-000, Ilhéus, Bahia, Brazil
+date: '2018-05-21'
+date_received: '2017-07-12'
+journal:
+  firstpage: '269'
+  lastpage: '287'
+volume: 10
+issue: 1
+slug: RJ-2018-026
+doi: 10.32614/RJ-2018-026
+packages:
+  cran:
+  - lba
+  - alabama
+  - plotrix
+  - scatterplot3d
+  - rgl
+  - MASS
+  bioc: []
+CTV:

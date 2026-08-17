@@ -1,0 +1,40 @@
+title: 'openEBGM: An R Implementation of the Gamma-Poisson Shrinker Data Mining Model'
+abstract: We introduce the R package ***openEBGM***, an implementation of the Gamma-Poisson Shrinker (GPS) model for identifying unexpected counts in large contingency tables using an empirical Bayes approach. The Empirical Bayes Geometric Mean (EBGM) and quantile scores are obtained from the GPS model estimates. ***openEBGM*** provides for the evaluation of counts using a number of different methods, including the model-based disproportionality scores, the relative reporting ratio (RR), and the proportional reporting ratio (PRR). Data squashing for computational efficiency and stratification for confounding variable adjustment are included. Application to adverse event detection is discussed.
+author:
+- name: Travis Canida
+  affiliation: U.S. Food and Drug Administration
+  address:
+  - Center for Food Safety and Applied Nutrition
+  - Biostatistics and Bioinformatics Staff
+  - 5001 Campus Drive
+  - College Park, MD 20740
+  - |
+    United States
+- name: John Ihrie
+  affiliation: U.S. Food and Drug Administration
+  address:
+  - Center for Food Safety and Applied Nutrition
+  - Biostatistics and Bioinformatics Staff
+  - 5001 Campus Drive
+  - College Park, MD 20740
+  - |
+    United States
+date: '2017-11-22'
+date_received: '2017-08-11'
+journal:
+  firstpage: '499'
+  lastpage: '519'
+volume: 9
+issue: 2
+slug: RJ-2017-063
+doi: 10.32614/RJ-2017-063
+packages:
+  cran:
+  - openEBGM
+  - PhViD
+  - mederrRank
+  - tidyr
+  - ggplot2
+  - data.table
+  bioc: []
+CTV:

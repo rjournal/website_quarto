@@ -1,0 +1,23 @@
+title: 'MultiATSM: An R Package for Arbitrage-Free Macrofinance Multicountry Affine Term Structure Models'
+date: '2026-02-10'
+abstract: |
+  The MultiATSM package provides estimation tools and a wide range of outputs for eight macrofinance affine term structure model (ATSM) classes, supporting practitioners, academics, and policymakers. All models extend the single-country framework of Joslin et al. (2014) to multicountry settings, with additional adaptations from Jotikasthira et al. (2015) and Candelon and Moura (2024). These model extensions incorporate, respectively, the presence of a dominant (global) economy and adopt a global vector autoregressive (GVAR) setup to capture the joint dynamics of risk factors. The package generates diverse outputs for each ATSM, including graphical representations of model fit, risk premia, impulse response functions, and forecast error variance decompositions. It also implements bootstrap methods for confidence intervals and produces bond yield forecasts.
+draft: no
+author:
+- name: Rubens Moura
+  affiliation: Banco de Mexico
+  address:
+  - Avenida 5 de Mayo, 2
+  - Mexico City, Mexico
+  orcid: 0000-0001-8105-4729
+  email: rubens.guimaraes@banxico.org.mx
+type: package
+date_received: '2025-06-10'
+volume: 17
+issue: 4
+slug: RJ-2025-044
+doi: 10.32614/RJ-2025-044
+journal:
+  lastpage: 305
+  firstpage: 276
+

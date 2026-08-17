@@ -1,0 +1,30 @@
+title: 'SetMethods: an Add-on R Package for Advanced QCA'
+abstract: This article presents the functionalities of the R package ***SetMethods***, aimed at performing advanced set-theoretic analyses. This includes functions for performing set-theoretic multi-method research, set-theoretic theory evaluation, Enhanced Standard Analysis, diagnosing the impact of temporal, spatial, or substantive clusterings of the data on the results obtained via Qualitative Comparative Analysis (QCA), indirect calibration, and visualising QCA results via XY plots or radar charts. Each functionality is presented in turn, the conceptual idea and the logic behind the procedure being first summarized, and afterwards illustrated with data from [@SchneiderM2010].
+author:
+- name: Ioana-Elena Oana
+  affiliation: Central European University (CEU)
+  address:
+  - Nador utca 9, 1051 Budapest
+  - |
+    Hungary
+- name: Carsten Q. Schneider
+  affiliation: Central European University (CEU)
+  address:
+  - Nador utca 9, 1051 Budapest
+  - |
+    Hungary
+date: '2018-05-21'
+date_received: '2018-02-02'
+journal:
+  firstpage: '507'
+  lastpage: '533'
+volume: 10
+issue: 1
+slug: RJ-2018-031
+doi: 10.32614/RJ-2018-031
+packages:
+  cran:
+  - QCA
+  - SetMethods
+  bioc: []
+CTV:

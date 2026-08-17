@@ -1,0 +1,20 @@
+title: 'Conference Review: The 1st Chinese R Conference'
+abstract: 'The ''Conference Review: The 1st Chinese R Conference'' article from the 2009-1 issue.'
+author:
+- name: Yihui Xie
+  affiliation: Renmin University of China, Beijing, China
+  address: |
+    School of Statistics, Room 1037, Mingde Main Building,
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 69
+  lastpage: 70
+volume: 1
+issue: 1
+slug: RJ-2009-1-chinese-r-conf
+citation_url: https://rjournal.github.io/
+packages:
+  cran: animation
+  bioc: []
+CTV:

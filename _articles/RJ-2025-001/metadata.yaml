@@ -1,0 +1,76 @@
+title: 'SIREN: A Hybrid CFA-EFA R Package for Controlling Acquiescence in Restricted Factorial Solutions'
+abstract: |
+  The **siren** package implements a two-step procedure that allows
+  restricted (confirmatory) factor analytic (FA) solutions to be fitted
+  in data matrices that have been previously 'cleaned' of the biasing
+  effects of acquiescent responding (AR) by using an unrestricted
+  (exploratory) FA specification. So, the procedure which is implemented
+  is hybrid: i.e. (a) an unrestricted acquiescence (ACQ) factor is first
+  fitted to the data, (b) the residual data (or covariance) matrix after
+  the impact of ACQ has been partialled-out is obtained, and (c) a
+  restricted FA solution is fitted to the residual matrix. Although the
+  basic foundations of the procedure are known, it contains new
+  methodological developments that are, all of them, implemented in the
+  package. So, provided that fully or partially balanced scales are
+  available, the researcher will be able to: (a) calibrate a
+  multidimensional CFA solution which is free from AR, (b) assess the
+  goodness of model-data fit of this solution, and (c) obtain individual
+  score estimates in the content as well as in the ACQ factors. The
+  functioning of the program is assessed by means of a simulation study,
+  and illustrated with a toy example. Its usefulness is also
+  demonstrated by using an illustrative example in the personality
+  domain. **siren** is submitted to be a valuable tool for use in item
+  CFA applications when AR is expected to be operating.
+author:
+- name: David Navarro-Gonzalez
+  affiliation: Department of Psychology
+  address:
+  - University of Lleida
+  - Spain
+  - 0000-0002-9843-5058
+  - |
+    [david.navarro@udl.cat](david.navarro@udl.cat){.uri}
+- name: Pere J. Ferrando
+  affiliation: Department of Psychology
+  address:
+  - University Rovira i Virgili
+  - Spain
+  - 0000-0002-3133-5466
+  - |
+    [perejoan.ferrando@urv.cat](perejoan.ferrando@urv.cat){.uri}
+- name: Fabia Morales-Vives
+  affiliation: Department of Psychology
+  address:
+  - University Rovira i Virgili
+  - Spain
+  - 0000-0002-2095-0244
+  - |
+    [fabia.morales@urv.cat](fabia.morales@urv.cat){.uri}
+- name: Ana Hernandez-Dorado
+  affiliation: Department of Psychology
+  address:
+  - University Rovira i Virgili
+  - Spain
+  - 0000-0001-9502-9735
+  - |
+    [ahernandezd@professor.universidadviu.com](ahernandezd@professor.universidadviu.com){.uri}
+date: '2025-08-07'
+date_received: '2024-01-11'
+journal:
+  firstpage: 5
+  lastpage: 23
+volume: 17
+issue: 1
+slug: RJ-2025-001
+doi: 10.32614/RJ-2025-001
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - lavaan
+  - siren
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

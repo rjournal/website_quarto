@@ -1,0 +1,63 @@
+title: 'BayesSPsurv: An R Package to Estimate Bayesian (Spatial) Split-Population Survival Models'
+abstract: Survival data often include a fraction of units that are susceptible to an event of interest as well as a fraction of "immune" units. In many applications, spatial clustering in unobserved risk factors across nearby units can also affect their survival rates and odds of becoming immune. To address these methodological challenges, this article introduces our [*BayesSPsurv*](https://CRAN.R-project.org/package=BayesSPsurv) R-package, which fits parametric Bayesian Spatial split-population survival (cure) models that can account for spatial autocorrelation in both subpopulations of the user's time-to-event data. Spatial autocorrelation is modeled with spatially weighted frailties, which are estimated using a conditionally autoregressive prior. The user can also fit parametric cure models with or without nonspatial i.i.d. frailties, and each model can incorporate time-varying covariates. *BayesSPsurv* also includes various functions to conduct pre-estimation spatial autocorrelation tests, visualize results, and assess model performance, all of which are illustrated using data on post-civil war peace survival.
+author:
+- name: Brandon Bolte
+  affiliation: Penn State University
+  address:
+  - Department of Political Science
+  - |
+    USA
+- name: Nicolás Schmidt
+  affiliation: Universidad de la República
+  address:
+  - Department of Political Science
+  - |
+    Uruguay
+- name: Sergio Béjar
+  affiliation: San José State University
+  address:
+  - Department of Political Science
+  - |
+    USA
+- name: Nguyen Huynh
+  affiliation: Penn State University
+  address:
+  - Department of Political Science
+  - |
+    USA
+- name: Bumba Mukherjee
+  affiliation: Penn State University
+  address:
+  - Department of Political Science
+  - |
+    USA
+date: '2021-07-15'
+date_received: '2021-02-01'
+journal:
+  firstpage: '595'
+  lastpage: '613'
+volume: 13
+issue: 1
+slug: RJ-2021-068
+doi: 10.32614/RJ-2021-068
+packages:
+  cran:
+  - BayesSPsurv
+  - survival
+  - dynsurv
+  - smcure
+  - nltm
+  - flexsurvcure
+  - spduration
+  - BayesX
+  - R2BayesX
+  - spBayesSurv
+  - spatsurv
+  - Rcpp
+  - coda
+  - doParallel
+  - doRNG
+  - countrycode
+  - rworldmap
+  bioc: []
+CTV:

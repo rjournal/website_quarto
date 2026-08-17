@@ -1,0 +1,7 @@
+---
+title: "Reviewers"
+---
+
+The R Journal depends on reviewers with a broad range of expertise in R, statistics, computing, data analysis, and applied domains. Reviewers help assess whether submissions are clearly written, technically sound, reproducible, and useful to the R community.
+
+If you would like to volunteer as a reviewer, please [complete the reviewer volunteer form](https://docs.google.com/forms/d/e/1FAIpQLSf8EmpF85ASWqPHXqV0vdQd-GHhNBaAZZEYf4qxO3gTl-eGyA/viewform). Experienced R users, package developers, and researchers with prior experience publishing scholarly work are especially welcome.

@@ -1,0 +1,23 @@
+title: Changes in R
+date: '2023-12-01'
+abstract: |
+  We present selected changes in the development version of R (referred to as R-devel, to become R 4.4) and provide some statistics on bug tracking activities in 2023.
+draft: no
+author:
+- name: Tomas Kalibera
+  affiliation: R Core Team
+  address: Prague, Czechia
+  orcid: 0000-0002-7435-734X
+  email: Tomas.Kalibera@R-project.org
+- name: Sebastian Meyer
+  affiliation: Friedrich-Alexander-Universität Erlangen-Nürnberg
+  address: Erlangen, Germany
+  orcid: 0000-0002-1791-9449
+  email: Sebastian.Meyer@R-project.org
+volume: 15
+issue: 4
+slug: RJ-2023-4-core
+journal:
+  lastpage: 294
+  firstpage: 292
+

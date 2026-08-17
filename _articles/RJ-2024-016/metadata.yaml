@@ -1,0 +1,73 @@
+title: 'FuzzySimRes: Epistemic Bootstrap -- an Efficient Tool for Statistical Inference Based on Imprecise Data'
+abstract: |
+  The classical Efron's bootstrap is widely used in many areas of
+  statistical inference, including imprecise data. In our new package
+  FuzzySimRes, we adapted the bootstrap methodology to epistemic fuzzy
+  data, i.e., fuzzy perceptions of the usual real-valued random
+  variables. The epistemic bootstrap algorithms deliver real-valued
+  samples generated randomly from the initial fuzzy sample. Then, these
+  samples can be utilized directly in various statistical procedures.
+  Moreover, we implemented a practically oriented simulation procedure
+  to generate synthetic fuzzy samples and provided a real-life epistemic
+  dataset ready to use for various techniques of statistical analysis.
+  Some examples of their applications, together with the comparisons of
+  the epistemic bootstrap algorithms and the respective benchmarks, are
+  also discussed.
+author:
+- name: Maciej Romaniuk
+  affiliation: Systems Research Institute Polish Academy of Sciences
+  address:
+  - Newelska 6, 01-447 Warsaw
+  - Poland
+  - WIT Academy
+  - Newelska 6, 01-447 Warsaw
+  - Poland
+  - (0000-0001-9649-396X)
+  - |
+    [mroman@ibspan.waw.pl](mroman@ibspan.waw.pl){.uri}
+- name: Przemysław Grzegorzewski
+  affiliation: |-
+    Faculty of Mathematics and Information Science, Warsaw University of
+    Technology
+  address:
+  - Koszykowa 75, 00-662 Warsaw
+  - Poland
+  - Systems Research Institute Polish Academy of Sciences
+  - Newelska 6, 01-447 Warsaw
+  - Poland
+  - (0000-0002-5191-4123)
+  - |
+    [przemyslaw.grzegorzewski@pw.edu.pl](przemyslaw.grzegorzewski@pw.edu.pl){.uri}
+- name: Abbas Parchami
+  affiliation: Department of Statistics, Faculty of Mathematics and Computer
+  address:
+  - Shahid Bahonar University of Kerman, Kerman
+  - Iran
+  - (0000-0002-0593-7324)
+  - |
+    [parchami@uk.ac.ir](parchami@uk.ac.ir){.uri}
+date: '2025-03-11'
+date_received: '2024-01-11'
+journal:
+  firstpage: 175
+  lastpage: 191
+volume: 16
+issue: 2
+slug: RJ-2024-016
+doi: 10.32614/RJ-2024-016
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - FuzzyNumbers
+  - FuzzySTs
+  - SAFD
+  - Sim.PLFN
+  - FuzzyStatTra
+  - FuzzyResampling
+  - palasso
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

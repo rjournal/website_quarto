@@ -1,0 +1,24 @@
+title: |-
+  It's Not What You Draw,\
+  It's What You Don't Draw
+abstract: The R graphics engine has new support for drawing complex paths via the functions `polypath()` and `grid.path()`. This article explains what is meant by a complex path and demonstrates the usefulness of complex paths in drawing non-trivial shapes, logos, customised data symbols, and maps.
+author:
+- name: Paul Murrell
+  affiliation: Department of Statistics, The University of Auckland
+  address: New Zealand
+date: '2012-12-01'
+date_received:
+journal:
+  firstpage: '13'
+  lastpage: '18'
+volume: 4
+issue: 2
+slug: RJ-2012-017
+doi: 10.32614/RJ-2012-017
+packages:
+  cran:
+  - grImport
+  - maptools
+  - maps
+  bioc: []
+CTV:

@@ -1,0 +1,32 @@
+title: Generalized Mosaic Plots in the ggplot2 Framework
+abstract: "Graphical methods for categorical variables are not well developed when compared with visualizations for numeric data. One method available for  multidimensional categorical data visualizations is mosaic plots. Mosaic plots are an easy and powerful option for identifying relationships between multiple categorical variables. Although various packages have implemented mosaic plots, no implementation within the grammar of graphics supports mosaic plots. We present a new implementation of mosaic plots in R, \\pkg{ggmosaic}, that implements a custom \\pkg{ggplot2} geom designed for generalized mosaic plots. Equipped with the functionality and flexibility of \\pkg{ggplot2}, \\pkg{ggmosaic} introduces new features not previously available for mosaic plots, including a novel method of incorporating a rendering of the underlying density via jittering. This paper provides an overview of the implementation and examples that highlight the versatility and ease of use of \\pkg{ggmosaic} while demonstrating the practicality of mosaic plots. \n"
+draft: no
+author:
+- name: Haley Jeppson
+  affiliation: Department of Statistics
+  address:
+  - Iowa State University
+  - 2438 Osborn Dr
+  - Ames, IA 50011
+  email: hjeppson@iastate.edu
+  orcid: 0000-0003-2524-4063
+- name: Heike Hofmann
+  affiliation: Department of Statistics
+  address:
+  - Center for Statistics and Applications in Forensic Evidence
+  - Iowa State University
+  - 2438 Osborn Dr
+  - Ames, IA 50011
+  email: hofmann@iastate.edu
+  orcid: 0000-0001-6216-5183
+type: package
+date: '2023-03-09'
+date_received: '2021-04-12'
+volume: 14
+issue: 4
+slug: RJ-2023-013
+doi: 10.32614/RJ-2023-013
+journal:
+  lastpage: 78
+  firstpage: 50
+

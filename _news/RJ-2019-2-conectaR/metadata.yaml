@@ -1,0 +1,38 @@
+title: 'Conference Report: ConectaR 2019'
+abstract: 'The ''Conference Report: ConectaR 2019'' article from the 2019-2 issue.'
+author:
+- name: Marcela Alfaro Córdoba
+  affiliation: Universidad de Costa Rica
+  orcid: |
+    0000-0002-7703-3578
+  address:
+  - Escuela de Estadística, Facultad de Ciencias Económicas
+  - Ciudad Universitaria Rodrigo Facio
+  - Costa Rica
+- name: Agustín Gómez Meléndez
+  affiliation: Observatorio de Desarrollo, Universidad de Costa Rica
+  address:
+  - Escuela de Estadística, Facultad de Ciencias Económicas
+  - |
+    Costa Rica
+- name: Frans van Dunné
+  affiliation: ixpantia
+  address: |
+    Costa Rica
+- name: Jacob van Etten
+  affiliation: Bioversity International
+  address: |
+    Spain
+date: '2019-12-01'
+date_received:
+journal:
+  firstpage: '439'
+  lastpage: '442'
+volume: 11
+issue: 2
+slug: RJ-2019-2-conectaR
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

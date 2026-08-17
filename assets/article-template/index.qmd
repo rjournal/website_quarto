@@ -1,0 +1,11 @@
+---
+title: "RJOURNAL_TITLE_SENTINEL"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+```{=html}
+<!-- RJOURNAL_CONTENT_SENTINEL -->
+```

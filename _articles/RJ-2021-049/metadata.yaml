@@ -1,0 +1,41 @@
+title: Analyzing Dependence between Point Processes in Time Using IndTestPP
+abstract: The need to analyze the dependence between two or more point processes in time appears in many modeling problems related to the occurrence of events, such as the occurrence of climate events at different spatial locations or synchrony detection in spike train analysis. The package *IndTestPP* provides a general framework for all the steps in this type of analysis, and one of its main features is the implementation of three families of tests to study independence given the intensities of the processes, which are not only useful to assess independence but also to identify factors causing dependence. The package also includes functions for generating different types of dependent point processes, and implements computational statistical inference tools using them. An application to characterize the dependence between the occurrence of extreme heat events in three Spanish locations using the package is shown.
+author:
+- name: Ana C. Cebrián
+  affiliation: University of Zaragoza
+  orcid: |
+    0000-0002-9052-9674
+  address:
+  - |-
+    Dpto. Métodos Estadísticos. Ed. Matemáticas. C Pedro Cerbuna, 12.
+    Zaragoza 50009
+  - Spain
+- name: Jesús Asín
+  affiliation: University of Zaragoza
+  address:
+  - Dpto. Métodos Estadísticos. EINA. C María de Luna, 3. Zaragoza 50018
+  - |
+    Spain
+date: '2021-06-08'
+date_received: '2020-10-30'
+journal:
+  firstpage: '444'
+  lastpage: '460'
+volume: 13
+issue: 1
+slug: RJ-2021-049
+doi: 10.32614/RJ-2021-049
+packages:
+  cran:
+  - IndTestPP
+  - spatstat
+  - stpp
+  - splancs
+  - IDSpatialStats
+  - NHPoisson
+  - PtProcess
+  - mmpp
+  - mppa
+  - stats
+  bioc: []
+CTV:

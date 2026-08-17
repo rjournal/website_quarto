@@ -1,0 +1,40 @@
+title: 'ggmap: Spatial Visualization with ggplot2'
+abstract: In spatial statistics the ability to visualize data and models superimposed with their basic social landmarks and geographic context is invaluable. *ggmap* is a new tool which enables such visualization by combining the spatial information of static maps from Google Maps, OpenStreetMap, Stamen Maps or CloudMade Maps with the layered grammar of graphics implementation of *ggplot2*. In addition, several new utility functions are introduced which allow the user to access the Google Geocoding, Distance Matrix, and Directions APIs. The result is an easy, consistent and modular framework for spatial graphics with several convenient tools for spatial data analysis.
+author:
+- name: David Kahle
+  affiliation: Baylor University
+  address:
+  - Department of Statistical Science
+  - 'One Bear Place #97140'
+  - |
+    Waco, TX 77005
+- name: Hadley Wickham
+  affiliation: Rice University
+  address:
+  - Department of Statistics, MS 138
+  - 6100 Main St.
+  - |
+    Houston, TX 77005
+date: '2013-06-02'
+date_received: '2012-07-06'
+journal:
+  firstpage: '144'
+  lastpage: '161'
+volume: 5
+issue: 1
+slug: RJ-2013-014
+doi: 10.32614/RJ-2013-014
+packages:
+  cran:
+  - sp
+  - RgoogleMaps
+  - ggplot2
+  - ggmap
+  - maps
+  - maptools
+  - DeducerSpatial
+  - plyr
+  - rjson
+  - osmar
+  bioc: []
+CTV:

@@ -1,0 +1,36 @@
+title: An Interactive Survey Application for Validating Social Network Analysis Techniques
+abstract: Social network analysis is extremely well supported by the R community and is routinely used for studying the relationships between people engaged in collaborative activities. While there has been rapid development of new approaches and metrics in this field, the challenging question of validity (how well insights derived from social networks agree with reality) is often difficult to address. We propose the use of several R packages to generate interactive surveys that are specifically well suited for validating social network analyses. Using our web-based survey application, we were able to validate the results of applying community-detection algorithms to infer the organizational structure of software developers contributing to open-source projects.
+author:
+- name: Mitchell Joblin
+  affiliation: Siemens AG
+  address:
+  - Wladimirstraße 3
+  - 91058 Erlangen
+  - |
+    Germany
+- name: Wolfgang Mauerer
+  affiliation: Siemens AG
+  address:
+  - Technical University of Applied Science Regensburg
+  - Universitätsstraße 31
+  - 93058 Regensburg
+  - |
+    Germany
+date: '2015-11-04'
+date_received: '2015-05-18'
+journal:
+  firstpage: '149'
+  lastpage: '158'
+volume: 8
+issue: 1
+slug: RJ-2016-010
+doi: 10.32614/RJ-2016-010
+packages:
+  cran:
+  - igraph
+  - sna
+  - twitteR
+  - Rfacebook
+  - shiny
+  bioc: graph
+CTV:

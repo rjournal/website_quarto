@@ -1,0 +1,31 @@
+title: 'SLCARE: An R Package for Semiparametric Latent Class Analysis of Recurrent Events'
+date: '2025-05-20'
+abstract: |
+  Recurrent event data frequently arise in biomedical follow-up studies. The concept of latent classes  enables researchers to characterize complex population heterogeneity in a plausible and parsimonious way. This article introduces the R package SLCARE, which implements a robust and flexible algorithm  to  carry out Zhao, Peng, and Hanfelt (2022)’s latent class analysis method for recurrent event data, where  semiparametric multiplicative intensity modeling is adopted. SLCARE returns estimates for non-functional model parameters along with the associated variance estimates and $p$ values. Visualization tools are provided to depict the estimated functional model parameters and related functional quantities of interest. SLCARE also delivers a model checking plot  to help assess the adequacy of the fitted model.
+draft: no
+author:
+- name: Qi Yu
+  affiliation: Emory University
+  address:
+  - Department of Biostatistics and Bioinformatics
+  - 1518 Clifton Rd. NE, Atlanta, GA 30322, USA
+  email: qi.yu2@emory.edu
+  orcid: 0009-0007-7585-1183
+- name: Limin Peng
+  affiliation: Emory University
+  address:
+  - Department of Biostatistics and Bioinformatics
+  - 1518 Clifton Rd. NE, Atlanta, GA 30322, USA
+  email: lpeng@emory.edu
+  orcid: 0000-0002-8042-3112
+type: package
+preamble: \usepackage{longtable} \usepackage{float} \floatplacement{figure}{H} \floatplacement{table}{H}
+date_received: '2024-01-26'
+volume: 16
+issue: 3
+slug: RJ-2024-030
+doi: 10.32614/RJ-2024-030
+journal:
+  lastpage: 149
+  firstpage: 134
+

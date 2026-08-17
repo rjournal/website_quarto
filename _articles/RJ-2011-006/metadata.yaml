@@ -1,0 +1,32 @@
+title: 'rworldmap: A New R package for Mapping Global Data'
+abstract: '[*rworldmap*](https://CRAN.R-project.org/package=rworldmap) is a relatively new package available on CRAN for the mapping and visualisation of global data. The vision is to make the display of global data easier, to facilitate understanding and communication. The initial focus is on data referenced by country or grid due to the frequency of use of such data in global assessments. Tools to link data referenced by country (either name or code) to a map, and then to display the map are provided as are functions to map global gridded data. Country and gridded functions accept the same arguments to specify the nature of categories and colour and how legends are formatted. This package builds on the functionality of existing packages, particularly [*sp*](https://CRAN.R-project.org/package=sp), [*maptools*](https://CRAN.R-project.org/package=maptools) and [*fields*](https://CRAN.R-project.org/package=fields). Example code is provided to produce maps, to link with the packages [*classInt*](https://CRAN.R-project.org/package=classInt), [*RColorBrewer*](https://CRAN.R-project.org/package=RColorBrewer) and [*ncdf*](https://CRAN.R-project.org/package=ncdf), and to plot examples of publicly available country and gridded data.'
+author:
+- name: Andy South
+  affiliation: Centre for Environment, Fisheries and Aquaculture Science (Cefas)
+  address:
+  - Pakefield Road, Lowestoft, NR33 OHT, UK
+  - 'Current address: Graduate School of Education'
+  - University of Exeter
+  - |
+    Exeter, EX1 2LU, UK
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 35
+  lastpage: 43
+volume: 3
+issue: 1
+slug: RJ-2011-006
+doi: 10.32614/RJ-2011-006
+packages:
+  cran:
+  - rworldmap
+  - sp
+  - maptools
+  - fields
+  - classInt
+  - RColorBrewer
+  - ncdf
+  - rworldmapData
+  bioc: []
+CTV:

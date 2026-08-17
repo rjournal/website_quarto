@@ -1,0 +1,16 @@
+title: The R User Conference 2013
+abstract: The 'The R User Conference 2013' article from the 2013-1 issue.
+author: UseR 2013 Organising Committee
+date: '2013-06-01'
+date_received:
+journal:
+  firstpage: '215'
+  lastpage: '217'
+volume: 5
+issue: 1
+slug: RJ-2013-1-user2013
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

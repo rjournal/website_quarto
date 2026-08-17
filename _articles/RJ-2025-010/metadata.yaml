@@ -1,0 +1,69 @@
+title: 'SimEngine: A Modular Framework for Statistical Simulations in R'
+abstract: |
+  This article describes SimEngine, an
+  open-source R package for structuring, maintaining, running, and
+  debugging statistical simulations on both local and cluster-based
+  computing environments. Several R packages exist for facilitating
+  simulations, but SimEngine is the
+  only package specifically designed for running simulations in parallel
+  via job schedulers on high-performance cluster computing systems. The
+  package provides structure and functionality for common simulation
+  tasks, such as setting simulation levels, managing seeds for random
+  number generation, and calculating summary metrics (such as bias and
+  confidence interval coverage).
+  SimEngine also
+  brings several unique features, such as automatic calculation of Monte
+  Carlo error and information sharing across simulation replicates. We
+  provide an overview of the package and demonstrate some of its
+  advanced functionality.
+author:
+- name: Avi Kenny
+  affiliation: Department of Biostatistics and Bioinformatics, Duke University
+  orcid: 0000-0002-9465-7307
+  address:
+  - Global Health Institute, Duke University
+  - 2424 Erwin Rd
+  - Durham, NC 27710, USA
+  - |
+    [avi.kenny@duke.edu](avi.kenny@duke.edu){.uri}
+- name: Charles J. Wolock
+  affiliation: Department of Biostatistics and Computational Biology, University of Rochester
+  orcid: 0000-0003-3527-1102
+  address:
+  - University of Rochester
+  - 265 Crittenden Boulevard, CU 420630
+  - Rochester, New York 14642-0630
+  - |
+    [c.wolock@rochester.edu](c.wolock@rochester.edu){.uri}
+date: '2025-08-12'
+date_received: '2025-02-06'
+journal:
+  firstpage: 200
+  lastpage: 220
+volume: 17
+issue: 1
+slug: RJ-2025-010
+doi: 10.32614/RJ-2025-010
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - SimEngine
+  - magrittr
+  - parallel
+  - simulator
+  - simpr
+  - simFrame
+  - SimDesign
+  - simsalapar
+  - simChef
+  - riskSimul
+  - GlmSimulatoR
+  - PhenotypeSimulator
+  - future
+  - rslurm
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

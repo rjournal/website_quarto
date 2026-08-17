@@ -1,0 +1,36 @@
+title: Differential Evolution with DEoptim
+abstract: The R package [*DEoptim*](https://CRAN.R-project.org/package=DEoptim) implements the Differential Evolution algorithm. This algorithm is an evolutionary technique similar to classic genetic algorithms that is useful for the solution of global optimization problems. In this note we provide an introduction to the package and demonstrate its utility for financial applications by solving a non-convex portfolio optimization problem.
+author:
+- name: David Ardia
+  affiliation: |
+    aeris CAPITAL AG, Switzerland
+- name: Kris Boudt
+  affiliation: |
+    Lessius and K.U.Leuven, Belgium
+- name: Peter Carl
+  affiliation: |
+    Guidance Capital Management, Chicago, IL
+- name: Katharine M. Mullen
+  affiliation: National Institute of Standards and Technology
+  address: |
+    Gaithersburg, MD
+- name: Brian G. Peterson
+  affiliation: |
+    Cheiron Trading, Chicago, IL
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 27
+  lastpage: 34
+volume: 3
+issue: 1
+slug: RJ-2011-005
+doi: 10.32614/RJ-2011-005
+packages:
+  cran:
+  - DEoptim
+  - PortfolioAnalytics
+  - quantmod
+  - PerformanceAnalytics
+  bioc: []
+CTV:

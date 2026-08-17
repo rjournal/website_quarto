@@ -1,0 +1,31 @@
+title: 'Conference Report: SER III'
+abstract: 'The ''Conference Report: SER III'' article from the 2018-2 issue.'
+author:
+- name: Ariel Levy
+  affiliation: Department of Business Administration, Federal Fluminense University
+  orcid: |
+    0000-0003-3557-1201
+  address: Brazil
+- name: Luciane F. Alcoforado
+  affiliation: Department of Statistics, Federal Fluminense University
+  orcid: |
+    0000-0002-9504-8087
+  address: Brazil
+- name: Orlando Celso Longo
+  affiliation: Department of Construction Engineering, Federal Fluminense University
+  orcid: |
+    0000-0002-0323-473X
+  address: Brazil
+date: '2018-12-01'
+date_received:
+journal:
+  firstpage: '567'
+  lastpage: '571'
+volume: 10
+issue: 2
+slug: RJ-2018-2-serIII
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

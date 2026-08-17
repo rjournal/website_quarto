@@ -1,0 +1,31 @@
+title: 'arulesViz: Interactive Visualization of Association Rules with R'
+abstract: Association rule mining is a popular data mining method to discover interesting relationships between variables in large databases. An extensive toolbox is available in the R-extension package *arules*. However, mining association rules often results in a vast number of found rules, leaving the analyst with the task to go through a large set of rules to identify interesting ones. Sifting manually through extensive sets of rules is time-consuming and strenuous. Visualization and especially interactive visualization has a long history of making large amounts of data better accessible. The R-extension package *arulesViz* provides most popular visualization techniques for association rules. In this paper, we discuss recently added interactive visualizations to explore association rules and demonstrate how easily they can be used in *arulesViz* via a unified interface. With examples, we help to guide the user in selecting appropriate visualizations and interpreting the results.
+author:
+- name: Michael Hahsler
+  affiliation: |-
+    Engineering Management, Information, and Systems, Lyle School of
+    Engineering
+  address:
+  - Southern Methodist University
+  - P.O. Box 750123
+  - |
+    Dallas, TX 75275-0123 USA
+date: '2017-10-24'
+date_received: '2016-12-23'
+journal:
+  firstpage: '163'
+  lastpage: '175'
+volume: 9
+issue: 2
+slug: RJ-2017-047
+doi: 10.32614/RJ-2017-047
+packages:
+  cran:
+  - arulesViz
+  - arules
+  - DT
+  - plotly
+  - grid
+  - visNetwork
+  bioc: []
+CTV:

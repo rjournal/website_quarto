@@ -1,0 +1,40 @@
+title: 'revengc: An R package to Reverse Engineer Summarized Data'
+abstract: Decoupled (e.g. separate averages) and censored (e.g. $>$ 100 species) variables are continually reported by many well-established organizations, such as the World Health Organization (WHO), Centers for Disease Control and Prevention (CDC), and World Bank. The challenge therefore is to infer what the original data could have been given summarized information. We present an R package that reverse engineers censored and/or decoupled data with two main functions. The `cnbinom.pars()` function estimates the average and dispersion parameter of a censored univariate frequency table. The `rec()` function reverse engineers summarized data into an uncensored bivariate table of probabilities.
+author:
+- name: Samantha Duchscherer
+  affiliation: Oak Ridge National Laboratory
+  orcid: |
+    0000-0002-2023-3106
+  address:
+  - 1 Bethel Valley Road Oak Ridge, TN 37831
+  - USA
+- name: Robert Stewart
+  affiliation: Oak Ridge National Laboratory
+  orcid: |
+    0000-0002-8186-7559
+  address:
+  - 1 Bethel Valley Road Oak Ridge, TN 37831
+  - USA
+- name: Marie Urban
+  affiliation: Oak Ridge National Laboratory
+  orcid: |
+    0000-0001-9571-832X
+  address:
+  - 1 Bethel Valley Road Oak Ridge, TN 37831
+  - USA
+date: '2018-12-07'
+date_received: '2017-08-24'
+journal:
+  firstpage: '114'
+  lastpage: '123'
+volume: 10
+issue: 2
+slug: RJ-2018-044
+doi: 10.32614/RJ-2018-044
+packages:
+  cran:
+  - revengc
+  - truncdist
+  - mipfp
+  bioc: []
+CTV:

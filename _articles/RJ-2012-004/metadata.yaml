@@ -1,0 +1,33 @@
+title: Foreign Library Interface
+abstract: We present an improved Foreign Function Interface (FFI) for R to call arbitary native functions without the need for C wrapper code. Further we discuss a dynamic linkage framework for binding standard C libraries to R across platforms using a universal type information format. The package [*rdyncall*](https://CRAN.R-project.org/package=rdyncall) comprises the framework and an initial repository of cross-platform bindings for standard libraries such as (legacy and modern) *OpenGL*, the family of *SDL* libraries and *Expat*. The package enables system-level programming using the R language; sample applications are given in the article. We outline the underlying automation tool-chain that extracts cross-platform bindings from C headers, making the repository extendable and open for library developers.
+author:
+- name: Daniel Adler
+  affiliation: Georg-August Universität
+  address:
+  - Institute for Statistics and Economics
+  - Platz der Sieben 5
+  - |
+    37079 Germany
+date: '2012-06-01'
+date_received:
+journal:
+  firstpage: '30'
+  lastpage: '40'
+volume: 4
+issue: 1
+slug: RJ-2012-004
+doi: 10.32614/RJ-2012-004
+packages:
+  cran:
+  - rdyncall
+  - dyncall
+  - dyncallback
+  - DynOS
+  - QEmu
+  - GXEmul
+  - xslproc
+  - BridJ
+  - luadyncall
+  - Rffi
+  bioc: []
+CTV:

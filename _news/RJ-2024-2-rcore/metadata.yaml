@@ -1,0 +1,23 @@
+title: Changes in R
+date: '2024-06-01'
+abstract: |
+  We present selected changes in the development version of R, which is referred to as R-devel and is to become R 4.5.  We also provide some statistics on bug tracking activities in 2024, which covers 4 months before the release of R 4.4 and 8 months of work on R-devel.
+draft: no
+author:
+- name: Tomas Kalibera
+  affiliation: R Core Team
+  address: Prague, Czechia
+  orcid: 0000-0002-7435-734X
+  email: Tomas.Kalibera@R-project.org
+- name: Sebastian Meyer
+  affiliation: Friedrich-Alexander-Universität Erlangen-Nürnberg
+  address: Erlangen, Germany
+  orcid: 0000-0002-1791-9449
+  email: Sebastian.Meyer@R-project.org
+volume: 16
+issue: 2
+slug: RJ-2024-2-rcore
+journal:
+  lastpage: 210
+  firstpage: 205
+

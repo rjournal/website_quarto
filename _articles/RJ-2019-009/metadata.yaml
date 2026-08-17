@@ -1,0 +1,46 @@
+title: 'mixedsde: A Package to Fit Mixed Stochastic Differential Equations'
+abstract: 'Stochastic differential equations (SDEs) are useful to model continuous stochastic processes. When (independent) repeated temporal data are available, variability between the trajectories can be modeled by introducing random effects in the drift of the SDEs. These models are useful to analyze neuronal data, crack length data, pharmacokinetics, financial data, to cite some applications among other. The `R` package focuses on the estimation of SDEs with linear random effects in the drift. The goal is to estimate the common density of the random effects from repeated discrete observations of the SDE. The package *mixedsde* proposes three estimation methods: a Bayesian parametric, a frequentist parametric and a frequentist nonparametric method. The three procedures are described as well as the main functions of the package. Illustrations are presented on simulated and real data.'
+author:
+- name: Charlotte Dion
+  affiliation: Laboratory Jean Kuntzmann, Université Grenoble Alpes
+  address:
+  - Batiment IMAG
+  - 700 avenue Centrale
+  - Campus de Saint Martin d'Hères BP 53
+  - 38041 Grenoble cedex 09 - France
+  - and
+  - Laboratory MAP5
+  - Université Paris Descartes 45, rue des Saint-Pères
+  - 75005 Paris
+  - and
+  - Laboratory LSTA
+  - Université Pierre et Marie Curie 4, place Jussieu
+  - |
+    75005 Paris
+- name: Simone Hermann
+  affiliation: 'Mathematik Raum 744, Anschrift: Fakultät Statistik'
+  address:
+  - Technische Universität Dortmund
+  - |
+    44221 Dortmund
+- name: Adeline Samson
+  affiliation: Laboratory Jean Kuntzmann, Université Grenoble Alpes
+  address:
+  - Batiment IMAG
+  - 700 avenue Centrale
+  - Campus de Saint Martin d'Hères BP 53
+  - |
+    38041 Grenoble cedex 09 - France
+date: '2019-08-15'
+date_received: '2017-08-11'
+journal:
+  firstpage: '44'
+  lastpage: '66'
+volume: 11
+issue: 1
+slug: RJ-2019-009
+doi: 10.32614/RJ-2019-009
+packages:
+  cran: []
+  bioc: []
+CTV:

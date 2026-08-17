@@ -1,0 +1,62 @@
+title: 'A Graphical EDA Tool with ggplot2: brinton'
+abstract: We present [*brinton*](https://CRAN.R-project.org/package=brinton) package, which we developed for graphical exploratory data analysis in R. Based on [*ggplot2*](https://CRAN.R-project.org/package=ggplot2), [*gridExtra*](https://CRAN.R-project.org/package=gridExtra) and [*rmarkdown*](https://CRAN.R-project.org/package=rmarkdown), *brinton* package introduces `wideplot()` graphics for exploring the structure of a dataset through a grid of variables and graphic types. It also introduces `longplot()` graphics, which present the entire catalog of available graphics for representing a particular variable using a grid of graphic types and variations on these types. Finally, it introduces the `plotup()` function, which complements the previous two functions in that it presents a particular graphic for a specific variable of a dataset. This set of functions is useful for understanding the structure of a data set, discovering unexpected properties in the data, evaluating different graphic representations of these properties, and selecting a particular graphic for display on the screen.
+author:
+- name: Pere Millán-Martínez
+  affiliation: Servei Català de Trànsit, Carrer Diputació
+  orcid: |
+    0000-0003-0879-9358
+  address:
+  - 355 08009 Barcelona, Spain
+  - |-
+    Research Group on Methodology, Methods, Models and Outcomes of Health
+    and Social Sciences ($M_{3}O$)
+  - Faculty of Health and Welfare Sciences
+  - Universitat de Vic - UCC
+  - Sagrada Família, 7 08500 Vic, Spain
+- name: Ramon Oller
+  affiliation: Universitat de Vic - UCC
+  orcid: |
+    0000-0002-4333-0021
+  address:
+  - Data Analysis and Modeling Research Group
+  - Departament d'Economia i Empresa
+  - Sagrada Família 7, 08500 Vic, Spain
+date: '2021-01-15'
+date_received: '2020-01-19'
+journal:
+  firstpage: '322'
+  lastpage: '342'
+volume: 12
+issue: 2
+slug: RJ-2021-018
+doi: 10.32614/RJ-2021-018
+packages:
+  cran:
+  - brinton
+  - ggplot2
+  - gridExtra
+  - rmarkdown
+  - GGobi
+  - Mondrian
+  - lattice
+  - survminer
+  - tabplot
+  - visdat
+  - inspectdf
+  - xray
+  - DataExplorer
+  - SmartEDA
+  - dataMaid
+  - summarytools
+  - ExPanDaR
+  - dlookr
+  - explore
+  - shinydashboard
+  - flexdashboard
+  - cowplot
+  - patchwork
+  - KMsurv
+  - Stat2Data
+  - Ecdat
+  bioc: []
+CTV:

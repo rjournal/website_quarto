@@ -1,0 +1,25 @@
+title: 'exvatools: Value Added in Exports and Other Input-Output Table Analysis Tools'
+abstract: |
+  This article introduces an R package, \CRANpkg{exvatools}, that simplifies the analysis of trade in value added with  international input-output tables. It provides a full set of commands for data extraction, matrix creation and manipulation, decomposition  of value added in gross exports (using alternative methodologies)  and a straightforward calculation of many value added indicators.  It can handle both raw data from well-known public input-output databases and custom data. It has a wide sector and geographical flexibility and can be easily expanded and adapted to specific economic analysis needs, facilitating a better understanding and a wider use of the available statistical resources to study globalization.
+author:
+- name: Enrique Feás
+  affiliation: Universidad de Alcalá and Elcano Royal Institute
+  address:
+  - Universidad de Alcalá, Pl. de San Diego, s/n, 28801 Alcalá de Henares, Madrid, Spain
+  - Elcano Royal Institute, Calle del Príncipe de Vergara, 51. 28006 Madrid, Spain
+  orcid: 0000-0002-9431-6051
+  email: enrique.feas@edu.uah.es, efeas@rielcano.org
+type: package
+preamble: |
+  \usepackage{amsmath} \usepackage{framed} \usepackage{mathtools} \usepackage{cancel} \usepackage{tikz} \usepackage{tikz-qtree} \usetikzlibrary{trees}
+always_allow_html: yes
+date_received: '2023-04-20'
+volume: 15
+issue: 4
+slug: RJ-2023-092
+doi: 10.32614/RJ-2023-092
+journal:
+  lastpage: 235
+  firstpage: 216
+draft: no
+

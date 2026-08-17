@@ -1,0 +1,56 @@
+title: 'orthoDr: Semiparametric Dimension Reduction via Orthogonality Constrained Optimization'
+abstract: '[*orthoDr*](https://CRAN.R-project.org/package=orthoDr) is a package in R that solves dimension reduction problems using orthogonality constrained optimization approach. The package serves as a unified framework for many regression and survival analysis dimension reduction models that utilize semiparametric estimating equations. The main computational machinery of *orthoDr* is a first-order algorithm developed by [@wen2013feasible] for optimization within the Stiefel manifold. We implement the algorithm through Rcpp and OpenMP for fast computation. In addition, we developed a general-purpose solver for such constrained problems with user-specified objective functions, which works as a drop-in version of optim(). The package also serves as a platform for future methodology developments along this line of work.'
+author:
+- name: Ruoqing Zhu
+  affiliation: Department of Statistics, University of Illinois at Urbana-Champaign
+  address:
+  - 725 S. Wright St., 116 D
+  - |
+    Champaign, IL 61820, USA
+- name: Jiyang Zhang
+  affiliation: Department of Statistics, University of Illinois at Urbana-Champaign
+  address:
+  - 725 S. Wright St.
+  - |
+    Champaign, IL 61820, USA
+- name: Ruilin Zhao
+  affiliation: School of Engineering and Applied Science, University of Pennsylvania
+  address:
+  - 220 South 33rd St.
+  - |
+    Philadelphia, PA 19104, USA
+- name: Peng Xu
+  affiliation: Departments of Statistics, Columbia University
+  address:
+  - 1255 Amsterdam Avenue
+  - |
+    New York, NY 10027, USA
+- name: Wenzhuo Zhou
+  affiliation: Department of Statistics, University of Illinois at Urbana-Champaign
+  address:
+  - 725 S. Wright St.
+  - |
+    Champaign, IL 61820, USA
+- name: Xin Zhang
+  affiliation: Department of Statistics, Florida State University
+  address:
+  - 214 OSB, 117 N. Woodward Ave.
+  - |
+    Tallahassee, FL 32306-4330, USA
+date: '2019-07-30'
+date_received: '2018-09-08'
+journal:
+  firstpage: '24'
+  lastpage: '37'
+volume: 11
+issue: 2
+slug: RJ-2019-006
+doi: 10.32614/RJ-2019-006
+packages:
+  cran:
+  - orthoDr
+  - Rcpp
+  - RcppArmadillo
+  - ManifoldOpthm
+  bioc: []
+CTV:

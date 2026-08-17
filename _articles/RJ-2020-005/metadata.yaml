@@ -1,0 +1,30 @@
+title: 'lspartition: Partitioning-Based Least Squares Regression'
+abstract: Nonparametric partitioning-based least squares regression is an important tool in empirical work. Common examples include regressions based on splines, wavelets, and piecewise polynomials. This article discusses the main methodological and numerical features of the R software package *lspartition*, which implements results for partitioning-based least squares (series) regression estimation and inference from @Cattaneo-Farrell_2013_JoE and @Cattaneo-Farrell-Feng_2020_AoS. These results cover the multivariate regression function as well as its derivatives. First, the package provides data-driven methods to choose the number of partition knots optimally, according to integrated mean squared error, yielding optimal point estimation. Second, robust bias correction is implemented to combine this point estimator with valid inference. Third, the package provides estimates and inference for the unknown function both pointwise and *uniformly* in the conditioning variables. In particular, valid confidence *bands* are provided. Finally, an extension to two-sample analysis is developed, which can be used in treatment-control comparisons and related problems.
+author:
+- name: Matias D. Cattaneo
+  affiliation: |-
+    Department of Operation Research and Financial Engineering, Princeton
+    University
+  address: |
+    Princeton, NJ 08544
+- name: Max H. Farrell
+  affiliation: Booth School of Business, University of Chicago
+  address: |
+    Chicago, IL 60637
+- name: Yingjie Feng
+  affiliation: Department of Politics, Princeton University
+  address: |
+    Princeton, NJ 08544
+date: '2020-03-31'
+date_received: '2019-06-06'
+journal:
+  firstpage: '172'
+  lastpage: '187'
+volume: 12
+issue: 1
+slug: RJ-2020-005
+doi: 10.32614/RJ-2020-005
+packages:
+  cran: ggplot2
+  bioc: []
+CTV:

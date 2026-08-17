@@ -1,0 +1,16 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2010-2 issue.
+author: Peter Dalgaard
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 3
+  lastpage: 3
+volume: 2
+issue: 2
+slug: RJ-2010-2-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

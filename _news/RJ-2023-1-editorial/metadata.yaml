@@ -1,0 +1,16 @@
+title: Editorial
+draft: no
+author:
+- name: Simon Urbanek
+  affiliation: University of Auckland
+  url: https://journal.r-project.org
+  email: r-journal@r-project.org
+date: '2023-03-01'
+creative_commons: CC BY
+volume: 15
+issue: 1
+slug: RJ-2023-1-editorial
+journal:
+  lastpage: 5
+  firstpage: 4
+

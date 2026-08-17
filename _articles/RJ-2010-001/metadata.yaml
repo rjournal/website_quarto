@@ -1,0 +1,33 @@
+title: 'IsoGene: An R Package for Analyzing Dose-response Studies in Microarray Experiments'
+abstract: '*IsoGene* is an R package for the analysis of dose-response microarray experiments to identify gene or subsets of genes with a monotone relationship between the gene expression and the doses. Several testing procedures (i.e., the likelihood ratio test, Williams, Marcus, the $M$, and Modified $M$), that take into account the order restriction of the means with respect to the increasing doses are implemented in the package. The inference is based on resampling methods, both permutations and the Significance Analysis of Microarrays (SAM).'
+author:
+- name: Setia Pramana, Dan Lin, Philippe Haldermans and Ziv Shkedy
+  affiliation: |-
+    Interuniversity Institute for Biostatistics and Statistical
+    Bioinformatics, CenStat, Universiteit Hasselt,
+  address:
+  - Agoralaan 1, B3590 Diepenbeek, Belgium
+  - '[setia.pramana@uhasselt.be](setia.pramana@uhasselt.be){.uri}'
+  - '[dan.lin@uhasselt.be](dan.lin@uhasselt.be){.uri}'
+  - '[philippe.haldermans@uhasselt.be](philippe.haldermans@uhasselt.be){.uri}'
+  - |
+    [ziv.shkedy@uhasselt.be](ziv.shkedy@uhasselt.be){.uri}
+- name: Tobias Verbeke
+  affiliation: OpenAnalytics BVBA
+  address:
+  - Kortestraat 30A, 2220 Heist-op-den-Berg, Belgium
+  - |
+    [tobias.verbeke@openanalytics.be](tobias.verbeke@openanalytics.be){.uri}
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: '5'
+  lastpage: '12'
+volume: 2
+issue: 1
+slug: RJ-2010-001
+doi: 10.32614/RJ-2010-001
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,45 @@
+title: 'SUrvival Control Chart EStimation Software in R: the success Package'
+abstract: |
+  Monitoring the quality of statistical processes has been of great importance, mostly in industrial applications. Control charts are widely used for this purpose, but often lack the ability to monitor survival outcomes. Recently, inspecting survival outcomes has become of interest, especially in medical settings where outcomes often depend on risk factors of patients. For this reason many new survival control charts have been devised and existing ones have been extended to incorporate survival outcomes. The package `success` allows users to construct risk-adjusted control charts for survival data. Functions to determine control chart parameters are included, which can be used even without expert knowledge on the subject of control charts. The package allows to create static as well as interactive charts, which are built using `ggplot2` [@ggplot2R] and `plotly` [@plotlyR].
+draft: no
+author:
+- name: Daniel Gomon
+  affiliation: Leiden University
+  address:
+  - Mathematical Institute
+  - Niels Bohrweg 1
+  - 2333CA Leiden, the Netherlands
+  url: https://github.com/d-gomon
+  orcid: 0000-0001-9011-3743
+  email: d.gomon@math.leidenuniv.nl
+- name: Marta Fiocco
+  orcid: 0000-0001-5588-0277
+  affiliation: Leiden University
+  address:
+  - Mathematical Institute
+  - Niels Bohrweg 1
+  - 2333CA Leiden, the Netherlands
+- name: Hein Putter
+  orcid: 0000-0001-5395-1422
+  affiliation: Leiden University
+  address:
+  - Mathematical Institute
+  - Niels Bohrweg 1
+  - 2333CA Leiden, the Netherlands
+- name: Mirko Signorelli
+  orcid: 0000-0002-8102-3356
+  affiliation: Leiden University
+  address:
+  - Mathematical Institute
+  - Niels Bohrweg 1
+  - 2333CA Leiden, the Netherlands
+type: package
+date_received: '2023-07-02'
+volume: 15
+issue: 4
+slug: RJ-2023-095
+doi: 10.32614/RJ-2023-095
+journal:
+  lastpage: 291
+  firstpage: 270
+

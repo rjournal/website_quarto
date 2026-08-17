@@ -1,0 +1,28 @@
+title: Changes on CRAN
+abstract: Updates from CRAN for 2024-01-01 to 2024-06-30
+date: '2024-03-01'
+draft: no
+author:
+- name: Kurt Hornik
+  affiliation: WU Wirtschaftsuniversität Wien
+  address: Austria
+  orcid: 0000-0003-4198-9911
+  email: Kurt.Hornik@R-project.org
+- name: Uwe Ligges
+  affiliation: TU Dortmund
+  address: Germany
+  orcid: 0000-0001-5875-6167
+  email: Uwe.Ligges@R-project.org
+- name: Achim Zeileis
+  affiliation: Universität Innsbruck
+  address: Austria
+  orcid: 0000-0003-0918-3766
+  email: Achim.Zeileis@R-project.org
+preamble: \usepackage{float, longtable}
+volume: 16
+issue: 1
+slug: RJ-2024-1-cran
+journal:
+  lastpage: 213
+  firstpage: 212
+

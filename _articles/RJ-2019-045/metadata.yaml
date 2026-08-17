@@ -1,0 +1,55 @@
+title: 'biclustermd: An R Package for Biclustering with Missing Values'
+abstract: Biclustering is a statistical learning technique that attempts to find homogeneous partitions of rows and columns of a data matrix. For example, movie ratings might be biclustered to group both raters and movies. *biclust* is a current R package allowing users to implement a variety of biclustering algorithms. However, its algorithms do not allow the data matrix to have missing values. We provide a new R package, *biclustermd*, which allows users to perform biclustering on numeric data even in the presence of missing values.
+author:
+- name: John Reisner
+  affiliation: Department of Statistics, Iowa State University
+  address: |
+    United States
+- name: Hieu Pham
+  affiliation: |-
+    Department of Industrial and Manufacturing Systems Engineering, Iowa
+    State University
+  address: |
+    United States
+- name: Sigurdur Olafsson
+  affiliation: |-
+    Department of Industrial and Manufacturing Systems Engineering, Iowa
+    State University
+  address: |
+    United States
+- name: Stephen Vardeman
+  affiliation: Department of Statistics, Iowa State University
+  address:
+  - Department of Industrial and Manufacturing Systems Engineering
+  - |
+    United States
+- name: Jing Li
+  affiliation: Boehringer Ingelheim Animal Health
+  address:
+  - St. Joseph, Missouri
+  - |
+    United States
+date: '2019-12-27'
+date_received: '2018-10-30'
+journal:
+  firstpage: '69'
+  lastpage: '84'
+volume: 11
+issue: 2
+slug: RJ-2019-045
+doi: 10.32614/RJ-2019-045
+packages:
+  cran:
+  - biclust
+  - superbiclust
+  - s4vd
+  - BiBitR
+  - biclustermd
+  - clues
+  - nycflights13
+  - tidyverse
+  - ggplot2
+  bioc:
+  - iBBiG
+  - QUBIC
+CTV:

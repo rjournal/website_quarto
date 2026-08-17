@@ -1,0 +1,18 @@
+title: A Beginner's Guide to R
+abstract: 'Book info :  Alain F. , Elena N. , and Erik H.W.G. . New York, NY: Springer, 2009. ISBN 978-0-387-93836-3. xv + 218 pp. \$59.95 (P).'
+author:
+- name: Laura M. Schultz
+  affiliation: Rowan University
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 59
+  lastpage: 59
+volume: 2
+issue: 1
+slug: RJ-2010-1-book-review
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

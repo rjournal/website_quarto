@@ -1,0 +1,51 @@
+title: Generalized Hermite Distribution Modelling with the R Package hermite
+abstract: The Generalized Hermite distribution (and the Hermite distribution as a particular case) is often used for fitting count data in the presence of overdispersion or multimodality. Despite this, to our knowledge, no standard software packages have implemented specific functions to compute basic probabilities and make simple statistical inference based on these distributions. We present here a set of computational tools that allows the user to face these difficulties by modelling with the Generalized Hermite distribution using the R package *hermite*. The package can also be used to generate random deviates from a Generalized Hermite distribution and to use basic functions to compute probabilities (density, cumulative density and quantile functions are available), to estimate parameters using the maximum likelihood method and to perform the likelihood ratio test for Poisson assumption against a Generalized Hermite alternative. In order to improve the density and quantile functions performance when the parameters are large, Edgeworth and Cornish-Fisher expansions have been used. Hermite regression is also a useful tool for modeling inflated count data, so its inclusion to a commonly used software like R will make this tool available to a wide range of potential users. Some examples of usage in several fields of application are also given.
+author:
+- name: David Moriña
+  affiliation: |-
+    Centre for Research in Environmental Epidemiology (CREAL), Barcelona,
+    Spain
+  address:
+  - Universitat Pompeu Fabra (UPF), Barcelona, Spain
+  - CIBER Epidemiología y Salud Pública (CIBERESP), Barcelona, Spain
+  - |-
+    Grups de Recerca d'Àfrica i Amèrica Llatines (GRAAL), Unitat de
+    Bioestadística, Facultat de Medicina, Universitat Autònoma de
+    Barcelona
+  - Barcelona 08003
+  - Spain
+- name: Manuel Higueras
+  affiliation: |-
+    Centre for Radiation, Chemical and Environmental Hazards, Public
+    Health England (PHE)
+  address:
+  - Departament de Matemàtiques, Universitat Autònoma de Barcelona
+  - Chilton, Oxfordshire OX11 0RQ
+  - United Kingdom
+- name: Pedro Puig
+  affiliation: Departament de Matemàtiques, Universitat Autònoma de Barcelona
+  address:
+  - Bellaterra, Barcelona 08193
+  - Spain
+- name: María Oliveira
+  affiliation: |-
+    Departamento de Estadística e Investigación Operativa, Universidad de
+    Santiago de Compostela
+  address:
+  - Santiago de Compostela 15782
+  - Spain
+date: '2015-12-10'
+date_received: '2015-04-27'
+journal:
+  firstpage: '263'
+  lastpage: '274'
+volume: 7
+issue: 2
+slug: RJ-2015-035
+doi: 10.32614/RJ-2015-035
+packages:
+  cran:
+  - maxLik
+  - radir
+  bioc: []
+CTV:

@@ -1,0 +1,43 @@
+title: Escape from Boxland
+abstract: A library of common geometric shapes can be used to train our brains for understanding data structure in high-dimensional Euclidean space. This article describes the methods for producing cubes, spheres, simplexes, and tori in multiple dimensions. It also describes new ways to define and generate high-dimensional tori. The algorithms are described, critical code chunks are given, and a large collection of generated data are provided. These are available in the R package *geozoo*, and selected movies and images, are available on the GeoZoo web site (<http://schloerke.github.io/geozoo/>).
+author:
+- name: Barret Schloerke
+  affiliation: Department of Statistics, Purdue University
+  address:
+  - 250 N. University Street
+  - West Lafayette, IN 47907
+  - |
+    USA
+- name: Hadley Wickham
+  affiliation: |
+    RStudio Inc
+- name: Dianne Cook
+  affiliation: Department of Econometrics and Business Statistics, Monash University
+  address:
+  - Wellington Road
+  - Clayton, Victoria 3800
+  - |
+    Australia
+- name: Heike Hofmann
+  affiliation: Department of Statistics, Iowa State University
+  address:
+  - Snedecor Hall
+  - Ames, Iowa 50011
+  - |
+    USA
+date: '2016-11-21'
+date_received: '2016-03-10'
+journal:
+  firstpage: '243'
+  lastpage: '257'
+volume: 8
+issue: 2
+slug: RJ-2016-044
+doi: 10.32614/RJ-2016-044
+packages:
+  cran:
+  - geozoo
+  - tourr
+  - bitops
+  bioc: []
+CTV:

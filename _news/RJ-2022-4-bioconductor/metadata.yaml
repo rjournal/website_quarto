@@ -1,0 +1,16 @@
+title: Bioconductor Notes
+draft: no
+author:
+- name: Maria Doyle
+  affiliation: University of Limerick,Bioconductor Community Manager
+- name: Bioconductor Core Developer Team
+  affiliation: Dana-Farber Cancer Institute, Roswell Park Comprehensive Cancer Center, City University of New York, Fred Hutchinson Cancer Research Center, Mass General Brigham
+type: news
+date: '2022-12-01'
+volume: 14
+issue: 4
+slug: RJ-2022-4-bioconductor
+journal:
+  lastpage: 355
+  firstpage: 352
+

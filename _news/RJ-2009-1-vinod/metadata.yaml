@@ -1,0 +1,20 @@
+title: 'Forthcoming Events: Conference on Quantitative Social Science Research Using R'
+abstract: 'The ''Forthcoming Events: Conference on Quantitative Social Science Research Using R'' article from the 2009-1 issue.'
+author:
+- name: H. D. Vinod
+  affiliation: Fordham University
+  address: |
+    Bronx, NY 10458
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 66
+  lastpage: 66
+volume: 1
+issue: 1
+slug: RJ-2009-1-vinod
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

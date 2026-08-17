@@ -1,0 +1,24 @@
+title: 'Conference Review: Third Meeting of Polish R Users, The Influenza Challenge '
+abstract: 'The ''Conference Review: Third Meeting of Polish R Users, The Influenza Challenge '' article from the 2011-1 issue.'
+author:
+- name: Przemyslaw Biecek
+  affiliation: Institute of Applied Mathematics
+  address:
+  - Faculty of Mathematics, Informatics and Mechanics
+  - University of Warsaw
+  - Banacha2, 02-097 Warszawa,
+  - |
+    Poland
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 76
+  lastpage: 77
+volume: 3
+issue: 1
+slug: RJ-2011-1-polish-r-conf
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

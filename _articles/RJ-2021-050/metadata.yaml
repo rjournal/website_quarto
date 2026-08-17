@@ -1,0 +1,28 @@
+title: 'Conversations in Time: Interactive Visualization to Explore Structured Temporal Data'
+author:
+- name: Earo Wang
+  affiliation: The University of Auckland
+  address: Department of Statistics
+  email: earo.wang@auckland.ac.nz
+  orcid: 0000-0001-6448-5260
+- name: Dianne Cook
+  affiliation: Monash University
+  address: Department of Econometrics and Business Statistics
+  email: dicook@monash.edu
+  orcid: 0000-0002-3813-7155
+date: '2021-06-08'
+abstract: |
+  Temporal data often has a hierarchical structure, defined by categorical variables describing different levels, such as political regions or sales products. The nesting of categorical variables produces a hierarchical structure. The \CRANpkg{tsibbletalk} package is developed to allow a user to interactively explore temporal data, relative to the nested or crossed structures. It can help to discover differences between category levels, and uncover interesting periodic or aperiodic slices. The package implements a shared `tsibble` object that allows for linked brushing between coordinated views, and a shiny module that aids in wrapping timelines for seasonal patterns. The tools are demonstrated using two data examples: domestic tourism in Australia and pedestrian traffic in Melbourne.
+draft: no
+type: package
+preamble: |
+  \usepackage{subfig}
+creative_commons: CC BY
+date_received: '2020-10-30'
+volume: 13
+issue: 1
+slug: RJ-2021-050
+doi: 10.32614/RJ-2021-050
+journal:
+  lastpage: 469
+  firstpage: 461

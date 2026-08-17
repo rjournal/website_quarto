@@ -1,0 +1,46 @@
+title: dimRed and coRanking---Unifying Dimensionality Reduction in R
+abstract: '"Dimensionality reduction" (DR) is a widely used approach to find low dimensional and interpretable representations of data that are natively embedded in high-dimensional spaces. DR can be realized by a plethora of methods with different properties, objectives, and, hence, (dis)advantages. The resulting low-dimensional data embeddings are often difficult to compare with objective criteria. Here, we introduce the [***dimRed***](https://CRAN.R-project.org/package=dimRed) and [***coRanking***](https://CRAN.R-project.org/package=coRanking) packages for the R language. These open source software packages enable users to easily access multiple classical and advanced DR methods using a common interface. The packages also provide quality indicators for the embeddings and easy visualization of high dimensional data. The ***coRanking*** package provides the functionality for assessing DR methods in the co-ranking matrix framework. In tandem, these packages allow for uncovering complex structures high dimensional data. Currently 15 DR methods are available in the package, some of which were not previously available to R users. Here, we outline the ***dimRed*** and ***coRanking*** packages and make the implemented methods understandable to the interested reader.'
+author:
+- name: Guido Kraemer
+  affiliation: Max Planck Institute for Biogeochemisty
+  address:
+  - 10, 07745 Jena
+  - |
+    Jena
+- name: Markus Reichstein
+  affiliation: Max Planck Institute for Biogeochemisty
+  address:
+  - 10, 07745 Jena
+  - |
+    Jena
+- name: Miguel D. Mahecha
+  affiliation: Max Planck Institute for Biogeochemisty
+  address:
+  - 10, 07745 Jena
+  - |
+    Jena
+date: '2018-06-29'
+date_received: '2017-08-14'
+journal:
+  firstpage: '342'
+  lastpage: '358'
+volume: 10
+issue: 1
+slug: RJ-2018-039
+doi: 10.32614/RJ-2018-039
+packages:
+  cran:
+  - dimRed
+  - coRanking
+  - kernlab
+  - vegan
+  - RANN
+  - igraph
+  - lle
+  - diffusionMap
+  - MASS
+  - Rtsne
+  - fastICA
+  - DRR
+  bioc: pcaMethods
+CTV:

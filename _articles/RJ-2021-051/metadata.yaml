@@ -1,0 +1,34 @@
+title: Automating Reproducible, Collaborative Clinical Trial Document Generation with the listdown Package
+abstract: The conveyance of clinical trial explorations and analysis results from a statistician to a clinical investigator is a critical component of the drug development and clinical research cycle. Automating the process of generating documents for data descriptions, summaries, exploration, and analysis allows the statistician to provide a more comprehensive view of the information captured by a clinical trial, and efficient generation of these documents allows the statistican to focus more on the conceptual development of a trial or trial analysis and less on the implementation of the summaries and results on which decisions are made. This paper explores the use of the *listdown* package for automating reproducible documents in clinical trials that facilitate the collaboration between statisticians and clinicians as well as defining an analysis pipeline for document generation.
+author:
+- name: Michael Kane
+  affiliation: Yale University
+  address:
+  - 60 College Street
+  - |
+    New Haven, CT 06510, USA
+- name: Xun Jiang
+  affiliation: Amgen Inc.
+  address:
+  - One Amgen Center Drive
+  - |
+    Thousand Oaks, CA 91320-1799, USA
+- name: Simon Urbanek
+  affiliation: The University of Aukland
+  address:
+  - 38 Princes Street
+  - |
+    Auckland Central, Aukland 1010, NZ
+date: '2021-06-08'
+date_received: '2020-11-02'
+journal:
+  firstpage: '556'
+  lastpage: '562'
+volume: 13
+issue: 1
+slug: RJ-2021-051
+doi: 10.32614/RJ-2021-051
+packages:
+  cran: []
+  bioc: []
+CTV:

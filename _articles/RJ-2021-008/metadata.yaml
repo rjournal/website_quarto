@@ -1,0 +1,38 @@
+title: Testing the Equality of Normal Distributed and Independent Groups' Means Under Unequal Variances by doex Package
+abstract: In this paper, we present the [*doex*](https://CRAN.R-project.org/package=doex) package contains the tests for equality of normal distributed and independent group means under unequal variances such as Cochran F, Welch-Aspin, Welch, Box, Scott-Smith, Brown-Forsythe, Johansen F, Approximate F, Alexander-Govern, Generalized F, Modified Brown-Forsythe, Permutation F, Adjusted Welch, B2, Parametric Bootstrap, Fiducial Approach, and Alvandi Generalized F-test. Most of these tests are not available in any package. Thus, *doex* is easy to use for researchers in multidisciplinary studies. In this study, an extensive Monte-Carlo simulation study is conducted to investigate the performance of the the tests for equality of normal distributed group means under unequal variances
+author:
+- name: Mustafa Cavus
+  affiliation: Eskisehir Technical University
+  address:
+  - Department of Statistics
+  - |
+    Eskisehir, Turkey
+- name: Berna Yazıcı
+  affiliation: Eskisehir Technical University
+  address:
+  - Department of Statistics
+  - |
+    Eskisehir, Turkey
+date: '2021-01-14'
+date_received: '2019-07-31'
+journal:
+  firstpage: '189'
+  lastpage: '208'
+volume: 12
+issue: 2
+slug: RJ-2021-008
+doi: 10.32614/RJ-2021-008
+packages:
+  cran:
+  - doex
+  - asbio
+  - coin
+  - lawstat
+  - onewaytests
+  - welchADF
+  - WRS2
+  - car
+  - rstatix
+  - inferr
+  bioc: []
+CTV:

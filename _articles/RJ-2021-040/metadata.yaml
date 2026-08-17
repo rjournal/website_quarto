@@ -1,0 +1,74 @@
+title: 'ROBustness In Network (robin): an R Package for Comparison and Validation of Communities '
+abstract: In network analysis, many community detection algorithms have been developed. However, their implementation leaves unaddressed the question of the statistical validation of the results. Here, we present [*robin*](https://CRAN.R-project.org/package=robin) (ROBustness In Network), an R package to assess the robustness of the community structure of a network found by one or more methods to give indications about their reliability. The procedure initially detects if the community structure found by a set of algorithms is statistically significant and then compares two selected detection algorithms on the same graph to choose the one that better fits the network of interest. We demonstrate the use of our package on the American College Football benchmark dataset.
+author:
+- name: Valeria Policastro
+  affiliation: Universitá degli Studi della Campania "Luigi Vanvitelli"
+  address:
+  - package author and creator
+  - |-
+    Dipartimento Scienze e Tecnologie Ambientali, Biologiche e
+    Farmaceutiche
+  - Via Vivaldi, 43 81100 Caserta, Italia
+  - and
+  - Istituto per le Applicazioni del Calcolo "M. Picone" - sede di Napoli
+  - Consiglio Nazionale delle Ricerche
+  - via Pietro Castellino 111
+  - |
+    80131 Napoli, Italy
+- name: Dario Righelli
+  affiliation: Universitá di Padova
+  address:
+  - Dipartimento di Statistica
+  - Via Cesare Battisti, 241 35121 Padova, Italia
+  - and
+  - Istituto per le Applicazioni del Calcolo "M. Picone" - sede di Napoli
+  - Consiglio Nazionale delle Ricerche
+  - via Pietro Castellino 111
+  - |
+    80131 Napoli, Italy
+- name: Annamaria Carissimo
+  affiliation: Istituto per le Applicazioni del Calcolo "M. Picone" - sede di Napoli
+  address:
+  - Consiglio Nazionale delle Ricerche
+  - via Pietro Castellino 111
+  - |
+    80131 Napoli, Italy
+- name: Luisa Cutillo
+  affiliation: University of Leeds
+  address:
+  - School of Mathematics
+  - Leeds
+  - LS2 9JT, United Kingdom
+  - and
+  - Dipartimento di Studi Aziendali e Quantitativi
+  - Universitá degli Studi di Napoli "Parthenope"
+  - Via Generale Parisi, 13
+  - |
+    80132, Napoli, Italia
+- name: Italia De Feis
+  affiliation: Istituto per le Applicazioni del Calcolo "M. Picone" - sede di Napoli
+  address:
+  - Consiglio Nazionale delle Ricerche
+  - via Pietro Castellino 111
+  - |
+    80131 Napoli, Italy
+date: '2021-06-07'
+date_received: '2020-06-03'
+journal:
+  firstpage: '276'
+  lastpage: '293'
+volume: 13
+issue: 1
+slug: RJ-2021-040
+doi: 10.32614/RJ-2021-040
+packages:
+  cran:
+  - robin
+  - igraph
+  - networkD3
+  - ggplot2
+  - gridExtra
+  - fdatest
+  - DescTools
+  bioc: gprege
+CTV:

@@ -1,0 +1,38 @@
+title: 'Sfislands: An R Package for Accommodating Islands and Disjoint Zones in Areal Spatial Modelling'
+date: '2025-09-24'
+abstract: |
+  Fitting areal models which use a spatial weights matrix to represent relationships between geographical units can be a cumbersome task, particularly when these units are not well-behaved. The two chief aims of sfislands are to simplify the process of creating an appropriate neighbourhood matrix, and to quickly visualise the predictions of subsequent models. The package uses visual aids in the form of easily-generated maps to help this process. This paper demonstrates how sfislands could be useful to researchers. It begins by describing the package's functions in the context of a proposed workflow. It then presents two worked examples showing a selection of potential use-cases. These range from earthquakes in Indonesia, to river crossings in London. We aim to show how the sfislands package streamlines much of the human workflow involved in creating and examining such models.
+draft: no
+author:
+- name: Kevin Horan
+  affiliation: Hamilton Institute, Maynooth University
+  address:
+  - Maynooth
+  - Co. Kildare, Ireland
+  url: https://github.com/horankev
+  orcid: 0009-0003-9378-0084
+  email: kevin.horan.2021@mumail.ie
+- name: Katarina Domijan
+  affiliation: Department of Mathematics and Statistics, Maynooth University
+  address:
+  - Maynooth
+  - Co. Kildare, Ireland
+  email: katarina.domijan@mu.ie
+  orcid: 0000-0002-4268-2236
+- name: Chris Brunsdon
+  affiliation: National Centre for Geocomputation, Maynooth University
+  address:
+  - Maynooth
+  - Co. Kildare, Ireland
+  email: Christopher.Brunsdon@mu.ie
+  orcid: 0000-0003-4254-1780
+type: package
+date_received: '2024-04-05'
+volume: 17
+issue: 2
+slug: RJ-2025-015
+doi: 10.32614/RJ-2025-015
+journal:
+  lastpage: 108
+  firstpage: 84
+

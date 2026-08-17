@@ -1,0 +1,21 @@
+title: 'Conference Review: DSC 2009'
+abstract: 'The ''Conference Review: DSC 2009'' article from the 2009-2 issue.'
+author:
+- name: Peter Dalgaard
+  affiliation: Department of Biostatistics
+  address:
+  - Øster Farimagsgade 5, Entr. B
+  - DK-1014 Copenhagen K
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: 66
+  lastpage: 66
+volume: 1
+issue: 2
+slug: RJ-2009-2-DSC
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

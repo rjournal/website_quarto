@@ -1,0 +1,39 @@
+title: Wide-to-tall Data Reshaping Using Regular Expressions and the nc Package
+abstract: Regular expressions are powerful tools for extracting tables from non-tabular text data. Capturing regular expressions that describe the information to extract from column names can be especially useful when reshaping a data table from wide (few rows with many regularly named columns) to tall (fewer columns with more rows). We present the R package *nc* (short for named capture), which provides functions for wide-to-tall data reshaping using regular expressions. We describe the main new ideas of *nc*, and provide detailed comparisons with related R packages (*stats*, *utils*, *data.table*, *tidyr*, *tidyfast*, *tidyfst*, *reshape2*, *cdata*).
+author:
+- name: Toby Dylan Hocking
+  affiliation: |-
+    School of Informatics, Computing, and Cyber Systems, Northern Arizona
+    University
+  orcid: |
+    0000-0002-3146-0865
+  address:
+  - Flagstaff, Arizona
+  - USA
+date: '2021-06-07'
+date_received: '2020-04-30'
+journal:
+  firstpage: '98'
+  lastpage: '111'
+volume: 13
+issue: 1
+slug: RJ-2021-029
+doi: 10.32614/RJ-2021-029
+packages:
+  cran:
+  - ggplot2
+  - nc
+  - namedCapture
+  - rematch2
+  - rex
+  - stringr
+  - stringi
+  - tidyr
+  - re2r
+  - reshape2
+  - tidyfast
+  - tidyfst
+  - cdata
+  - microbenchmark
+  bioc: []
+CTV:

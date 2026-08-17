@@ -1,0 +1,28 @@
+title: Bayesian Estimation of the GARCH(1,1) Model with Student-t Innovations
+abstract: This note presents the R package [*bayesGARCH*](https://CRAN.R-project.org/package=bayesGARCH) which provides functions for the Bayesian estimation of the parsimonious and effective GARCH(1,1) model with Student-$t$ innovations. The estimation procedure is fully automatic and thus avoids the tedious task of tuning an MCMC sampling algorithm. The usage of the package is shown in an empirical application to exchange rate log-returns.
+author:
+- name: David Ardia
+  affiliation: |
+    University of Fribourg, Switzerland
+- name: Lennart F. Hoogerheide
+  affiliation: |
+    Erasmus University Rotterdam, The Netherlands
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 41
+  lastpage: 47
+volume: 2
+issue: 2
+slug: RJ-2010-014
+doi: 10.32614/RJ-2010-014
+packages:
+  cran:
+  - bayesGARCH
+  - fGarch
+  - rgarch
+  - tseries
+  - coda
+  - foreach
+  bioc: []
+CTV:

@@ -1,0 +1,25 @@
+title: Changes in R 4.0--4.1
+abstract: We give a selection of the most important changes in R 4.1.0. Some statistics on source code commits and bug tracking activities are also provided.
+author:
+- name: Tomas Kalibera
+  affiliation: |
+    Czech Technical University, Czech Republic
+- name: Sebastian Meyer
+  affiliation: |
+    Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
+- name: Kurt Hornik
+  affiliation: |
+    WU Wirtschaftsuniversität Wien, Austria
+date: '2021-06-01'
+date_received:
+journal:
+  firstpage: '638'
+  lastpage: '640'
+volume: 13
+issue: 1
+slug: RJ-2021-1-rcore
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

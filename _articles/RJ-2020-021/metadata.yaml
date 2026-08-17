@@ -1,0 +1,38 @@
+title: 'tsmp: An R Package for Time Series with Matrix Profile'
+abstract: This article describes [*tsmp*](https://CRAN.R-project.org/package=tsmp), an R package that implements the MP concept for TS. The [*tsmp*](https://CRAN.R-project.org/package=tsmp) package is a toolkit that allows all-pairs similarity joins, motif, discords and chains discovery, semantic segmentation, etc. Here we describe how the [*tsmp*](https://CRAN.R-project.org/package=tsmp) package may be used by showing some of the use-cases from the original articles and evaluate the algorithm speed in the R environment. This package can be downloaded at <https://CRAN.R-project.org/package=tsmp>.
+author:
+- name: Francisco Bischoff
+  affiliation: CINTESIS - Center for Health Technology and Services Research
+  orcid: |
+    0000-0002-5301-8672
+  address:
+  - |-
+    MEDCIDS - Community Medicine, Information and Health Decision Sciences
+    Department
+  - Faculty of Medicine of the University of Porto
+  - Rua Dr. Placido Costa, s/n
+  - 4200-450 Porto, Portugal
+- name: Pedro Pereira Rodrigues
+  affiliation: CINTESIS - Center for Health Technology and Services Research
+  orcid: |
+    0000-0001-7867-6682
+  address:
+  - |-
+    MEDCIDS - Community Medicine, Information and Health Decision Sciences
+    Department
+  - Faculty of Medicine of the University of Porto
+  - Rua Dr. Placido Costa, s/n
+  - 4200-450 Porto, Portugal
+date: '2020-09-10'
+date_received: '2019-01-04'
+journal:
+  firstpage: '76'
+  lastpage: '86'
+volume: 12
+issue: 1
+slug: RJ-2020-021
+doi: 10.32614/RJ-2020-021
+packages:
+  cran: tsmp
+  bioc: []
+CTV:

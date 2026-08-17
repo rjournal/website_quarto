@@ -1,0 +1,23 @@
+title: 'stringr: modern, consistent string processing'
+abstract: String processing is not glamorous, but it is frequently used in data cleaning and preparation. The existing string functions in R are powerful, but not friendly. To remedy this, the [*stringr*](https://CRAN.R-project.org/package=stringr) package provides string functions that are simpler and more consistent, and also fixes some functionality that R is missing compared to other programming languages.
+author:
+- name: Hadley Wickham
+  affiliation: Department of Statistics, Rice University
+  address:
+  - 6100 Main St MS#138
+  - Houston TX 77005-1827
+  - |
+    USA
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: '38'
+  lastpage: '40'
+volume: 2
+issue: 2
+slug: RJ-2010-012
+doi: 10.32614/RJ-2010-012
+packages:
+  cran: stringr
+  bioc: []
+CTV:

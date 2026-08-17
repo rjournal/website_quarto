@@ -1,0 +1,40 @@
+title: Probabilistic Weather Forecasting in R
+abstract: This article describes two R packages for probabilistic weather forecasting, [*ensembleBMA*](https://CRAN.R-project.org/package=ensembleBMA), which offers ensemble postprocessing via Bayesian model averaging (BMA), and [*ProbForecastGOP*](https://CRAN.R-project.org/package=ProbForecastGOP), which implements the geostatistical output perturbation (GOP) method. BMA forecasting models use mixture distributions, in which each component corresponds to an ensemble member, and the form of the component distribution depends on the weather parameter (temperature, quantitative precipitation or wind speed). The model parameters are estimated from training data. The GOP technique uses geostatistical methods to produce probabilistic forecasts of entire weather fields for temperature or pressure, based on a single numerical forecast on a spatial grid. Both packages include functions for evaluating predictive performance, in addition to model fitting and forecasting.
+author:
+- name: Chris Fraley, Adrian Raftery
+  affiliation: Department of Statistics, University of Washington
+  address: |
+    Seattle, WA 98195-4322 USA
+- name: Tilmann Gneiting
+  affiliation: Institute of Applied Mathematics, Heidelberg University
+  address: |
+    69120 Heidelberg, Germany
+- name: McLean Sloughter
+  affiliation: Department of Mathematics, Seattle University
+  address: |
+    Seattle, WA 98122 USA
+- name: Veronica Berrocal
+  affiliation: School of Public Health, University of Michigan
+  address:
+  - 1415 Washington Heights
+  - |
+    Ann Arbor, MI 48109-2029 USA
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 55
+  lastpage: 63
+volume: 3
+issue: 1
+slug: RJ-2011-009
+doi: 10.32614/RJ-2011-009
+packages:
+  cran:
+  - ensembleBMA
+  - ProbForecastGOP
+  - chron
+  - fields
+  - maps
+  - RandomFields
+  bioc: []
+CTV:

@@ -1,0 +1,57 @@
+title: 'bcmixed: A Package for Median Inference on Longitudinal Data with the Box--Cox Transformation'
+abstract: 'This article illustrates the use of the [*bcmixed*](https://CRAN.R-project.org/package=bcmixed) package and focuses on the two main functions: `bcmarg` and `bcmmrm`. The `bcmarg` function provides inference results for a marginal model of a mixed effect model using the Box--Cox transformation. The `bcmmrm` function provides model median inferences based on the mixed effect models for repeated measures analysis using the Box--Cox transformation for longitudinal randomized clinical trials. Using the `bcmmrm` function, analysis results with high power and high interpretability for treatment effects can be obtained for longitudinal randomized clinical trials with skewed outcomes. Further, the *bcmixed* package provides summarizing and visualization tools, which would be helpful to write clinical trial reports.'
+author:
+- name: Kazushi Maruo
+  affiliation: |-
+    University of Tsukuba Department of Biostatistisc, Faculty of
+    Medicine
+  orcid: |
+    0000-0002-3093-0386
+  address:
+  - 1-1-1, Tennodai, Tuskuba, Ibaraki,
+  - Japan
+- name: Ryota Ishii
+  affiliation: Keio University Hospital
+  address:
+  - Biostatistics Unit, Clinical and Translational Research Center,
+  - |-
+    Present affiliation: Department of Biostatistisc, Faculty of Medicine,
+    University of Tsukuba
+  - 1-1-1, Tennodai, Tuskuba, Ibaraki,
+  - |
+    Japan
+- name: Yusuke Yamaguchi
+  affiliation: Data Science, Development, Astellas Pharma Inc.
+  address:
+  - 2-5-1, Nihonbashi-Honcho, Chuo-Ku, Tokyo,
+  - |
+    Japan
+- name: Masahiko Gosho
+  affiliation: University of Tsukuba
+  address:
+  - Department of Biostatistisc, Faculty of Medicine,
+  - 1-1-1, Tennodai, Tuskuba, Ibaraki,
+  - |
+    Japan
+date: '2021-09-20'
+date_received: '2020-07-14'
+journal:
+  firstpage: '253'
+  lastpage: '265'
+volume: 13
+issue: 2
+slug: RJ-2021-083
+doi: 10.32614/RJ-2021-083
+packages:
+  cran:
+  - bcmixed
+  - nlme
+  - glme
+  - lme4
+  - CLME
+  - PLmixed
+  - MCMCglmm
+  - ggplot2
+  - MissMech
+  bioc: []
+CTV:

@@ -1,0 +1,49 @@
+title: 'The segmetric Package: Metrics for Assessing Segmentation Accuracy for Geospatial Data'
+abstract: ' Segmentation methods are a valuable tool for exploring spatial data by identifying objects based on images'' features. However, proper segmentation assessment is critical for obtaining high-quality results and running well-tuned segmentation algorithms Usually, various metrics are used to inform different types of errors that dominate the results. We describe a new R package, [segmetric](https://CRAN.R-project.org/package=segmetric), for assessing and analyzing the geospatial segmentation of satellite images. This package unifies code and knowledge spread across different software implementations and research papers to provide a variety of supervised segmentation metrics available in the literature. It also allows users to create their own metrics to evaluate the accuracy of segmented objects based on reference polygons. We hope this package helps to fulfill some of the needs of the R community that works with Earth Observation data. '
+author:
+- name: Rolf Simoes
+  affiliation: National Institute for Space Research (INPE)
+  orcid: <https://orcid.org/0000-0003-0953-4132>
+  email: |
+    rolf.simoes@inpe.br
+  address:
+  - Avenida dos Astronautas, 1758, 12227-010, Sao Jose dos Campos
+  - Brazil
+- name: Alber Sanchez
+  affiliation: National Institute for Space Research (INPE)
+  orcid: <https://orcid.org/0000-0001-7966-2880>
+  email: |
+    alber.ipia@inpe.br
+  address:
+  - Avenida dos Astronautas, 1758, 12227-010, Sao Jose dos Campos
+  - Brazil
+- name: Michelle C. A. Picoli
+  affiliation: Earth and Life Institute, UCLouvain
+  orcid: <https://orcid.org/0000-0001-9855-2046>
+  email: |
+    mipicoli@gmail.com
+  address:
+  - Place Louis Pasteur 3, 1348, Louvain-la-Neuve
+  - Belgium
+- name: Patrick Meyfroidt
+  affiliation: Earth and Life Institute, UCLouvain
+  orcid: <https://orcid.org/0000-0002-1047-9794>
+  email: |
+    patrick.meyfroidt@uclouvain.be
+  address:
+  - Place Louis Pasteur 3, 1348, Louvain-la-Neuve
+  - Belgium
+date: '2023-08-26'
+date_received: '2022-04-28'
+journal:
+  firstpage: 159
+  lastpage: 172
+volume: 15
+issue: 1
+slug: RJ-2023-030
+doi: 10.32614/RJ-2023-030
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

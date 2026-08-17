@@ -1,0 +1,27 @@
+title: 'cchs: An R Package for Stratified Case-Cohort Studies'
+abstract: The [*cchs*](https://CRAN.R-project.org/package=cchs) package contains a function, also called `cchs`, for analyzing data from a stratified case-cohort study, as used in epidemiology. For data from this type of study, `cchs` calculates Estimator III of @borgan2000, which is a score-unbiased estimator for the regression coefficients in the Cox proportional hazards model. From the user's point of view, the function is similar to `coxph` (in the [*survival*](https://CRAN.R-project.org/package=survival) package) and other widely used model-fitting functions. Convenient software has not previously been available for Estimator III since it is complicated to calculate. SAS and S-Plus code-fragments for the calculation have been published, but `cchs` is easier to use and more efficient in terms of time and memory, and can cope with much larger datasets. It also avoids several minor approximations and simplifications.
+author:
+- name: Edmund Jones
+  affiliation: Cardiovascular Epidemiology Unit
+  address:
+  - Department of Public Health and Primary Care
+  - University of Cambridge
+  - |
+    United Kingdom
+date: '2018-05-16'
+date_received: '2017-12-28'
+journal:
+  firstpage: '484'
+  lastpage: '494'
+volume: 10
+issue: 1
+slug: RJ-2018-012
+doi: 10.32614/RJ-2018-012
+packages:
+  cran:
+  - cchs
+  - survival
+  - survey
+  - NestedCohort
+  bioc: []
+CTV:

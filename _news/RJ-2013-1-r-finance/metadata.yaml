@@ -1,0 +1,29 @@
+title: 'Conference Report: R/Finance 2013'
+abstract: 'The ''Conference Report: R/Finance 2013'' article from the 2013-1 issue.'
+author:
+- name: Joshua Ulrich
+  affiliation: FOSS Trading
+  address:
+  - Saint Louis, MO
+  - USA
+date: '2013-06-01'
+date_received:
+journal:
+  firstpage: '212'
+  lastpage: '214'
+volume: 5
+issue: 1
+slug: RJ-2013-1-r-finance
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - data.table
+  - Rcpp
+  - pa
+  - Quandl
+  - shiny
+  - RcppArmadillo
+  - scidb
+  - PerformanceAnalytics
+  bioc: []
+CTV:

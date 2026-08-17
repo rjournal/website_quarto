@@ -1,0 +1,53 @@
+title: 'fslr: Connecting the FSL Software with R'
+abstract: We present the package *fslr*, a set of R functions that interface with FSL (FMRIB Software Library), a commonly-used open-source software package for processing and analyzing neuroimaging data. The *fslr* package performs operations on '`nifti`' image objects in R using command-line functions from FSL, and returns R objects back to the user. *fslr* allows users to develop image processing and analysis pipelines based on FSL functionality while interfacing with the functionality provided by R. We present an example of the analysis of structural magnetic resonance images, which demonstrates how R users can leverage the functionality of FSL without switching to shell commands.
+author:
+- name: John Muschelli
+  affiliation: PhD Student, Johns Hopkins Bloomberg School of Public Health,
+  address:
+  - Baltimore, MD 21231
+  - |
+    USA
+- name: Elizabeth Sweeney
+  affiliation: PhD Student, Johns Hopkins Bloomberg School of Public Health,
+  address:
+  - Baltimore, MD 21231
+  - USA
+  - |-
+    Special Volunteer Translational Neuroradiology Unit, Neuroimmunology
+    Branch, National Institute of Neurological Disease and Stroke,
+    National Institute of Health,
+  - Bethesda, MD 20892
+  - |
+    USA
+- name: Martin Lindquist
+  affiliation: Associate Professor, Johns Hopkins Bloomberg School of Public Health,
+  address:
+  - Baltimore, MD 21231
+  - |
+    USA
+- name: Ciprian Crainiceanu
+  affiliation: Professor, Johns Hopkins Bloomberg School of Public Health,
+  address:
+  - Baltimore, MD 21231
+  - |
+    USA
+date: '2015-06-02'
+date_received: '2014-11-30'
+journal:
+  firstpage: '163'
+  lastpage: '175'
+volume: 7
+issue: 1
+slug: RJ-2015-013
+doi: 10.32614/RJ-2015-013
+packages:
+  cran:
+  - AnalyzeFMRI
+  - RNiftyReg
+  - fmri
+  - fslr
+  - oro.nifti
+  - ggplot2
+  - mgcv
+  bioc: EBImage
+CTV:

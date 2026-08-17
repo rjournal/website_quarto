@@ -1,0 +1,101 @@
+title: A Computational Analysis of the Dynamics of R Style Based on 108 Million Lines of Code from All CRAN Packages in the Past 21 Years
+abstract: 'The flexibility of R and the diversity of the R community leads to a large number of programming styles applied in R packages. We have analyzed 108 million lines of R code from CRAN and quantified the evolution in popularity of 12 style-elements from 1998 to 2019. We attribute 3 main factors that drive changes in programming style: the effect of style-guides, the effect of introducing new features, and the effect of editors. We observe in the data that a consensus in programming style is forming, such as using lower snake case for function names (e.g. softplus_func) and \<- rather than = for assignment.'
+author:
+- name: Chia-Yi Yen
+  affiliation: Mannheim Business School, Universität Mannheim
+  address:
+  - L 5, 6, 68131 Mannheim
+  - |
+    Germany
+- name: Mia Huai-Wen Chang
+  affiliation: Amazon Web Services
+  address:
+  - Marcel-Breuer-Straße 12, 80807 München
+  - |
+    Germany
+- name: Chung-hong Chan
+  affiliation: |-
+    Mannheimer Zentrum für Europäische Sozialforschung, Universität
+    Mannheim
+  address:
+  - A5, 6, 68159 Mannheim
+  - |
+    Germany
+date: '2022-06-21'
+date_received: '2020-04-04'
+journal:
+  firstpage: '6'
+  lastpage: '21'
+volume: 14
+issue: 1
+slug: RJ-2022-006
+doi: 10.32614/RJ-2022-006
+packages:
+  cran:
+  - tidyverse
+  - lintr
+  - igraph
+  - methods
+  - utils
+  - MASS
+  - testthat
+  - knitr
+  - rmarkdown
+  - Rcpp
+  - tinytest
+  - pinp
+  - survival
+  - Formula
+  - sandwich
+  - nnet
+  - rpart
+  - randomForest
+  - sp
+  - rgdal
+  - maptools
+  - gsl
+  - expint
+  - mnormt
+  - graph
+  - Rgraphviz
+  - bnlearn
+  - tm
+  - SnowballC
+  - NLP
+  - tcltk
+  - tkrplot
+  - tcltk2
+  - rsp
+  - listenv
+  - globals
+  - polynom
+  - magic
+  - numbers
+  - RUnit
+  - ADGofTest
+  - fAsianOptions
+  - kinship2
+  - CompQuadForm
+  - coxme
+  - slam
+  - ROI
+  - registry
+  - RGtk2
+  - gWidgetstcltk
+  - gWidgetsRGtk2
+  - limma
+  - RJSONIO
+  - Rook
+  - base64
+  - rJava
+  - xlsxjars
+  - openNLP
+  - styler
+  - goodpractice
+  bioc:
+  - Biostrings
+  - IRanges
+  - S4Vectors
+  - affy
+  - marray
+CTV:

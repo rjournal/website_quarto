@@ -1,0 +1,55 @@
+title: 'exPrior: An R Package for the Formulation of Ex-Situ Priors'
+abstract: The [*exPrior*](https://CRAN.R-project.org/package=exPrior) package implements a procedure for formulating informative priors of geostatistical properties for a target field site, called *ex-situ priors* and introduced in [@Cucchi2019]. The procedure uses a Bayesian hierarchical model to assimilate multiple types of data coming from multiple sites considered as similar to the target site. This prior summarizes the information contained in the data in the form of a probability density function that can be used to better inform further geostatistical investigations at the site. The formulation of the prior uses ex-situ data, where the data set can either be gathered by the user or come in the form of a structured database. The package is designed to be flexible in that regard. For illustration purposes and for easiness of use, the package is ready to be used with the worldwide hydrogeological parameter database (WWHYPDA) [@Comunian2009].
+author:
+- name: Falk Heße
+  affiliation: University Potsdam
+  orcid: |
+    0000-0002-2547-8102
+  address:
+  - Institute of Earth and Environmental Sciences
+  - Potsdam, Germany
+- name: Karina Cucchi
+  affiliation: University of California, Berkeley
+  address:
+  - Department of Civil and Environmental Engineering
+  - |
+    Berkeley, CA, USA
+- name: Nura Kawa
+  affiliation: University of California, Berkeley
+  address:
+  - Department of Statistics
+  - Berkeley, CA, USA
+  - 'currently at:'
+  - Leuven Statistics Research Centre,
+  - KU Leuven,
+  - |
+    Leuven, Belgium
+- name: Yoram Rubin
+  affiliation: University of California, Berkeley
+  address:
+  - Department of Civil and Environmental Engineering
+  - |
+    Berkeley, CA, USA
+date: '2021-06-07'
+date_received: '2020-04-04'
+journal:
+  firstpage: '83'
+  lastpage: '97'
+volume: 13
+issue: 1
+slug: RJ-2021-031
+doi: 10.32614/RJ-2021-031
+packages:
+  cran:
+  - exPrior
+  - geoR
+  - gstat
+  - georob
+  - aqp
+  - spBayes
+  - spTimer
+  - BayesNSGP
+  - anchoredDistr
+  - nimble
+  bioc: []
+CTV:

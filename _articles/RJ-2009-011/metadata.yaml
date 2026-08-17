@@ -1,0 +1,28 @@
+title: 'ConvergenceConcepts: An R Package to Investigate Various Modes of Convergence'
+abstract: '[*ConvergenceConcepts*](https://CRAN.R-project.org/package=ConvergenceConcepts) is an R package, built upon the [*tkrplot*](https://CRAN.R-project.org/package=tkrplot), [*tcltk*](https://CRAN.R-project.org/package=tcltk) and [*lattice*](https://CRAN.R-project.org/package=lattice) packages, designed to investigate the convergence of simulated sequences of random variables. Four classical modes of convergence may be studied, namely: almost sure convergence (*a.s.*), convergence in probability (*P*), convergence in law (*L*) and convergence in $r$-th mean (*r*). This investigation is performed through accurate graphical representations. This package may be used as a pedagogical tool. It may give students a better understanding of these notions and help them to visualize these difficult theoretical concepts. Moreover, some scholars could gain some insight into the behaviour of some random sequences they are interested in.'
+author:
+- name: Pierre Lafaye de Micheaux
+  affiliation: Département de Mathématiques et Statistique,Université de Montréal
+  address: |
+    Canada
+- name: Benoit Liquet
+  affiliation: INSERM U897, ISPED, University Bordeaux 2
+  address: |
+    France
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: '18'
+  lastpage: '25'
+volume: 1
+issue: 2
+slug: RJ-2009-011
+doi: 10.32614/RJ-2009-011
+packages:
+  cran:
+  - ConvergenceConcepts
+  - tkrplot
+  - tcltk
+  - lattice
+  bioc: []
+CTV:

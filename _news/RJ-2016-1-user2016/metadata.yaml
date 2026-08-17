@@ -1,0 +1,16 @@
+title: 'Conference Report: useR! 2016'
+abstract: 'The ''Conference Report: useR! 2016'' article from the 2016-1 issue.'
+author: Joseph Rickert
+date: '2016-06-01'
+date_received:
+journal:
+  firstpage: '399'
+  lastpage: '401'
+volume: 8
+issue: 1
+slug: RJ-2016-1-user2016
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

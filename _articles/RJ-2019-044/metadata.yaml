@@ -1,0 +1,42 @@
+title: 'Fitting Tails by the Empirical Residual Coefficient of Variation: The ercv Package'
+abstract: This article is a self-contained introduction to the R package *ercv* and to the methodology on which it is based through the analysis of nine examples. The methodology is simple and trustworthy for the analysis of extreme values and relates the two main existing methodologies. The package contains R functions for visualizing, fitting and validating the distribution of tails. It also provides multiple threshold tests for a generalized Pareto distribution, together with an automatic threshold selection algorithm.
+author:
+- name: Joan del Castillo
+  affiliation: Departament de Matemàtiques, Universitat Autònoma de Barcelona (UAB)
+  address:
+  - Edifici C, E-08193 Barcelona
+  - |
+    Spain
+- name: Isabel Serra
+  affiliation: Centre de Recerca Matemàtica (CRM)
+  address:
+  - Edifici C, E-08193 Barcelona
+  - |
+    Spain
+- name: Maria Padilla
+  affiliation: Departament de Matemàtiques, Universitat Autònoma de Barcelona (UAB)
+  address:
+  - Edifici C, E-08193 Barcelona
+  - |
+    Spain
+- name: David Moriña
+  affiliation:
+  - Barcelona Graduate School of Mathematics (BGSMath)
+  - Departament de Matemàtiques, Universitat Autònoma de Barcelona (UAB)
+  address:
+  - Edifici C, E-08193 Barcelona
+  - |
+    Spain
+date: '2019-12-27'
+date_received: '2018-10-26'
+journal:
+  firstpage: '56'
+  lastpage: '68'
+volume: 11
+issue: 2
+slug: RJ-2019-044
+doi: 10.32614/RJ-2019-044
+packages:
+  cran: []
+  bioc: []
+CTV:

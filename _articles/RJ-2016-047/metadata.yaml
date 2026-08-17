@@ -1,0 +1,49 @@
+title: Calculating Biological Module Enrichment or Depletion and Visualizing Data on Large-scale Molecular Maps with ACSNMineR and Packages
+abstract: Biological pathways or modules represent sets of interactions or functional relationships occurring at the molecular level in living cells. A large body of knowledge on pathways is organized in public databases such as the KEGG, Reactome, or in more specialized repositories, the Atlas of Cancer Signaling Network (ACSN) being an example. All these open biological databases facilitate analyses, improving our understanding of cellular systems. We hereby describe *ACSNMineR* for calculation of enrichment or depletion of lists of genes of interest in biological pathways. *ACSNMineR* integrates ACSN molecular pathways gene sets, but can use any gene set encoded as a GMT file, for instance sets of genes available in the Molecular Signatures Database (MSigDB). We also present *RNaviCell*, that can be used in conjunction with *ACSNMineR* to visualize different data types on web-based, interactive ACSN maps. We illustrate the functionalities of the two packages with biological data taken from large-scale cancer datasets.
+author:
+- name: Paul Deveau
+  affiliation: Computational Systems Biology of Cancer, Institut Curie
+  address:
+  - Genetics and Biology of Cancers, Institut Curie
+  - 26, rue d'Ulm 75248 Paris
+  - France
+- name: Emmanuel Barillot
+  affiliation: Computational Systems Biology of Cancer, Institut Curie
+  address:
+  - 26, rue d'Ulm 75248 Paris
+  - France
+- name: Valentina Boeva
+  affiliation: |-
+    Institut Cochin, Inserm U1016, CNRS UMR 8104, Université Paris
+    Descartes UMR-S1016
+  address:
+  - 22, Rue Mechain 75014 Paris
+  - France
+- name: Andrei Zinovyev
+  affiliation: Computational Systems Biology of Cancer, Institut Curie
+  address:
+  - 26, rue d'Ulm 75248 Paris
+  - France
+- name: Eric Bonnet
+  affiliation: Centre National de Génotypage, Institut de Génomique, CEA
+  address:
+  - 2, rue Gaston Crémieux, 91057 Evry
+  - France
+date: '2016-10-21'
+date_received: '2016-04-02'
+journal:
+  firstpage: '293'
+  lastpage: '306'
+volume: 8
+issue: 2
+slug: RJ-2016-047
+doi: 10.32614/RJ-2016-047
+packages:
+  cran:
+  - ACSNMineR
+  - RNaviCell
+  - ggplot2
+  bioc:
+  - GOstats
+  - clusterProfiler
+CTV:

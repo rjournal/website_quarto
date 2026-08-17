@@ -1,0 +1,30 @@
+title: 'Conference Report: Deuxièmes Rencontres R'
+abstract: 'The ''Conference Report: Deuxièmes Rencontres R'' article from the 2013-2 issue.'
+author:
+- name: Aurélie Siberchicot
+  affiliation: Université de Lyon, F-69000, Lyon ; Université Lyon 1
+  address:
+  - CNRS, UMR5558, Laboratoire de Biométrie et Biologie Evolutive,
+  - |
+    F-69622, Villeurbanne, France.
+- name: Stéphane Dray
+  affiliation: Université de Lyon, F-69000, Lyon ; Université Lyon 1
+  address:
+  - CNRS, UMR5558, Laboratoire de Biométrie et Biologie Evolutive,
+  - |
+    F-69622, Villeurbanne, France.
+date: '2013-10-04'
+date_received: '2013-09-21'
+journal:
+  firstpage: '164'
+  lastpage: '165'
+volume: 5
+issue: 2
+slug: RJ-2013-2-siberchicot-dray
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - R2STATS
+  - TraMineR
+  bioc: []
+CTV:

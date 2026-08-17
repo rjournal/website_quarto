@@ -1,0 +1,38 @@
+title: 'vivid: An R package for Variable Importance and Variable Interactions Displays for Machine Learning Models'
+abstract: |
+  We present \CRANpkg{vivid}, an R package for visualizing variable importance and variable interactions in machine learning models. The package provides  heatmap and graph-based displays for viewing variable importance and interaction jointly, and partial dependence plots in both a matrix layout and an alternative layout emphasizing important variable subsets. With the intention of increasing machine learning models' interpretability and making the work applicable to a wider readership, we discuss the design choices behind our implementation by focusing on the package structure and providing an in-depth look at the package functions and key features. We also provide a practical illustration of the software in use on a data set.
+preamble: \usepackage{subfig} \usepackage{tabu} \usepackage{longtable} \usepackage{colortbl} \usepackage{xcolor}
+draft: no
+author:
+- name: Alan Inglis
+  affiliation: Maynooth University
+  address:
+  - Department of Mathematics and Statistics
+  - Maynooth, Ireland
+  orcid: 0000-0002-1151-6657
+  email: alan.n.inglis@gmail.com
+- name: Andrew Parnell
+  email: andrew.parnell@mu.ie
+  orcid: 0000-0001-7956-7939
+  affiliation: Maynooth University
+  address:
+  - Hamilton Institute
+  - Maynooth, Ireland
+- name: Catherine Hurley
+  email: catherine.hurley@mu.ie
+  orcid: 0000-0003-2758-5531
+  affiliation: Maynooth University
+  address:
+  - Department of Mathematics and Statistics
+  - Maynooth, Ireland
+type: package
+date: '2023-11-01'
+date_received: '2022-12-09'
+volume: 15
+issue: 2
+slug: RJ-2023-054
+doi: 10.32614/RJ-2023-054
+journal:
+  lastpage: 363
+  firstpage: 346
+

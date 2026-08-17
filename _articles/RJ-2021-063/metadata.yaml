@@ -1,0 +1,73 @@
+title: 'stratamatch: Prognostic Score Stratification Using a Pilot Design'
+abstract: Optimal propensity score matching has emerged as one of the most ubiquitous approaches for causal inference studies on observational data. However, outstanding critiques of the statistical properties of propensity score matching have cast doubt on the statistical efficiency of this technique, and the poor scalability of optimal matching to large data sets makes this approach inconvenient if not infeasible for sample sizes that are increasingly commonplace in modern observational data. The [*stratamatch*](https://CRAN.R-project.org/package=stratamatch) package provides implementation support and diagnostics for 'stratified matching designs,' an approach that addresses both of these issues with optimal propensity score matching for large-sample observational studies. First, stratifying the data enables more computationally efficient matching of large data sets. Second, *stratamatch* implements a 'pilot design' approach in order to stratify by a prognostic score, which may increase the precision of the effect estimate and increase power in sensitivity analyses of unmeasured confounding.
+author:
+- name: Rachael C. Aikens
+  affiliation: Stanford University
+  address:
+  - Interdepartmental Program in Biomedical Informatics
+  - Stanford, CA
+  - |
+    USA
+- name: Joseph Rigdon
+  affiliation: Wake Forest School of Medicine
+  address:
+  - Department of Biostatistics and Data Science
+  - |
+    Winston-Salem, North Carolina
+- name: Justin Lee
+  affiliation: Stanford University
+  address:
+  - Quantitative Sciences Unit
+  - |
+    Stanford, CA
+- name: Michael Baiocchi
+  affiliation: Stanford University
+  address:
+  - Epidemiology and Population Health
+  - |
+    Stanford, CA
+- name: Andrew B. Goldstone
+  affiliation: University of Pennsylvania
+  address:
+  - Division of Cardiovascular Surgery
+  - |
+    Philadelphia, PA
+- name: Peter Chiu
+  affiliation: Stanford University School of Medicine
+  address:
+  - Department of Cardiothoracic Surgery
+  - |
+    Stanford, CA
+- name: Y. Joseph Woo
+  affiliation: Stanford University School of Medicine
+  address:
+  - Department of Cardiothoracic Surgery
+  - |
+    Stanford, CA
+- name: Jonathan H. Chen
+  affiliation: Stanford University Medical Center
+  address:
+  - Biomedical Informatics Research Institute
+  - |
+    Stanford, CA
+date: '2021-06-21'
+date_received: '2021-03-01'
+journal:
+  firstpage: '614'
+  lastpage: '630'
+volume: 13
+issue: 1
+slug: RJ-2021-063
+doi: 10.32614/RJ-2021-063
+packages:
+  cran:
+  - stratamatch
+  - MatchIt
+  - optmatch
+  - DOS2
+  - nearfar
+  - sensitivitymw
+  - sensitivityfull
+  - glmnet
+  bioc: []
+CTV:

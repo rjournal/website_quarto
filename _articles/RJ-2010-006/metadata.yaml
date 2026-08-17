@@ -1,0 +1,46 @@
+title: 'neuralnet: Training of Neural Networks'
+abstract: |
+  Artificial neural networks are applied in many situations.
+  [*neuralnet*](https://CRAN.R-project.org/package=neuralnet) is built
+  to train multi-layer perceptrons in the context of regression
+  analyses, i.e. to approximate functional relationships between
+  covariates and response variables. Thus, neural networks are used as
+  extensions of generalized linear models.\
+  [*neuralnet*](https://CRAN.R-project.org/package=neuralnet) is a very
+  flexible package. The backpropagation algorithm and three versions of
+  resilient backpropagation are implemented and it provides a
+  custom-choice of activation and error function. An arbitrary number of
+  covariates and response variables as well as of hidden layers can
+  theoretically be included.\
+  The paper gives a brief introduction to multi-layer perceptrons and
+  resilient backpropagation and demonstrates the application of
+  [*neuralnet*](https://CRAN.R-project.org/package=neuralnet) using the
+  data set `infert`, which is contained in the R distribution.
+author:
+- name: Frauke Günther
+  affiliation: |-
+    University of Bremen, Bremen Institute for Prevention Research and
+    Social Medicine
+- name: Stefan Fritsch
+  affiliation: |
+    University of Bremen, Bremen Institute for Prevention Research and
+    Social Medicine
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 30
+  lastpage: 38
+volume: 2
+issue: 1
+slug: RJ-2010-006
+doi: 10.32614/RJ-2010-006
+packages:
+  cran:
+  - neuralnet
+  - nnet
+  - AMORE
+  - grid
+  - MASS
+  - datasets
+  bioc: []
+CTV:

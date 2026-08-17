@@ -1,0 +1,31 @@
+title: 'fanplot: An R Package for Visualising Sequential Distributions'
+abstract: Fan charts, first developed by the Bank of England in 1996, have become a standard method for visualising forecasts with uncertainty. Using shading fan charts focus the attention towards the whole distribution away from a single central measure. This article describes the basics of plotting fan charts using an R add-on package alongside some additional methods for displaying sequential distributions. Examples are based on distributions of both estimated parameters from a time series model and future values with uncertainty.
+author:
+- name: Guy J. Abel
+  affiliation: |-
+    Wittgenstein Centre (IIASA, VID/ÖAW, WU), Vienna Institute of
+    Demography/Austrian Academy of Sciences
+  address:
+  - Wohllebengasse 12-14, 6th floor,
+  - 1040 Vienna, Austria
+date: '2015-04-07'
+date_received: '2014-05-25'
+journal:
+  firstpage: '15'
+  lastpage: '23'
+volume: 7
+issue: 1
+slug: RJ-2015-002
+doi: 10.32614/RJ-2015-002
+packages:
+  cran:
+  - vars
+  - forecast
+  - fanplot
+  - R2OpenBUGS
+  - zoo
+  - tsbugs
+  - RColorBrewer
+  - shiny
+  bioc: []
+CTV:

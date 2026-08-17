@@ -1,0 +1,31 @@
+title: 'rPDBapi: A Comprehensive R Package Interface for Accessing the Protein Data Bank'
+date: '2025-09-08'
+abstract: |
+  The RCSB Protein Data Bank (PDB) is a foundational resource for bioinformatics and structural biology, providing essential 3D structural data for large biological molecules. This data underpins advancements in drug discovery and genomics. The rPDBapi package aims to bridge the existing gap in accessing PDB data through the R programming language, offering a user-friendly, powerful interface that enhances the accessibility of PDB data for the R community. Leveraging the PDB's XML-based API, rPDBapi simplifies the creation of custom queries, making data retrieval more efficient. It also introduces advanced functionalities within R, such as customized search capabilities and direct data manipulation, demonstrating its potential to significantly impact research workflows in bioinformatics and structural biology. Through detailed examples, the paper illustrates how rPDBapi enables precise data retrieval and analysis, facilitating a deeper understanding of molecular functions and interactions. This contribution makes structural biology data more accessible to researchers using R, simplifying access to PDB resources.
+draft: no
+author:
+- name: Selcuk Korkmaz
+  affiliation: Trakya University
+  address:
+  - Department Biostatistics
+  - Edirne, Türkiye
+  orcid: 0000-0003-4632-6850
+  email: selcukkorkmaz@trakya.edu.tr
+- name: Bilge Eren Yamasan
+  affiliation: Trakya University
+  address:
+  - Department Biophysics
+  - Edirne, Türkiye
+  email: berenyamasan@trakya.edu.tr
+  orcid: 0000-0002-6525-2503
+type: package
+header-includes: \usepackage{float} \floatplacement{figure}{H}
+date_received: '2024-04-12'
+volume: 17
+issue: 2
+slug: RJ-2025-016
+doi: 10.32614/RJ-2025-016
+journal:
+  lastpage: 145
+  firstpage: 109
+

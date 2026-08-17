@@ -1,0 +1,54 @@
+title: 'qCBA: An R Package for Postoptimization of Rule Models Learnt on Quantized Data'
+abstract: |
+  A popular approach to building rule models is association rule
+  classification. However, these often produce larger models than most
+  other rule learners, impeding the comprehensibility of the created
+  classifiers. Also, these algorithms decouple discretization from model
+  learning, often leading to a loss of predictive performance. This
+  package presents an implementation of Quantitative Classification
+  based on Associations (QCBA), which is a collection of postprocessing
+  algorithms for rule models built over discretized data. The QCBA
+  method improves the fit of the bins originally produced by
+  discretization and performs additional pruning, resulting in models
+  that are typically smaller and often more accurate. The qCBA package
+  supports models created with multiple packages for rule-based
+  classification available in CRAN, including arc, arulesCBA, rCBA and
+  sbrl.
+author:
+- name: Tomas Kliegr
+  affiliation: Prague University of Economics and Business
+  address:
+  - Winston Churchill Sq. 4, Prague
+  - Czech Republic
+  - <https://nb.vse.cz/~klit01>
+  - '*ORCiD: [0000-0002-7261-0380](https://orcid.org/0000-0002-7261-0380)*'
+  - |
+    [`tomas.kliegr@vse.cz`](mailto:tomas.kliegr@vse.cz)
+    [tomas.kliegr@vse.cz](tomas.kliegr@vse.cz){.uri}
+date: '2026-02-04'
+date_received: '2024-10-01'
+journal:
+  firstpage: 157
+  lastpage: 173
+volume: 17
+issue: 4
+slug: RJ-2025-038
+doi: 10.32614/RJ-2025-038
+packages:
+  cran:
+  - qCBA
+  - rCBA
+  - arc
+  - arulesCBA
+  - arules
+  - arcPackage
+  - rJava
+  - datasets
+  - discretization
+  - sbrl
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

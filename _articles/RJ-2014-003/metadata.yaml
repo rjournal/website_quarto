@@ -1,0 +1,34 @@
+title: Stratified Weibull Regression Model for Interval-Censored Data
+abstract: Interval censored outcomes arise when a silent event of interest is known to have occurred within a specific time period determined by the times of the last negative and first positive diagnostic tests. There is a rich literature on parametric and non-parametric approaches for the analysis of interval-censored outcomes. A commonly used strategy is to use a proportional hazards (PH) model with the baseline hazard function parameterized. The proportional hazards assumption can be relaxed in stratified models by allowing the baseline hazard function to vary across strata defined by a subset of explanatory variables. In this paper, we describe and implement a new R package ***straweib***, for fitting a stratified Weibull model appropriate for interval censored outcomes. We illustrate the R package ***straweib*** by analyzing data from a longitudinal oral health study on the timing of the emergence of permanent teeth in 4430 children.
+author:
+- name: Xiangdong Gu
+  affiliation: |-
+    Division of Biostatistics and Epidemiology, University of
+    Massachusetts
+  address: ', Amherst, MA, USA'
+- name: David Shapiro
+  affiliation: Department of Biostatistics, Harvard School of Public Health
+  address: ', Boston, MA, USA'
+- name: Michael D. Hughes
+  affiliation: Department of Biostatistics, Harvard School of Public Health
+  address: ', Boston, MA, USA'
+- name: Raji Balasubramanian
+  affiliation: |-
+    Division of Biostatistics and Epidemiology, University of
+    Massachusetts
+  address: Amherst, MA, USA
+date: '2014-03-03'
+date_received: '2013-07-19'
+journal:
+  firstpage: '31'
+  lastpage: '40'
+volume: 6
+issue: 1
+slug: RJ-2014-003
+doi: 10.32614/RJ-2014-003
+packages:
+  cran:
+  - survival
+  - straweib
+  bioc: []
+CTV:

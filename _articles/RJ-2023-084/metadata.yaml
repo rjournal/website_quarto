@@ -1,0 +1,40 @@
+title: 'singR: An R Package for Simultaneous Non-Gaussian Component Analysis for Data Integration'
+abstract: "This paper introduces an R package singR that implements Simultaneous non-Gaussian Component Analysis (SING) for data integration. SING uses a non-Gaussian measure of information to extract feature loadings and scores (latent variables) that are shared across multiple datasets. We describe the functions implemented in singR and showcase their use on two examples. The first example is a toy example working with images. The second example is a simulated study integrating functional connectivity estimates from a resting-state functional magnetic resonance imaging dataset and task activation maps from a working memory functional magnetic resonance imaging dataset. The SING model can produce joint components that accurately reflect information shared by multiple datasets, particularly for datasets with non-Gaussian features such as neuroimaging. \n"
+author:
+- name: Liangkang Wang
+  affiliation: Brown University
+  address:
+  - Department of Biostatistics
+  - Providence, Rhode Island, US
+  orcid: 0000-0003-3393-243X
+  email: liangkang_wang@brown.edu
+- name: Irina Gaynanova
+  url: https://irinagain.github.io/
+  email: irinagn@umich.edu
+  orcid: 0000-0002-4116-0268
+  affiliation: University of Michigan
+  address:
+  - Department of Biostatistics
+  - Ann Arbor, MI, US
+- name: Benjamin Risk
+  url: https://github.com/thebrisklab/
+  affiliation: Emory University
+  address:
+  - Department of Biostatistics and Bioinformatics
+  - Atlanta, Georgia, US
+  orcid: 0000-0003-1090-0777
+  email: benjamin.risk@emory.edu
+date: '2024-04-11'
+date_received: '2022-08-29'
+journal:
+  firstpage: 69
+  lastpage: 83
+volume: 15
+issue: 4
+slug: RJ-2023-084
+doi: 10.32614/RJ-2023-084
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

@@ -1,0 +1,25 @@
+title: Changes in R 3.6--4.0
+abstract: We give a selection of the most important changes in R 4.0.0 and in the R 3.6 release series. Some statistics on source code commits and bug tracking activities are also provided.
+author:
+- name: Tomas Kalibera
+  affiliation: |
+    Czech Technical University, Czech Republic
+- name: Sebastian Meyer
+  affiliation: |
+    Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
+- name: Kurt Hornik
+  affiliation: |
+    WU Wirtschaftsuniversität Wien, Austria
+date: '2020-12-01'
+date_received:
+journal:
+  firstpage: '402'
+  lastpage: '406'
+volume: 12
+issue: 2
+slug: RJ-2020-2-core
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

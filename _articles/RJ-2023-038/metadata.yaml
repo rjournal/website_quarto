@@ -1,0 +1,52 @@
+title: Estimating Causal Effects using Bayesian Methods with the R Package BayesCACE
+abstract: |
+  Noncompliance, a common problem in randomized clinical trials (RCTs), complicates the analysis of the causal treatment effect, especially in meta-analysis of RCTs. The complier average causal effect (CACE) measures the effect of an intervention in the latent subgroup of the population that complies with its assigned treatment (the compliers). Recently, Bayesian hierarchical approaches have been proposed to estimate the CACE in a single RCT and a meta-analysis of RCTs. We develop an R package, BayesCACE, to provide user-friendly functions for implementing CACE analysis for binary outcomes based on the flexible Bayesian hierarchical framework. This package includes functions for analyzing data from a single study and for performing a meta-analysis with either complete or incomplete compliance data. The package also provides various functions for generating forest, trace, posterior density, and auto-correlation plots, which can be useful to review noncompliance rates, visually assess the model, and obtain study-specific and overall CACEs.
+draft: no
+author:
+- name: Jincheng Zhou
+  affiliation: Gilead Inc.
+  address:
+  - Clinical Data Science
+  - Foster City, CA 94404, USA
+  email: jeni.zhou9@gilead.com
+- name: Jinhui Yang
+  affiliation: University of Minnesota Twin Cities
+  address:
+  - Department of Computer Science and Engineering
+  - Minneapolis, MN 55455, USA
+  email: yang7004@umn.edu
+- name: James S. Hodges
+  affiliation: University of Minnesota Twin Cities
+  address:
+  - Division of Biostatistics
+  - School of Public Health
+  - Minneapolis, MN 55455, USA
+  email: hodge003@umn.edu
+- name: Lifeng Lin
+  affiliation: University of Arizona
+  address:
+  - Department of Epidemiology and Biostatistics
+  - Mel and Enid Zuckerman College of Public Health
+  - Tucson, AZ 85724, USA
+  email: lifenglin@arizona.edu
+- name: Haitao Chu
+  affiliation: (Affliation 1) Pfizer Inc. (Affliation 2) University of Minnesota Twin Cities
+  address:
+  - (1) Statistical Research and Data Science Center
+  - New York, NY 10017, USA
+  - (2) Division of Biostatistics
+  - School of Public Health
+  - Minneapolis, MN 55455, USA
+  email: (1) Haitao.Chu@Pfizer.com (2) chux0051@umn.edu
+type: package
+equal_contrib: yes
+date: '2023-08-26'
+date_received: '2022-08-08'
+volume: 15
+issue: 1
+slug: RJ-2023-038
+doi: 10.32614/RJ-2023-038
+journal:
+  lastpage: 315
+  firstpage: 297
+

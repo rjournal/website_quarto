@@ -1,0 +1,29 @@
+title: 'spfilteR: An R package for Semiparametric Spatial Filtering with Eigenvectors in (Generalized) Linear Models'
+abstract: Eigenvector-based Spatial filtering constitutes a highly flexible semiparametric approach to account for spatial autocorrelation in a regression framework. It combines judiciously selected eigenvectors from a transformed connectivity matrix to construct a synthetic spatial filter and remove spatial patterns from model residuals. This article introduces the [*spfilteR*](https://CRAN.R-project.org/package=spfilteR) package that provides several useful and flexible tools to estimate spatially filtered linear and generalized linear models in R. While the package features functions to identify relevant eigenvectors based on different selection criteria in an unsupervised fashion, it also helps users to perform supervised spatial filtering and to select eigenvectors based on alternative user-defined criteria. Besides a brief discussion of the eigenvector-based spatial filtering approach, this article presents the main functions of the package and illustrates their usage. Comparison to alternative implementations in other R packages highlights the added value of the *spfilteR* package.
+author:
+- name: Sebastian Juhl
+  affiliation: Collaborative Research Center 884, University of Mannheim
+  orcid: |
+    0000-0002-7123-5398
+  address:
+  - B6, 30-32
+  - 68159 Mannheim
+  - Germany
+date: '2021-09-20'
+date_received: '2021-01-15'
+journal:
+  firstpage: '450'
+  lastpage: '459'
+volume: 13
+issue: 2
+slug: RJ-2021-085
+doi: 10.32614/RJ-2021-085
+packages:
+  cran:
+  - spfilteR
+  - spatialreg
+  - spmoran
+  - adespatial
+  - vegan
+  bioc: []
+CTV:

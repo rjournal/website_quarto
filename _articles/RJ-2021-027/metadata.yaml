@@ -1,0 +1,57 @@
+title: 'npcure: An R Package for Nonparametric Inference in Mixture Cure Models'
+abstract: 'Mixture cure models have been widely used to analyze survival data with a cure fraction. They assume that a subgroup of the individuals under study will never experience the event (cured subjects). So, the goal is twofold: to study both the cure probability and the failure time of the uncured individuals through a proper survival function (latency). The R package *npcure* implements a completely nonparametric approach for estimating these functions in mixture cure models, considering right-censored survival times. Nonparametric estimators for the cure probability and the latency as functions of a covariate are provided. Bootstrap bandwidth selectors for the estimators are included. The package also implements a nonparametric covariate significance test for the cure probability, which can be applied with a continuous, discrete, or qualitative covariate.'
+author:
+- name: Ana López-Cheda
+  affiliation: |-
+    Research Group MODES, CITIC, Departamento de Matemáticas, Facultade de
+    Informática, Universidade da Coruña
+  orcid: |
+    0000-0002-3618-3246
+  address:
+  - CITIC, Campus de Elviña s/n, A Coruña 15071
+  - Spain
+- name: M. Amalia Jácome
+  affiliation: |-
+    Research Group MODES, CITIC, Departamento de Matemáticas, Facultade de
+    Ciencias, Universidade da Coruña
+  orcid: |
+    0000-0001-7000-9623
+  address:
+  - Rúa da Fraga s/n, A Zapateira, A Coruña 15071
+  - Spain
+- name: Ignacio López-de-Ullibarri
+  affiliation: |-
+    Research Group MODES, Departamento de Matemáticas, Escuela
+    Universitaria Politécnica, Universidade da Coruña
+  orcid: |
+    0000-0002-3438-6621
+  address:
+  - 15405, Ferrol, A Coruña
+  - Spain
+date: '2021-06-07'
+date_received: '2019-07-19'
+journal:
+  firstpage: '21'
+  lastpage: '41'
+volume: 13
+issue: 1
+slug: RJ-2021-027
+doi: 10.32614/RJ-2021-027
+packages:
+  cran:
+  - smcure
+  - NPHMC
+  - flexsurvcure
+  - rcure
+  - geecure
+  - miCoPTCM
+  - mixcure
+  - GORcure
+  - intercure
+  - npcure
+  - condSURV
+  - prodlim
+  - survidm
+  - KMsurv
+  bioc: []
+CTV:

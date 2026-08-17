@@ -1,0 +1,55 @@
+title: 'Modeling regimes with extremes: the bayesdfa package for identifying and forecasting common trends and anomalies in multivariate time-series data'
+abstract: The *bayesdfa* package provides a flexible Bayesian modeling framework for applying dynamic factor analysis (DFA) to multivariate time-series data as a dimension reduction tool. The core estimation is done with the Stan probabilistic programming language. In addition to being one of the few Bayesian implementations of DFA, novel features of this model include (1) optionally modeling latent process deviations as drawn from a Student-t distribution to better model extremes, and (2) optionally including autoregressive and moving-average components in the latent trends. Besides estimation, we provide a series of plotting functions to visualize trends, loadings, and model predicted values. A secondary analysis for some applications is to identify regimes in latent trends. We provide a flexible Bayesian implementation of a Hidden Markov Model --- also written with Stan --- to characterize regime shifts in latent processes. We provide simulation testing and details on parameter sensitivities in supplementary information.
+author:
+- name: Eric J. Ward
+  affiliation: |-
+    Conservation Biology Division, Northwest Fisheries Science Center,
+    National Marine Fisheries Service, National Oceanic and Atmospheric
+    Administration
+  address: |
+    2725 Montlake Blvd E, Seattle WA, 98112, USA
+- name: Sean C. Anderson
+  affiliation: Pacific Biological Station, Fisheries and Oceans Canada
+  address: |
+    3190 Hammond Bay Rd, Nanaimo, BC, V6T 6N7, Canada
+- name: Luis A. Damiano
+  affiliation: Iowa State University
+  address: |
+    2438 Osborn Drive, Snedecor Hall, Ames IA, 50011, USA
+- name: Mary E. Hunsicker
+  affiliation: |-
+    Fish Ecology Division, Northwest Fisheries Science Center, National
+    Marine Fisheries Service, National Oceanic and Atmospheric
+    Administration
+  address: |
+    2725 Montlake Blvd E, Seattle WA, 98112, USA
+- name: Michael A. Litzow
+  affiliation: University Alaska Fairbanks, College of Fisheries and Ocean Sciences,
+  address: |
+    118 Trident Way, Kodiak Seafood and Marine Science Center, Kodiak, AK
+    99615, USA
+date: '2019-07-30'
+date_received: '2018-10-08'
+journal:
+  firstpage: '46'
+  lastpage: '55'
+volume: 11
+issue: 2
+slug: RJ-2019-007
+doi: 10.32614/RJ-2019-007
+packages:
+  cran:
+  - dlm
+  - KFAS
+  - MARSS
+  - tsfa
+  - rstan
+  - heavy
+  - bsts
+  - stochvol
+  - loo
+  - depmixS4
+  - HMM
+  - msm
+  bioc: []
+CTV:

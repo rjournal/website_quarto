@@ -1,0 +1,47 @@
+title: 'bartcs: An R Package for Bayesian Nonparametric Adjustment for Confounding'
+abstract: |
+  This article presents an overview of the bartcs R package, which
+  employs a Bayesian additive regression trees-based method for
+  selecting confounders. It uses a Dirichlet distribution as a common
+  variable selection probability prior, updating both the exposure and
+  outcome models simultaneously while fitting tree priors for each. This
+  data-driven method determines which variables (i.e., confounders)
+  affect both models by assigning more posterior weight to them. It
+  supports continuous and binary exposure variables, as well as
+  continuous outcome variables, and is written in C++ for improved
+  computational speed. Additionally, it can take advantage of multiple
+  threads for parallel computing if OpenMP is available on the platform.
+author:
+- name: Yeonghoon Yoo
+  affiliation: Department of Statistics, SungKyunKwan University
+  address:
+  - 25-2 SungKyunKwan University, Jongno-gu
+  - Seoul 03063, South Korea
+  - |
+    [yooyh.stat@gmail.com](yooyh.stat@gmail.com){.uri}
+- name: Chanmin Kim (corresponding author)
+  affiliation: Department of Statistics, SungKyunKwan University
+  orcid: 0000-0002-2588-6704
+  address:
+  - 25-2 SungKyunKwan University, Jongno-gu
+  - Seoul 03063, South Korea
+  - |
+    [chanmin.kim@skku.edu](chanmin.kim@skku.edu){.uri}
+date: '2025-10-01'
+date_received: '2024-05-24'
+journal:
+  firstpage: 176
+  lastpage: 206
+volume: 17
+issue: 2
+slug: RJ-2025-019
+doi: 10.32614/RJ-2025-019
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

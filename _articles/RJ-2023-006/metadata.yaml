@@ -1,0 +1,53 @@
+title: 'OTrecod: An R Package for Data Fusion using Optimal Transportation Theory'
+date: '2023-02-10'
+abstract: |
+  The advances of information technologies often confront users with a large amount of data which is  essential to integrate easily. In this context, creating a single database from multiple separate data sources can appear as an attractive but complex issue when same information of interest is stored in at least two distinct encodings. In this situation, merging the data sources consists in finding a common recoding scale to fill the incomplete information in a synthetic database. The \CRANpkg{OTrecod} package provides R-users two functions  dedicated to solve this recoding problem using optimal transportation theory. Specific arguments of these functions enrich the algorithms by relaxing distributional constraints or adding a regularization term to make the data fusion more flexible.
+  The \CRANpkg{OTrecod} package also provides a set of support functions dedicated to the harmonization of separate data sources, the handling of incomplete information and the selection of matching variables. This paper gives all the keys to quickly understand and master  the original algorithms implemented in the \CRANpkg{OTrecod} package, assisting step by step the user in its data fusion project.
+draft: no
+author:
+- name: Gregory Guernec
+  affiliation: Université de Toulouse, INSERM, UPS
+  address:
+  - INSERM, CERPOP, UMR 1295
+  - Toulouse, France
+  orcid: 0000-0002-0668-8606
+  email: gregory.guernec@inserm.fr
+- name: Valerie Gares
+  url: http://vgares.perso.math.cnrs.fr/contact.html
+  email: valerie.gares@insa-rennes.fr
+  affiliation: INSA, Université de Rennes
+  address:
+  - CNRS, IRMAR, UMR 6625
+  - Rennes, France
+- name: Jeremy Omer
+  url: https://jeremyomer.wixsite.com/recherche
+  email: jeremy.omer@insa-rennes.fr
+  affiliation: INSA, Université de Rennes
+  address:
+  - CNRS, IRMAR, UMR 6625
+  - Rennes, France
+- name: Philippe Saint-Pierre
+  url: https://perso.math.univ-toulouse.fr/psaintpi/
+  email: philippe.saint-pierre@univ-tlse3.fr
+  affiliation: IMT, Université Paul Sabatier, Toulouse
+  address:
+  - CNRS UMR 5219
+  - Toulouse, France
+- name: Nicolas Savy
+  url: https://perso.math.univ-toulouse.fr/savy/
+  email: nicolas.savy@univ-tlse3.fr
+  affiliation: IMT, Université Paul Sabatier, Toulouse
+  address:
+  - CNRS UMR 5219
+  - Toulouse, France
+type: package
+preamble: \usepackage{multicol,multirow,graphicx}
+date_received: '2021-09-27'
+volume: 14
+issue: 4
+slug: RJ-2023-006
+doi: 10.32614/RJ-2023-006
+journal:
+  lastpage: 222
+  firstpage: 195
+

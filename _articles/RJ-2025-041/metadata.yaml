@@ -1,0 +1,58 @@
+title: 'elhmc: An R Package for Hamiltonian Monte Carlo Sampling in Bayesian Empirical Likelihood'
+abstract: |
+  In this article, we describe an R package for sampling from an
+  empirical likelihood-based posterior using a Hamiltonian Monte Carlo
+  method. Empirical likelihood-based methodologies have been used in the
+  Bayesian modeling of many problems of interest in recent times. This
+  semiparametric procedure can easily combine the flexibility of a
+  nonparametric distribution estimator together with the
+  interpretability of a parametric model. The model is specified by
+  estimating equation-based constraints. Drawing inference from a
+  Bayesian empirical likelihood (BayesEL) posterior is challenging. The
+  likelihood is computed numerically, so no closed-form expression of
+  the posterior exists. Moreover, for any sample of finite size, the
+  support of the likelihood is non-convex, which hinders fast mixing of
+  many Markov Chain Monte Carlo (MCMC) procedures. It has been recently
+  shown that using the properties of the gradient of the log empirical
+  likelihood, one can devise an efficient Hamiltonian Monte Carlo (HMC)
+  algorithm to sample from a BayesEL posterior. The package requires the
+  user to specify only the estimating equations, the prior, and their
+  respective gradients. An MCMC sample drawn from the BayesEL posterior
+  of the parameters, with various details required by the user, is
+  obtained.
+author:
+- name: Neo Han Wei
+  affiliation: Citibank, Singapore
+  address: |
+    [`nhanwei@gmail.com`](mailto:nhanwei@gmail.com)
+- name: Dang Trung Kien
+  affiliation: Independent Consultant
+  address:
+  - '[`trungkiendang@hotmail.com`](mailto:trungkiendang@hotmail.com)'
+  - |
+    <http://www.stat.nus.edu.sg/>
+- name: Sanjay Chaudhuri
+  affiliation: University of Nebraska-Lincoln
+  address:
+  - Department of Statistics
+  - 840 Hardin Hall North Wing, Lincoln, NE, USA
+  - '[`schaudhuri2@nebraska.edu`](mailto:schaudhuri2@nebraska.edu)'
+  - |
+    <http://www.stat.nus.edu.sg/>
+date: '2026-01-06'
+date_received: '2025-03-12'
+journal:
+  firstpage: 238
+  lastpage: 255
+volume: 17
+issue: 4
+slug: RJ-2025-041
+doi: 10.32614/RJ-2025-041
+packages:
+  cran: []
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

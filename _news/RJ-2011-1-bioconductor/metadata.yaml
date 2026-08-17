@@ -1,0 +1,65 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2011-1 issue.
+author:
+- name: Bioconductor Team
+  affiliation: |
+    Program in Computational Biology, Fred Hutchinson Cancer Research
+    Center
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 101
+  lastpage: 101
+volume: 3
+issue: 1
+slug: RJ-2011-1-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - ArrayExpressHTS
+  - mosaics
+  - Rsubread
+  - qrqc
+  - seqbias
+  - TEQC
+  - clst
+  - clstutils
+  - inveRsion
+  - chopsticks
+  - snpStats
+  - flowPhyto
+  - flowPlots
+  - IPPD
+  - MSnbase
+  - procoil
+  - a4
+  - ExiMiR
+  - pvac
+  - snm
+  - TurboNorm
+  - cn.farms
+  - genoset
+  - Vega
+  - anota
+  - Clonality
+  - clusterProfiler
+  - gaia
+  - genefu
+  - GSVA
+  - ibh
+  - joda
+  - lol
+  - mgsa
+  - MLP
+  - phenoDist
+  - phenoTest
+  - RNAinteract
+  - survcomp
+  - TDARACNE
+  - AnnotationFuncs
+  - NCIgraph
+  - ENVISIONQuery
+  - mcaGUI
+  - GenomicFeatures
+CTV:

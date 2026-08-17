@@ -1,0 +1,32 @@
+title: Rmetrics - timeDate Package
+abstract: The management of time and holidays can prove crucial in applications that rely on historical data. A typical example is the aggregation of a data set recorded in different time zones and under different daylight saving time rules. Besides the time zone conversion function, which is well supported by default classes in R, one might need functions to handle special days or holidays. In this respect, the package [*timeDate*](https://CRAN.R-project.org/package=timeDate) enhances default date-time classes in R and brings new functionalities to time zone management and the creation of holiday calendars.
+author:
+- name: Yohan Chalabi
+  affiliation: Finance Online GmbH, Zurich &
+  address:
+  - Institute of Theoretical Physics, ETH Zurich,
+  - |
+    Switzerland
+- name: Martin Mächler
+  affiliation: Seminar für Statistik, ETH Zurich,
+  address: |
+    Switzerland
+- name: Diethelm Würtz
+  affiliation: Institute of Theoretical Physics, ETH Zurich,
+  address: |
+    Switzerland
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: 19
+  lastpage: 24
+volume: 3
+issue: 1
+slug: RJ-2011-001
+doi: 10.32614/RJ-2011-001
+packages:
+  cran:
+  - timeDate
+  - fCalendar
+  bioc: []
+CTV:

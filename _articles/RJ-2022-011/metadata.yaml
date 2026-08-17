@@ -1,0 +1,59 @@
+title: 'PSweight: An R Package for Propensity Score Weighting Analysis'
+abstract: Propensity score weighting is an important tool for comparative effectiveness research. Besides the inverse probability of treatment weights (IPW), recent development has introduced a general class of balancing weights, corresponding to alternative target populations and estimands. In particular, the overlap weights (OW) lead to optimal covariate balance and estimation efficiency, and a target population of scientific and policy interest. We develop the R package [*PSweight*](https://CRAN.R-project.org/package=PSweight) to provide a comprehensive design and analysis platform for causal inference based on propensity score weighting. *PSweight* supports (i) a variety of balancing weights, (ii) binary and multiple treatments, (iii) simple and augmented weighting estimators, (iv) nuisance-adjusted sandwich variances, and (v) ratio estimands. *PSweight* also provides diagnostic tables and graphs for covariate balance assessment. We demonstrate the functionality of the package using a data example from the National Child Development Survey (NCDS), where we evaluate the causal effect of educational attainment on income.
+author:
+- name: Tianhui Zhou
+  affiliation: |-
+    Department of Biostatistics and Bioinformatics, Duke University School
+    of Medicine
+  address:
+  - 2424 Erwin Road, Suite 1105
+  - |
+    Durham, NC 27705, United States of America
+- name: Guangyu Tong
+  affiliation: Department of Biostatistics, Yale University School of Public Health
+  address:
+  - 300 George St, Suite 511
+  - |
+    New Haven, CT 06510, United States of America
+- name: Fan Li
+  affiliation: Department of Statistical Science, Duke University
+  address:
+  - 122 Old Chemistry Building
+  - |
+    Durham, NC 27705, United States of America
+- name: Laine E. Thomas
+  affiliation: |-
+    Department of Biostatistics and Bioinformatics, Duke University School
+    of Medicine
+  address:
+  - 2424 Erwin Road, Suite 1105
+  - |
+    Durham, NC 27705, United States of America
+- name: Fan Li
+  affiliation: Department of Biostatistics, Yale University School of Public Health
+  address:
+  - 135 College St, Suite 200
+  - |
+    New Haven, CT 06510, United States of America
+date: '2022-06-22'
+date_received: '2021-06-07'
+journal:
+  firstpage: '282'
+  lastpage: '300'
+volume: 14
+issue: 1
+slug: RJ-2022-011
+doi: 10.32614/RJ-2022-011
+packages:
+  cran:
+  - PSweight
+  - twang
+  - CBPS
+  - PSW
+  - optweight
+  - ATE
+  - WeightIt
+  - causalweight
+  - sbw
+  bioc: []
+CTV:

@@ -1,0 +1,16 @@
+title: 'R Changes: 2.9.1-2.10.0 Patched'
+abstract: 'The ''R Changes: 2.9.1-2.10.0 Patched'' article from the 2009-2 issue.'
+author: The R Core team
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: 68
+  lastpage: 79
+volume: 1
+issue: 2
+slug: RJ-2009-2-r-changes
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,34 @@
+title: Computer Algebra in R Bridges a Gap Between Symbolic Mathematics and Data in the Teaching of Statistics and Data Science
+abstract: |
+  The capability of R to do symbolic mathematics is enhanced by the  reticulate and caracas packages. The workhorse behind these packages is the Python computer algebra library SymPy.  Via reticulate, the SymPy library can be accessed from within R.  This, however, requires some knowledge of SymPy, Python and reticulate. The caracas package, on the other hand, provides access to SymPy (via reticulate) but by  using R syntax, and this is the main contribution of caracas. We show examples of how to use the  SymPy library from R via reticulate and caracas. Using caracas,  we demonstrate how mathematics and statistics can benefit from  bridging computer algebra and data via R.  The caracas package integrates well with Rmarkdown and Quarto,  and as such supports creation of teaching material and scientific reports. As inspiration for teachers, we include ideas for  small student projects.
+author:
+- name: Mikkel Meyer Andersen
+  affiliation: Department of Mathematical Sciences, Aalborg University, Denmark
+  address:
+  - Skjernvej 4A
+  - 9220 Aalborg Ø, Denmark
+  email: mikl@math.aau.dk
+  orcid: 0000-0002-0234-0266
+- name: Søren Højsgaard
+  affiliation: Department of Mathematical Sciences, Aalborg University, Denmark
+  address:
+  - Skjernvej 4A
+  - 9220 Aalborg Ø, Denmark
+  email: sorenh@math.aau.dk
+  orcid: 0000-0002-3269-9552
+always_allow_html: yes
+type: package
+date: '2024-04-11'
+date_received: '2023-02-07'
+journal:
+  firstpage: 181
+  lastpage: 197
+volume: 15
+issue: 4
+slug: RJ-2023-090
+doi: 10.32614/RJ-2023-090
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

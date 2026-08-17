@@ -1,0 +1,63 @@
+title: 'GeRnika: An R Package for the Simulation, Visualization and Comparison of Tumor Phylogenies'
+abstract: |
+  The development of methods to study intratumoral heterogeneity and
+  tumor phylogenies is a highly active area of research. However, the
+  advancement of these approaches often necessitates access to
+  substantial amounts of data, which can be challenging and expensive to
+  acquire. Moreover, the assessment of results requires tools for
+  visualizing and comparing tumor phylogenies. In this paper, we
+  introduce GeRnika, an R package designed to address these needs by
+  enabling the simulation, visualization, and comparison of tumor
+  evolution data. In summary, GeRnika provides researchers with a
+  user-friendly tool that facilitates the analysis of their approaches
+  aimed at studying tumor composition and evolutionary history.
+author:
+- name: Aitor Sánchez-Ferrera
+  affiliation: |-
+    Intelligent Systems Group, Computer Science Faculty, University of the
+    Basque Country
+  orcid: 0000-0001-6127-0686
+  address:
+  - Paseo Manuel Lardizabal, Donostia/San Sebastian, 20018
+  - Spain
+  - |
+    [aitor.sanchezf@ehu.eus](aitor.sanchezf@ehu.eus){.uri}
+- name: Maitena Tellaetxe-Abete
+  affiliation: |-
+    Intelligent Systems Group, Computer Science Faculty, University of the
+    Basque Country
+  orcid: 0000-0003-1894-4547
+  address:
+  - Paseo Manuel Lardizabal, Donostia/San Sebastian, 20018
+  - Spain
+  - |
+    [maitena.tellaetxe@ehu.eus](maitena.tellaetxe@ehu.eus){.uri}
+- name: Borja Calvo-Molinos
+  affiliation: |-
+    Intelligent Systems Group, Computer Science Faculty, University of the
+    Basque Country
+  orcid: 0000-0001-9969-9664
+  address:
+  - Paseo Manuel Lardizabal, Donostia/San Sebastian, 20018
+  - Spain
+  - |
+    [borja.calvo@ehu.eus](borja.calvo@ehu.eus){.uri}
+date: '2026-02-11'
+date_received: '2025-03-31'
+journal:
+  firstpage: 256
+  lastpage: 275
+volume: 17
+issue: 4
+slug: RJ-2025-042
+doi: 10.32614/RJ-2025-042
+packages:
+  cran:
+  - GeRnika
+  - data.tree
+  bioc: clevRvis
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

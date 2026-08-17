@@ -1,0 +1,25 @@
+title: Changes in R 2.9.0
+abstract: The 'Changes in R 2.9.0' article from the 2009-1 issue.
+author: The R Core Team
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 71
+  lastpage: 76
+volume: 1
+issue: 1
+slug: RJ-2009-1-r-changes
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - Matrix
+  - tools
+  - tcltk
+  - utils
+  - base
+  - stats
+  - methods
+  - graphics
+  - gnomeGUI
+  bioc: []
+CTV:

@@ -1,0 +1,33 @@
+title: 'gplsim: An R Package for Generalized Partially Linear Single-index Models'
+abstract: Generalized partially linear single-index models (GPLSIMs) are important tools in nonparametric regression. They extend popular generalized linear models to allow flexible nonlinear dependence on some predictors while overcoming the "curse of dimensionality." We develop an R package gplsim that implements efficient spline estimation of GPLSIMs, proposed by [@yu_penalized_2002] and [@yu_penalised_2017], for a response variable from a general exponential family. The package builds upon the popular mgcv package for generalized additive models (GAMs) and provides functions that allow users to fit GPLSIMs with various link functions, select smoothing tuning parameter $\lambda$ against generalized cross-validation or alternative choices, and visualize the estimated unknown univariate function of single-index term. In this paper, we discuss the implementation of gplsim in detail, and illustrate the use case through a sine-bump simulation study with various links and a real-data application to air pollution data.
+author:
+- name: Tianhai Zu
+  affiliation: The University of Texas at San Antonio
+  email: |
+    tianhai.zu@utsa.edu
+  address:
+  - One UTSA Circle
+  - San Antonio, TX 78249
+  - https://orcid.org/0000-0002-4634-7937
+- name: Yan Yu
+  affiliation: University of Cincinnati
+  email: |
+    Yan.YU@uc.edu
+  address:
+  - 2906 Woodside Drive
+  - Cincinnati, OH 45221
+  - https://orcid.org/0000-0002-2859-3093
+date: '2023-08-26'
+date_received: '2022-01-10'
+journal:
+  firstpage: 55
+  lastpage: 64
+volume: 15
+issue: 1
+slug: RJ-2023-024
+doi: 10.32614/RJ-2023-024
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

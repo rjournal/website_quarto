@@ -1,0 +1,18 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2016-1 issue.
+author:
+- name: Michael Lawrence
+  affiliation: .na.character
+date: '2016-06-01'
+date_received:
+journal:
+  firstpage: '4'
+  lastpage: '4'
+volume: 8
+issue: 1
+slug: RJ-2016-1-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

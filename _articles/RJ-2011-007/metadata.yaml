@@ -1,0 +1,23 @@
+title: Cryptographic Boolean Functions with R
+abstract: A new package called [*boolfun*](https://CRAN.R-project.org/package=boolfun) is available for R users. The package provides tools to handle Boolean functions, in particular for cryptographic purposes. This document guides the user through some (code) examples and gives a feel of what can be done with the package.
+author:
+- name: Frédéric Lafitte,Dirk Van Heule and Julien Van hamme
+  affiliation: |
+    Department of Mathematics, Royal Military Academy, Belgium
+date: '2011-06-01'
+date_received:
+journal:
+  firstpage: '44'
+  lastpage: '47'
+volume: 3
+issue: 1
+slug: RJ-2011-007
+doi: 10.32614/RJ-2011-007
+packages:
+  cran:
+  - boolfun
+  - R.oo
+  - multipol
+  - stats
+  bioc: []
+CTV:

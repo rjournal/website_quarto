@@ -1,0 +1,21 @@
+title: 'expert: Modeling Without Data Using Expert Opinion'
+abstract: 'The [*expert*](https://CRAN.R-project.org/package=expert): Modeling Without Data Using Expert Opinion'' article from the 2009-1 issue.'
+author:
+- Vincent Goulet
+- Michel Jacques
+- Mathieu Pigeon
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 31
+  lastpage: 36
+volume: 1
+issue: 1
+slug: RJ-2009-005
+doi: 10.32614/RJ-2009-005
+packages:
+  cran:
+  - expert
+  - stats
+  bioc: []
+CTV:

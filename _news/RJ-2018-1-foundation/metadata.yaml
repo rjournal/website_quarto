@@ -1,0 +1,19 @@
+title: R Foundation News
+abstract: The 'R Foundation News' article from the 2018-1 issue.
+author:
+- name: Torsten Hothorn
+  affiliation: |
+    Universität Zürich, Switzerland
+date: '2018-06-01'
+date_received:
+journal:
+  firstpage: '555'
+  lastpage: '555'
+volume: 10
+issue: 1
+slug: RJ-2018-1-foundation
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

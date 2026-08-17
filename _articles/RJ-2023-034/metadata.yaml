@@ -1,0 +1,50 @@
+title: Fairness Audits and Debiasing Using \pkg{mlr3fairness}
+abstract: |
+  Given an increase in data-driven automated decision-making based on machine learning  (ML) models, it is imperative that, along with tools to develop and improve such models, there are sufficient capabilities to analyze and assess models with respect to potential biases. We present the package \CRANpkg{mlr3fairness}, a collection of metrics and methods that allow for the assessment of bias in machine learning models. Our package implements a variety of widely used fairness metrics that can be used to audit models for potential biases, along with a set of visualizations that can help to provide additional insights into such biases.  \CRANpkg{mlr3fairness} furthermore integrates bias mitigation methods for machine learning models through data pre-processing or post-processing of predictions.  These allow practitioners to trade off performance and fairness metrics that are appropriate for their use case.
+date: '2023-08-26'
+draft: no
+author:
+- name: Florian Pfisterer
+  orcid: 0000-0001-8867-762X
+  email: florian.pfisterer@stat.uni-muenchen.de
+  affiliation: Ludwig-Maximilians-Universität München
+  address: Munich, Germany
+  affiliation2: Munich Center for Machine Learning
+  address2: Munich, Germany
+- name: Siyi Wei
+  email: weisiyi2@gmail.com
+  affiliation: University of Toronto
+  address: Toronto, Canada
+- name: Sebastian Vollmer
+  orcid: 0000-0002-9025-0753
+  email: Sebastian.vollmer@dfki.de
+  affiliation: Deutsches Forschungszentrum für Künstliche Intelligenz
+  address: Kaiserslautern, Germany
+  affiliation2: University of Kaiserslautern
+  address2: Kaiserslautern, Germany
+- name: Michel Lang
+  email: michel.lang@stat.uni-muenchen.de
+  orcid: 0000-0001-9754-0393
+  affiliation: Research Center Trustworthy Data Science and Security
+  address: Dortmund, Germany
+  affiliation2: TU Dortmund University
+  address2: Dortmund, Germany
+- name: Bernd Bischl
+  email: bernd.bischl@stat.uni-muenchen.de
+  orcid: 0000-0001-6002-6980
+  affiliation: Ludwig-Maximilians-Universität München
+  address: Munich, Germany
+  affiliation2: Munich Center for Machine Learning
+  address2: Munich, Germany
+preamble: |
+  \usepackage{longtable}
+  \usepackage{bbm}
+date_received: '2022-05-20'
+volume: 15
+issue: 1
+slug: RJ-2023-034
+doi: 10.32614/RJ-2023-034
+journal:
+  lastpage: 253
+  firstpage: 234
+

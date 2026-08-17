@@ -1,0 +1,36 @@
+title: Hypothesis Tests for Multivariate Linear Models Using the car Package
+abstract: The multivariate linear model is $$\underset{(n\times m)}{\mathbf{Y}}=\underset{(n\times p)}{\mathbf{X}}\underset{(p\times m)}{\mathbf{B}}+\underset{(n\times m)}{\mathbf{E}}%$$ The multivariate linear model can be fit with the `lm` function in R, where the left-hand side of the model comprises a matrix of response variables, and the right-hand side is specified exactly as for a univariate linear model (i.e., with a single response variable). This paper explains how to use the `Anova` and `linearHypothesis` functions in the *car* package to perform convenient hypothesis tests for parameters in multivariate linear models, including models for repeated-measures data.
+author:
+- name: John Fox
+  affiliation: Department of Sociology, McMaster University
+  address: |
+    Canada
+- name: Michael Friendly
+  affiliation: Psychology Department, York University
+  address: |
+    Canada
+- name: Sanford Weisberg
+  affiliation: School of Statistics, University of Minnesota
+  address: |
+    USA
+date: '2013-06-02'
+date_received: '2012-01-13'
+journal:
+  firstpage: '39'
+  lastpage: '52'
+volume: 5
+issue: 1
+slug: RJ-2013-004
+doi: 10.32614/RJ-2013-004
+packages:
+  cran:
+  - car
+  - lme4
+  - nlme
+  - survival
+  - nnet
+  - MASS
+  - survey
+  - heplots
+  bioc: []
+CTV:

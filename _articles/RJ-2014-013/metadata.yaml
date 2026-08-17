@@ -1,0 +1,35 @@
+title: The gridSVG Package
+abstract: The *gridSVG* package can be used to generate a *grid*-based R plot in an SVG format, with the ability to add special effects to the plot. The special effects include animation, interactivity, and advanced graphical features, such as masks and filters. This article provides a basic introduction to important functions in the *gridSVG* package and discusses the advantages and disadvantages of *gridSVG* compared to similar R packages.
+author:
+- name: Paul Murrell
+  affiliation: The University of Auckland
+  address:
+  - Auckland
+  - |
+    New Zealand
+- name: Simon Potter
+  affiliation: The University of Auckland
+  address:
+  - Auckland
+  - |
+    New Zealand
+date: '2014-06-02'
+date_received: '2013-11-18'
+journal:
+  firstpage: '133'
+  lastpage: '143'
+volume: 6
+issue: 1
+slug: RJ-2014-013
+doi: 10.32614/RJ-2014-013
+packages:
+  cran:
+  - gridSVG
+  - lattice
+  - ggplot2
+  - animation
+  - RSVGTipsDevice
+  - googleVis
+  - shiny
+  bioc: []
+CTV:

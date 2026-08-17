@@ -1,0 +1,26 @@
+title: 'Conference Report: R in Insurance 2017'
+abstract: 'The ''Conference Report: R in Insurance 2017'' article from the 2017-2 issue.'
+author:
+- name: Nicolas Baradel
+  affiliation: |
+    ENSAE,Paris, France
+- name: Christophe Dutang
+  affiliation: Université du Maine, Le Mans, France
+  address: |
+    Université Paris Dauphine, Paris, France
+- name: Caroline Hillairet
+  affiliation: |
+    ENSAE, Paris, France
+date: '2017-12-01'
+date_received:
+journal:
+  firstpage: '539'
+  lastpage: '540'
+volume: 9
+issue: 2
+slug: RJ-2017-2-insurance
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

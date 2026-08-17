@@ -1,0 +1,42 @@
+title: 'BayesSenMC: an R package for Bayesian Sensitivity Analysis of Misclassification'
+abstract: In case--control studies, the odds ratio is commonly used to summarize the association between a binary exposure and a dichotomous outcome. However, exposure misclassification frequently appears in case--control studies due to inaccurate data reporting, which can produce bias in measures of association. In this article, we implement a Bayesian sensitivity analysis of misclassification to provide a full posterior inference on the corrected odds ratio under both non-differential and differential misclassification. We present an [R]{.sans-serif} [@R] package [*BayesSenMC*](https://CRAN.R-project.org/package=BayesSenMC), which provides user-friendly functions for its implementation. The usage is illustrated by a real data analysis on the association between bipolar disorder and rheumatoid arthritis.
+author:
+- name: Jinhui Yang
+  affiliation: University of Minnesota Twin Cities
+  address:
+  - Department of Computer Science and Engineering
+  - 200 Union St SE
+  - |
+    Minneapolis, MN 55455
+- name: Lifeng Lin
+  affiliation: Florida State University
+  address:
+  - Department of Statistics
+  - 117 N Woodward Ave
+  - |
+    Tallahassee, FL 32306
+- name: Haitao Chu
+  affiliation: University of Minnesota Twin Cities
+  address:
+  - School of Public Health
+  - 420 Delaware St SE
+  - |
+    Minneapolis, MN 55455
+date: '2021-12-15'
+date_received: '2020-06-05'
+journal:
+  firstpage: '228'
+  lastpage: '238'
+volume: 13
+issue: 2
+slug: RJ-2021-097
+doi: 10.32614/RJ-2021-097
+packages:
+  cran:
+  - BayesSenMC
+  - episensr
+  - lme4
+  - rstan
+  - ggplot2
+  bioc: []
+CTV:

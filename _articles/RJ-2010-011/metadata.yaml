@@ -1,0 +1,26 @@
+title: 'dclone: Data Cloning in R'
+abstract: The [*dclone*](https://CRAN.R-project.org/package=dclone) R package contains low level functions for implementing maximum likelihood estimating procedures for complex models using data cloning and Bayesian Markov Chain Monte Carlo methods with support for JAGS, WinBUGS and OpenBUGS.
+author:
+- name: Péter Sólymos
+  affiliation: Alberta Biodiversity Monitoring Institute
+  address:
+  - Department of Biological Sciences
+  - University of Alberta
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 29
+  lastpage: 37
+volume: 2
+issue: 2
+slug: RJ-2010-011
+doi: 10.32614/RJ-2010-011
+packages:
+  cran:
+  - dclone
+  - rjags
+  - coda
+  - R2WinBUGS
+  - BRugs
+  bioc: []
+CTV:

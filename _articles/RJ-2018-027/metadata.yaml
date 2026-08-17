@@ -1,0 +1,33 @@
+title: Semiparametric Generalized Linear Models with the gldrm Package
+abstract: This paper introduces a new algorithm to estimate and perform inferences on a recently proposed and developed semiparametric generalized linear model (glm). Rather than selecting a particular parametric exponential family model, such as the Poisson distribution, this semiparametric glm assumes that the response is drawn from the more general exponential tilt family. The regression coefficients and unspecified reference distribution are estimated by maximizing a semiparametric likelihood. The new algorithm incorporates several computational stability and efficiency improvements over the algorithm originally proposed. In particular, the new algorithm performs well for either small or large support for the nonparametric response distribution. The algorithm is implemented in a new R package called *gldrm*.
+author:
+- name: Michael J. Wurm
+  affiliation: Department of Statistics, University of Wisconsin--Madison
+  address:
+  - 1300 University Avenue
+  - Madison, WI 53706
+  - |
+    USA
+- name: Paul J. Rathouz
+  affiliation: |-
+    Department of Biostatistics & Medical Informatics, University of
+    Wisconsin School of Medicine and Public Health
+  address:
+  - K6/446 CSC, Box 4675
+  - 600 Highland Avenue
+  - Madison, WI 53792-4675
+  - |
+    USA
+date: '2018-05-21'
+date_received: '2017-07-23'
+journal:
+  firstpage: '288'
+  lastpage: '307'
+volume: 10
+issue: 1
+slug: RJ-2018-027
+doi: 10.32614/RJ-2018-027
+packages:
+  cran: gldrm
+  bioc: []
+CTV:

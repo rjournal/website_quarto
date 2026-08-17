@@ -1,0 +1,32 @@
+title: 'PMML: An Open Standard for Sharing Models'
+abstract: 'The ''PMML: An Open Standard for Sharing Models'' article from the 2009-1 issue.'
+author:
+- name: Alex Guazzelli, Michael Zeller, Wen-Ching Lin
+  affiliation: Zementis Inc
+- name: Graham Williams
+  affiliation: Togaware Pty Ltd
+date: '2009-06-01'
+date_received:
+journal:
+  firstpage: 60
+  lastpage: 65
+volume: 1
+issue: 1
+slug: RJ-2009-010
+doi: 10.32614/RJ-2009-010
+packages:
+  cran:
+  - PMML
+  - rpart
+  - XML
+  - kernlab
+  - ksvm
+  - nnet
+  - VR
+  - stats
+  - VGAM
+  - arules
+  - randomForest
+  - randomSurvivalForest
+  bioc: []
+CTV:

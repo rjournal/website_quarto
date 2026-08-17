@@ -1,0 +1,74 @@
+title: 'The Conference Report of Why R? Turkey 2022: The First R Conference with Call For Papers in Turkey'
+abstract: |
+  Why R? Turkey 2022 was a non-profit conference that aimed to bring Turkish R users together and encourage them to attend the R conferences. The targeted audience of the conference consisted of, data scientists, data analysts, and all R users from academia and industry. The three-day conference, which consisted of several events such as workshops, regular talks, lightning talks, short tutorials, and panels, was free of charge and fully online. This article describes the challenges and benefits, as well as providing an overview of the conference's content and participants’ profile.
+draft: no
+author:
+- name: Mustafa Cavus
+  affiliation: Eskisehir Technical University
+  address:
+  - Department of Statistics
+  - Eskisehir, Turkey
+  url:
+  orcid: 0000-0002-6172-5449
+  email: mustafacavus@eskisehir.edu.tr
+- name: Olgun Aydin
+  url:
+  email: olgun.aydin@pg.edu.pl
+  orcid: 0000-0002-7090-0931
+  affiliation: Gdansk University of Technology
+  address: Gdansk, Poland
+- name: Ozan Evkaya
+  affiliation: The University of Edinburgh
+  address:
+  - School of Mathematics
+  - Edinburgh, UK
+  url:
+  orcid: 0000-0002-5076-8144
+  email: ozanevkaya@gmail.com
+- name: Derya Turfan
+  affiliation: Hacettepe University
+  address:
+  - Department of Statistics
+  - Ankara, Turkey
+  url:
+  orcid: 0000-0001-8252-1325
+  email: deryaturfan@hacettepe.edu.tr
+- name: Filiz Karadag
+  affiliation: Ege University
+  address:
+  - Department of Statistics
+  - Izmir, Turkey
+  url:
+  orcid: 0000-0002-0116-7772
+  email: filiz.karadag@ege.edu.tr
+- name: Ozancan Ozdemir
+  affiliation: Middle East Technical University
+  address:
+  - Department of Statistics
+  - Ankara, Turkey
+  url:
+  orcid: 0000-0002-7850-3885
+  email: ozancan@metu.edu.tr
+- name: Ugur Dar
+  affiliation: Eskisehir Technical University
+  address:
+  - Department of Statistics
+  - Eskisehir, Turkey
+  url:
+  email: ugurdar@eskisehir.edu.tr
+- name: Deniz Bezer
+  affiliation: Middle East Technical University
+  address:
+  - Department of Statistics
+  - Ankara, Turkey
+  url:
+  email: deniz.bezer@metu.edu.tr
+type: package
+date: '2022-06-01'
+volume: 14
+issue: 2
+slug: RJ-2022-2-whyrturkey
+journal:
+  lastpage: 346
+  firstpage: 340
+

@@ -1,0 +1,36 @@
+title: 'HCmodelSets: An R Package for Specifying Sets of Well-fitting Models in High Dimensions'
+abstract: In the context of regression with a large number of explanatory variables, @cox2017large emphasize that if there are alternative reasonable explanations of the data that are statistically indistinguishable, one should aim to specify as many of these explanations as is feasible. The standard practice, by contrast, is to report a single effective model for prediction. This paper illustrates the R implementation of the new ideas in the package *HCmodelSets*, using simple reproducible examples and real data. Results of some simulation experiments are also reported.
+author:
+- name: Henrique Helfer Hoeltgebaum
+  affiliation: |-
+    Electrical Engineering Department, Pontifical Catholic University of
+    Rio de Janeiro
+  address:
+  - R. Marquês de São Vicente, 225 - Gávea,
+  - Rio de Janeiro - RJ, 22451-900, Brazil
+  - Department of Mathematics, Imperial College London
+  - 180 Queen's Gate, South Kensington,
+  - |
+    London, SW7 2AZ, UK
+- name: Heather S. Battey
+  affiliation: Department of Mathematics, Imperial College London
+  address:
+  - 180 Queen's Gate, South Kensington,
+  - |
+    London, SW7 2AZ, UK
+date: '2020-01-06'
+date_received: '2019-03-28'
+journal:
+  firstpage: '370'
+  lastpage: '379'
+volume: 11
+issue: 2
+slug: RJ-2019-057
+doi: 10.32614/RJ-2019-057
+packages:
+  cran:
+  - HCmodelSets
+  - glmnet
+  - survival
+  bioc: []
+CTV:

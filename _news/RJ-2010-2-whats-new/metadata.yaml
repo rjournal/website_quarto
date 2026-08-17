@@ -1,0 +1,30 @@
+title: What's New?
+abstract: We discuss how news in R and add-on packages can be disseminated. R 2.10.0 has added facilities for computing on news in a common plain text format. In R 2.12.0, the Rd format has been further enhanced so that news can be very conveniently recorded in Rd, allowing for both improved rendering and the development of new news services.
+author:
+- name: Kurt Hornik
+  affiliation: |-
+    Department of Finance, Accounting and Statistics,
+    Wirtschaftsuniversität Wien
+  address:
+  - Augasse 2--6, 1090 Wien
+  - |
+    Austria
+- name: Duncan Murdoch
+  affiliation: |-
+    Department of Statistical and Actuarial Sciences, University of
+    Western Ontario
+  address: |
+    London, Ontario, Canada
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 74
+  lastpage: 76
+volume: 2
+issue: 2
+slug: RJ-2010-2-whats-new
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

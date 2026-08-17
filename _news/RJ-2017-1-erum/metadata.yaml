@@ -1,0 +1,88 @@
+title: 'Conference Report: European R Users Meeting 2016'
+abstract: 'The ''Conference Report: European R Users Meeting 2016'' article from the 2017-1 issue.'
+author:
+- name: Maciej Beręsewicz
+  affiliation: Poznań University of Economics and Business
+  address:
+  - Niepodległości 10 av., 61-875 Poznań
+  - Poland
+- name: Adolfo Alvarez
+  affiliation: Analyx
+  address:
+  - Święty Marcin 24, 60-101 Poznań
+  - Poland
+- name: Przemysław Biecek
+  affiliation: MIM University of Warsaw, MiNI Warsaw University of Technology
+  address:
+  - Banacha 2, 02-097 Warszawa
+  - Poland
+- name: Marcin K. Dyderski
+  affiliation: Institute of Dendrology of the Polish Academy of Sciences
+  address:
+  - Parkowa 5, 62-035 Kórnik
+  - Poland
+- name: Marcin Kosiński
+  affiliation: Warsaw R Enthusiasts
+  address:
+  - Koszykowa 75, Warszawa
+  - Poland
+- name: Jakub Nowosad
+  affiliation: University of Cincinnati
+  address:
+  - 219 Braunstein Hall, Cincinnati, OH 45221
+  - USA
+- name: Kamil Rotter
+  affiliation: SKN Estymator
+  address:
+  - Niepodległości 10 av., 61-875 Poznań
+  - Poland
+- name: Alicja Szabelska-Beręsewicz
+  affiliation: Poznań University of Life Sciences
+  address:
+  - Wojska Polskiego 28, 60-637 Poznań
+  - Poland
+- name: Marcin Szymkowiak
+  affiliation: Poznań University of Economics and Business
+  address:
+  - Niepodległości 10 av., 61-875 Poznań
+  - Poland
+- name: Łukasz Wawrowski
+  affiliation: Poznań University of Economics and Business
+  address:
+  - Niepodległości 10 av., 61-875 Poznań
+  - Poland
+- name: Joanna Zyprych-Walczak
+  affiliation: Poznań University of Life Sciences
+  address:
+  - Wojska Polskiego 28, 60-637 Poznań
+  - Poland
+date: '2017-06-01'
+date_received:
+journal:
+  firstpage: '501'
+  lastpage: '504'
+volume: 9
+issue: 1
+slug: RJ-2017-1-erum
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - ggplot2
+  - shiny
+  - dplyr
+  - caret
+  - leaflet
+  - sp
+  - cluster
+  - e1071
+  - knitr
+  - magrittr
+  - randomForest
+  - Rcpp
+  - rgdal
+  - rgeos
+  - rmarkdown
+  - rstan
+  - SparkR
+  bioc: []
+CTV:

@@ -1,0 +1,37 @@
+title: 'nortsTest: An R Package for Assessing Normality of Stationary Processes'
+date: '2025-01-10'
+abstract: |
+  Normality is the central assumption for analyzing dependent data in several time series models, and the literature has widely studied normality tests. However, the implementations of these tests are limited. The nortsTest package is dedicated to fill this void. The package performs the asymptotic and bootstrap versions of the tests of Epps and Lobato and Velasco and the tests of Psaradakis and Vavra, random projections and El Bouch for normality of stationary processes. These tests are for univariate stationary processes but for El Bouch that also allows bivariate stationary processes. In addition, the package offers visual diagnostics for checking stationarity and normality assumptions for the most used time series models in several R packages. This work aims to show the package's functionality, presenting each test performance with simulated examples and the package utility for model diagnostic in time series analysis.
+draft: no
+author:
+- name: Asael Alonzo Matamoros
+  affiliation: Aalto University
+  address:
+  - Department of Computer Science
+  - Eespo, Finland
+  url: https://asael697.github.io
+  email: izhar.alonzomatamoros@aalto.fi
+- name: Alicia Nieto-Reyes
+  affiliation: Universidad de Cantabria
+  address:
+  - Departmento de Mathemáticas, Estadística y Computación
+  - Avd. de los Castros s/n. 39005 Santander, Spain
+  url: https://orcid.org/0000-0002-0268-3322
+  email: alicia.nieto@unican.es
+- name: Claudio Agostinelli
+  affiliation: University of Trento
+  address:
+  - Department of Mathematics
+  - Via Sommarive, 14 - 38123 Povo
+  url: https://orcid.org/0000-0001-6702-4312
+  email: claudio.agostinelli@unitn.it
+type: package
+date_received: '2022-10-21'
+volume: 16
+issue: 1
+slug: RJ-2024-008
+doi: 10.32614/RJ-2024-008
+journal:
+  lastpage: 156
+  firstpage: 135
+

@@ -1,0 +1,42 @@
+title: Downside Risk Evaluation with the R Package GAS
+abstract: 'Financial risk managers routinely use non--linear time series models to predict the downside risk of the capital under management. They also need to evaluate the adequacy of their model using so--called backtesting procedures. The latter involve hypothesis testing and evaluation of loss functions. This paper shows how the R package *GAS* can be used for both the dynamic prediction and the evaluation of downside risk. Emphasis is given to the two key financial downside risk measures: Value-at-Risk (VaR) and Expected Shortfall (ES). High-level functions for: (i) prediction, (ii) backtesting, and (iii) model comparison are discussed, and code examples are provided. An illustration using the series of log--returns of the Dow Jones Industrial Average constituents is reported.'
+author:
+- name: David Ardia
+  affiliation: Institute of Financial Analysis, University of Neuchâtel, Switzerland
+  orcid: 0000-0003-2823-782X
+  address:
+  - and
+  - Department of Decision Sciences
+  - HEC Montréal, Canada
+- name: Kris Boudt
+  orcid: 0000-0002-1000-5142
+  affiliation: Department of Economics, Ghent University, Belgium
+  address:
+  - and
+  - Vrije Universiteit Brussel, Belgium
+  - and
+  - Vrije Universiteit Amsterdam, The Netherlands
+- name: Leopoldo Catania
+  orcid: 0000-0002-0981-1921
+  affiliation: |-
+    Department of Economics and Business Economics and CREATES, Aarhus
+    University
+  address:
+  - School of Business and Social Sciences
+  - (corresponding author)
+  - Denmark
+date: '2018-12-08'
+date_received: '2018-05-01'
+journal:
+  firstpage: '410'
+  lastpage: '421'
+volume: 10
+issue: 2
+slug: RJ-2018-064
+doi: 10.32614/RJ-2018-064
+packages:
+  cran:
+  - GAS
+  - cubature
+  bioc: []
+CTV:

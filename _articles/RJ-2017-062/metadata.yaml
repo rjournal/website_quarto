@@ -1,0 +1,63 @@
+title: 'riskRegression: Predicting the Risk of an Event using Cox Regression Models'
+abstract: In the presence of competing risks a prediction of the time-dynamic absolute risk of an event can be based on cause-specific Cox regression models for the event and the competing risks [@benichou1990estimates]. We present computationally fast and memory optimized C++ functions with an R interface for predicting the covariate specific absolute risks, their confidence intervals, and their confidence bands based on right censored time to event data. We provide explicit formulas for our implementation of the estimator of the (stratified) baseline hazard function in the presence of tied event times. As a by-product we obtain fast access to the baseline hazards (compared to `survival::basehaz()`) and predictions of survival probabilities, their confidence intervals and confidence bands. Confidence intervals and confidence bands are based on point-wise asymptotic expansions of the corresponding statistical functionals. The software presented here is implemented in the ***riskRegression*** package.
+author:
+- name: Brice Ozenne
+  affiliation: |-
+    Section of Biostatistics, Department of Public Health, University of
+    Copenhagen
+  address:
+  - Østerfarimagsgade 5, 1014 Copenhagen
+  - |
+    Denmark
+- name: Anne Lyngholm Sørensen
+  affiliation: |-
+    Section of Biostatistics, Department of Public Health, University of
+    Copenhagen
+  address:
+  - Østerfarimagsgade 5, 1014 Copenhagen
+  - |
+    Denmark
+- name: Thomas Scheike
+  affiliation: |-
+    Section of Biostatistics, Department of Public Health, University of
+    Copenhagen
+  address:
+  - Østerfarimagsgade 5, 1014 Copenhagen
+  - |
+    Denmark
+- name: Christian Torp-Pedersen
+  affiliation: |-
+    Public Health and Epidemiology Group, Department of Health Science and
+    Technology, Aalborg University
+  address:
+  - Niels Jernes Vej 12, 9220 Aalborg
+  - |
+    Denmark
+- name: Thomas Alexander Gerds
+  affiliation: |-
+    Section of Biostatistics, Department of Public Health, University of
+    Copenhagen
+  address:
+  - Østerfarimagsgade 5, 1014 Copenhagen
+  - |
+    Denmark
+date: '2017-11-22'
+date_received: '2017-07-07'
+journal:
+  firstpage: '440'
+  lastpage: '460'
+volume: 9
+issue: 2
+slug: RJ-2017-062
+doi: 10.32614/RJ-2017-062
+packages:
+  cran:
+  - survival
+  - rms
+  - riskRegression
+  - mstate
+  - rbenchmark
+  - profvis
+  - mets
+  bioc: []
+CTV:

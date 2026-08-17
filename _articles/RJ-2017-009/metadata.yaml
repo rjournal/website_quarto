@@ -1,0 +1,32 @@
+title: 'imputeTS: Time Series Missing Value Imputation in R'
+abstract: The *imputeTS* package specializes on univariate time series imputation. It offers multiple state-of-the-art imputation algorithm implementations along with plotting functions for time series missing data statistics. While imputation in general is a well-known problem and widely covered by R packages, finding packages able to fill missing values in univariate time series is more complicated. The reason for this lies in the fact, that most imputation algorithms rely on inter-attribute correlations, while univariate time series imputation instead needs to employ time dependencies. This paper provides an introduction to the *imputeTS* package and its provided algorithms and tools. Furthermore, it gives a short overview about univariate time series imputation in R.
+author:
+- name: Steffen Moritz
+  affiliation: Cologne University of Applied Sciences
+  address: Cologne, Germany
+- name: Thomas Bartz-Beielstein
+  affiliation: Cologne University of Applied Sciences
+  address: Cologne, Germany
+date: '2017-05-10'
+date_received: '2016-07-12'
+journal:
+  firstpage: '207'
+  lastpage: '218'
+volume: 9
+issue: 1
+slug: RJ-2017-009
+doi: 10.32614/RJ-2017-009
+packages:
+  cran:
+  - AMELIA
+  - mice
+  - VIM
+  - missMDA
+  - imputeTS
+  - zoo
+  - forecast
+  - spacetime
+  - timeSeries
+  - xts
+  bioc: []
+CTV:

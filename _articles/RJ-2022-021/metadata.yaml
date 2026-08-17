@@ -1,0 +1,73 @@
+title: Advancing Reproducible Research by Publishing R Markdown Notebooks as Interactive Sandboxes Using the learnr Package
+author:
+- name: Chak Hau Michael Tso
+  affiliation: UK Centre for Ecology and Hydrology
+  address:
+  - Lancaster Environment Centre
+  - Lancaster LA1 4YQ, United Kingdom
+  orcid: 0000-0002-2415-0826
+  email: mtso@ceh.ac.uk
+- name: Michael Hollaway
+  affiliation: UK Centre for Ecology and Hydrology
+  address:
+  - Lancaster Environment Centre
+  - Lancaster LA1 4YQ, United Kingdom
+  orcid: 0000-0003-0386-2696
+  email: mhollaway@ceh.ac.uk
+- name: Rebecca Killick
+  affiliation: Department of Statistics, Lancaster University
+  address:
+  - Flyde College
+  - Lancaster LA1 4YF, United Kingdom
+  orcid: 0000-0003-0583-3960
+  email: r.killick@lancaster.ac.uk
+- name: Peter Henrys
+  affiliation: UK Centre for Ecology and Hydrology
+  address:
+  - Lancaster Environment Centre
+  - Lancaster LA1 4YQ, United Kingdom
+  orcid: 0000-0003-4758-1482
+  email: pehn@ceh.ac.uk
+- name: Don Monteith
+  affiliation: UK Centre for Ecology and Hydrology
+  address:
+  - Lancaster Environment Centre
+  - Lancaster LA1 4YQ, United Kingdom
+  email: donm@ceh.ac.uk
+- name: John Watkins
+  affiliation: UK Centre for Ecology and Hydrology
+  address:
+  - Lancaster Environment Centre
+  - Lancaster LA1 4YQ, United Kingdom
+  email: jww@ceh.ac.uk
+  orcid: 0000-0002-3518-8918
+- name: Gordon Blair
+  affiliation: UK Centre for Ecology and Hydrology
+  address:
+  - Lancaster Environment Centre
+  - Lancaster LA1 4YQ, United Kingdom
+  orcid: 0000-0001-6212-1906
+  email: g.blair@lancaster.ac.uk
+abstract: |
+  Various R packages and best practices have played a pivotal role to promote the Findability, Accessibility, Interoperability, and Reuse (FAIR) principles of open science. For example, (1) well-documented R scripts and notebooks with rich narratives are deposited at a trusted data centre, (2) R Markdown interactive notebooks can be run on-demand as a web service, and (3) R Shiny web apps provide nice user interfaces to explore research outputs. However, notebooks require users to go through the entire analysis, while Shiny apps do not expose the underlying code and require extra work for UI design. We propose using the \pkg{learnr} package to expose certain code chunks in R Markdown so that users can readily experiment with them in guided, editable, isolated, executable, and resettable code sandboxes. Our approach does not replace the existing use of notebooks and Shiny apps, but it adds another level of abstraction between them to promote reproducible science.
+preamble: |
+  % Any extra LaTeX you need in the preamble
+  \usepackage{colortbl}
+  \usepackage{array}
+  \usepackage{graphicx}
+  \usepackage{tabularx}
+  \usepackage{verbatim}
+  \usepackage{longtable}
+  \newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
+header-includes: \usepackage{subfig}
+date: '2022-06-21'
+date_received: '2021-05-17'
+volume: 14
+issue: 1
+slug: RJ-2022-021
+doi: 10.32614/RJ-2022-021
+journal:
+  lastpage: 263
+  firstpage: 255
+draft: no
+

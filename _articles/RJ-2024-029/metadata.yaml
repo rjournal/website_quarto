@@ -1,0 +1,69 @@
+title: 'SNSeg: An R Package for Time Series Segmentation via Self-Normalization'
+abstract: |
+  Time series segmentation aims to identify potential change-points in a
+  sequence of temporally dependent data, so that the original sequence
+  can be partitioned into several homogeneous subsequences. It is useful
+  for modeling and predicting non-stationary time series and is widely
+  applied in natural and social sciences. Existing segmentation methods
+  primarily focus on only one type of parameter changes such as mean and
+  variance, and they typically depend on smoothing parameters, which can
+  be challenging to choose in practice. The self-normalization based
+  change-point estimation framework SNCP by Zhao and others (2022),
+  however, offers users more flexibility and convenience as it allows
+  for change-point estimation of different types of parameters (e.g.
+  mean, variance, quantile and autocovariance) in a unified fashion. In
+  this paper, the R package SNSeg is introduced to implement SNCP for
+  segmentation of univariate and multivariate time series. An extension
+  of SNCP, named SNHD, is also designed and implemented for change-point
+  estimation in the mean vector of high-dimensional time series. The
+  estimated change-points as well as segmented time series are available
+  with graphical tools. Detailed examples of SNSeg are given in
+  simulations of multivariate autoregressive processes with
+  change-points.
+author:
+- name: Shubo Sun
+  affiliation: University of Miami
+  address:
+  - Herbert Business School
+  - Coral Gables, FL, USA
+  - |
+    [sxs3935@miami.edu](sxs3935@miami.edu){.uri}
+- name: Zifeng Zhao
+  affiliation: University of Notre Dame
+  address:
+  - Mendoza College of Business
+  - Notre Dame, IN, USA
+  - |
+    [zifeng.zhao@nd.edu](zifeng.zhao@nd.edu){.uri}
+- name: Feiyu Jiang
+  affiliation: Fudan University
+  address:
+  - School of Management
+  - Shanghai, China
+  - |
+    [jiangfy@fudan.edu.cn](jiangfy@fudan.edu.cn){.uri}
+- name: Xiaofeng Shao
+  affiliation: University of Illinois at Urbana-Champaign
+  address:
+  - Department of Statistics
+  - Champaign, IL, USA
+  - |
+    [xshao@illinois.edu](xshao@illinois.edu){.uri}
+date: '2025-05-20'
+date_received: '2023-09-24'
+journal:
+  firstpage: 46
+  lastpage: 72
+volume: 16
+issue: 3
+slug: RJ-2024-029
+doi: 10.32614/RJ-2024-029
+citation_url: https://rjournal.github.io/
+packages:
+  cran: SNSeg
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

@@ -1,0 +1,66 @@
+title: Prediction, Bootstrapping and Monte Carlo Analyses Based on Linear Mixed Models with QAPE 2.0 Package
+abstract: |
+  The paper presents a new R package
+  [**qape**](https://CRAN.R-project.org/package=qape) for prediction,
+  accuracy estimation of various predictors and Monte Carlo simulation
+  studies of properties of both predictors and estimators of accuracy
+  measures. It allows to predict any population and subpopulation
+  characteristics of the response variable based on the Linear Mixed
+  Model (LMM). The response variable can be transformed, e.g. to
+  logarithm and the data can be in the cross-sectional or longitudinal
+  framework. Three bootstrap algorithms are developed: parametric,
+  residual and double, allowing to estimate the prediction accuracy.
+  Analyses can also include Monte Carlo simulation studies of properties
+  of the methods used. Unlike other packages, in the prediction process
+  the user can flexibly define the predictor, the model, the
+  transformation function of the response variable, the predicted
+  characteristics and the method of accuracy estimation.
+author:
+- name: Alicja Wolny--Dominiak
+  affiliation: Department of Statistical and Mathematical Methods in Economics
+  address:
+  - University of Economics in Katowice
+  - 50, 1 Maja Street
+  - 40--287 Katowice
+  - Poland
+  - |
+    [alicja.wolny-dominiak@uekat.pl](alicja.wolny-dominiak@uekat.pl){.uri}
+  - |
+    [web.ue.katowice.pl/woali/](web.ue.katowice.pl/woali/){.uri}
+- name: Tomasz Ża̧dło
+  affiliation: Department of Statistics, Econometrics and Mathematics
+  address:
+  - University of Economics in Katowice
+  - 50, 1 Maja Street
+  - 40--287 Katowice
+  - Poland
+  - |
+    [tomasz.zadlo@uekat.pl](tomasz.zadlo@uekat.pl){.uri}
+  - |
+    [web.ue.katowice.pl/zadlo/](web.ue.katowice.pl/zadlo/){.uri}
+date: '2025-01-10'
+date_received: '2022-08-12'
+journal:
+  firstpage: 67
+  lastpage: 83
+volume: 16
+issue: 1
+slug: RJ-2024-004
+doi: 10.32614/RJ-2024-004
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - qape
+  - sae
+  - msae
+  - saery
+  - JoSAE
+  - emdi
+  - HLMdiag
+  - lme4
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

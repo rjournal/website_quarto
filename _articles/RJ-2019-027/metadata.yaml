@@ -1,0 +1,50 @@
+title: 'cvcrand: A Package for Covariate-constrained Randomization and the Clustered Permutation Test for Cluster Randomized Trials'
+abstract: The cluster randomized trial (CRT) is a randomized controlled trial in which randomization is conducted at the cluster level (e.g., school or hospital) and outcomes are measured for each individual within a cluster. Often, the number of clusters available to randomize is small ($\leq$ 20), which increases the chance of baseline covariate imbalance between comparison arms. Such imbalance is particularly problematic when the covariates are predictive of the outcome because it can threaten the internal validity of the CRT. Pair-matching and stratification are two restricted randomization approaches that are frequently used to ensure balance at the design stage. An alternative, less commonly-used restricted randomization approach is covariate-constrained randomization. Covariate-constrained randomization quantifies baseline imbalance of cluster-level covariates using a balance metric and randomly selects a randomization scheme from those with acceptable balance by the balance metric. It is able to accommodate multiple covariates, both categorical and continuous. To facilitate implementation of covariate-constrained randomization for the design of two-arm parallel CRTs, we have developed the *cvcrand* R package. In addition, *cvcrand* also implements the clustered permutation test for analyzing continuous and binary outcomes collected from a CRT designed with covariate-constrained randomization. We used a real cluster randomized trial to illustrate the functions included in the package.
+author:
+- name: Hengshi Yu
+  affiliation: |-
+    Department of Biostatistics, School of Public Health, University of
+    Michigan
+  orcid: |
+    0000-0001-9850-9347
+  address:
+  - Ann Arbor, Michigan 48109
+  - USA
+- name: Fan Li
+  affiliation: |-
+    Department of Biosatistics, Yale School of Public Health, Yale
+    University
+  orcid: |
+    0000-0001-6183-1893
+  address:
+  - New Haven, Connecticut 06510
+  - USA
+- name: John A. Gallis
+  affiliation: Department of Biosatistics and Bioinformatics, Duke University
+  orcid: |
+    0000-0003-1921-8424
+  address:
+  - Duke Global Health Institute, Duke University
+  - Durham, North Carolina 27710
+  - USA
+- name: Elizabeth L. Turner
+  affiliation: Department of Biosatistics and Bioinformatics, Duke University
+  orcid: |
+    0000-0002-7638-5942
+  address:
+  - Duke Global Health Institute, Duke University
+  - Durham, North Carolina 27710
+  - USA
+date: '2019-08-17'
+date_received: '2018-05-01'
+journal:
+  firstpage: '191'
+  lastpage: '204'
+volume: 11
+issue: 2
+slug: RJ-2019-027
+doi: 10.32614/RJ-2019-027
+packages:
+  cran: cvcrand
+  bioc: []
+CTV:

@@ -1,0 +1,53 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2015-1 issue.
+author:
+- name: The Bioconductor Team
+  affiliation: |
+    Program in Computational Biology, Fred Hutchinson Cancer Research
+    Center
+date: '2015-06-01'
+date_received:
+journal:
+  firstpage: '239'
+  lastpage: '240'
+volume: 7
+issue: 1
+slug: RJ-2015-1-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - AnnotationHub
+  - sincell
+  - RCyjs
+  - mogsa
+  - nethet
+  - pandaR
+  - pwOmics
+  - seq2pathway
+  - BEclear
+  - conumee
+  - DMRcaller
+  - ENmix
+  - RnBeads
+  - skewr
+  - FlowRepositoryR
+  - FlowSOM
+  - flowVS
+  - immunoClus
+  - LEA
+  - muscle
+  - msa
+  - gtrellis
+  - ggtree
+  - ComplexHeatmap
+  - seqPattern
+  - soGGI
+  - Rhtslib
+  - GoogleGenomics
+  - biomaRt
+  - VariantAnnotation
+  - VariantFiltering
+  - ensemblVEP
+  - BiocCheck
+CTV:

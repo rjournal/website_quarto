@@ -1,0 +1,25 @@
+title: useR! 2010
+abstract: A summary of the useR! 2010 conference.
+author:
+- name: Katharine Mullen
+  affiliation: |-
+    Structure Determination Methods Group, Ceramics Division, National
+    Institute of Standards and Technology (NIST)
+  address:
+  - 100 Bureau Drive, M/S 8520
+  - Gaithersburg, MD, 20899, USA
+  - |
+    Email: Katharine.Mullen@nist.gov
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 77
+  lastpage: 78
+volume: 2
+issue: 2
+slug: RJ-2010-2-user
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,50 @@
+title: 'ASML: An R Package for Algorithm Selection with Machine Learning'
+date: '2026-02-10'
+abstract: |
+  For extensively studied computational problems, it is commonly acknowledged that different instances may require different algorithms for optimal performance. The R package  ASML focuses on the task of efficiently selecting from a given portfolio of algorithms, the most suitable one for each specific problem instance, based on significant instance features. The package allows for the use of the machine learning tools available in the R package caret and additionally offers visualization tools and summaries of results that make it easier to interpret how algorithm selection techniques perform, helping users better understand and assess their behavior and performance improvements.
+draft: no
+author:
+- name: Ignacio Gómez-Casares
+  affiliation: Universidade de Santiago de Compostela
+  address:
+  - Department of Statistics, Mathematical Analysis and Optimization
+  - Santiago de Compostela, Spain
+  email: ignaciogomez.casares@usc.es
+- name: Beatriz Pateiro-López
+  affiliation: Universidade de Santiago de Compostela
+  address:
+  - Department of Statistics, Mathematical Analysis and Optimization
+  - CITMAga (Galician Center for Mathematical Research and Technology)
+  - Santiago de Compostela, Spain
+  email: beatriz.pateiro@usc.es
+  orcid: 0000-0002-7714-1835
+- name: Brais González-Rodríguez
+  affiliation: Universidade de Vigo
+  address:
+  - Department of Statistics and Operational Research
+  - SiDOR Research Group
+  - Vigo, Spain
+  email: brais.gonzalez.rodriguez@uvigo.gal
+- name: Julio González-Díaz
+  affiliation: Universidade de Santiago de Compostela
+  address:
+  - Department of Statistics, Mathematical Analysis and Optimization
+  - CITMAga (Galician Center for Mathematical Research and Technology)
+  - Santiago de Compostela, Spain
+  email: julio.gonzalez@usc.es
+  orcid: 0000-0002-4667-4348
+type: package
+header-includes:
+- \usepackage{longtable}
+- \usepackage[table]{xcolor}
+- \usepackage{pifont}
+- \usepackage{float}
+date_received: '2025-03-04'
+volume: 17
+issue: 4
+slug: RJ-2025-045
+doi: 10.32614/RJ-2025-045
+journal:
+  lastpage: 237
+  firstpage: 217
+

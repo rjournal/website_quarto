@@ -1,0 +1,70 @@
+title: 'drclust: An R Package for Simultaneous Clustering and Dimensionality Reduction'
+abstract: |
+  The primary objective of simultaneous methodologies for clustering and
+  variable reduction is to identify both the optimal partition of units
+  and the optimal subspace of variables, all at once. The optimality is
+  typically determined using least squares or maximum likelihood
+  estimation methods. These simultaneous techniques are particularly
+  useful when working with Big Data, where the reduction (synthesis) is
+  essential for both units and variables. Furthermore, a secondary
+  objective of reducing variables through a subspace is to enhance the
+  interpretability of the latent variables identified by the subspace
+  using specific methodologies. The drclust package implements double
+  K-means (KM), reduced KM, and factorial KM to address the primary
+  objective. KM with disjoint principal components addresses both the
+  primary and secondary objectives, while disjoint principal component
+  analysis and disjoint factor analysis address the latter, producing
+  the sparsest loading matrix. The models are implemented in C++ for
+  faster execution, processing large data matrices in a reasonable
+  amount of time.
+author:
+- name: Ionel Prunila
+  affiliation: Department of Statistical Sciences, Sapienza University of Rome
+  orcid: 0009-0009-3773-0481
+  address:
+  - P.le Aldo Moro 5, 00185 Rome
+  - Italy
+  - |
+    [ionel.prunila@uniroma1.it](ionel.prunila@uniroma1.it){.uri}
+- name: Maurizio Vichi
+  affiliation: Department of Statistical Sciences, Sapienza University of Rome
+  orcid: 0000-0002-3876-444X
+  address:
+  - P.le Aldo Moro 5, 00185 Rome
+  - Italy
+  - |
+    [maurizio.vichi@uniroma1.it](maurizio.vichi@uniroma1.it){.uri}
+date: '2026-02-04'
+date_received: '2024-07-12'
+journal:
+  firstpage: 104
+  lastpage: 133
+volume: 17
+issue: 4
+slug: RJ-2025-046
+doi: 10.32614/RJ-2025-046
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - psych
+  - ade4
+  - FactoMineR
+  - FactoClass
+  - factoextra
+  - NbClust
+  - drclust
+  - clustrd
+  - biplotbootGUI
+  - Rcpp
+  - RcppArmadillo
+  - cluster
+  - pheatmap
+  - ggplot2
+  - dplyr
+  - GGally
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

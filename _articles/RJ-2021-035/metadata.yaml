@@ -1,0 +1,44 @@
+title: 'pdynmc: A Package for Estimating Linear Dynamic Panel Data Models Based on Nonlinear Moment Conditions'
+abstract: This paper introduces [*pdynmc*](https://CRAN.R-project.org/package=pdynmc), an R package that provides users sufficient flexibility and precise control over the estimation and inference in linear dynamic panel data models. The package primarily allows for the inclusion of nonlinear moment conditions and the use of iterated GMM; additionally, visualizations for data structure and estimation results are provided. The current implementation reflects recent developments in literature, uses sensible argument defaults, and aligns commercial and noncommercial estimation commands. Since the understanding of the model assumptions is vital for setting up plausible estimation routines, we provide a broad introduction of linear dynamic panel data models directed towards practitioners before concisely describing the functionality available in *pdynmc* regarding instrument type, covariate type, estimation methodology, and general configuration. We then demonstrate the functionality by revisiting the popular firm-level dataset of @AreBon1991.
+author:
+- name: Markus Fritsch
+  affiliation: University of Passau
+  address:
+  - School of Business, Economics, and Information Systems
+  - 94032 Passau
+  - |
+    Germany
+- name: Andrew Adrian Yu Pua
+  affiliation: MOE Key Laboratory of Econometrics
+  address:
+  - The Wang Yanan Institute for Studies in Economics
+  - Department of Statistics, School of Economics
+  - Fujian Key Laboratory of Statistics
+  - Xiamen University
+  - |
+    China
+- name: Joachim Schnurbus
+  affiliation: University of Passau
+  address:
+  - School of Business, Economics, and Information Systems
+  - 94032 Passau
+  - |
+    Germany
+date: '2021-06-07'
+date_received: '2020-06-03'
+journal:
+  firstpage: '218'
+  lastpage: '231'
+volume: 13
+issue: 1
+slug: RJ-2021-035
+doi: 10.32614/RJ-2021-035
+packages:
+  cran:
+  - pdynmc
+  - OrthoPanels
+  - plm
+  - panelvar
+  - optimx
+  bioc: []
+CTV:

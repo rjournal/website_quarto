@@ -1,0 +1,50 @@
+title: 'GrpString: An R Package for Analysis of Groups of Strings'
+abstract: The R package ***GrpString*** was developed as a comprehensive toolkit for quantitatively analyzing and comparing groups of strings. It offers functions for researchers and data analysts to prepare strings from event sequences, extract common patterns from strings, and compare patterns between string vectors. The package also finds transition matrices and complexity of strings, determines clusters in a string vector, and examines the statistical difference between two groups of strings.
+author:
+- name: Hui Tang
+  affiliation: Department of Chemistry, University of Georgia
+  address:
+  - 140 Cedar Street, Athens, GA 30602-2556
+  - |
+    United States
+- name: Elizabeth L. Day
+  affiliation: Department of Chemistry, University of Georgia
+  address:
+  - 140 Cedar Street, Athens, GA 30602-2556
+  - |
+    United States
+- name: Molly B. Atkinson
+  affiliation: Department of Chemistry, University of Georgia
+  address:
+  - 140 Cedar Street, Athens, GA 30602-2556
+  - |
+    United States
+- name: Norbert J. Pienta
+  affiliation: Department of Chemistry, University of Georgia
+  address:
+  - 140 Cedar Street, Athens, GA 30602-2556
+  - |
+    United States
+date: '2018-05-15'
+date_received: '2017-08-16'
+journal:
+  firstpage: '359'
+  lastpage: '369'
+volume: 10
+issue: 1
+slug: RJ-2018-002
+doi: 10.32614/RJ-2018-002
+packages:
+  cran:
+  - stringr
+  - stringb
+  - stringi
+  - gsubfn
+  - uniqtag
+  - stringdist
+  - TraMineR
+  - informR
+  - GrpString
+  - entropy
+  bioc: []
+CTV:

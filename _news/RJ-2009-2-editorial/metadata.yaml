@@ -1,0 +1,18 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2009-2 issue.
+author:
+- name: Vince Carey
+  affiliation: Channing Laboratory, Brigham and Women's Hospital
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: 3
+  lastpage: 3
+volume: 1
+issue: 2
+slug: RJ-2009-2-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

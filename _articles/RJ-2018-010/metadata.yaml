@@ -1,0 +1,32 @@
+title: 'Pstat: An R Package to Assess Population Differentiation in Phenotypic Traits'
+abstract: The package [***Pstat***](https://CRAN.R-project.org/package=Pstat) calculates $P_{ST}$ values to assess differentiation among populations from a set of quantitative traits and provides bootstrapped distributions and confidence intervals for $P_{ST}$. Variations of $P_{ST}$ as a function of the parameter $c/h^2$ are studied as well. The package implements different transformations of the measured phenotypic traits to eliminate variation resulting from allometric growth, including calculation of residuals from linear regression, Reist standardization, and the Aitchison transformation.
+author:
+- name: Stéphane Blondeau Da Silva
+  affiliation: XLIM-Mathis, UMR n°7252 CNRS-Université de Limoges
+  address:
+  - 123, avenue Albert Thomas 87060 Limoges
+  - |
+    France
+- name: Anne Da Silva
+  affiliation: INRA, UMR n°1061 Génétique Moléculaire Animale
+  address:
+  - Université de Limoges, UMR n°1061 Génétique Moléculaire Animale
+  - 123, avenue Albert Thomas 87060 Limoges
+  - |
+    France
+date: '2018-05-16'
+date_received: '2017-11-05'
+journal:
+  firstpage: '447'
+  lastpage: '454'
+volume: 10
+issue: 1
+slug: RJ-2018-010
+doi: 10.32614/RJ-2018-010
+packages:
+  cran:
+  - Pstat
+  - diveRsity
+  - hierfstat
+  bioc: []
+CTV:

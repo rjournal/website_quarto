@@ -1,0 +1,58 @@
+title: 'StratigrapheR: Concepts for Litholog Generation in R '
+abstract: 'The [*StratigrapheR*](https://CRAN.R-project.org/package=StratigrapheR) package proposes new concepts for the generation of lithological logs, or lithologs, in R. The generation of lithologs in a scripting environment opens new opportunities for the processing and analysis of stratified geological data. Among the new concepts presented: new plotting and data processing methodologies, new general R functions, and computer-oriented data conventions are provided. The package structure allows for these new concepts to be further improved, which can be done independently by any R user. The current limitations of the package are highlighted, along with the limitations in R for geological data processing, to help identify the best paths for improvements.'
+author:
+- name: Sébastien Wouters
+  affiliation: University of Liege
+  orcid: |
+    0000-0003-2526-0880
+  address:
+  - Sedimentary Petrology
+  - Belgium
+- name: Anne-Christine Da Silva
+  affiliation: University of Liege
+  orcid: |
+    0000-0003-4191-7600
+  address:
+  - Sedimentary Petrology
+  - Belgium
+- name: Frédéric Boulvain
+  affiliation: University of Liege
+  address:
+  - Sedimentary Petrology
+  - |
+    Belgium
+- name: Xavier Devleeschouwer
+  affiliation: Royal Belgian Institute of Natural Sciences
+  orcid: |
+    0000-0002-8841-1159
+  address:
+  - O.D. Earth and History of Life
+  - Belgium
+date: '2021-06-07'
+date_received: '2020-06-03'
+journal:
+  firstpage: '153'
+  lastpage: '178'
+volume: 13
+issue: 2
+slug: RJ-2021-039
+doi: 10.32614/RJ-2021-039
+packages:
+  cran:
+  - StratigrapheR
+  - SDAR
+  - paleotree
+  - IsoplotR
+  - hht
+  - astrochron
+  - biwavelet
+  - DecomposeR
+  - xlsx
+  - dplyr
+  - lattice
+  - ggplot2
+  - grImport
+  - rmarkdown
+  - knitr
+  bioc: []
+CTV:

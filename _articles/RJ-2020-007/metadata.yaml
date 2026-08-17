@@ -1,0 +1,221 @@
+title: 'The Rockerverse: Packages and Applications for Containerisation with R'
+abstract: 'The Rocker Project provides widely used Docker images for R across different application scenarios. This article surveys downstream projects that build upon the Rocker Project images and presents the current state of R packages for managing Docker images and controlling containers. These use cases cover diverse topics such as package development, reproducible research, collaborative work, cloud-based data processing, and production deployment of services. The variety of applications demonstrates the power of the Rocker Project specifically and containerisation in general. Across the diverse ways to use containers, we identified common themes: reproducible environments, scalability and efficiency, and portability across clouds. We conclude that the current growth and diversification of use cases is likely to continue its positive impact, but see the need for consolidating the Rockerverse ecosystem of packages, developing common practices for applications, and exploring alternative containerisation software.'
+author:
+- name: Daniel Nüst
+  affiliation: University of Münster
+  orcid: |
+    0000-0002-0024-5046
+  address:
+  - Institute for Geoinformatics
+  - Heisenbergstr. 2
+  - 48149 Münster, Germany
+- name: Dirk Eddelbuettel
+  affiliation: University of Illinois at Urbana-Champaign
+  orcid: |
+    0000-0001-6419-907X
+  address:
+  - Department of Statistics
+  - Illini Hall, 725 S Wright St
+  - Champaign, IL 61820, USA
+- name: Dom Bennett
+  affiliation: Gothenburg Global Biodiversity Centre, Sweden
+  orcid: |
+    0000-0003-2722-1359
+  address:
+  - Carl Skottsbergs gata 22B
+  - 413 19 Sweden
+- name: Robrecht Cannoodt
+  affiliation: Ghent University
+  orcid: |
+    0000-0003-3641-729X
+  address:
+  - Data Mining and Modelling for Biomedicine group
+  - VIB Center for Inflammation Research
+  - Technologiepark 71
+  - 9052 Ghent, Belgium
+- name: Dav Clark
+  affiliation: Gigantum, Inc.
+  orcid: |
+    0000-0002-3982-4416
+  address:
+  - 1140 3rd Street NE
+  - Washington, D.C. 20002, USA
+- name: Gergely Daróczi
+  orcid: |
+    0000-0003-3149-8537
+- name: Mark Edmondson
+  affiliation: IIH Nordic A/S, Google Developer Expert for Google Cloud Platform
+  orcid: |
+    0000-0002-8434-3881
+  address:
+  - Artillerivej 86
+  - 2300 København S, Denmark
+- name: Colin Fay
+  affiliation: ThinkR
+  orcid: |
+    0000-0001-7343-1846
+  address:
+  - 5O rue Arthur Rimbaud
+  - 93300 Aubervilliers, France
+- name: Ellis Hughes
+  affiliation: Fred Hutchinson Cancer Research Center
+  address:
+  - Vaccine and Infectious Disease
+  - 1100 Fairview Ave. N., P.O. Box 19024
+  - |
+    Seattle, WA 98109-1024, USA
+- name: Lars Kjeldgaard
+  affiliation: Danish Tax Authorities
+  address:
+  - Oestbanegade 123
+  - |
+    2100, Koebenhavn Oe
+- name: Sean Lopp
+  affiliation: RStudio, Inc
+  address:
+  - 250 Northern Ave
+  - |
+    Boston, MA 02210, USA
+- name: Ben Marwick
+  affiliation: University of Washington
+  orcid: |
+    0000-0001-7879-4531
+  address:
+  - Department of Anthropology
+  - Denny Hall 230, Spokane Ln
+  - Seattle, WA 98105, USA
+- name: Heather Nolis
+  affiliation: T-Mobile
+  address:
+  - 12920 Se 38th St.
+  - |
+    Bellevue, WA, 98006, USA
+- name: Jacqueline Nolis
+  affiliation: Nolis, LLC
+  orcid: |
+    0000-0001-9354-6501
+  address: Seattle, WA, USA
+- name: Hong Ooi
+  affiliation: Microsoft
+  address:
+  - Level 5, 4 Freshwater Place
+  - |
+    Southbank, VIC 3006, Australia
+- name: Karthik Ram
+  affiliation: Berkeley Institute for Data Science
+  orcid: |
+    0000-0002-0233-1757
+  address:
+  - University of California
+  - Berkeley, CA 94720,USA
+- name: Noam Ross
+  affiliation: EcoHealth Alliance
+  orcid: |
+    0000-0002-2136-0000
+  address:
+  - 460 W 34th St., Ste. 1701
+  - New York, NY 10001, USA
+- name: Lori Shepherd
+  affiliation: Roswell Park Comprehensive Cancer Center
+  orcid: |
+    0000-0002-5910-4010
+  address:
+  - Elm & Carlton Streets
+  - Buffalo, NY, 14263,USA
+- name: Péter Sólymos
+  affiliation: Analythium Solutions
+  orcid: |
+    0000-0001-7337-1740
+  address:
+  - '#258 150 Chippewa Road'
+  - Sherwood Park, AB, T8A 6A2, Canada
+- name: Tyson Lee Swetnam
+  affiliation: University of Arizona
+  orcid: |
+    0000-0002-6639-7181
+  address:
+  - 1657 E Helen St.
+  - Tucson, AZ, 85721, USA
+- name: Nitesh Turaga
+  affiliation: Roswell Park Comprehensive Cancer Center
+  orcid: |
+    0000-0002-0224-9817
+  address:
+  - Elm & Carlton Streets
+  - Buffalo, NY, 14263, USA
+- name: Charlotte Van Petegem
+  affiliation: Ghent University
+  orcid: |
+    0000-0003-0779-4897
+  address:
+  - Department WE02
+  - Krijgslaan 281, S9
+  - 9000 Gent, Belgium
+- name: Jason Williams
+  affiliation: Cold Spring Harbor Laboratory
+  orcid: |
+    0000-0003-3049-2010
+  address:
+  - 1 Bungtown Rd.
+  - Cold Spring Harbor, NY, 11724, USA
+- name: Craig Willis
+  affiliation: University of Illinois at Urbana-Champaign
+  orcid: |
+    0000-0002-6148-7196
+  address:
+  - 501 E. Daniel St.
+  - Champaign, IL 61820, USA
+- name: Nan Xiao
+  affiliation: Seven Bridges Genomics
+  orcid: |
+    0000-0002-0250-5673
+  address:
+  - 529 Main St, Suite 6610
+  - Charlestown, MA 02129, USA
+date: '2020-09-10'
+date_received: '2020-04-30'
+journal:
+  firstpage: '437'
+  lastpage: '461'
+volume: 12
+issue: 1
+slug: RJ-2020-007
+doi: 10.32614/RJ-2020-007
+packages:
+  cran:
+  - sys
+  - stevedore
+  - AzureContainers
+  - googleCloudRunner
+  - babelwhale
+  - BiocManager
+  - reticulate
+  - Shiny
+  - dockerfiler
+  - dockr
+  - liftr
+  - checkpoint
+  - renv
+  - sf
+  - rgdal
+  - sanitizers
+  - RSelenium
+  - batchtools
+  - googleComputeEngineR
+  - future
+  - plumber
+  - drake
+  - golem
+  - analogsea
+  - Rserve
+  - svSocket
+  - keras
+  - DBI
+  - dbplyr
+  - dplyr
+  - testthat
+  - tinytest
+  - ttdo
+  - diffobj
+  bioc: []
+CTV:

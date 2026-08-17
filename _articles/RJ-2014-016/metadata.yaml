@@ -1,0 +1,56 @@
+title: Web Technologies Task View
+abstract: This article presents the CRAN Task View on Web Technologies. We describe the most important aspects of Web Technologies and Web Scraping and list some of the packages that are currently available on CRAN. Finally, we plot the network of Web Technology related package dependencies.
+author:
+- name: Patrick Mair
+  affiliation: Department of Psychology, Harvard University
+  address: |
+    USA
+- name: Scott Chamberlain
+  affiliation: Biology Department, Simon Fraser University
+  address: |
+    Canada
+date: '2014-06-10'
+date_received: '2014-01-03'
+journal:
+  firstpage: '178'
+  lastpage: '181'
+volume: 6
+issue: 1
+slug: RJ-2014-016
+doi: 10.32614/RJ-2014-016
+packages:
+  cran:
+  - XML
+  - RCurl
+  - rjson
+  - RJSONIO
+  - jsonlite
+  - httr
+  - ROAuth
+  - shiny
+  - rgbif
+  - rfishbase
+  - rfisheries
+  - rsnps
+  - rentrez
+  - crn
+  - RNCEP
+  - WDI
+  - TFX
+  - anametrix
+  - rpubchem
+  - cimis
+  - nhlscrapr
+  - tm
+  - translate
+  - scholar
+  - RgoogleMap
+  - Rfacebook
+  - twitteR
+  - streamR
+  - AWS.tools
+  - MTurkR
+  - GuardianR
+  - igraph
+  bioc: []
+CTV:

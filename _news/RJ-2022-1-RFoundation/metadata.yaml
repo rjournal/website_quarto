@@ -1,0 +1,19 @@
+title: R Foundation News
+abstract: The 'R Foundation News' article from the 2022-1 issue.
+author:
+- name: Torsten Hothorn
+  affiliation: |
+    Universität Zürich, Switzerland
+date: '2022-03-01'
+date_received:
+journal:
+  firstpage: '382'
+  lastpage: '383'
+volume: 14
+issue: 1
+slug: RJ-2022-1-RFoundation
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,194 @@
+---
+title: "Author guidelines"
+---
+
+Articles for the R Journal should be no more than 20 pages, on topics of interest to the R community. Articles must not be published or submitted for publication elsewhere. Papers must be fully reproducible, and all code and data must be made available, publicly if we publish your submission. There are no submission fees.
+
+When your manuscript and reproducibility files are ready, submit them using [the R Journal submission form](https://forms.gle/Eqkf6cFJM3mjuxZUA).
+
+## What we publish
+
+All submissions must primarily be about R packages and R programming. Submissions that involve R calling other software will be considered provided: (a) the other software is open source and free to use; (b) is widely used; and (c) there is a clear justification for using it rather than a native R implementation. Occasional exceptions may be made if (a) is not satisfied, provided there is no viable open source alternative.
+
+The R Journal accepts a variety of article topics:
+
+- **Packages**: Details of contributed R packages that are available on CRAN or Bioconductor, going beyond a package vignette. This includes broader context, implementation details, applications or examples of use, and explanation of what makes the work relevant to a wider readership than only the package users. Both the paper and the code will be reviewed.
+- **Reviews and proposals**: Surveys and discussions of challenges and opportunities of potential importance for the broader R community, including proposals and proof-of-concept implementations.
+- **Comparisons and benchmarking**: Comparisons of implementations in base R and contributed packages with each other, and where relevant with implementations in other software systems.
+- **Applications**: Demonstrations of how new or existing techniques can be applied in an area of current interest using R, providing a fresh view of such analyses in R that is of benefit beyond the specific application.
+- **Special issue articles**: Papers associated with a conference like R Medicine, or a collection of papers on a topic of interest.
+
+## Expectations for all submissions
+
+Papers are expected to be concise, clearly written, not too technical, clearly related to R, and reproducible. Additional technical details and examples can be included as supplementary material.
+
+Authors of refereed articles should:
+
+- put their contribution in context, in particular discuss related R functions or packages;
+- explain the motivation for their contribution;
+- provide code to reproduce the material in the paper;
+- ensure that R outputs are from an evaluation of R code rather than manually entered in the manuscript;
+- include alt text for figures and tables in chunk specifications;
+- keep interactive plots to a manageable file size, aiming for under 10Mb.
+
+Authors are also encouraged to think about the long-term accessibility of any key components of their submission that are hosted online, such as interactive applications or documentation websites. Rather than linking directly to a specific hosting service that may change, move, or shut down over time, consider pointing readers to a stable landing page under your control or to a resource with a permanent identifier. For example, if you are hosting a Shiny application, you could link to a landing page under your control that has the link to the live app, rather than linking directly to the hosting service.
+
+## Package papers
+
+Most papers in the R Journal describe an R package. Package papers should help readers understand the software contribution, not only the method or application behind it.
+
+### Write for a wide audience
+
+The R community intersects with many scientific and professional communities. This means that you cannot expect all readers to be familiar with the jargon in your field.
+
+### Focus on the software, not only the method
+
+The R Journal is primarily a software journal. Methodology behind a package needs only to be described to the point necessary to understand what the package does. In almost all cases, the underlying methods will be discussed in detail in other papers, which you should cite.
+
+We strongly encourage authors to focus on software-related issues such as:
+
+- **Design considerations**: Why does the package have this interface? Which user did you have in mind: an expert R programmer, a novice, or a data analyst with a background in a certain field? Did you follow a design standard? Why?
+- **Performance and limitations**: Is the package parallelized? How does use of resources, such as time and memory, scale with input? Are there limits to its use? What is the typical use case?
+- **Implementation details**: Have you chosen a certain object model, such as S4, S3, R6, or S7? Why? Are there important considerations regarding dependencies?
+
+### Structure of a typical package paper
+
+A typical paper describing a package would contain:
+
+- an introduction for a wide audience, describing the context of the problem addressed by the package, any existing solutions or competitor packages, and the gap filled by the package;
+- if needed, a conceptual description of the methodology, followed by the main drivers behind the package design;
+- a description of the typical package workflow;
+- possibly, a detailed use case demonstrating more options;
+- a section with technical details regarding implementation or theory;
+- discussion and conclusion.
+
+### Requirements for package papers
+
+- The package must be available on CRAN or Bioconductor.
+- The content of the package should be substantial and likely to be of significant interest and use within the R community.
+- The accompanying paper should clearly demonstrate the use of the package and its advantages over competing packages or existing approaches.
+- The package must include unit tests to verify functionality.
+- Each user-facing function must be fully documented with all terms and arguments explained, and examples provided.
+- The package should include a vignette describing a full workflow or example analysis.
+- The package should use a version control system, such as GitHub, GitLab, BitBucket, or R-Forge.
+- The package should avoid unnecessary dependencies.
+
+### Recommended package practices
+
+We strongly recommend that package authors follow common R package conventions, including:
+
+- offer a bug reporting mechanism, such as GitHub issues;
+- design the package interface and functions with the user, and a typical user workflow, in mind;
+- use a consistent naming scheme for functions, such as snake_case or camelCase, with meaningful and descriptive function names;
+- follow a consistent code style, such as the [tidyverse](https://style.tidyverse.org/) or [Google](https://google.github.io/styleguide/Rguide.html) style guides;
+- use a code formatter such as [Air](https://posit-dev.github.io/air/) or [styler](https://styler.r-lib.org/);
+- use object-oriented programming where appropriate, such as defining `plot()` or `print()` S3 methods for custom classes;
+- use `message()` or `warning()` instead of `cat()` or `print()` within functions, except in `print` methods;
+- avoid reading or writing files unless essential to the package's purpose;
+- use `TRUE` and `FALSE` explicitly; avoid `T` and `F` as values or variable names;
+- if the package contains data, include a data-raw directory with code for data generation or cleaning;
+- make documentation available on a standalone website online, for example via [pkgdown](https://pkgdown.r-lib.org/).
+
+Useful package-development resources include:
+
+- [Writing R extensions](https://cran.r-project.org/doc/manuals/r-devel/R-exts.html)
+- [R Packages](https://r-pkgs.org/)
+- [The rOpenSci development guide](https://stats-devguide.ropensci.org/)
+
+## Prepare your manuscript
+
+### R Markdown
+
+The [rjtools](https://rjournal.github.io/rjtools/) package has a template to create the files needed for a submission in the form required by the R Journal.
+
+Create your article using the `create_article()` function. Knitting the Rmd will generate both an HTML and PDF version of your paper.
+
+As far as possible, do not use specific HTML and LaTeX code within your Rmd file. If you need to write code specific to the HTML or PDF output, use `knitr::is_html_output()` and `knitr::is_latex_output()` to conditionally produce a particular output.
+
+Creative uses of interactive content in HTML formatted articles are encouraged. This will require conditional evaluation of code chunks with appropriate re-captioning, and conditional inline reference links.
+
+Titles and abstracts should be in plain text, with the abstract no more than 250 words.
+
+The R Journal no longer accepts submissions formatted using the `rticles` package.
+
+### LaTeX
+
+We strongly encourage you to use R Markdown with the `rjtools` package. It makes the submission more reproducible, and makes it easier to render your article in both HTML and PDF formats.
+
+For now, we still accept submissions written in LaTeX, but they will be processed more slowly.
+
+If you do use LaTeX, you must use the [LaTeX template](https://github.com/rjournal/share/raw/refs/heads/master/RJtemplate.zip). Instructions on using this template are provided in the [LaTeX author guide](https://github.com/rjournal/share/raw/refs/heads/master/author-guide.pdf). LaTeX submissions that do not follow these guidelines will be rejected without review.
+
+The `rjtools` check functions can also be applied to check your files prior to submission.
+
+### BibTeX
+
+Whether you use R Markdown or LaTeX, your references need to be contained in a `.bib` file. Please do not send us enormous bib files containing many references that you do not cite. Your submitted bib file should contain only the references actually cited in your paper.
+
+Please also check that all reference fields are properly formatted. To preserve capitalization, wrap words such as `{R}` or package names in braces. Do not wrap all titles in braces, as this overrides the journal's reference style.
+
+## Pre-submission checklist
+
+Before submitting, run the `rjtools` checks and make sure your submission includes everything needed to build and reproduce the paper.
+
+The `rjtools` package includes:
+
+- `initial_check_article()`, which runs multiple checks on the files in your paper submission folder;
+- `check_wrappers()`, which checks that the files RJournal.tex and RJournal.pdf are present;
+- `check_filenames()`, which checks that file names are consistent and as requested;
+- `check_unnecessary_files()`, which checks that there are no extra files beyond those necessary and requested;
+- `check_cover_letter()`, which checks that there is a cover letter with the files to be submitted;
+- `check_title()`, which checks that the title is in title case;
+- `check_section()`, which checks that section headings are in sentence case;
+- `check_spelling()`, which does a spell-check;
+- `check_proposed_pkg()`, which checks that the package is available on CRAN or Bioconductor;
+- `check_packages_available()`, which checks that additionally referenced packages are also available on CRAN or Bioconductor.
+
+Your submission zip file should contain:
+
+- the article in `.pdf` format;
+- files to build the article, such as `.Rmd`, `.tex`, `.bib`, `.sty`, and figure files;
+- files to reproduce the results, including R scripts and data;
+- a motivating letter that describes why your paper is suitable for consideration by the R Journal;
+- other supplementary files that contain additional technical details or examples;
+- a list of R packages needed to reproduce the submission, for example a file named `_Rpackages.txt` with one package per line.
+
+You may have problems submitting if the size of your submission zip file is more than 10Mb. If you have large data files, make them available on an alternative site and provide the links in the paper.
+
+Please ensure that the submission can be reproduced in a timely manner, perhaps by reducing the example data size. If a submission cannot be reproduced in a reasonable time, less than 10 minutes, it will be sent back to you. For very computationally intensive methods, include scripts to generate intermediate outputs, and have the main paper use these outputs rather than re-running the full computations.
+
+## Submit your article
+
+To submit an article to the R Journal, complete [the submission form](https://forms.gle/Eqkf6cFJM3mjuxZUA).
+
+Re-submissions and revisions should be submitted in the same way. When providing a re-submission or revision, you will need to **enter the identifier of the original submission** in the last field of the submission form.
+
+If you have problems, please contact the Editor-in-Chief at <r-journal@r-project.org>.
+
+## The review process
+
+Once you have submitted an article, the editorial board will go through the following steps.
+
+1. Decide if your submission is technically in the correct format. In particular:
+    - are all the requested files there and of the correct format?
+    - does the reproducibility code run?
+    - is all code used open source and available via CRAN or Bioconductor?
+    - are all the data files, if any, in an open, non-proprietary format?
+2. If the technical test is passed, decide whether the submission is amenable for peer review:
+    - is the topic within scope?
+    - is the paper properly organized?
+    - is the writing style suitable for review?
+3. If the submission passes the second test, it will be sent out for review. This process might take several months. You will receive one or more reviews, possibly with notes from one of the associate editors, and a verdict.
+
+There are four possible verdicts:
+
+- **Accepted**: Your paper will be published in the R Journal. You will be asked to upload a final version that will be proof-read, and you will receive a print proof before publication.
+- **Minor revisions**: The paper can be accepted conditional on a number of smaller revisions in the manuscript and/or the code. You are expected to fix these issues within three months, and resubmit along with a letter where you describe, point-by-point, how the comments of the reviewers have been addressed. The paper will not be reviewed again by peer reviewers, but the editor will check whether the points have been sufficiently addressed.
+- **Major revisions**: The manuscript and/or the code need major updates before the manuscript can be reconsidered. You are expected to fix the issues within three months, and resubmit along with a letter where you describe, point-by-point how the comments of the reviewers have been addressed. The paper will be sent back to the reviewers for a second round of review, which may result in any verdict.
+- **Reject**: Your paper is found to be unsuited for publication in the R Journal. No resubmission is allowed.
+
+## Special issues
+
+Special issues may be created to cover topics of interest to the R community, or based on papers presented at an R conference.
+
+Please contact the Editor-in-Chief at <r-journal@r-project.org> if you would like to propose a special issue.

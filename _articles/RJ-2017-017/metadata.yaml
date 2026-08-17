@@ -1,0 +1,34 @@
+title: Weighted Effect Coding for Observational Data with wec
+abstract: Weighted effect coding refers to a specific coding matrix to include factor variables in generalised linear regression models. With weighted effect coding, the effect for each category represents the deviation of that category from the weighted mean (which corresponds to the sample mean). This technique has particularly attractive properties when analysing observational data, that commonly are unbalanced. The *wec* package is introduced, that provides functions to apply weighted effect coding to factor variables, and to interactions between (a.) a factor variable and a continuous variable and between (b.) two factor variables.
+author:
+- name: Rense Nieuwenhuis
+  affiliation: Swedish Institute for Social Research (SOFI), Stockholm University
+  address:
+  - |-
+    Affiliate of The Linnaeus Center on Social Policy and Family Dynamics
+    in Europe (SPaDE), Stockholm University
+  - 106 91 Stockholm
+  - Sweden
+- name: Manfred te Grotenhuis
+  affiliation: Radboud University
+  address:
+  - Box 9104, 6500 HE, Nijmegen
+  - The Netherlands
+- name: Ben Pelzer
+  affiliation: Radboud University
+  address:
+  - Box 9104, 6500 HE, Nijmegen
+  - The Netherlands
+date: '2017-05-10'
+date_received: '2016-12-23'
+journal:
+  firstpage: '477'
+  lastpage: '485'
+volume: 9
+issue: 1
+slug: RJ-2017-017
+doi: 10.32614/RJ-2017-017
+packages:
+  cran: wec
+  bioc: []
+CTV:

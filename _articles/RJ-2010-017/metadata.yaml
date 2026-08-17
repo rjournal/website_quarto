@@ -1,0 +1,34 @@
+title: 'The RecordLinkage Package: Detecting Errors in Data'
+abstract: Record linkage deals with detecting homonyms and mainly synonyms in data. The package [*RecordLinkage*](https://CRAN.R-project.org/package=RecordLinkage) provides means to perform and evaluate different record linkage methods. A stochastic framework is implemented which calculates weights through an EM algorithm. The determination of the necessary thresholds in this model can be achieved by tools of extreme value theory. Furthermore, machine learning methods are utilized, including decision trees ([*rpart*](https://CRAN.R-project.org/package=rpart)), bootstrap aggregating ([*bagging*](https://CRAN.R-project.org/package=bagging)), ada boost ([*ada*](https://CRAN.R-project.org/package=ada)), neural nets ([*nnet*](https://CRAN.R-project.org/package=nnet)) and support vector machines ([*svm*](https://CRAN.R-project.org/package=svm)). The generation of record pairs and comparison patterns from single data items are provided as well. Comparison patterns can be chosen to be binary or based on some string metrics. In order to reduce computation time and memory usage, blocking can be used. Future development will concentrate on additional and refined methods, performance improvements and input/output facilities needed for real-world application.
+author:
+- name: Murat Sariyar
+  affiliation: Institute of Medical Biostatistics, Epidemiology and Informatics
+  address:
+  - Mainz
+  - |
+    Germany
+- name: Andreas Borg
+  affiliation: Institute of Medical Biostatistics, Epidemiology and Informatics
+  address:
+  - Mainz
+  - |
+    Germany
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 61
+  lastpage: 67
+volume: 2
+issue: 2
+slug: RJ-2010-017
+doi: 10.32614/RJ-2010-017
+packages:
+  cran:
+  - RecordLinkage
+  - rpart
+  - bagging
+  - ada
+  - nnet
+  - svm
+  bioc: []
+CTV:

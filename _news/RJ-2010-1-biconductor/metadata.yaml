@@ -1,0 +1,53 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2010-1 issue.
+author:
+- name: Bioconductor Team
+  affiliation: Program in Computational Biology, Fred Hutchinson Cancer Research Center
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 85
+  lastpage: 85
+volume: 2
+issue: 1
+slug: RJ-2010-1-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc:
+  - GenomicRanges
+  - Rsamtools
+  - girafe
+  - BayesPeak
+  - CSAR
+  - PICS
+  - DESeq
+  - goseq
+  - segmentSeq
+  - MotIV
+  - rGADEM
+  - affyILM
+  - frma
+  - frmaTools
+  - BeadDataPackR
+  - MassArray
+  - charm
+  - genoCN
+  - iChip
+  - methVisual
+  - ConsensusClusterPlus
+  - ExpressionView
+  - eisa
+  - GSRI
+  - PROMISE
+  - tigre
+  - SamSPECTRAL
+  - flowMeans
+  - flowTrans
+  - iFlow
+  - GEOsubmission
+  - SRAdb
+  - genomes
+  - pint
+  - xmapcore
+CTV:

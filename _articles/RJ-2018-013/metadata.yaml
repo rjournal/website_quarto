@@ -1,0 +1,32 @@
+title: 'InfoTrad: An R package for estimating the probability of informed trading'
+abstract: The purpose of this paper is to introduce the R package ***InfoTrad*** for estimating the probability of informed trading (PIN) initially proposed by @1996Easleyetal. PIN is a popular information asymmetry measure that proxies the proportion of informed traders in the market. This study provides a short survey on alternative estimation techniques for the PIN. There are many problems documented in the existing literature in estimating PIN. ***InfoTrad*** package aims to address two problems. First, the sequential trading structure proposed by @1996Easleyetal and later extended by @2002Easleyetal is prone to sample selection bias for stocks with large trading volumes, due to floating point exception. This problem is solved by different factorizations provided by @2010Easleyetal (EHO factorization) and @2011LinandKe (LK factorization). Second, the estimates are prone to bias due to boundary solutions. A grid-search algorithm (YZ algorithm) is proposed by @2012YanandZhang to overcome the bias introduced due to boundary estimates. In recent years, clustering algorithms have become popular due to their flexibility in quickly handling large data sets. @2015Ganetal propose an algorithm (GAN algorithm) to estimate PIN using hierarchical agglomerative clustering which is later extended by @2016ErsanandAlici (EA algorithm). The package ***InfoTrad*** offers LK and EHO factorizations given an input matrix and initial parameter vector. In addition, these factorizations can be used to estimate PIN through YZ algorithm, GAN algorithm and EA algorithm.
+author:
+- name: Duygu Çelik
+  affiliation: Bilkent University
+  address:
+  - Bilkent University Department of Management 06800 Bilkent Ankara
+  - |
+    Turkey
+- name: Murat Tiniç
+  affiliation: Bilkent University
+  address:
+  - Bilkent University Department of Management 06800 Bilkent Ankara
+  - |
+    Turkey
+date: '2018-05-16'
+date_received: '2017-03-05'
+journal:
+  firstpage: '31'
+  lastpage: '42'
+volume: 10
+issue: 1
+slug: RJ-2018-013
+doi: 10.32614/RJ-2018-013
+packages:
+  cran:
+  - InfoTrad
+  - FinAsym
+  - PIN
+  - nloptr
+  bioc: []
+CTV:

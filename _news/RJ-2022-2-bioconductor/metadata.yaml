@@ -1,0 +1,33 @@
+title: News from the Bioconductor Project
+abstract: The 'News from the Bioconductor Project' article from the 2022-2 issue.
+author:
+- name: Bioconductor Core Team
+  affiliation: Channing Division of Network Medicine
+  address:
+  - Mass General Brigham
+  - Harvard Medical School, Boston, MA
+  - ''
+  - Department of Data Science
+  - Dana-Farber Cancer Institute
+  - Harvard Medical School, Boston, MA
+  - ''
+  - Biostatistics and Bioinformatics
+  - Roswell Park Comprehensive Cancer Center, Buffalo, NY
+  - ''
+  - Fred Hutchinson Cancer Research Center, Seatlle, WA
+  - ''
+  - |
+    CUNY Graduate School of Public Health, New York, NY
+date: '2022-06-01'
+date_received:
+journal:
+  firstpage: '329'
+  lastpage: '331'
+volume: 14
+issue: 2
+slug: RJ-2022-2-bioconductor
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: SingleCellExperiment
+CTV:

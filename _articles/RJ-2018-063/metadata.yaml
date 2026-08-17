@@ -1,0 +1,46 @@
+title: 'sdpt3r: Semidefinite Quadratic Linear Programming in R'
+abstract: |
+  We present the package *sdpt3r*, an R implementation of the Matlab
+  package SDPT3 [@toh1999sdpt3]. The purpose of the software is to solve
+  semidefinite quadratic linear programming (SQLP) problems, which
+  encompasses problems such as D-optimal experimental design, the
+  nearest correlation matrix problem, and distance weighted
+  discrimination, as well as problems in graph theory such as finding
+  the maximum cut or Lovasz number of a graph.\
+  Current optimization packages in R include *Rdsdp*, *Rcsdp*, *scs*,
+  *cccp*, and *Rmosek*. Of these, *scs* and *Rmosek* solve a similar
+  suite of problems. In addition to these solvers, the R packages *CXVR*
+  and *ROI* provide sophisticated modelling interfaces to these solvers.
+  As a point of difference from the current solvers in R, *sdpt3r*
+  allows for log-barrier terms in the objective function, which allows
+  for problems such as the D-optimal design of experiments to be solved
+  with minimal modifications . The *sdpt3r* package also provides helper 
+  functions, which formulate the required input for several well-known 
+  problems, an additional perk not present in the other R packages.
+author:
+- name: Adam Rahman
+  affiliation: University of Waterloo
+  address:
+  - 200 University Ave W, Waterloo, Ontario
+  - |
+    Canada
+date: '2018-12-08'
+date_received: '2018-05-01'
+journal:
+  firstpage: '371'
+  lastpage: '394'
+volume: 10
+issue: 2
+slug: RJ-2018-063
+doi: 10.32614/RJ-2018-063
+packages:
+  cran:
+  - sdpt3r
+  - Rdsdp
+  - Rcsdp
+  - cccp
+  - scs
+  - Rmosek
+  - quantmod
+  bioc: []
+CTV:

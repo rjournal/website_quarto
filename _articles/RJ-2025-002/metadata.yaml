@@ -1,0 +1,30 @@
+title: 'Random Forests for Time-Fixed and Time-Dependent Predictors: The DynForest R Package'
+date: '2025-08-07'
+abstract: |
+  The R package DynForest implements random forests for predicting a continuous, a categorical, or a (multiple causes) time-to-event outcome based on time-fixed and time-dependent predictors. The main originality of DynForest is that it handles time-dependent predictors that can be endogenous (i.e., impacted by the outcome process), measured with error, and measured at subject-specific times. At each recursive step of the tree building process, the time-dependent predictors are internally summarized into individual features on which the split can be done. This is achieved using flexible linear mixed models (thanks to the R package lcmm), whose specification is pre-specified by the user. DynForest returns the mean for a continuous outcome, the category with a majority vote for a categorical outcome, or the cumulative incidence function over time for a survival outcome. DynForest also computes variable importance and minimal depth to inform on the most predictive variables or groups of variables. This paper aims to guide the user with step-by-step examples for fitting random forests using DynForest.
+draft: no
+author:
+- name: Anthony Devaux
+  affiliation: Inserm U1219 - Bordeaux Population Health - Université de Bordeaux - The George Institute for Global Health - UNSW Sydney - School of Population Health - UNSW Sydney
+  address: Bordeaux (France) - Sydney (Australia)
+  orcid: 0000-0002-8862-4218
+  email: anthony.devauxbarault@gmail.com
+- name: Cécile Proust-Lima
+  affiliation: Inserm U1219 - Bordeaux Population Health - Université de Bordeaux
+  address: Bordeaux (France)
+  orcid: 0000-0002-9884-955X
+- name: Robin Genuer
+  affiliation: Inserm U1219 - Bordeaux Population Health - Université de Bordeaux
+  address: Bordeaux (France)
+  orcid: 0000-0002-0981-3943
+type: package
+preamble: \usepackage{amsmath} \usepackage{graphicx} \usepackage{tabularx}
+date_received: '2024-04-12'
+volume: 17
+issue: 1
+slug: RJ-2025-002
+doi: 10.32614/RJ-2025-002
+journal:
+  lastpage: 46
+  firstpage: 24
+

@@ -1,0 +1,33 @@
+title: Coloring in R's Blind Spot
+author:
+- name: Achim Zeileis
+  affiliation: Universität Innsbruck
+  address: Department of Statistics
+  url: https://www.zeileis.org/
+  orcid: 0000-0003-0918-3766
+  email: Achim.Zeileis@R-project.org
+- name: Paul Murrell
+  affiliation: University of Auckland
+  address: Department of Statistics
+  url: https://www.stat.auckland.ac.nz/~paul/
+  orcid: 0000-0002-3224-8858
+  email: paul@stat.auckland.ac.nz
+abstract: |
+  Prior to version 4.0.0 R had a poor default color palette (using highly saturated red, green, blue, etc.) and provided very few alternative palettes, most of which also had poor perceptual properties (like the infamous rainbow palette). Starting with version 4.0.0 R gained a new and much improved default palette and, in addition, a selection of more than 100 well-established palettes are now available via the functions `palette.colors()` and `hcl.colors()`. The former provides a range of popular qualitative palettes for categorical data while the latter closely approximates many popular sequential and diverging palettes by systematically varying the perceptual hue, chroma, and luminance (HCL) properties in the palette.  This paper provides a mix of contributions including an overview of the new color functions and the palettes they provide along with advice about which palettes are appropriate for specific tasks, especially with regard to making them accessible to viewers with color vision deficiencies.
+preamble: |
+  \newcommand{\doi}[1]{\href{https://doi.org/#1}{\normalfont\texttt{doi:\discretionary{}{}{}{#1}}}}
+  \usepackage{longtable}
+date: '2023-12-18'
+date_received: '2023-04-20'
+journal:
+  firstpage: 240
+  lastpage: 256
+volume: 15
+issue: 3
+subid: 2023-30
+slug: RJ-2023-071
+doi: 10.32614/RJ-2023-071
+packages:
+  cran:
+  bioc:
+draft: no

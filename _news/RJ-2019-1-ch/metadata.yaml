@@ -1,0 +1,16 @@
+title: R News
+abstract: The 'R News' article from the 2019-1 issue.
+author: R Core Team
+date: '2019-06-01'
+date_received:
+journal:
+  firstpage: '442'
+  lastpage: '443'
+volume: 11
+issue: 1
+slug: RJ-2019-1-ch
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

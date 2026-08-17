@@ -1,0 +1,28 @@
+title: 'mixtox: An R Package for Mixture Toxicity Assessment'
+abstract: 'Mixture toxicity assessment is indeed necessary for humans and ecosystems that are continually exposed to a variety of chemical mixtures. This paper describes an R package, called *mixtox*, which offers a general framework of curve fitting, mixture experimental design, and mixture toxicity prediction for practitioners in toxicology. The unique features of *mixtox* include: (1) constructing a uniform table for mixture experimental design; and (2) predicting toxicity of a mixture with multiple components based on reference models such as concentration addition, independent action, and generalized concentration addition. We describe the various functions of the package and provide examples to illustrate their use and show the collaboration of *mixtox* with other existing packages (e.g., *drc*) in predicting toxicity of chemical mixtures.'
+author:
+- name: Xiang-Wei Zhu
+  affiliation: Qingdao Agricultural University
+  address:
+  - College of Resource and Environment
+  - and
+  - Qingdao Engineering Research Center for Rural Environment
+  - 266109 Qingdao, China
+- name: Jian-Yi Chen
+  affiliation: Qingdao Agricultural University
+  address:
+  - Science and Information College
+  - 266109 Qingdao, China
+date: '2016-10-21'
+date_received: '2016-05-10'
+journal:
+  firstpage: '421'
+  lastpage: '433'
+volume: 8
+issue: 2
+slug: RJ-2016-056
+doi: 10.32614/RJ-2016-056
+packages:
+  cran: []
+  bioc: []
+CTV:

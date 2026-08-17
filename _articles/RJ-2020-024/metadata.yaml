@@ -1,0 +1,41 @@
+title: 'CoxPhLb: An R Package for Analyzing Length Biased Data under Cox Model'
+abstract: Data subject to length-biased sampling are frequently encountered in various applications including prevalent cohort studies and are considered as a special case of left-truncated data under the stationarity assumption. Many semiparametric regression methods have been proposed for length-biased data to model the association between covariates and the survival outcome of interest. In this paper, we present a brief review of the statistical methodologies established for the analysis of length-biased data under the Cox model, which is the most commonly adopted semiparametric model, and introduce an R package *CoxPhLb* that implements these methods. Specifically, the package includes features such as fitting the Cox model to explore covariate effects on survival times and checking the proportional hazards model assumptions and the stationarity assumption. We illustrate usage of the package with a simulated data example and a real dataset, the Channing House data, which are publicly available.
+author:
+- name: Chi Hyun Lee
+  affiliation: |-
+    Department of Biostatistics and Epidemiology, University of
+    Massachusetts Amherst
+  orcid: |
+    0000-0001-6340-2718
+- name: Heng Zhou
+  affiliation: |
+    Biostatistics and Research Decision Sciences, Merck & Co., Inc.
+- name: Jing Ning
+  affiliation: The University of Texas MD Anderson Cancer Center
+  address: |
+    Department of Biostatistics
+- name: Diane D. Liu
+  affiliation: The University of Texas MD Anderson Cancer Center
+  address: |
+    Department of Biostatistics
+- name: Yu Shen
+  affiliation: The University of Texas MD Anderson Cancer Center
+  address: |
+    Department of Biostatistics
+date: '2020-09-10'
+date_received: '2019-04-12'
+journal:
+  firstpage: '118'
+  lastpage: '130'
+volume: 12
+issue: 1
+slug: RJ-2020-024
+doi: 10.32614/RJ-2020-024
+packages:
+  cran:
+  - CoxPhLb
+  - survival
+  - KMsurv
+  - coxphw
+  bioc: []
+CTV:

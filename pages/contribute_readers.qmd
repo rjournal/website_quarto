@@ -1,0 +1,7 @@
+---
+title: "Problems and suggestions"
+---
+
+If you would like to report a problem with a published paper, whether it is your own or not, you can [contact the managing editor](mailto:r-journal@r-project.org), or create an issue on [the GitHub site](https://github.com/rjournal/rjournal.github.io/issues). This is the same approach that can be used to make suggestions.
+
+If it is your own paper, and you know how to fix the problem, you are welcome to make a pull request with the fix.

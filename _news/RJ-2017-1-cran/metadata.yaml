@@ -1,0 +1,25 @@
+title: Changes on CRAN
+abstract: The 'Changes on CRAN' article from the 2017-1 issue.
+author:
+- name: Kurt Hornik
+  affiliation: |
+    WU Wirtschaftsuniversität Wien, Austria
+- name: Uwe Ligges
+  affiliation: |
+    TU Dortmund, Germany
+- name: Achim Zeileis
+  affiliation: |
+    Universität Innsbruck, Austria
+date: '2017-06-01'
+date_received:
+journal:
+  firstpage: '505'
+  lastpage: '507'
+volume: 9
+issue: 1
+slug: RJ-2017-1-cran
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,37 @@
+title: 'GPUmatrix: Seamlessly harness the power of GPU computing in R'
+date: '2025-07-17'
+abstract: |
+  GPUs are invaluable for data analysis, particularly in statistics and linear algebra, but integrating them with R has been challenging due to the lack of transparent, easily maintainable packages that don't require significant code alterations. Recognizing this gap, we've developed the GPUmatrix package, now available on CRAN, which emulates the Matrix package's behavior, enabling R to harness the power of GPUs for computations with minimal code adjustments. GPUmatrix supports both single (FP32) and double (FP64) precision data types and includes support for sparse matrices, ensuring broad applicability. Designed for ease of use, it requires only slight modifications to existing code, leveraging the Torch or Tensorflow R packages for GPU operations. We've validated its effectiveness in various statistical and machine learning tasks, including non-negative matrix factorization, logistic regression, and general linear models, and provided a comparative analysis of GPU versus CPU performance, highlighting significant efficiency gains.
+draft: no
+author:
+- name: César Lobato-Fernández
+  affiliation: University of Navarra
+  address:
+  - Department of Biomedical Engineering and Sciences
+  - Paseo Mikeletegui,48, 20009, San Sebastian, Gipuzkoa, Spain
+  orcid: 0000-0001-9576-7236
+  email: clobatofern@unav.es
+- name: Juan A. Ferrer-Bonsoms
+  affiliation: University of Navarra
+  address:
+  - Department of Biomedical Engineering and Sciences
+  - Paseo Mikeletegui,48, 20009, San Sebastian, Gipuzkoa, Spain
+  email: jafhernandez@unav.es
+  orcid: 0000-0002-1588-2195
+- name: Angel Rubio
+  affiliation: University of Navarra
+  address:
+  - Department of Biomedical Engineering and Sciences
+  - Paseo Mikeletegui,48, 20009, San Sebastian, Gipuzkoa, Spain
+  email: arubio@unav.es
+  orcid: 0000-0002-3274-2450
+type: package
+date_received: '2024-03-28'
+volume: 16
+issue: 4
+slug: RJ-2024-041
+doi: 10.32614/RJ-2024-041
+journal:
+  lastpage: 178
+  firstpage: 158
+

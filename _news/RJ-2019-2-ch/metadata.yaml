@@ -1,0 +1,16 @@
+title: CHANGES IN R 3.6.2
+abstract: The 'CHANGES IN R 3.6.2' article from the 2019-2 issue.
+author: R Core Team
+date: '2019-12-01'
+date_received:
+journal:
+  firstpage: '448'
+  lastpage: '554'
+volume: 11
+issue: 2
+slug: RJ-2019-2-ch
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

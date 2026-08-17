@@ -1,0 +1,44 @@
+title: 'LMest: An R Package for Estimating Generalized Latent Markov Models'
+date: '2025-07-16'
+abstract: |
+  We provide a detailed overview of the updated version of the R package LMest, which offers functionalities for estimating Markov chain and latent or hidden Markov models for time series and longitudinal data. This overview includes a description of the modeling structure, maximum-likelihood estimation based on the Expectation-Maximization algorithm, and related issues. Practical applications of these models are illustrated using real and simulated data with both categorical and continuous responses. The latter are handled under the assumption of the Gaussian distribution given the latent process. When describing the main functions of the package, we refer to potential applicative contexts across various fields. The LMest package introduces several key novelties compared to previous versions. It now handles missing responses under the missing-at-random assumption and provides imputed values. The implemented functions allow users to display and visualize model results. Additionally, the package includes functions to perform parametric bootstrap for inferential procedures and to simulate data with complex structures in longitudinal contexts.
+author:
+- name: Fulvia Pennoni
+  affiliation: University of Milano-Bicocca
+  address:
+  - Department of Statistics and Quantitative Methods
+  - Milan, Italy
+  url: https://sites.google.com/view/fulviapennoni/home
+  orcid: 0000-0002-6631-7211
+  email: fulvia.pennoni@unimib.it
+- name: Silvia Pandolfi
+  affiliation: University of Perugia
+  address:
+  - Department of Economics
+  - Perugia, Italy
+  url: https://sites.google.com/site/spandolfihome/home
+  email: silvia.pandolfi@unipg.it
+  orcid: 0000-0002-6631-1211
+- name: Francesco Bartolucci
+  affiliation: University of Perugia
+  address:
+  - Department of Economics, Via A. Pascoli 8
+  - Perugia, Italy
+  url: https://sites.google.com/site/bartstatistics/
+  email: francesco.bartolucci@unipg.it
+  orcid: 0000-1721-1511-1101
+  type: package
+header-includes: \usepackage{bm}
+editor_options:
+  markdown:
+    wrap: 72
+date_received: '2024-01-11'
+volume: 16
+issue: 4
+slug: RJ-2024-036
+doi: 10.32614/RJ-2024-036
+draft: no
+journal:
+  lastpage: 101
+  firstpage: 74
+

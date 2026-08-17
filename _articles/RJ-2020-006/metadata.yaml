@@ -1,0 +1,46 @@
+title: 'SortedEffects: Sorted Causal Effects in R'
+abstract: '@sorted:2018 proposed the sorted effect method for nonlinear regression models. This method consists of reporting percentiles of the partial effects, the sorted effects, in addition to the average effect commonly used to summarize the heterogeneity in the partial effects. They also propose to use the sorted effects to carry out classification analysis where the observational units are classified as most and least affected if their partial effect are above or below some tail sorted effects. The R package [*SortedEffects*](https://CRAN.R-project.org/package=SortedEffects) implements the estimation and inference methods therein and provides tools to visualize the results. This vignette serves as an introduction to the package and displays basic functionality of the functions within.'
+author:
+- name: Shuowen Chen
+  affiliation: Department of Economics, Boston University
+  address:
+  - 270 Bay State Road, Boston, MA 02215
+  - |
+    USA
+- name: Victor Chernozhukov
+  affiliation: Department of Economics, Massachusetts Institute of Technology
+  address:
+  - 50 Memorial Drive, Cambridge, MA 02142
+  - |
+    USA
+- name: Iván Fernández-Val
+  affiliation: Department of Economics, Boston University
+  address:
+  - 270 Bay State Road, Boston, MA 02215
+  - |
+    USA
+- name: Ye Luo
+  affiliation: Faculty of Business and Economics, The University of Hong Kong
+  address:
+  - Cyberport Four, 100 Cyberport Rd, Telegraph Bay
+  - |
+    Hong Kong
+date: '2020-03-31'
+date_received: '2019-05-02'
+journal:
+  firstpage: '131'
+  lastpage: '146'
+volume: 12
+issue: 1
+slug: RJ-2020-006
+doi: 10.32614/RJ-2020-006
+packages:
+  cran:
+  - SortedEffects
+  - SortedEffect
+  - quantreg
+  - margins
+  - parallel
+  - boot
+  bioc: []
+CTV:

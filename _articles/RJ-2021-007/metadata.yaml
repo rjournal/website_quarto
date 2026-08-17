@@ -1,0 +1,44 @@
+title: 'RNGforGPD: An R Package for Generation of Univariate and Multivariate Generalized Poisson Data'
+abstract: This article describes the R package *RNGforGPD*, which is designed for the generation of univariate and multivariate generalized Poisson data. Some illustrative examples are given, the utility and functionality of the package are demonstrated; and its performance is assessed via simulations that are devised around both artificial and real data.
+author:
+- name: Hesen Li
+  affiliation: |-
+    Ph.D. Student, Division of Epidemiology and Biostatistics, University
+    of Illinois at Chicago
+  orcid: 0000-0003-1636-299X
+  address: Chicago, IL 60612, USA
+- name: Dr. Hakan Demirtas
+  affiliation: University of Illinois at Chicago
+  orcid: |
+    0000-0003-2482-703X
+  address:
+  - Associate Professor of Biostatistics
+  - Division of Epidemiology and Biostatistics
+  - Chicago, IL 60612, USA
+- name: Ruizhe Chen
+  affiliation: |-
+    Ph.D. Student, Division of Epidemiology and Biostatistics, University
+    of Illinois at Chicago
+  orcid: |
+    0000-0003-3924-3328
+  address: Chicago, IL 60612, USA
+date: '2021-01-14'
+date_received: '2019-07-26'
+journal:
+  firstpage: '173'
+  lastpage: '188'
+volume: 12
+issue: 2
+slug: RJ-2021-007
+doi: 10.32614/RJ-2021-007
+packages:
+  cran:
+  - RNGforGPD
+  - mvtnorm
+  - corpcor
+  - Matrix
+  - ggplot2
+  - robustbase
+  - MixAll
+  bioc: []
+CTV:

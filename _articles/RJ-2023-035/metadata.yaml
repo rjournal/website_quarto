@@ -1,0 +1,44 @@
+title: 'ClusROC: An R Package for ROC Analysis in Three-Class Classification Problems for Clustered Data'
+abstract: This paper introduces an R package for ROC analysis in three-class classification problems, for clustered data in the presence of covariates, named ClusROC. The clustered data that we address have some hierarchical structure, i.e., dependent data deriving, for example, from longitudinal studies or repeated measurements. This package implements point and interval covariate-specific estimation of the true class fractions at a fixed pair of thresholds, the ROC surface, the volume under the ROC surface, and the optimal pairs of thresholds. We illustrate the usage of the implemented functions through two practical examples from different fields of research.
+author:
+- name: Duc-Khanh To
+  affiliation: University of Padova
+  address:
+  - Department of Statistical Sciences
+  - Via C. Battisti, 241; I-35121 Padova, Italy
+  - and
+  - Department of Information and Engineering
+  - Via Gradenigo, 6/b; 35131 Padova, Italy
+  - '*ORCiD: [0000-0002-4641-0764](https://orcid.org/0000-0002-4641-0764)*'
+  - |
+    [`duckhanh.to@unipd.it`](mailto:duckhanh.to@unipd.it)
+- name: Gianfranco Adimari
+  affiliation: University of Padova
+  address:
+  - Department of Statistical Sciences
+  - Via C. Battisti, 241; I-35121 Padova, Italy
+  - '*ORCiD: [0000-0002-7811-912X](https://orcid.org/0000-0002-7811-912X)*'
+  - |
+    [`gianfranco.adimari@unipd.it`](mailto:gianfranco.adimari@unipd.it)
+- name: Monica Chiogna
+  affiliation: University of Bologna
+  address:
+  - Department of Statistical Sciences "Paolo Fortunati' '
+  - Via Belle Arti, 41; 40126 Bologna, Italy
+  - '*ORCiD: [0000-0002-7238-3739](https://orcid.org/0000-0002-7238-3739)*'
+  - |
+    [`monica.chiogna2@unibo.it`](mailto:monica.chiogna2@unibo.it)
+date: '2023-08-26'
+date_received: '2022-05-30'
+journal:
+  firstpage: 254
+  lastpage: 270
+volume: 15
+issue: 1
+slug: RJ-2023-035
+doi: 10.32614/RJ-2023-035
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

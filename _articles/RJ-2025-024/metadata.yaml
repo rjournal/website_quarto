@@ -1,0 +1,49 @@
+title: 'QTE.RD: An R Package for Quantile Treatment Effects in Regression-Discontinuity Designs'
+abstract: |
+  The QTE.RD package provides methods to test, estimate, and conduct
+  uniform inference on quantile treatment effects in sharp regression
+  discontinuity designs, allowing for covariates, and implementing
+  robust bias correction. The package offers four main functions for
+  estimating quantile treatment effects and uniform confidence bands,
+  testing hypotheses related to treatment effects, selecting bandwidths
+  using cross-validation or mean squared error criteria, and visualizing
+  the estimated effects and confidence bands. This note includes an
+  empirical illustration of the package's functionality using data on
+  the impact of tracking on student achievement.
+author:
+- name: Zhongjun Qu
+  affiliation: Department of Economics
+  address:
+  - Boston University
+  - USA
+  - |
+    [qu@bu.edu](qu@bu.edu){.uri}
+- name: Jungmo Yoon
+  affiliation: College of Economics and Finance
+  address:
+  - Hanyang University
+  - Korea, South
+  - 'ORCID: 0000-0002-6686-4739'
+  - |
+    [jmyoon@hanyang.ac.kr](jmyoon@hanyang.ac.kr){.uri}
+date: '2025-10-21'
+date_received: '2024-10-01'
+journal:
+  firstpage: 69
+  lastpage: 88
+volume: 17
+issue: 3
+slug: RJ-2025-024
+doi: 10.32614/RJ-2025-024
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - QTE.RD
+  - qte
+  - quantreg.nonpar
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

@@ -1,0 +1,42 @@
+title: 'Welfare, Inequality and Poverty Analysis with rtip: An Approach Based on Stochastic Dominance'
+abstract: Disparities in economic welfare, inequality and poverty across and within countries are of great interest to sociologists, economists, researchers, social organizations and political scientists. Information about these topics is commonly based on surveys. We present a package called ***rtip*** that implements techniques based on stochastic dominance to make unambiguous comparisons, in terms of welfare, poverty and inequality, among income distributions. Besides providing point estimates and confidence intervals for the most commonly used indicators of these characteristics, the package ***rtip*** estimates the usual Lorenz curve, the generalized Lorenz curve, the TIP (Three I's of Poverty) curve and allows to test statistically whether one curve is dominated by another.
+author:
+- name: Angel Berihuete
+  affiliation: |-
+    Departamento de Estadística e Investigación Operativa, Universidad de
+    Cádiz
+  orcid: |
+    0000-0002-8589-4423
+  address: Spain
+- name: Carmen Dolores Ramos
+  affiliation: |-
+    Departamento de Estadística e Investigación Operativa, Universidad de
+    Cádiz
+  orcid: |
+    0000-0002-0134-605X
+  address: Spain
+- name: Miguel Angel Sordo
+  affiliation: |-
+    Departamento de Estadística e Investigación Operativa, Universidad de
+    Cádiz
+  orcid: |
+    0000-0003-1383-9051
+  address: Spain
+date: '2018-05-21'
+date_received: '2017-07-25'
+journal:
+  firstpage: '328'
+  lastpage: '341'
+volume: 10
+issue: 1
+slug: RJ-2018-029
+doi: 10.32614/RJ-2018-029
+packages:
+  cran:
+  - rtip
+  - IC2
+  - ineq
+  - laeken
+  - boot
+  bioc: []
+CTV:

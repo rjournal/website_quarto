@@ -1,0 +1,88 @@
+title: Design of the TRONCO BioConductor Package for TRanslational ONCOlogy
+abstract: |
+  Models of cancer progression provide insights on the order of
+  accumulation of genetic alterations during cancer development.
+  Algorithms to infer such models from the currently available
+  mutational profiles collected from different cancer patients
+  (*cross-sectional data*) have been defined in the literature since
+  late the 90s. These algorithms differ in the way they extract a
+  *graphical model* of the events modelling the progression,
+  e.g., somatic mutations or copy-number alterations.\
+  *TRONCO* is an [R]{.smallcaps} package for TRanslational ONcology
+  which provides a series of functions to assist the user in the
+  analysis of cross-sectional genomic data and, in particular, it
+  implements algorithms that aim to model cancer progression by means of
+  the notion of selective advantage. These algorithms are proved to
+  outperform the current state-of-the-art in the inference of cancer
+  progression models. *TRONCO* also provides functionalities to load
+  input cross-sectional data, set up the execution of the algorithms,
+  assess the statistical confidence in the results, and visualize the
+  models.  Availability.  Freely available at <http://www.bioconductor.org/> under GPL license;
+  project hosted at <http://bimib.disco.unimib.it/> and
+  <https://github.com/BIMIB-DISCo/TRONCO>.\
+  Contact. [tronco@disco.unimib.it](tronco@disco.unimib.it)
+author:
+- name: Marco Antoniotti,
+  affiliation: |-
+    Dipartimento di Informatica Sistemistica e Comunicazione, Università
+    degli Studi Milano-Bicocca
+  address:
+  - Milano, Italy
+  - ''
+  - Milan Center for Neuroscience,
+  - Università degli Studi Milano-Bicocca
+  - |
+    Milano, Italy
+- name: Giulio Caravagna,
+  affiliation: |-
+    Dipartimento di Informatica Sistemistica e Comunicazione, Università
+    degli Studi Milano-Bicocca
+  address: |
+    Milano, Italy
+- name: Luca De Sano,
+  affiliation: |-
+    Dipartimento di Informatica Sistemistica e Comunicazione, Università
+    degli Studi Milano-Bicocca
+  address: |
+    Milano, Italy
+- name: Alex Graudenzi,
+  affiliation: |-
+    Dipartimento di Informatica Sistemistica e Comunicazione, Università
+    degli Studi Milano-Bicocca
+  address:
+  - Milano, Italy
+  - ''
+  - |-
+    Institute of Molecular Bioimaging and Physiology of the Italian
+    National Research Council (IBFM-CNR),
+  - |
+    Milano, Italy
+- name: Giancarlo Mauri,
+  affiliation: |-
+    Dipartimento di Informatica Sistemistica e Comunicazione, Università
+    degli Studi Milano-Bicocca
+  address: |
+    Milano, Italy
+- name: Bud Mishra,
+  affiliation: Courant Institute of Mathematical Sciences, New York University
+  address: |
+    New York, USA
+- name: Daniele Ramazzotti,
+  affiliation: |-
+    Dipartimento di Informatica Sistemistica e Comunicazione, Università
+    degli Studi Milano-Bicocca
+  address: |
+    Milano, Italy
+date: '2016-10-21'
+date_received: '2015-10-22'
+journal:
+  firstpage: '39'
+  lastpage: '59'
+volume: 8
+issue: 2
+slug: RJ-2016-032
+doi: 10.32614/RJ-2016-032
+packages:
+  cran: []
+  bioc: TRONCO
+CTV:

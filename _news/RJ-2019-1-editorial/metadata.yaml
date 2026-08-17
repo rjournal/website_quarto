@@ -1,0 +1,22 @@
+title: Editorial
+abstract: The 'Editorial' article from the 2019-1 issue.
+author:
+- name: Norm Matloff
+  affiliation: Dept. of Computer Science, University of California, Davis
+  address:
+  - Davis, CA 95616
+  - |
+    USA
+date: '2019-06-01'
+date_received:
+journal:
+  firstpage: '4'
+  lastpage: '5'
+volume: 11
+issue: 1
+slug: RJ-2019-1-editorial
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

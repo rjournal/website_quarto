@@ -1,0 +1,53 @@
+title: 'MatchThem:: Matching and Weighting after Multiple Imputation'
+abstract: Balancing the distributions of the confounders across the exposure levels in an observational study through matching or weighting is an accepted method to control for confounding due to these variables when estimating the association between an exposure and outcome and reducing the degree of dependence on certain modeling assumptions. Despite the increasing popularity in practice, these procedures cannot be immediately applied to datasets with missing values. Multiple imputation of the missing data is a popular approach to account for missing values while preserving the number of units in the dataset and accounting for the uncertainty in the missing values. However, to the best of our knowledge, there is no comprehensive matching and weighting software that can be easily implemented with multiply imputed datasets. In this paper, we review this problem and suggest a framework to map out the matching and weighting of multiply imputed datasets to 5 actions as well as the best practices to assess balance in these datasets after matching and weighting. We also illustrate these approaches using a companion package for R, *MatchThem*.
+author:
+- name: Farhad Pishgar
+  affiliation: Johns Hopkins University School of Medicine, Baltimore
+  orcid: |
+    0000-0003-0703-8442
+  address:
+  - Russell H. Morgan Department of Radiology and Radiological Science
+  - United States
+- name: Noah Greifer
+  affiliation: Johns Hopkins Bloomberg School of Public Health, Baltimore
+  orcid: |
+    0000-0003-3067-7154
+  address:
+  - Department of Mental Health
+  - United States
+- name: Clémence Leyrat
+  affiliation: London School of Hygiene & Tropical Medicine, London
+  orcid: |
+    0000-0002-4097-4577
+  address:
+  - |-
+    Department of Medical Statistics, Faculty of Epidemiology and
+    Population Health
+  - United Kingdom
+- name: Elizabeth Stuart
+  affiliation: Johns Hopkins Bloomberg School of Public Health, Baltimore
+  orcid: |
+    0000-0002-9042-8611
+  address:
+  - Department of Mental Health & Department of Biostatistics
+  - United States
+date: '2021-08-17'
+date_received: '2020-10-30'
+journal:
+  firstpage: '292'
+  lastpage: '305'
+volume: 13
+issue: 2
+slug: RJ-2021-073
+doi: 10.32614/RJ-2021-073
+packages:
+  cran:
+  - MatchThem
+  - MatchIt
+  - WeightIt
+  - cobalt
+  - mice
+  - Amelia
+  - survey
+  bioc: []
+CTV:

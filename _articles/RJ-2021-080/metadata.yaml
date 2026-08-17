@@ -1,0 +1,45 @@
+title: Multiple Imputation and Synthetic Data Generation with NPBayesImputeCat
+abstract: In many contexts, missing data and disclosure control are ubiquitous and challenging issues. In particular, at statistical agencies, the respondent-level data they collect from surveys and censuses can suffer from high rates of missingness. Furthermore, agencies are obliged to protect respondents' privacy when publishing the collected data for public use. The [*NPBayesImputeCat*](https://CRAN.R-project.org/package=NPBayesImputeCat) R package, introduced in this paper, provides routines to i) create multiple imputations for missing data and ii) create synthetic data for statistical disclosure control, for multivariate categorical data, with or without structural zeros. We describe the Dirichlet process mixture of products of the multinomial distributions model used in the package and illustrate various uses of the package using data samples from the American Community Survey (ACS). We also compare results of the missing data imputation to the [*mice*](https://CRAN.R-project.org/package=mice) R package and those of the synthetic data generation to the [*synthpop*](https://CRAN.R-project.org/package=synthpop) R package.
+author:
+- name: Jingchen Hu
+  affiliation: Vassar College
+  orcid: |
+    0000-0002-4283-181X
+  address:
+  - Mathematics and Statistics Department
+  - Box 27, 124 Raymond Ave
+  - Poughkeepsie, NY 12604, USA
+- name: Olanrewaju Akande
+  affiliation: Duke University
+  orcid: |
+    0000-0002-0790-573X
+  address:
+  - Social Science Research Institute, and
+  - The Department of Statistical Science
+  - Box 90989,
+  - Durham, NC 27708, USA
+- name: Quanli Wang
+  affiliation: Duke University
+  address:
+  - Department of Statistical Science
+  - Box 90251, Duke University
+  - |
+    Durham, NC 27708, USA
+date: '2021-09-20'
+date_received: '2020-05-01'
+journal:
+  firstpage: '90'
+  lastpage: '110'
+volume: 13
+issue: 2
+slug: RJ-2021-080
+doi: 10.32614/RJ-2021-080
+packages:
+  cran:
+  - NPBayesImputeCat
+  - mice
+  - synthpop
+  - bayesplot
+  - tidyverse
+  bioc: []
+CTV:

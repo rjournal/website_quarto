@@ -1,0 +1,19 @@
+title: News from the Forwards Taskforce
+abstract: The 'News from the Forwards Taskforce' article from the 2020-2 issue.
+author:
+- name: Heather Turner
+  affiliation: |
+    University of Warwick, UK
+date: '2020-12-01'
+date_received:
+journal:
+  firstpage: '411'
+  lastpage: '412'
+volume: 12
+issue: 2
+slug: RJ-2020-2-forwards-news
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

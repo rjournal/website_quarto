@@ -1,0 +1,16 @@
+title: Bioconductor Notes, Autumn 2022
+date: '2022-09-01'
+abstract: |
+  We discuss the release of Bioconductor 3.16, along with educational activities and general project news.
+draft: no
+author:
+- name: Bioconductor Core Developer Team
+  affiliation: Dana-Farber Cancer Institute, Roswell Park Comprehensive Cancer Center, City University of New York, Fred Hutchinson Cancer Research Center, Mass General Brigham
+type: article
+volume: 14
+issue: 3
+slug: RJ-2022-3-bioconductor
+journal:
+  lastpage: 304
+  firstpage: 303
+

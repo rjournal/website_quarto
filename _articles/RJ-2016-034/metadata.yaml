@@ -1,0 +1,24 @@
+title: 'Simulating Correlated Binary and Multinomial Responses under Marginal Model Specification: The SimCorMultRes Package'
+abstract: We developed the R package **SimCorMultRes** to facilitate simulation of correlated categorical (binary and multinomial) responses under a desired marginal model specification. The simulated correlated categorical responses are obtained by applying threshold approaches to correlated continuous responses of underlying regression models and the dependence structure is parametrized in terms of the correlation matrix of the latent continuous responses. This article provides an elaborate introduction to **SimCorMultRes** the package demonstrating its design and usage via three examples. The package can be obtained via CRAN.
+author:
+- name: Anestis Touloumis
+  affiliation: Computing, Engineering and Mathematics, University of Brighton
+  address: Brighton, United Kingdom
+date: '2016-09-09'
+date_received: '2015-12-14'
+journal:
+  firstpage: '79'
+  lastpage: '91'
+volume: 8
+issue: 2
+slug: RJ-2016-034
+doi: 10.32614/RJ-2016-034
+packages:
+  cran:
+  - SimCorMultRes
+  - GenOrd
+  - MultiOrd
+  - mvtBinaryEP
+  - multgee
+  bioc: []
+CTV:

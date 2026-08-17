@@ -1,0 +1,48 @@
+title: 'EviewsR: An R Package for Dynamic and Reproducible Research Using EViews, R, R Markdown and Quarto'
+abstract: ' EViews is a software designed for conducting econometric data analysis. There exists a one-way communication between EViews and R, as the former can run the code of the latter, but the reverse is not the case. We describe [EviewsR](https://CRAN.R-project.org/package=EviewsR), an R package which allows users of R, R Markdown and Quarto to execute EViews code. In essence, [EviewsR](https://CRAN.R-project.org/package=EviewsR) does not only provide functions for base R, but also adds EViews to the existing [knitr](https://CRAN.R-project.org/package=knitr)''s knit-engines. We also show how EViews equation, graph, series, and table objects can be imported and customised dynamically and reproducibly in R, R Markdown and Quarto document. Therefore, [EviewsR](https://CRAN.R-project.org/package=EviewsR) seeks to improve the accuracy, transparency and reproducibility of research conducted with EViews and R. '
+author:
+- name: Sagiru Mati
+  affiliation: Near East University
+  address:
+  - ^1^Operational Research Center in Healthcare
+  - Near East University, Nicosia, North Cyprus
+  - ^2^Department of Economics
+  - Yusuf Maitama Sule University, Nigeria
+  - <https://www.smati.com.ng>
+  - '*ORCiD: [0000-0003-1413-3974](https://orcid.org/0000-0003-1413-3974)*'
+  - |
+    [`sagirumati@gmail.com`](mailto:sagirumati@gmail.com)
+- name: Irfan Civcir
+  affiliation: Ankara University
+  address:
+  - Department of Economics
+  - Ankara, Turkey
+  - <http://cv.ankara.edu.tr/kisi.php?id=civcir@politics.ankara.edu.tr&deger=2>
+  - '*ORCiD: [0000-0002-2557-2625](https://orcid.org/0000-0002-2557-2625)*'
+  - |
+    [`civcir@politics.ankara.edu.tr`](mailto:civcir@politics.ankara.edu.tr)
+- name: S. I. Abba
+  affiliation: King Fahd University of Petroleum and Minerals
+  address:
+  - Interdisciplinary Research Center for Membranes and Water Security
+  - Dhahran 31261, Saudi Arabia
+  - <https://scholar.google.com/citations?user=4h2JX7YAAAAJ&hl=en>
+  - '*ORCiD: [0000-0001-9356-2798](https://orcid.org/0000-0001-9356-2798)*'
+  - |
+    [`sani.abba@kfupm.edu.sa`](mailto:sani.abba@kfupm.edu.sa)
+eviews_installed: no
+preamble: "\\usepackage{subfig} \n\\usepackage{upquote}\n"
+date: '2023-11-01'
+date_received: '2022-08-22'
+journal:
+  firstpage: 169
+  lastpage: 205
+volume: 15
+issue: 2
+slug: RJ-2023-045
+doi: 10.32614/RJ-2023-045
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

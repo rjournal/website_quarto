@@ -1,0 +1,79 @@
+title: Current State and Prospects of R-Packages for the Design of Experiments
+abstract: |
+  Re-running an experiment is generally costly and, in some cases,
+  impossible due to limited resources; therefore, the design of an
+  experiment plays a critical role in increasing the quality of
+  experimental data. In this paper, we describe the current state of
+  R-packages for the design of experiments through an exploratory data
+  analysis of package downloads, package metadata, and a comparison of
+  characteristics with other topics. We observed that experimental
+  designs in practice appear to be sufficiently manufactured by a small
+  number of packages, and the development of experimental designs often
+  occurs in silos. We also discuss the interface designs of widely
+  utilized R packages in the field of experimental design and discuss
+  their future prospects for advancing the field in practice.
+author:
+- name: Emi Tanaka
+  affiliation: Monash University
+  address:
+  - Department of Econometrics and Business Statistics
+  - Monash University, Clayton, VIC 3800
+  - <https://emitanaka.org/>
+  - '*ORCiD: [0000-0002-1455-259X](https://orcid.org/0000-0002-1455-259X)*'
+  - |
+    [`emi.tanaka@monash.edu`](mailto:emi.tanaka@monash.edu)
+- name: Dewi Amaliah
+  affiliation: Monash University
+  address:
+  - Department of Econometrics and Business Statistics
+  - Monash University, Clayton, VIC 3800
+date: '2025-03-09'
+date_received: '2022-12-20'
+journal:
+  firstpage: 27
+  lastpage: 41
+volume: 16
+issue: 2
+slug: RJ-2024-013
+doi: 10.32614/RJ-2024-013
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - tidyverse
+  - cranlogs
+  - ctv
+  - qtlDesign
+  - PwrGSD
+  - Crossover
+  - lhs
+  - AlgDesign
+  - agricolae
+  - ez
+  - DiceKriging
+  - DiceDesign
+  - DoE.base
+  - FrF2
+  - conf.design
+  - BHH2
+  - rsm
+  - tgp
+  - BsMD
+  - DoE.wrapper
+  - edibble
+  - targets
+  - renv
+  - knitr
+  - rmarkdown
+  - ggplot2
+  - ggraph
+  - ggwordcloud
+  - kableExtra
+  - tidytext
+  - pluralize
+  - ineq
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

@@ -1,0 +1,35 @@
+title: Robust Functional Linear Regression Models
+abstract: With advancements in technology and data storage, the availability of functional data whose sample observations are recorded over a continuum, such as time, wavelength, space grids, and depth, progressively increases in almost all scientific branches. The functional linear regression models, including scalar-on-function and function-on-function, have become popular tools for exploring the functional relationships between the scalar response-functional predictors and functional response-functional predictors, respectively. However, most existing estimation strategies are based on non-robust estimators that are seriously hindered by outlying observations, which are common in applied research. In the case of outliers, the non-robust methods lead to undesirable estimation and prediction results. Using a readily-available [R]{.sans-serif} package robflreg, this paper presents several robust methods build upon the functional principal component analysis for modeling and predicting scalar-on-function and function-on-function regression models in the presence of outliers. The methods are demonstrated via simulated and empirical datasets.
+author:
+- name: Ufuk Beyaztas
+  affiliation: Marmara University
+  email: |
+    ufuk.beyaztas@marmara.edu.tr
+  address:
+  - Department of Statistics, Goztepe Campus, 34722, Kadikoy, Istanbul
+  - Turkey
+  - (ORCID 0000-0002-5208-4950)
+- name: Han Lin Shang
+  affiliation: Macquarie University
+  email: |
+    hanlin.shang@mq.edu.au
+  address:
+  - |-
+    Department of Actuarial Studies and Business Analytics, Level 7, 4
+    Eastern Road, Sydney, NSW 2109
+  - Australia
+  - (ORCID 0000-0003-1769-6430)
+date: '2023-09-07'
+date_received: '2022-05-20'
+journal:
+  firstpage: 212
+  lastpage: 233
+volume: 15
+issue: 1
+slug: RJ-2023-033
+doi: 10.32614/RJ-2023-033
+packages:
+  cran:
+  bioc:
+draft: no
+CTV:

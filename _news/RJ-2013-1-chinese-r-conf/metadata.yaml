@@ -1,0 +1,24 @@
+title: 'Conference Review: The 6th Chinese R Conference'
+abstract: 'The ''Conference Review: The 6th Chinese R Conference'' article from the 2013-1 issue.'
+author:
+- name: Jing Leng
+  affiliation: School of Statistics, Renmin University of China
+  address: |
+    Beijing, China P. R.
+- name: Jingjing Guan
+  affiliation: College of Business, City University of Hong Kong
+  address: |
+    Hong Kong SAR
+date: '2013-06-01'
+date_received:
+journal:
+  firstpage: '210'
+  lastpage: '211'
+volume: 5
+issue: 1
+slug: RJ-2013-1-chinese-r-conf
+citation_url: https://rjournal.github.io/
+packages:
+  cran: []
+  bioc: []
+CTV:

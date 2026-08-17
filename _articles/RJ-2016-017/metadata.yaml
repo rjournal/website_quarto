@@ -1,0 +1,30 @@
+title: 'scmamp: Statistical Comparison of Multiple Algorithms in Multiple Problems'
+abstract: Comparing the results obtained by two or more algorithms in a set of problems is a central task in areas such as machine learning or optimization. Drawing conclusions from these comparisons may require the use of statistical tools such as hypothesis testing. There are some interesting papers that cover this topic. In this manuscript we present *scmamp*, an R package aimed at being a tool that simplifies the whole process of analyzing the results obtained when comparing algorithms, from loading the data to the production of plots and tables.
+author:
+- name: Borja Calvo
+  affiliation: |-
+    Department of Computer Science and Artificial Intelligence, University
+    of the Basque Country (UPV/EHU)
+  address:
+  - Manuel de Lardizabal, 1
+  - 20018, Donostia (Spain)
+- name: Guzmán Santafé
+  affiliation: |-
+    Department of Statistics and Operations Research, Public University of
+    Navarre
+  address:
+  - Campus de Arrosadía
+  - 31006, Pamplona (Spain)
+date: '2015-11-26'
+date_received: '2015-09-28'
+journal:
+  firstpage: '248'
+  lastpage: '256'
+volume: 8
+issue: 1
+slug: RJ-2016-017
+doi: 10.32614/RJ-2016-017
+packages:
+  cran: scmamp
+  bioc: []
+CTV:

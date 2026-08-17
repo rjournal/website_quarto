@@ -1,0 +1,51 @@
+title: An Open-Source Implementation of the CMPS Algorithm for Assessing Similarity of Bullets
+header-includes:
+- \usepackage{amsmath}
+- \usepackage{xcolor}
+- \usepackage{longtable}
+- \usepackage{adjustbox}
+- \usepackage[font=small,skip=5pt]{caption}
+- \usepackage{subcaption}
+- \usepackage{afterpage}
+- \usepackage{bbm}
+author:
+- name: Wangqian Ju
+  affiliation: Department of Statistics
+  address:
+  - Center for Statistics and Applications in Forensic Evidence
+  - Iowa State University
+  - 2438 Osborn Dr
+  - Ames, IA 50011
+  url: https://github.com/willju-wangqian
+  email: wju@iastate.edu
+  orcid: 0000-0002-9977-377X
+- name: Heike Hofmann
+  url: https://github.com/heike
+  email: hofmann@iastate.edu
+  orcid: 0000-0002-9079-593X
+  affiliation: Department of Statistics
+  address:
+  - Center for Statistics and Applications in Forensic Evidence
+  - Iowa State University
+  - 2438 Osborn Dr
+  - Ames, IA 50011
+abstract: |
+  In this paper, we introduce the R package \pkg{cmpsR}, an open-source implementation of the Congruent Matching Profile Segments (CMPS) method developed at the National Institute of Standards and Technology (NIST) for objective comparison of striated tool marks. The functionality of the package is showcased by examples of bullet signatures that come with the package. Graphing tools are implemented in the package as well for users to assess and understand the CMPS results. Initial tests were performed on bullet signatures generated from two sets of 3D scans in the Hamby study under the framework suggested by the R package `bulletxtrctr`. New metrics based on CMPS scores are introduced and compared with existing metrics. A measure called sum of squares ratio is included, and how it can be used for evaluating different scans, metrics, or parameters is showcased with the Hamby study data sets. An open-source implementation of the CMPS algorithm makes the algorithm more accessible, generates reproducible results, and facilitates further studies of the algorithm such as method comparisons.
+preamble: |
+  % Any extra LaTeX you need in the preamble
+type: package
+editor_options:
+  chunk_output_type: console
+  markdown:
+    wrap: sentence
+date: '2022-10-13'
+date_received: '2021-11-11'
+volume: 14
+issue: 2
+slug: RJ-2022-035
+doi: 10.32614/RJ-2022-035
+draft: no
+journal:
+  lastpage: 285
+  firstpage: 267
+

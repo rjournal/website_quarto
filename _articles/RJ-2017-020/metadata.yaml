@@ -1,0 +1,29 @@
+title: Market Area Analysis for Retail and Service Locations with MCI
+abstract: In retail location analysis, marketing research and spatial planning, the market areas of stores and/or locations are a frequent subject. Market area analyses consist of empirical observations and modeling via theoretical and/or econometric models such as the Huff Model or the Multiplicative Competitive Interaction Model. The authors' package MCI implements the steps of market area analysis into R with a focus on fitting the models and data preparation and processing.
+author:
+- name: Thomas Wieland
+  affiliation: Karlsruhe Institute of Technology
+  address:
+  - Institute of Geography and Geoecology
+  - Kaiserstr. 12, 76131 Karlsruhe
+  - Germany
+date: '2017-05-10'
+date_received: '2016-09-12'
+journal:
+  firstpage: '298'
+  lastpage: '323'
+volume: 9
+issue: 1
+slug: RJ-2017-020
+doi: 10.32614/RJ-2017-020
+packages:
+  cran:
+  - MCI
+  - SpatialPosition
+  - ggmap
+  - osmar
+  - osrm
+  - car
+  - spgwr
+  bioc: []
+CTV:

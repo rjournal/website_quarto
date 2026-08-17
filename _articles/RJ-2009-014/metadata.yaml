@@ -1,0 +1,22 @@
+title: Aspects of the Social Organization and Trajectory of the R Project
+abstract: Based partly on interviews with members of the R Core team, this paper considers the development of the R Project in the context of open-source software development and, more generally, voluntary activities. The paper describes aspects of the social organization of the R Project, including the organization of the R Core team; describes the trajectory of the R Project; seeks to identify factors crucial to the success of R; and speculates about the prospects for R.
+author:
+- name: John Fox
+  affiliation: Department of Sociology, McMaster University
+  address: Hamilton, Ontario, Canada
+date: '2009-12-01'
+date_received:
+journal:
+  firstpage: 5
+  lastpage: 13
+volume: 1
+issue: 2
+slug: RJ-2009-014
+doi: 10.32614/RJ-2009-014
+packages:
+  cran:
+  - MASS
+  - survival
+  - nlme
+  bioc: []
+CTV:

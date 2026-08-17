@@ -1,0 +1,51 @@
+title: 'Variable Clustering in High-Dimensional Linear Regression: The R Package clere'
+abstract: Dimension reduction is one of the biggest challenges in high-dimensional regression models. We recently introduced a new methodology based on variable clustering as a means to reduce dimensionality. We present here the R package *clere* that implements some refinements of this methodology. An overview of the package functionalities as well as examples to run an analysis are described. Numerical experiments on real data were performed to illustrate the good predictive performance of our parsimonious method compared to standard dimension reduction approaches.
+author:
+- name: Loïc Yengo
+  affiliation: |-
+    Integrated Genomics and Metabolic Diseases Modeling, CNRS UMR 8199 -
+    Lille Institute of Biology
+  address:
+  - E.G.I.D -- FR3508 European Genomics Institute of Diabetes
+  - 1, rue du Professeur Calmette, BP 447, 59021 Lille cedex
+  - France
+- name: Julien Jacques
+  affiliation: ERIC Laboratory, Université de Lyon - Lumière
+  address:
+  - 5 avenue Pierre Mendès France, 69676 Bron cedex
+  - France
+- name: Christophe Biernacki
+  affiliation: |-
+    MODAL team (Inria) & Laboratoire Paul Painlevé (UMR CNRS 8524),
+    University Lille I
+  address:
+  - Cité Scientifique, 59655 Villeneuve d'Ascq cedex
+  - France
+- name: Mickael Canouil
+  affiliation: |-
+    Integrated Genomics and Metabolic Diseases Modeling, CNRS UMR 8199 --
+    Lille Institute of Biology
+  address:
+  - E.G.I.D -- FR3508 European Genomics Institute of Diabetes
+  - 1, rue du Professeur Calmette, BP 447, 59021 Lille cedex
+  - France
+date: '2016-04-03'
+date_received: '2015-03-26'
+journal:
+  firstpage: '92'
+  lastpage: '106'
+volume: 8
+issue: 1
+slug: RJ-2016-006
+doi: 10.32614/RJ-2016-006
+packages:
+  cran:
+  - glmnet
+  - spikeslab
+  - clere
+  - Rcpp
+  - RcppEigen
+  - lasso2
+  - flare
+  bioc: []
+CTV:

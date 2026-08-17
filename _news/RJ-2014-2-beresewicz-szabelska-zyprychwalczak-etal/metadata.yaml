@@ -1,0 +1,38 @@
+title: 'Conference Report: Polish Academic R User Meeting'
+abstract: 'The ''Conference Report: Polish Academic R User Meeting'' article from the 2014-2 issue.'
+author:
+- name: Maciej Beręsewicz
+  affiliation: Department of Statistics, Poznan University of Economics
+  address: |
+    Poland
+- name: Alicja Szabelska
+  affiliation: |-
+    Department of Mathematical and Statistical Methods, Poznan University
+    of Life Sciences
+  address: |
+    Poland
+- name: Joanna Zyprych-Walczak
+  affiliation: |-
+    Department of Mathematical and Statistical Methods, Poznan University
+    of Life Sciences
+  address: |
+    Poland
+- name: Łukasz Wawrowski
+  affiliation: Department of Statistics, Poznan University of Economics
+  address: |
+    Poland
+date: '2014-11-30'
+date_received:
+journal:
+  firstpage: '187'
+  lastpage: '189'
+volume: 6
+issue: 2
+slug: RJ-2014-2-beresewicz-szabelska-zyprychwalczak-etal
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - data.table
+  - survey
+  bioc: []
+CTV:

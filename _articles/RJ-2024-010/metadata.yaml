@@ -1,0 +1,62 @@
+title: Bayesian Model Selection with Latent Group-Based Effects and Variances with the R Package slgf
+abstract: |
+  Linear modeling is ubiquitous, but performance can suffer when the
+  model is misspecified. We have recently demonstrated that latent
+  groupings in the levels of categorical predictors can complicate
+  inference in a variety of fields including bioinformatics,
+  agriculture, industry, engineering, and medicine. Here we present the
+  R package slgf which enables the user to easily implement our
+  recently-developed approach to detect group-based regression effects,
+  latent interactions, and/or heteroscedastic error variance through
+  Bayesian model selection. We focus on the scenario in which the levels
+  of a categorical predictor exhibit two latent groups. We treat the
+  detection of this grouping structure as an unsupervised learning
+  problem by searching the space of possible groupings of factor levels.
+  First we review the suspected latent grouping factor (SLGF) method.
+  Next, using both observational and experimental data, we illustrate
+  the usage of slgf in the context of several common linear model
+  layouts: one-way analysis of variance (ANOVA), analysis of covariance
+  (ANCOVA), a two-way replicated layout, and a two-way unreplicated
+  layout. We have selected data that reveal the shortcomings of
+  classical analyses to emphasize the advantage our method can provide
+  when a latent grouping structure is present.
+author:
+- name: Thomas A. Metzger
+  affiliation: Department of Statistics, The Ohio State University
+  orcid: 0000-0003-3620-1405
+  address:
+  - 1958 Neil Avenue, Columbus, Ohio 43210
+  - United States of America
+  - |
+    [metzger.181@osu.edu](metzger.181@osu.edu){.uri}
+- name: Christopher T. Franck
+  affiliation: Department of Statistics, Virginia Tech
+  address:
+  - 403E Hutcheson Hall, Blacksburg, VA 24060
+  - United States
+  - '(ORCiD: 0000-0003-1251-4378)'
+  - |
+    [chfranck@vt.edu](chfranck@vt.edu){.uri}
+date: '2025-01-11'
+date_received: '2022-12-31'
+journal:
+  firstpage: 175
+  lastpage: 192
+volume: 16
+issue: 1
+slug: RJ-2024-010
+doi: 10.32614/RJ-2024-010
+citation_url: https://rjournal.github.io/
+packages:
+  cran:
+  - slgf
+  - numDeriv
+  - mixtools
+  - flexmix
+  - MultiLCIRT
+  bioc: []
+CTV:
+legacy_pdf: yes
+legacy_converted: yes
+draft: no
+

@@ -1,0 +1,45 @@
+title: 'clarify: Simulation-Based Inference for Regression Models'
+date: '2025-03-09'
+abstract: |
+  Simulation-based inference is an alternative to the delta method for computing the uncertainty around regression post-estimation (i.e., derived) quantities such as average marginal effects, average adjusted predictions, and other functions of model parameters. It works by drawing model parameters from their joint distribution and estimating quantities of interest from each set of simulated values, which form a simulated "posterior" distribution of the quantity from which confidence intervals can be computed. clarify provides a simple, unified interface for performing simulation-based inference for any user-specified derived quantities as well as wrappers for common quantities of interest. clarify supports a large and growing number of models through its interface with the marginaleffects package and provides native support for multiply imputed data.
+draft: no
+author:
+- name: Noah Greifer
+  affiliation: Harvard University
+  address:
+  - Institute for Quantitative Social Science
+  - Cambridge, MA
+  url: ngreifer.github.io
+  orcid: 0000-0003-3067-7154
+  email: ngreifer@iq.harvard.edu
+- name: Steven Worthington
+  affiliation: Harvard University
+  address:
+  - Institute for Quantitative Social Science
+  - Cambridge, MA
+  email: sworthington@iq.harvard.edu
+  orcid: 0000-0001-9550-5797
+- name: Stefano Iacus
+  affiliation: Harvard University
+  address:
+  - Institute for Quantitative Social Science
+  - Cambridge, MA
+  email: siacus@iq.harvard.edu
+  orcid: 0000-0002-4884-0047
+- name: Gary King
+  affiliation: Harvard University
+  address:
+  - Institute for Quantitative Social Science
+  - Cambridge, MA
+  email: king@harvard.edu
+  orcid: 0000-0002-5327-7631
+type: package
+date_received: '2024-01-11'
+volume: 16
+issue: 2
+slug: RJ-2024-015
+doi: 10.32614/RJ-2024-015
+journal:
+  lastpage: 174
+  firstpage: 154
+

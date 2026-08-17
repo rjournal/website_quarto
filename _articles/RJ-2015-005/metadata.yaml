@@ -1,0 +1,43 @@
+title: 'Frames2: A Package for Estimation in Dual Frame Surveys'
+abstract: Data from complex survey designs require special consideration with regard to estimation of finite population parameters and corresponding variance estimation procedures, as a consequence of significant departures from the simple random sampling assumption. In the past decade a number of statistical software packages have been developed to facilitate the analysis of complex survey data. All these statistical software packages are able to treat samples selected from one sampling frame containing all population units. Dual frame surveys are very useful when it is not possible to guarantee a complete coverage of the target population and may result in considerable cost savings over a single frame design with comparable precision. There are several estimators available in the statistical literature but no existing software covers dual frame estimation procedures. This gap is now filled by package *Frames2*. In this paper we highlight the main features of the package. The package includes the main estimators in dual frame surveys and also provides interval confidence estimation.
+author:
+- name: Antonio Arcos
+  affiliation: |-
+    Department of Statistics and Operational Research, University of
+    Granada
+  address: |
+    Spain
+- name: David Molina
+  affiliation: |-
+    Department of Statistics and Operational Research, University of
+    Granada
+  address: |
+    Spain
+- name: Maria Giovanna Rannalli
+  affiliation: Department of Political Science, University of Perugia
+  address: |
+    Italy
+- name: María del Mar Rueda
+  affiliation: |-
+    Department of Statistics and Operational Research, University of
+    Granada
+  address: |
+    Spain
+date: '2015-04-23'
+date_received: '2014-09-05'
+journal:
+  firstpage: '52'
+  lastpage: '72'
+volume: 7
+issue: 1
+slug: RJ-2015-005
+doi: 10.32614/RJ-2015-005
+packages:
+  cran:
+  - survey
+  - sampling
+  - laeken
+  - TeachingSampling
+  - Frames2
+  bioc: []
+CTV:

@@ -1,0 +1,33 @@
+title: 'BayesBinMix: an R Package for Model Based Clustering of Multivariate Binary Data'
+abstract: The *BayesBinMix* package offers a Bayesian framework for clustering binary data with or without missing values by fitting mixtures of multivariate Bernoulli distributions with an unknown number of components. It allows the joint estimation of the number of clusters and model parameters using Markov chain Monte Carlo sampling. Heated chains are run in parallel and accelerate the convergence to the target posterior distribution. Identifiability issues are addressed by implementing label switching algorithms. The package is demonstrated and benchmarked against the Expectation-Maximization algorithm using a simulation study as well as a real dataset.
+author:
+- name: Panagiotis Papastamoulis
+  affiliation: University of Manchester
+  address:
+  - Oxford road, Manchester, M13 9PL
+  - United Kingdom
+- name: Magnus Rattray
+  affiliation: University of Manchester
+  address:
+  - Oxford road, Manchester, M13 9PL
+  - United Kingdom
+date: '2017-05-10'
+date_received: '2016-09-30'
+journal:
+  firstpage: '403'
+  lastpage: '420'
+volume: 9
+issue: 1
+slug: RJ-2017-022
+doi: 10.32614/RJ-2017-022
+packages:
+  cran:
+  - BayesBinMix
+  - label.switching
+  - foreach
+  - doParallel
+  - coda
+  - FlexMix
+  - flexclust
+  bioc: []
+CTV:

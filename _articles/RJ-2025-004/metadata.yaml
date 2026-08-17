@@ -1,0 +1,42 @@
+title: 'spheresmooth: An R Package for Penalized Piecewise Geodesic Curve Fitting on a Sphere'
+date: '2025-08-07'
+abstract: |
+  This paper introduces an R package \CRANpkg{spheresmooth}, which implements a penalized piecewise geodesic curve fitting method on a sphere. Spherical data observed over a continuum arise frequently in various fields including cardiology, computer vision, physiology, and geophysics. We propose an adaptive smoothing method by extending the linear spline approach to spherical data. Penalization based on differences of velocity vectors endows sparsity among control points of the spherical curve, which enables data-adaptive curve fitting. The proposed method is implemented with a Riemannian block coordinate descent algorithm. Illustrations on Triassic and Jurassic polar wander data and tropical cyclone data demonstrate practicality of the proposed method and the associated \CRANpkg{spheresmooth} package.
+draft: no
+author:
+- name: Jae-Hwan Jhong
+  affiliation: ChungBuk National University
+  address:
+  - Department of Information Statistics
+  - 1, Chungdae-ro, Seowon-gu, Cheongju-si, Chungcheongbuk-do, Republic of Korea
+  orcid: 0000-0003-2266-4986
+- name: Seyoung Lee
+  affiliation: Sungshin Women's University
+  address:
+  - School of Mathematics, Statistics and Data Science
+  - 2, Bomun-ro 34da-gil, Seongbuk-gu, Seoul 02844,  Republic of Korea
+- name: Ja-Yong Koo
+  affiliation: Korea University
+  address:
+  - Department of Statistics
+  - 145, Anam-ro, Seongbuk-gu, Seoul 02841, Republic of Korea
+- name: Kwan-Young Bak
+  affiliation: Sungshin Women's University
+  address:
+  - School of Mathematics, Statistics and Data Science
+  - Data Science Center
+  - 2, Bomun-ro 34da-gil, Seongbuk-gu, Seoul 02844,  Republic of Korea
+  email: kybak@sungshin.ac.kr
+  orcid: 0000-0002-4541-160X
+type: package
+header-includes: \usepackage{subcaption}
+link-citations: yes
+date_received: '2024-05-17'
+volume: 17
+issue: 1
+slug: RJ-2025-004
+doi: 10.32614/RJ-2025-004
+journal:
+  lastpage: 87
+  firstpage: 67
+

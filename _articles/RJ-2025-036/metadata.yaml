@@ -1,0 +1,58 @@
+title: 'dtComb: A Comprehensive R Library and Web Tool for Combining Diagnostic Tests'
+date: '2026-03-10'
+abstract: |
+  The combination of diagnostic tests has become a crucial area of research, aiming to improve the accuracy and robustness of medical diagnostics. While existing tools focus primarily on linear combination methods, there is a lack of comprehensive tools that integrate diverse methodologies. In this study, we present dtComb, a comprehensive R package and web tool designed to address the limitations of existing diagnostic test combination platforms. One of the unique contributions of dtComb is offering a range of 142 methods to combine two diagnostic tests, including linear, non-linear, machine learning algorithms, and mathematical operators. Another significant contribution of dtComb is its inclusion of advanced tools for ROC analysis, diagnostic performance metrics, and visual outputs such as sensitivity-specificity curves.  Furthermore, dtComb offers classification functions for new observations, making it an easy-to-use tool for clinicians and researchers. The web-based version is also available for non-R users, providing an intuitive interface for test combination and model training.
+draft: no
+author:
+- name: S. Ilayda Yerlitaş Taştan
+  affiliation: Erciyes University
+  address:
+  - Department Biostatistics
+  - Kayseri, Türkiye
+  orcid: 0000-0003-2830-3006
+  email: ilaydayerlitas340@gmail.com
+- name: Serra Bersan Gengeç
+  affiliation: Erciyes University
+  address:
+  - Department Biostatistics
+  - Kayseri, Türkiye
+  email: serrabersan@gmail.com
+- name: Necla Koçhan
+  affiliation: Izmir University of Economics
+  address:
+  - Department of Mathematics
+  - İzmir, Türkiye
+  orcid: 0000-0003-2355-4826
+  email: necla.kayaalp@gmail.com
+- name: Gözde Ertürk Zararsız
+  affiliation: Erciyes University
+  address:
+  - Department Biostatistics
+  - Kayseri, Türkiye
+  orcid: 0000-0002-5495-7540
+  email: gozdeerturk9@gmail.com
+- name: Selcuk Korkmaz
+  affiliation: Trakya University
+  address:
+  - Department Biostatistics
+  - Edirne, Türkiye
+  orcid: 0000-0003-4632-6850
+  email: selcukkorkmaz@trakya.edu.tr
+- name: Gökmen Zararsız
+  affiliation: Erciyes University
+  address:
+  - Department Biostatistics
+  - Kayseri, Türkiye
+  email: gokmen.zararsiz@gmail.com
+  orcid: 0000-0001-5801-1835
+type: package
+header-includes: \usepackage{float} \floatplacement{figure}{H}
+date_received: '2024-03-08'
+volume: 17
+issue: 4
+slug: RJ-2025-036
+doi: 10.32614/RJ-2025-036
+journal:
+  lastpage: 103
+  firstpage: 80
+

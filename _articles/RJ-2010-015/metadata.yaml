@@ -1,0 +1,26 @@
+title: 'cudaBayesreg: Bayesian Computation in CUDA'
+abstract: Graphical processing units are rapidly gaining maturity as powerful general parallel computing devices. The package [*cudaBayesreg*](https://CRAN.R-project.org/package=cudaBayesreg) uses GPU--oriented procedures to improve the performance of Bayesian computations. The paper motivates the need for devising high-performance computing strategies in the context of fMRI data analysis. Some features of the package for Bayesian analysis of brain fMRI data are illustrated. Comparative computing performance figures between sequential and parallel implementations are presented as well.
+author:
+- name: Adelino Ferreira da Silva
+  affiliation: Universidade Nova de Lisboa
+  address:
+  - Faculdade de Ciências e Tecnologia
+  - |
+    Portugal
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 48
+  lastpage: 55
+volume: 2
+issue: 2
+slug: RJ-2010-015
+doi: 10.32614/RJ-2010-015
+packages:
+  cran:
+  - cudaBayesreg
+  - bayesm
+  - cudaBayesregData
+  - oro.nifti
+  bioc: []
+CTV:

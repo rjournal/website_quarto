@@ -1,0 +1,25 @@
+title: 'MCMC for Generalized Linear Mixed Models with glmmBUGS'
+abstract: The *glmmBUGS* package is a bridging tool between Generalized Linear Mixed Models (GLMMs) in R and the BUGS language. It provides a simple way of performing Bayesian inference using Markov Chain Monte Carlo (MCMC) methods, taking a model formula and data frame in R and writing a BUGS model file, data file, and initial values files. Functions are provided to reformat and summarize the BUGS results. A key aim of the package is to provide files and objects that can be modified prior to calling BUGS, giving users a platform for customizing and extending the models to accommodate a wide variety of analyses.
+author:
+- name: Patrick Brown
+  affiliation: Dalla Lana School of Public Health,
+  address:
+  - University of Toronto, and
+  - |
+    Cancer Care Ontario, Canada
+- name: Lutong Zhou
+  affiliation: |
+    Cancer Care Ontario, Canada
+date: '2010-06-01'
+date_received:
+journal:
+  firstpage: 13
+  lastpage: 17
+volume: 2
+issue: 1
+slug: RJ-2010-003
+doi: 10.32614/RJ-2010-003
+packages:
+  cran: []
+  bioc: []
+CTV:

@@ -1,0 +1,37 @@
+title: 'hglm: A Package for Fitting Hierarchical Generalized Linear Models'
+abstract: We present the [*hglm*](https://CRAN.R-project.org/package=hglm) package for fitting hierarchical generalized linear models. It can be used for linear mixed models and generalized linear mixed models with random effects for a variety of links and a variety of distributions for both the outcomes and the random effects. Fixed effects can also be fitted in the dispersion part of the model.
+author:
+- name: Lars ård
+  affiliation: Statistics Unit
+  address:
+  - Dalarna University, Sweden
+  - and
+  - Department of Animal Breeding and Genetics
+  - Swedish University of Agricultural Sciences, Sweden
+- name: Xia Shen
+  affiliation: Department of Cell and Molecular Biology, Uppsala University Sweden
+  address:
+  - and
+  - Statistics Unit,Dalarna University, Sweden
+- name: Moudud Alam
+  affiliation: Statistics Unit, Dalarna University
+  address: Sweden
+date: '2010-12-01'
+date_received:
+journal:
+  firstpage: 20
+  lastpage: 28
+volume: 2
+issue: 2
+slug: RJ-2010-009
+doi: 10.32614/RJ-2010-009
+packages:
+  cran:
+  - hglm
+  - lme4
+  - MASS
+  - dglm
+  - HGLMMM
+  - nlme
+  bioc: []
+CTV:

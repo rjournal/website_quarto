@@ -55,7 +55,7 @@ extract_render_metadata <- function(lines) {
     return(list())
   }
 
-  fields <- c("title", "abstract", "bibliography", "output")
+  fields <- c("title", "abstract", "bibliography", "output", "params", "csl", "link-citations")
   metadata[fields[fields %in% names(metadata)]]
 }
 
@@ -109,6 +109,11 @@ write_embed_resources_rmd <- function(source_rmd, cache = use_cache) {
   output <- file.path(dirname(source_rmd), "embed_resources.Rmd")
   writeLines(c(embed_resources_yaml(cache = cache, metadata = metadata), body), output, useBytes = TRUE)
   output
+}
+
+running_as_root <- function() {
+  uid <- tryCatch(system2("id", "-u", stdout = TRUE), error = function(e) "")
+  identical(trimws(uid[1]), "0")
 }
 
 use_system_package_library <- function() {
@@ -285,6 +290,20 @@ install_dependencies <- function(packages, root = project_root()) {
         ". Add them to the Dockerfile as r-cran-* packages when available.",
         call. = FALSE
       )
+    }
+    if (use_system_package_library() && !running_as_root()) {
+      # Non-root Docker renders cannot install through bspm/apt; dependencies
+      # are preinstalled as root by render_rmarkdown_to_html_v2.sh. Packages
+      # that are still missing are usually unavailable (archived CRAN,
+      # GitHub-only, ...), and may not be needed by evaluated chunks, so
+      # render anyway and let knitr fail if one is actually used.
+      if (exists("render_warn", mode = "function")) {
+        render_warn(paste0(
+          "event=dependency_install_skipped reason=not_root missing=",
+          paste(missing, collapse = ",")
+        ))
+      }
+      return(invisible(character()))
     }
     if (use_system_package_library()) {
       configure_system_package_install()

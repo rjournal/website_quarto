@@ -14,6 +14,7 @@ MEMORY="${RJOURNAL_RENDER_DOCKER_MEMORY:-8g}"
 MEMORY_SWAP="${RJOURNAL_RENDER_DOCKER_MEMORY_SWAP:-$MEMORY}"
 CPUS="${RJOURNAL_RENDER_DOCKER_CPUS:-2}"
 PIDS_LIMIT="${RJOURNAL_RENDER_DOCKER_PIDS_LIMIT:-512}"
+SHM_SIZE="${RJOURNAL_RENDER_DOCKER_SHM_SIZE:-2g}"
 docker_workers="${RJOURNAL_RENDER_DOCKER_WORKERS:-1}"
 docker_item_timeout="${RJOURNAL_RENDER_DOCKER_ITEM_TIMEOUT:-300}"
 render_collections="_articles,_news"
@@ -53,6 +54,65 @@ result <- render_one_item(item, timeout = timeout, log_path = log_path, cache = 
 quit(status = render_result_exit_status(result), save = "no")
 '
 
+# Runs as root in a throwaway container: scans the archived sources of the
+# given items for R package dependencies and installs the missing ones. bspm
+# (enabled by the rocker/r2u Rprofile.site) turns install.packages() into apt
+# installs of r2u binaries, which requires root. The container is then
+# committed as the dependency image used by the non-root render containers.
+R_PREINSTALL_DEPS='
+items <- commandArgs(TRUE)
+say <- function(...) { cat(sprintf(...), "\n", sep = ""); flush(stdout()) }
+base_pkgs <- rownames(utils::installed.packages(priority = c("base", "recommended")))
+n <- length(items)
+needed <- list()
+for (i in seq_along(items)) {
+  item <- items[[i]]
+  slug <- basename(item)
+  archive <- file.path(item, "archive.zip")
+  if (!file.exists(archive)) {
+    say("[deps scan %d/%d] %s: no archive.zip, skipped", i, n, slug)
+    next
+  }
+  exdir <- tempfile(paste0(slug, "-"))
+  dir.create(exdir)
+  ok <- tryCatch({
+    utils::unzip(archive, exdir = exdir)
+    deps <- renv::dependencies(exdir, progress = FALSE, quiet = TRUE)
+    pkgs <- sort(setdiff(unique(stats::na.omit(deps$Package)), c("R", base_pkgs)))
+    needed[[slug]] <- pkgs
+    TRUE
+  }, error = function(e) { say("[deps scan %d/%d] %s: scan failed: %s", i, n, slug, conditionMessage(e)); FALSE })
+  unlink(exdir, recursive = TRUE, force = TRUE)
+  if (ok) say("[deps scan %d/%d] %s: %d package(s)", i, n, slug, length(needed[[slug]]))
+}
+all_pkgs <- sort(unique(unlist(needed)))
+installed <- function(p) vapply(p, requireNamespace, logical(1), quietly = TRUE)
+missing <- all_pkgs[!installed(all_pkgs)]
+say("[deps] %d distinct package(s) referenced, %d already installed, %d to install",
+    length(all_pkgs), length(all_pkgs) - length(missing), length(missing))
+if (length(missing) > 0) {
+  options(repos = c(CRAN = "https://cloud.r-project.org"), Ncpus = 4L)
+  say("[deps] batch install via r2u/bspm: %s", paste(missing, collapse = ", "))
+  try(suppressWarnings(utils::install.packages(missing)), silent = FALSE)
+  still <- missing[!installed(missing)]
+  if (length(still) > 0) {
+    say("[deps] %d package(s) still missing after batch; retrying one by one", length(still))
+    for (j in seq_along(still)) {
+      p <- still[[j]]
+      try(suppressWarnings(utils::install.packages(p)), silent = TRUE)
+      say("[deps retry %d/%d] %s: %s", j, length(still), p, if (installed(p)) "ok" else "FAILED")
+    }
+  }
+}
+failed <- all_pkgs[!installed(all_pkgs)]
+say("[deps] done: %d installed now, %d unavailable%s", length(missing) - length(failed), length(failed),
+    if (length(failed)) paste0(" (", paste(failed, collapse = ", "), ")") else "")
+for (slug in names(needed)) {
+  lacking <- intersect(needed[[slug]], failed)
+  if (length(lacking)) say("[deps] %s will lack: %s", slug, paste(lacking, collapse = ", "))
+}
+'
+
 print_help() {
   cat <<'EOF'
 Render archived R Markdown articles in Docker.
@@ -77,10 +137,13 @@ Options:
   --timeout=<seconds>       Per-item rmarkdown::render timeout in seconds, default 300.
   --log=<path>              Render trace log path under tmp/.
   --no-cache                Do not enable knitr chunk caching in generated Rmd.
+  --skip-deps               Do not preinstall item dependencies as root before rendering.
+  --items-file=<path>       Render the item directories listed in a file, one per line.
 
 Environment:
   RJOURNAL_RENDER_DOCKER_MEMORY      Per-item container memory limit, default 8g.
   RJOURNAL_RENDER_DOCKER_CPUS        Per-item CPU quota, default 2.
+  RJOURNAL_RENDER_DOCKER_SHM_SIZE    Per-item /dev/shm size, default 2g.
   RJOURNAL_RENDER_DOCKER_WORKERS     Parallel Docker container count, default 1.
   RJOURNAL_RENDER_DOCKER_ITEM_TIMEOUT
                                       Per-item Docker container timeout, default 300; 0 disables.
@@ -207,6 +270,8 @@ set_log_path() {
 
 requested_item=
 list_only=0
+preinstall_deps=1
+items_file=
 
 set_docker_workers "$docker_workers" "RJOURNAL_RENDER_DOCKER_WORKERS"
 set_docker_item_timeout "$docker_item_timeout" "RJOURNAL_RENDER_DOCKER_ITEM_TIMEOUT"
@@ -317,6 +382,12 @@ while [[ "$#" -gt 0 ]]; do
     --no-cache)
       render_use_cache=0
       ;;
+    --skip-deps)
+      preinstall_deps=0
+      ;;
+    --items-file=*)
+      items_file="${arg#--items-file=}"
+      ;;
     *)
       printf 'Unknown option: %s\n' "$arg" >&2
       exit 2
@@ -415,6 +486,81 @@ build_image() {
       exit 2
       ;;
   esac
+}
+
+DEPS_IMAGE="${RJOURNAL_RENDER_DOCKER_DEPS_IMAGE:-${IMAGE}-deps}"
+RENDER_IMAGE="$IMAGE"
+
+# Start from the existing dependency image when it was derived from the
+# current base image build, so installed packages accumulate across runs.
+deps_base_image() {
+  local base_id
+  local deps_parent
+
+  base_id="$(docker_cli image inspect -f '{{.Id}}' "$IMAGE" 2>/dev/null || true)"
+  deps_parent="$(docker_cli image inspect \
+    -f '{{ index .Config.Labels "org.rjournal.render.base-image-id" }}' \
+    "$DEPS_IMAGE" 2>/dev/null || true)"
+  if [[ -n "$base_id" && "$deps_parent" == "$base_id" ]]; then
+    printf '%s' "$DEPS_IMAGE"
+  else
+    printf '%s' "$IMAGE"
+  fi
+}
+
+preinstall_dependencies() {
+  local from_image
+  local base_id
+  local name
+  local status
+
+  if [[ "$#" -eq 0 ]]; then
+    return 0
+  fi
+
+  from_image="$(deps_base_image)"
+  base_id="$(docker_cli image inspect -f '{{.Id}}' "$IMAGE")"
+  name="$(sanitize_container_name "rjournal-render-deps-$$")"
+  printf 'Preinstalling dependencies for %s item(s) as root in %s.\n' "$#" "$from_image" >&2
+  printf '%s\n' "$name" >> "$container_track_file"
+  append_render_log "INFO" "event=deps_preinstall_started items=$# from_image=$from_image"
+
+  # Root container with read-only repository mounts and container-local
+  # HOME/TMPDIR, so nothing root-owned is written to the host.
+  set +e
+  docker_cli run --name "$name" \
+    --user 0:0 \
+    --workdir /work \
+    --env HOME=/root \
+    --env TMPDIR=/tmp \
+    --env TZ=UTC \
+    --env LANG=C.UTF-8 \
+    --env LC_ALL=C.UTF-8 \
+    --mount "type=bind,source=$ROOT,target=/work,readonly" \
+    "$from_image" \
+    Rscript -e "$R_PREINSTALL_DEPS" "$@" 2>&1 \
+    | grep --line-buffered -E '^\[deps|^Error|^E: ' >&2
+  status="$(docker_cli inspect -f '{{.State.ExitCode}}' "$name" 2>/dev/null || printf '1')"
+  set -e
+
+  if [[ "$status" -ne 0 ]]; then
+    printf 'Dependency preinstall container exited with status %s; rendering with %s.\n' "$status" "$from_image" >&2
+    append_render_log "ERROR" "event=deps_preinstall_failed exit_code=$status"
+    docker_cli rm -f "$name" >/dev/null 2>&1 || true
+    RENDER_IMAGE="$from_image"
+    return 0
+  fi
+
+  docker_cli commit \
+    --change "LABEL org.rjournal.render.base-image-id=$base_id" \
+    --change "USER root" \
+    --change "WORKDIR /work" \
+    --change 'CMD ["bash"]' \
+    "$name" "$DEPS_IMAGE" >/dev/null
+  docker_cli rm -f "$name" >/dev/null 2>&1 || true
+  RENDER_IMAGE="$DEPS_IMAGE"
+  append_render_log "INFO" "event=deps_preinstall_finished image=$DEPS_IMAGE"
+  printf 'Committed dependency image %s.\n' "$DEPS_IMAGE" >&2
 }
 
 require_docker_access() {
@@ -561,9 +707,10 @@ run_item_container() {
     --memory-swap "$MEMORY_SWAP" \
     --cpus "$CPUS" \
     --pids-limit "$PIDS_LIMIT" \
+    --shm-size "$SHM_SIZE" \
     "${docker_common_args[@]}" \
     --env "RJOURNAL_RENDER_XVFB_LOG=$container_xvfb_log" \
-    "$IMAGE" \
+    "$RENDER_IMAGE" \
     rjournal-render-entrypoint \
     Rscript -e "$R_RENDER_ITEM" "$item" "$render_log_path" "$render_timeout" "$render_use_cache" >/dev/null
   printf '%s\n' "$name" >> "$container_track_file"
@@ -685,6 +832,11 @@ if [[ "$list_only" -eq 1 ]]; then
 fi
 
 if [[ -n "$requested_item" ]]; then
+  if [[ "$preinstall_deps" -eq 1 ]]; then
+    preinstall_dependencies "$requested_item"
+  else
+    RENDER_IMAGE="$(deps_base_image)"
+  fi
   if run_item_with_progress "$requested_item" 1 1; then
     exit 0
   fi
@@ -692,10 +844,32 @@ if [[ -n "$requested_item" ]]; then
   exit 1
 fi
 
-printf 'Discovering pending render items with Docker image %s.\n' "$IMAGE" >&2
-if ! item_output="$(list_items pending)"; then
-  printf 'Failed to discover pending render items with Docker image %s.\n' "$IMAGE" >&2
-  exit 1
+if [[ -n "$items_file" ]]; then
+  if [[ ! -f "$items_file" ]]; then
+    printf 'Items file not found: %s\n' "$items_file" >&2
+    exit 2
+  fi
+  item_output=""
+  while IFS= read -r line || [[ -n "$line" ]]; do
+    line="${line%/}"
+    [[ -z "$line" || "$line" == \#* ]] && continue
+    if [[ "$line" == "$ROOT/"* ]]; then
+      line="/work/${line#"$ROOT"/}"
+    elif [[ "$line" != /* ]]; then
+      line="/work/$line"
+    fi
+    if [[ -f "$ROOT/${line#/work/}/${line##*/}.html" ]]; then
+      printf 'Skipping %s: HTML already exists.\n' "${line#/work/}" >&2
+      continue
+    fi
+    item_output+="$line"$'\n'
+  done < "$items_file"
+else
+  printf 'Discovering pending render items with Docker image %s.\n' "$IMAGE" >&2
+  if ! item_output="$(list_items pending)"; then
+    printf 'Failed to discover pending render items with Docker image %s.\n' "$IMAGE" >&2
+    exit 1
+  fi
 fi
 
 pending_items=()
@@ -712,7 +886,13 @@ if [[ "${#pending_items[@]}" -eq 0 ]]; then
   exit 0
 fi
 
-printf 'Rendering %s pending item(s) with Docker image %s using %s worker(s).\n' "${#pending_items[@]}" "$IMAGE" "$docker_workers" >&2
+if [[ "$preinstall_deps" -eq 1 ]]; then
+  preinstall_dependencies "${pending_items[@]}"
+else
+  RENDER_IMAGE="$(deps_base_image)"
+fi
+
+printf 'Rendering %s pending item(s) with Docker image %s using %s worker(s).\n' "${#pending_items[@]}" "$RENDER_IMAGE" "$docker_workers" >&2
 
 failures=0
 index=0

@@ -76,7 +76,7 @@ is_blank_value <- function(x) {
   FALSE
 }
 
-read_metadata <- function(path) {
+read_metadata_safely <- function(path) {
   tryCatch(
     yaml::read_yaml(path),
     error = function(e) {
@@ -142,7 +142,7 @@ validate_item <- function(collection, item_dir) {
       stringsAsFactors = FALSE
     )
   } else {
-    metadata <- read_metadata(metadata_path)
+    metadata <- read_metadata_safely(metadata_path)
 
     if (inherits(metadata, "metadata_parse_error")) {
       parse_error <- data.frame(

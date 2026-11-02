@@ -1,34 +1,41 @@
-author_text <- function(author) {
+metadata_author_names <- function(author) {
   if (is.null(author)) {
-    return(NULL)
+    return(character())
   }
 
   if (is.character(author)) {
-    return(paste(author, collapse = ", "))
+    return(author[nzchar(author)])
   }
 
-  if (is.list(author)) {
-    names <- vapply(author, function(entry) {
-      if (is.character(entry)) {
-        entry[[1]]
-      } else if (is.list(entry) && !is.null(entry$name)) {
-        as.character(entry$name)
-      } else if (is.list(entry) && (!is.null(entry$first_name) || !is.null(entry$last_name))) {
-        trimws(paste(
-          c(as.character(entry$first_name), as.character(entry$last_name)),
-          collapse = " "
-        ))
-      } else {
-        NA_character_
-      }
-    }, character(1))
-    names <- names[!is.na(names) & nzchar(names)]
-    if (length(names) > 0) {
-      return(paste(names, collapse = ", "))
+  if (!is.list(author)) {
+    return(character())
+  }
+
+  names <- vapply(author, function(entry) {
+    if (is.character(entry)) {
+      entry[[1]]
+    } else if (is.list(entry) && !is.null(entry$name)) {
+      as.character(entry$name)
+    } else if (is.list(entry) && (!is.null(entry$first_name) || !is.null(entry$last_name))) {
+      trimws(paste(
+        c(as.character(entry$first_name), as.character(entry$last_name)),
+        collapse = " "
+      ))
+    } else {
+      NA_character_
     }
+  }, character(1))
+
+  names[!is.na(names) & nzchar(names)]
+}
+
+author_text <- function(author) {
+  names <- metadata_author_names(author)
+  if (length(names) == 0) {
+    return(NULL)
   }
 
-  NULL
+  paste(names, collapse = ", ")
 }
 
 article_year <- function(slug, metadata) {

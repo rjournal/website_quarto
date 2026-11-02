@@ -9,14 +9,24 @@ The main components are:
 - `_articles/`: one directory per scholarly article.
 - `_news/`: one directory per editorial, CRAN/Bioconductor note, conference report, or other news item.
 - `_issues/`: one directory per complete issue, including the issue source and complete-issue PDF.
-- `_scripts/`: scripts for validation, rendering, and website generation.
-- `docs/`: the rendered website output to be published on Github Pages
-- `Makefile`: a Makefile for running validation and rendering commands.
+- `_scripts/`: scripts for validation, rendering, and website generation (see below).
+- `docs/`: the rendered website output to be published on Github Pages.
+- `Makefile`: `make render`, `make serve`, `make publish`, and `make clean`.
 - `.nojekyll`: otherwise Github Pages does not style the file properly.
-- `index.qmd`, `assets/`, `pages/`: website pages and components
-- `style.css`: website styling
+- `index.qmd`, `assets/`, `pages/`: website pages and components.
+- `styles.css`: website styling.
+- `tests/`: standalone R test scripts, run from the repository root with `Rscript tests/<file>.R`.
 
-Generated website files are disposable and should NOT be committed to the git repository: `generated/`, `pages/`, `issues/`, .
+Generated website files are disposable and should NOT be committed to the git repository: `docs/`, `generated/`, `issues/`, `rss.xml`, `pages/issues.qmd`, and `pages/news.qmd`. The other files in `pages/` are hand-written sources.
+
+## Scripts
+
+- `_scripts/pre.R` (Quarto pre-render hook, helpers in `_scripts/pre/`): builds the article and issue listings in `generated/`, the latest-articles block on the homepage, `rss.xml`, `pages/news.qmd`, `pages/issues.qmd`, and one source page per issue under `issues/`.
+- `_scripts/post.R` (Quarto post-render hook, helpers in `_scripts/post/`): builds the final article and news pages in `docs/` from the rendered article template, and copies PDFs, BibTeX files, supplements, and issue PDFs.
+- `_scripts/utils/`: helpers shared by the scripts.
+- `_scripts/render.R` and `_scripts/render_rmarkdown_to_html_v2.sh` (helpers in `_scripts/render/`): render missing article/news HTML from `archive.zip` sources.
+- `_scripts/validation.R`: checks article/news directories for required files and metadata fields.
+- `_scripts/generate_article_bib.R`: writes a missing `<slug>.bib` from `metadata.yaml`.
 
 ## Publish an article
 
@@ -198,13 +208,10 @@ Legacy issue metadata. Keep this file beside `YYYY-I.pdf` when it is available.
 Run validation after adding or changing article/news directories:
 
 ```sh
-Rscript _scripts/validation.R
+Rscript -e 'source("_scripts/validation.R"); write_validation_report(build_validation_report())'
 ```
 
-This writes:
-
-- `validation_report.rds`
-- `validation_report.html`
+This writes `validation_report.rds`, a list of data frames that summarise missing files, YAML parse errors, missing metadata fields, and unexpected fields (such as a `doi` on an R News item).
 
 Render missing article/news HTML from archived sources with the Docker renderer:
 
@@ -237,7 +244,9 @@ Useful environment variables:
 Render the website with:
 
 ```sh
-quarto render
+make render
 ```
+
+`make serve` previews the rendered site locally, and `make publish` renders the site and pushes `docs/` to the `gh-pages` branch.
 
 The Quarto project intentionally renders only the homepage, static pages, the article template, and generated issue source pages. Final per-article and per-news pages are created in the post-render step from `assets/article-template/index.qmd`.

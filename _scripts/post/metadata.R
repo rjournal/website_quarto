@@ -1,4 +1,4 @@
-issue_slug <- function(metadata, slug) {
+metadata_issue_slug <- function(metadata, slug) {
   year <- article_year(slug, metadata)
   if (is.null(year) || is.null(metadata$volume) || is.null(metadata$issue)) {
     return(NULL)
@@ -7,7 +7,7 @@ issue_slug <- function(metadata, slug) {
   paste0(year, "-v", metadata$volume, "-i", metadata$issue)
 }
 
-issue_title <- function(metadata) {
+metadata_issue_title <- function(metadata) {
   if (is.null(metadata$volume) || is.null(metadata$issue)) {
     return(NULL)
   }

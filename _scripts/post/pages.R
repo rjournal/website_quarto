@@ -33,37 +33,6 @@ metadata_page_range <- function(metadata) {
   NULL
 }
 
-metadata_author_names <- function(author) {
-  if (is.null(author)) {
-    return(character())
-  }
-
-  if (is.character(author)) {
-    return(author[nzchar(author)])
-  }
-
-  if (!is.list(author)) {
-    return(character())
-  }
-
-  names <- vapply(author, function(entry) {
-    if (is.character(entry)) {
-      entry[[1]]
-    } else if (is.list(entry) && !is.null(entry$name)) {
-      as.character(entry$name)
-    } else if (is.list(entry) && (!is.null(entry$first_name) || !is.null(entry$last_name))) {
-      trimws(paste(
-        c(as.character(entry$first_name), as.character(entry$last_name)),
-        collapse = " "
-      ))
-    } else {
-      NA_character_
-    }
-  }, character(1))
-
-  names[!is.na(names) & nzchar(names)]
-}
-
 article_journal_citation <- function(metadata) {
   journal <- "The R Journal"
   volume <- metadata_text(metadata$volume)
@@ -467,8 +436,8 @@ item_header <- function(
 
   meta <- character()
   if (isTRUE(include_issue)) {
-    current_issue_slug <- issue_slug(metadata, slug)
-    current_issue_title <- issue_title(metadata)
+    current_issue_slug <- metadata_issue_slug(metadata, slug)
+    current_issue_title <- metadata_issue_title(metadata)
     if (!is.null(current_issue_slug) && !is.null(current_issue_title)) {
       meta <- c(
         meta,

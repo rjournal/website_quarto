@@ -1,3 +1,10 @@
+script_files <- vapply(sys.frames(), function(frame) if (is.null(frame$ofile)) NA_character_ else frame$ofile, character(1))
+script_files <- script_files[!is.na(script_files)]
+script_file <- if (length(script_files)) script_files[[length(script_files)]] else sub("^--file=", "", grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)[[1]])
+source(file.path(dirname(normalizePath(script_file, mustWork = TRUE)), "utils", "script.R"), local = TRUE)
+
+source_script_files(file.path("utils", "metadata.R"))
+
 has_package <- function(package) {
   requireNamespace(package, quietly = TRUE)
 }
@@ -6,34 +13,6 @@ require_package <- function(package) {
   if (!has_package(package)) {
     stop("Required R package is not installed: ", package, call. = FALSE)
   }
-}
-
-metadata_author_names <- function(author) {
-  if (is.null(author)) {
-    return(character())
-  }
-
-  if (is.character(author)) {
-    return(author[nzchar(author)])
-  }
-
-  if (!is.list(author)) {
-    return(character())
-  }
-
-  names <- vapply(author, function(entry) {
-    if (is.character(entry)) {
-      entry[[1]]
-    } else if (is.list(entry) && !is.null(entry$name)) {
-      as.character(entry$name)
-    } else if (is.list(entry) && (!is.null(entry$first_name) || !is.null(entry$last_name))) {
-      trimws(paste(c(entry$first_name, entry$last_name), collapse = " "))
-    } else {
-      NA_character_
-    }
-  }, character(1))
-
-  names[!is.na(names) & nzchar(names)]
 }
 
 metadata_year <- function(slug, metadata) {

@@ -46,6 +46,11 @@ extract_article_supplement <- function(root, slug) {
   }
 
   target <- file.path(item_dir, "supplement.zip")
+  # supplement.zip is tracked in git: leave it untouched unless it changed.
+  if (file.exists(target) &&
+      identical(unname(tools::md5sum(target)), unname(tools::md5sum(extracted)))) {
+    return(TRUE)
+  }
   copied <- file.copy(extracted, target, overwrite = TRUE)
   if (!isTRUE(copied)) {
     stop("Could not write supplement: ", target, call. = FALSE)

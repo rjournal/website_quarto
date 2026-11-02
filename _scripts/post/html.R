@@ -31,13 +31,15 @@ add_missing_references_heading <- function(fragment) {
   }
 
   tag <- fragment_top_level_heading(fragment)
-  refs <- regexpr("(?is)<div\\b[^>]*\\bid\\s*=\\s*(['\"])refs\\1[^>]*>", fragment, perl = TRUE)
   heading <- paste0("<", tag, ' id="references" class="unnumbered">References</', tag, ">\n")
 
-  paste0(
-    substr(fragment, 1L, refs[[1]] - 1L),
-    heading,
-    substr(fragment, refs[[1]], nchar(fragment))
+  # Insert before the first refs div. sub() instead of substr()/nchar() so
+  # this also works on strings marked as "bytes" (see build_embed()).
+  sub(
+    "(?is)(<div\\b[^>]*\\bid\\s*=\\s*(['\"])refs\\2[^>]*>)",
+    paste0(heading, "\\1"),
+    fragment,
+    perl = TRUE
   )
 }
 

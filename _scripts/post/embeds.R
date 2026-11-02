@@ -1,3 +1,13 @@
+as_bytes <- function(x) {
+  Encoding(x) <- "bytes"
+  x
+}
+
+as_utf8 <- function(x) {
+  Encoding(x) <- "UTF-8"
+  x
+}
+
 pdf_embed <- function(root, slug) {
   pdf <- file.path(root, slug, paste0(slug, ".pdf"))
   if (!file.exists(pdf)) {
@@ -22,7 +32,12 @@ build_embed <- function(root, slug, include_toc = FALSE) {
   pdf <- file.path(src_dir, paste0(slug, ".pdf"))
 
   if (file.exists(html)) {
-    fragment <- clean_html_fragment(read_text(html))
+    # Article HTML can be many MB (inlined base64 images) and contain
+    # multibyte UTF-8. R's substr()/regex position handling is O(n) per call
+    # on such strings, so process the fragment as raw bytes and mark the
+    # results as UTF-8 again afterwards. All offsets stay within the same
+    # byte string, so the output is identical.
+    fragment <- clean_html_fragment(as_bytes(read_text(html)))
     if (!html_fragment_has_content(fragment)) {
       return(pdf_embed(root, slug))
     }
@@ -35,7 +50,7 @@ build_embed <- function(root, slug, include_toc = FALSE) {
       "</article>"
     )
     toc <- if (include_toc) build_article_toc(fragment) else NULL
-    list(content = article, inline = TRUE, toc = toc)
+    list(content = as_utf8(article), inline = TRUE, toc = if (is.null(toc)) NULL else as_utf8(toc))
   } else if (file.exists(pdf)) {
     pdf_embed(root, slug)
   } else {
